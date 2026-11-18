@@ -18,8 +18,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Precio de la nafta (ANCAP)
+        continue-on-error: true
         run: python agents/actualizar_combustible.py
       - name: Rendimiento homologado (URSEA)
+        continue-on-error: true
         run: python agents/actualizar_ursea.py
       - name: Precios y modelos (importadores + MercadoLibre + control cruzado)
         continue-on-error: true
@@ -56,14 +58,18 @@ jobs:
             else gh label create precios --color FBBF24 2>/dev/null || true; gh issue create --title "Revisar precios y modelos" --label precios --body-file /tmp/aviso.md; fi
           fi
       - name: Noticias
+        continue-on-error: true
         run: python agents/actualizar_noticias.py
       - name: Tests
+        continue-on-error: true
         run: python agents/actualizar_tests.py
       - name: Cargadores (Open Charge Map + OpenStreetMap)
+        continue-on-error: true
         env:
           OCM_API_KEY: ${{ secrets.OCM_API_KEY }}   # opcional; sin clave usa la exportación pública
         run: python agents/actualizar_cargadores.py
       - name: Publicar cambios
+        if: always()
         run: |
           git config user.name "voltuy-bot"
           git config user.email "bot@users.noreply.github.com"
