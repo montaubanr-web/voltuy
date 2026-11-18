@@ -1,0 +1,68 @@
+{
+ "actualizado": "2026-11-17",
+ "iva": 0.22,
+ "nota": "Precios de energía de UTE. Las tarifas residenciales se publican sin impuestos; los cálculos agregan IVA (22%). No incluyen cargo fijo ni cargo por potencia.",
+ "residencial": [
+  {
+   "id": "triple",
+   "nombre": "Residencial Triple Horario",
+   "vigencia": "2026-01-01",
+   "franjas": [
+    {
+     "id": "valle",
+     "nombre": "Valle (00:00–07:00, todos los días)",
+     "sin_iva": 2.443
+    },
+    {
+     "id": "llano",
+     "nombre": "Llano (resto del día)",
+     "sin_iva": 5.172
+    },
+    {
+     "id": "punta",
+     "nombre": "Punta (17:00–23:00, lunes a viernes)",
+     "sin_iva": 12.034
+    }
+   ],
+   "url": "https://medios.presidencia.gub.uy/legal/2026/decretos/01/miem_113.pdf"
+  },
+  {
+   "id": "doble",
+   "nombre": "Residencial Doble Horario",
+   "vigencia": "2026-01-01",
+   "franjas": [
+    {
+     "id": "fuera",
+     "nombre": "Fuera de punta (20 h y fines de semana)",
+     "sin_iva": 4.771
+    },
+    {
+     "id": "punta",
+     "nombre": "Punta (4 h a elegir entre 17:00 y 23:00)",
+     "sin_iva": 12.034
+    }
+   ],
+   "url": "https://www.elobservador.com.uy/llega-el-calor-la-tarifa-ute-ahorrar-el-aire-acondicionado-y-la-carga-autos-electricos-n6058352"
+  }
+ ],
+ "publica": [
+  {
+   "id": "ute_ac",
+   "nombre": "UTE carga lenta (AC)",
+   "cargo_base": 54.8,
+   "kwh": 10.4,
+   "min_inactivo": 9.6,
+   "kwh_por_sesion": 20
+  },
+  {
+   "id": "ute_dc",
+   "nombre": "UTE carga rápida (DC)",
+   "cargo_base": 132.9,
+   "kwh": 11.8,
+   "min_inactivo": 12.3,
+   "kwh_por_sesion": 25
+  }
+ ],
+ "publica_nota": "Precios finales de la red pública de UTE: cargo base por carga + energía + cargo por minuto conectado después de terminar. Para el costo por kWh asumimos una carga típica (20 kWh en AC, 25 kWh en DC). UTE prevé quitar la bonificación de la red pública: pueden subir.",
+ "publica_url": "https://www.montevideo.com.uy/Noticias/-Complicado-y-gente-molesta--la-odisea-de-cargar-autos-electricos-en-Punta-del-Este-uc949398"
+}

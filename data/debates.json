@@ -1,0 +1,61 @@
+{
+ "temas": [
+  {
+   "id": "imesi-2027",
+   "titulo": "¿Conviene comprar antes de que rija el IMESI en 2027?",
+   "descripcion": "Qué modelos quedan alcanzados, si vale la pena adelantar la compra y qué pasa si se posterga.",
+   "etiqueta": "Normativa",
+   "opciones": [
+    "Sí, compro antes",
+    "No, espero",
+    "Depende del modelo"
+   ]
+  },
+  {
+   "id": "carga-costa-verano",
+   "titulo": "Cargar en la costa en verano: experiencias en Maldonado y Rocha",
+   "descripcion": "Puntos que funcionan, esperas, autos a nafta ocupando lugares y consejos para la temporada.",
+   "etiqueta": "Carga",
+   "opciones": [
+    "Alcanza la red actual",
+    "Faltan cargadores",
+    "Cargo en el alojamiento"
+   ]
+  },
+  {
+   "id": "seagull-vs-spark",
+   "titulo": "BYD Seagull o Chevrolet Spark EUV para la ciudad",
+   "descripcion": "Dos de los eléctricos más vendidos y con precios cercanos. ¿Cuál elegiste y por qué?",
+   "etiqueta": "Comparativa",
+   "opciones": [
+    "BYD Seagull",
+    "Chevrolet Spark EUV",
+    "Ninguno de los dos"
+   ]
+  },
+  {
+   "id": "tesla-posventa",
+   "titulo": "Tesla con venta directa: ¿cómo viene la posventa?",
+   "descripcion": "Entregas, servicio técnico y repuestos ahora que la marca vende sin importador.",
+   "etiqueta": "Marcas",
+   "opciones": [
+    "Buena",
+    "Regular",
+    "Mala",
+    "No tengo Tesla"
+   ]
+  },
+  {
+   "id": "cargador-casa",
+   "titulo": "Instalar el cargador en casa: costos, electricista y tarifa triple horario",
+   "descripcion": "Cuánto te salió, qué potencia elegiste y si cambiaste de tarifa con UTE.",
+   "etiqueta": "Carga",
+   "opciones": [
+    "Menos de US$ 500",
+    "US$ 500–1.000",
+    "Más de US$ 1.000",
+    "Cargo en enchufe común"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "actualizado": "2026-11-17",
+ "mercado": [
+  {
+   "valor": "14.387",
+   "etiqueta": "eléctricos vendidos en 2025",
+   "detalle": "+147% interanual (ACAU)",
+   "url": "https://www.larepublica.co/globoeconomia/uruguay-experimento-un-fuerte-aumento-del-mercado-de-vehiculos-electricos-en-2025-4305061"
+  },
+  {
+   "valor": "51%",
+   "etiqueta": "del mercado en agosto 2026",
+   "detalle": "6.781 vehículos vendidos ese mes",
+   "url": "https://www.elobservador.com.uy/mas-electricos-hibridos-y-suv-como-esta-cambiando-el-mercado-automotor-uruguayo-y-que-lugar-ocupa-mg-n6058999"
+  },
+  {
+   "valor": "~35.000",
+   "etiqueta": "eléctricos circulando",
+   "detalle": "algo más del 2% del parque (UTE)",
+   "url": "https://www.gub.uy/presidencia/comunicacion/noticias/cargadores-ute-malvin-movilidad-sanchez-cabrera"
+  },
+  {
+   "valor": "40%",
+   "etiqueta": "del segmento eléctrico es BYD",
+   "detalle": "primer trimestre 2026",
+   "url": "https://www.autoblog.com.uy/2026/04/byd-uruguay-consolida-su-liderazgo.html"
+  }
+ ],
+ "reglas": [
+  {
+   "titulo": "Devolución del MIEM (Certificados de Eficiencia Energética)",
+   "estado": "Abierta hasta el 15/12/2026",
+   "texto": "Pago único de hasta $ 45.000 por vehículo liviano 100% eléctrico comprado 0 km, con al menos un año de uso. Lo tramita la propia persona, gratis, en línea. Guía y chequeo en la sección Devolución del MIEM.",
+   "url": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/convocatorias/certificados-eficiencia-energetica-2026-para-medidas-eficiencia-0",
+   "interno": "#miem"
+  },
+  {
+   "titulo": "IMESI a eléctricos desde el 1/1/2027",
+   "estado": "Vigencia prevista, con postergación en estudio",
+   "texto": "Vehículos de pasajeros con valor de importación hasta US$ 19.000: exonerados. De US$ 19.001 a 27.000: 5%. Más de US$ 27.000: 9%. El valor que cuenta es el de aduana, no el precio de venta.",
+   "url": "https://www.autoblog.com.uy/2026/10/el-mef-analiza-aplazar-el-imesi-los.html"
+  },
+  {
+   "titulo": "Patente (SUCIVE)",
+   "estado": "Cambia en 2027",
+   "texto": "2026: eléctricos 0 km pagan 3% del valor de mercado sin IVA y usados 2,25% (con 20% de descuento por pago anual). Para 2027 el Congreso de Intendentes acordó mantener los valores de los autos a combustión y crear nuevas franjas que suben la patente de los eléctricos más caros.",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZzBzYzZhcDJFcTVKRlJVSHpXUFkyc21iN0V4X295OEIxYmdnazRRTlJabXA1dml2NV9TZkREMVU5Mm0wLXRJNS1hMWQ3YTNBdVYtamNQcHNzVi1xZzJfZEVhNnhheHdkMS1VdWptVVRaSWROWlVLT3ktSlF0UWxZUmZlMWFmcjNxeUY2SHJfRkxxbE45R0kydWoyRy05R0ZjdGFLN2EwTE5vZ1EybF9BNE9taHQwQm1EU19UNDFwdzUzLU5Sb29NRjBOM3J6VTlsSkpXTy1GakM5Q1VFXy13OVkwaERockJTYUE?oc=5"
+  },
+  {
+   "titulo": "Seguro BSE",
+   "estado": "Vigente",
+   "texto": "El Banco de Seguros del Estado aplica 15% de descuento a pólizas de autos, camionetas, utilitarios y camiones eléctricos (20% en ómnibus).",
+   "url": "https://www.bloomberglinea.com/latinoamerica/uruguay/ventas-de-vehiculos-electricos-se-cuadruplican-en-uruguay-que-explica-el-auge/"
+  },
+  {
+   "titulo": "Aranceles de importación",
+   "estado": "Vigente",
+   "texto": "Desde 2022 los eléctricos, baterías y cargadores están exonerados de aranceles de importación.",
+   "url": "https://www.ambito.com/uruguay/la-posible-suba-impuestos-los-vehiculos-electricos-amenaza-disparar-un-boom-compras-digitales-anticipadas-n6288710"
+  },
+  {
+   "titulo": "Carga en la red pública de UTE",
+   "estado": "Vigente, con ajustes",
+   "texto": "Se cobra un cargo base por carga, otro por kWh y otro por minuto conectado después de terminar. UTE subió 5% en diciembre de 2025 y 4% en enero de 2026, y prevé quitar la bonificación.",
+   "url": "https://www.elobservador.com.uy/hacia-el-fin-las-bonificaciones-ute-proyecta-nuevos-ajustes-el-precio-la-carga-vehiculos-electricos-n6045583"
+  }
+ ],
+ "carga": {
+  "hogar_100km_uyu": 37,
+  "publica_100km_uyu": 195,
+  "nota": "Costo de recorrer 100 km según UTE: en casa con Tarifa Residencial Triple Horario frente a la red pública.",
+  "url": "https://www.montevideo.com.uy/Airbag/Como-cargar-autos-electricos-la-tarifa-recomendada-por-UTE-y-cuanto-puede-costar-uc977602"
+ }
+}

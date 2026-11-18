@@ -1,0 +1,459 @@
+{
+ "actualizado": "2026-11-17",
+ "uruguay": [
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Prueba: Tesla Model 3 Performance AWD (85 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONzhBQU5GSU1peHkwSWd2RFdpVEtSVUh5UGlnV1QtZDBfUG1DMC1rb3dIRVBoS3pwenc5bkc4aVplY0tqZU1aZ0FvYVNVTzRSNWpZV3d6cmJmV0V5ZVFTRjRPUVJIdmZrYjZBdnVHN0VJb3FNMTEyZWo1UHRvd21HZWhVUjd5elE?oc=5",
+   "modelo_id": "tesla-model-3-perf",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-11-09",
+   "titulo": "Probamos al Tesla Model 3 Performance: un muscle car de la era eléctrica",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/10/probamos-al-tesla-model-3-performance.html",
+   "modelo_id": "tesla-model-3-perf",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-11-06",
+   "titulo": "Prueba: Bestune Joy 03 Exclusive (61,47 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpaYzhES3lBTWNqYm1SX2duV2dSTUVCNDc4c0hhc0lQS2xqQ1NBT2ZwM0Y4NW5mV3lmTF9ZaWIxM3BRaElUNjFOV2I4TUpROUc3aDZvLU8yd0xUQklxWmNFUTJkYnFabEFtVzlKeng2Y1FobVNfYzQxdDBIcC1wUXUweHpuaXB3?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-11-04",
+   "titulo": "Probamos al Bestune Joy 03: la transformación eléctrica de FAW",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOMmhndEs0MUNkaS1zOV9uMlQ3UllaUzZTRFMwRmQzWjZ2TlMtc0I0UUFPMi02RldTRDdXZm9FMzhacGIwcGQ1eDRCcUl3VWN5T2FpNjdHUkhUYXowQ180UXEzQVlSTGVoOEZYSjR5eW9kTzNlUXV3SHB3?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-09-04",
+   "titulo": "Prueba: GWM ORA 5 High (58,3 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZjRIampDcVloY2FycjlOR1NvZWhBMVdFX2hZZm5PMWVla3g2VklMZmlXMXFfV2xHZ2xoQ01HdFFjcXh1ZEpSZFhjcjdYc21nQ3NxVmRMV2NrbTR0VnFmOGQxMm1QRG9qZDY3Y3c4OXpUMGE0LXFpTkFn?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-08-31",
+   "titulo": "Probamos al GWM ORA 5: eléctrico acá, electrificado en otros lugares",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KU3VmOGFyc0c1YV8yMDVLODBrZW41c3l3cy16aW4xbS1tUjBJT3lEQXhrWTBJbjRpX25YeENLQmwzTWU1N1ZQZlduU3dEa25FZXl2Z0ZyUmVldnhCNFA3M0c2UDFIaTlOTWZ6RElUbzJFcEk?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-08-19",
+   "titulo": "Contacto: Peugeot E-3008 GT AWD Dual Motor (73 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObm1mdVh6SHpQQzJaOEI4ZWZWNXBueERBakQ5WTJJcmZDenFVQmJ1d2RkU3RHSEFzWlZIMGNoeExYQjR3ZFVsUU5vU0hDZzZFYkNVLXAzNGh6N3FBa2pNWUNDcGVxdXo2OHpSei1rdU83Z3JYVVNHS2xCQ1YyeTV5anVR?oc=5",
+   "modelo_id": null,
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2026-08-14",
+   "titulo": "Prueba: MGS5 EV Luxury Standard Range (49 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY29ORWNnWk9XSHJ6alRjblhObkoxbVVsOGx1blpVVl9fTUp2QnZYM2FLQW9nbTFBNi1kUC1hWndpTExuNEc2Y0ZNRGpodHZpbThOQ2NJZTZMNTJEWnhFRW13c0xpVHRzQ2ptVmxzdktYUFFBVWRwXzFkNF84RlNMblFNYURJb0Vt?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-08-11",
+   "titulo": "Probamos al MGS5 EV: fórmula de hatchback en clave SUV",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPOE9IS0hxMEpLOGJiSmFoa01JWkxiWi14b1dpSERCNlhKbVdQNTRQLXpPXzdFY0JaT1o1YkxmaTY3MG5iYW9ETjdRY2M2SVJWYVIwb0NxTnlGcmJ6bGlrT1ZpVW9RRWhDX3NkajhQQnRNa3hidUpaaHhCRQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-08-07",
+   "titulo": "Prueba: BMW iX3 50 xDrive M Sport Pro (108,7 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZzNmVGsxcGl6b2VKV0FjcG5qVWNubE9vZDlBNGk3cm1VQzJ6TExYXzFhR004YmxwM0NmTVVJTDBxUWFDVVRuVlNoMnVOSkVzNGUtNGloejF0Mmd2bWd3THQxR0ljUDlhTWRZRl9SYi1PUWt0dzluQUw4MFY4NVE2UF8xVQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-07-23",
+   "titulo": "Contacto: BYD Yuan Pro DM-i 1.5 GS EHS",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/07/contacto-byd-yuan-pro-dm-i-15-gs-ehs.html",
+   "modelo_id": "byd-yuan-pro-dmi",
+   "tipo": "Contacto"
+  },
+  {
+   "fecha": "2026-06-24",
+   "titulo": "Contacto: Jetour T1 PHEV 1.5TD 1-DHT",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcExKRmFkNm1oNThyX3BORHc3a05mQVc2a3lCR1h6RWdaR0J0cGN0LTNDRmtkV2J2UHRlbm5UVmtUaTZNWE9hMF9sQkhnNE44THo1RFNySkxJa3ExT2JNaHFodGdoUGxaa3pvWmJ6X3l2Z3BXN3NtOFBtNk5kNjNaeQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2026-06-18",
+   "titulo": "Contacto: BYD New E2 X GS (45,12 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/06/contacto-byd-new-e2-x-gs-4512-kwh.html",
+   "modelo_id": "byd-dolphin-e2",
+   "tipo": "Contacto"
+  },
+  {
+   "fecha": "2026-06-04",
+   "titulo": "Prueba: Leapmotor C10 REEV (28,4 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95bFpVV1JrWTVzODk3TTZZWlJqMmhrcEN5TmFfS08zWkVKNE1IRDJFZ0VyY09GZk5FX1VQYnJDRmQ3dnNmc1J6TzRvWnlZRFBBQ3BOTHpTMXVuYlVuTzhoZVBXcGdNbXZNQXZPcXQwdjNSNnpVNzJUbnd5VWljYlE?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-06-02",
+   "titulo": "Probamos al Leapmotor C10 REEV",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/06/probamos-al-leapmotor-c10-reev.html",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-04-17",
+   "titulo": "Contacto: Chevrolet Captiva PHEV Premier 1.5 DHT",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbWotQXEtU0lDaW1mS3ZNTDVfaG0wTl9WZkx1cjF0cUdpUUN1dGdRbGt4UWdvdWUwbTNOMzVldXlYczJkZnR0YjYwQ3FMX3BuNFFtcEY3WVVJSFZwZHVQSnVzcWxJM3JUM0RfVXg0cWUxMDBaQmJKeEk4X3BhVzEtRHRCcjJfY0E?oc=5",
+   "modelo_id": null,
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2026-04-03",
+   "titulo": "Prueba: MG Cyberster Deluxe AWD (77 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc0U1Qnh4V2ZXQllxRWFiYnpxdHotUmh4cnhNSWU3VjFJamtEVTc3V1dyblR2YXlwd1BVU3hVVDF3bW94QWJ1YUdXM3ZRLWVhVlVvMjVIb2VDNVJ2Z0xfRTFJdnhkU2RkWjA2R1hxeE51SkV4Nlc2X0o2RVpMU0VnYjdOSXM?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-04",
+   "titulo": "Prueba: Porsche Macan Electric (100 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/04/prueba-porsche-macan-electric-100-kwh.html",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-03-06",
+   "titulo": "Prueba: GAC Aion UT Max (60 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tUUJmS3hxOTBaZmJxcVc4WlJKX3JiN3E2Tm1WVV83b3FpMGl2eTJ3SXpDZ0tBWThhdVllbXhQYjl1NEpzSGtuY0NmZnRkMC01SUVlWURIVWdsbi01QlgtNElyNHlaN1NOT1dlUTdtX1dnb3dPVk9zUkd3?oc=5",
+   "modelo_id": "gac-aion-ut-max",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-03-02",
+   "titulo": "Probamos al GAC Aion UT",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/03/probamos-al-gac-aion-ut-jugando-en-otra.html",
+   "modelo_id": "gac-aion-ut",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-02-25",
+   "titulo": "Probamos al Fiat 600e",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/02/probamos-al-fiat-600e-loperazione-no-al.html",
+   "modelo_id": "fiat-600e",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-01-29",
+   "titulo": "Probamos al Chevrolet Captiva EV",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/01/probamos-al-chevrolet-captiva-ev.html",
+   "modelo_id": "chevrolet-captiva-ev",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-01-16",
+   "titulo": "Prueba: Geely EX2 Max (39,4 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/01/prueba-geely-ex2-max-394-kwh.html",
+   "modelo_id": "geely-ex2",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-12-19",
+   "titulo": "Prueba: Kia EV3 Light+ 2WD Long Range (81,4 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2025/12/prueba-kia-ev3-light-2wd-long-range-814.html",
+   "modelo_id": "kia-ev3",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-12-12",
+   "titulo": "Prueba: Chevrolet Equinox EV eAWD (85 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEw1bHNTTmNOUnJzNVlrNzlOVUh1czQ4VW44TFI5VHdpZDZ1TEQxVTZMVUtMQ3VEMHBWRWNIRmVYMEdCX010X08tZHh3eTQ3SFFLLW5tMTBqdnVkRHU3THVUVWE2LUZNblc1eGJVdlowYWpONUU5MVNid3haWTEwSXFOQ1dkaDQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-10-29",
+   "titulo": "Contacto: BYD Seagull Surf (43,2 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80bm9iSnRWQ3FVb1VtZlFRM3FFN3ZFYU1yOVJPWXBRdXNnendfOTB6cHJyRzIzdE9pcExzbS1iZnNGcnhOZG9KaXFJSlVNRTBzMG4zRmVPclp3UTVJOUNjMjFGQlRHME5QeG5ja0RpMnA0cTF0SEZabUgwMkFrVnc?oc=5",
+   "modelo_id": "byd-seagull-300",
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2025-10-03",
+   "titulo": "Prueba doble: smart #3 Pro+ RWD y Brabus AWD (66 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdmJldElCalZ1WW13ZTBUdXc4N0gxTExlZWRNVjBucVR4bGVGb1huQ2FPanBSZDZVMWh6TkNZa19jMXJMTXE0TDVkbnRWOUpKaTFMX2Z3eV9tenQwR1YwUWkxMDJZbWRYS0UyZlFoYXM2eVVyREdMUEV5bDhSTE1Gck5sblo?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-08-29",
+   "titulo": "Prueba doble: smart #1 Pure RWD (49 kWh) y Brabus AWD (66 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcmMzb3MzSE94eGNtVm9Wekszb3ROUGVhM21BV2F5SEFaOTFCZlJJclF3aERpVVpfeHlTLUV2bzZiWnpWQnFpZklWQ241SENPeGo2Vmc4MWNxUHhaVUtyMjctc3hJTy1VT1AyZWZ0dEFlWXJKQ0RpeXB4bUhKTEtXSUtIMHU4Zw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-08-15",
+   "titulo": "Prueba: Chevrolet Spark EUV Activ (41,9 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2025/08/prueba-chevrolet-spark-euv-activ-419-kwh.html",
+   "modelo_id": "chevrolet-spark-euv",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-07",
+   "titulo": "Prueba: Geely EX5 Max (60,22 kWh)",
+   "medio": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2025/07/prueba-geely-ex5-max-6022-kwh.html",
+   "modelo_id": "geely-ex5",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-06-20",
+   "titulo": "Prueba: BYD Sealion 7 EV AWD (82,5 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdElSNk95cmlOeElXQU1ocmJrUTY5NjgxMGp3NWxta3BzeGFIX29WM0t6U2pKMDJYMnJ6MU5zZ2gzeld2NmhNWklfekF5M29ETHFNNGVSQ0o5RDc1aHR2YnFOT0FmaXRldzZiTTNCbFZpRUJHUVJhZjdRZjBOcHp1Z3F3?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2025-02-28",
+   "titulo": "Contacto: BYD Song Plus DM-i 1.5T GS EHS",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdllIOVlnTHVXSXI2bVNBb3pTX3RLeE42ZHc5Xzg3ZnZTRTZHakZnVnF5TGdTbnpnelBqQWwyUmxyUzRiU09tcWpsTGVFMHZKWmpqMnBxNThUTVVXZUVsdkVJdnJ5NlRIcklZbW5DdUM4QVgyNzk1LWlzdXJRRGttNDNvMjM2UQ?oc=5",
+   "modelo_id": "byd-song-plus-dmi",
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2024-07-26",
+   "titulo": "Prueba: Volvo EX30 Plus Single Engine Extended Range (E60) RWD (69 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOWxWY3hMMXpLdWhaWWdPY2dIbXY2eWlJYzdQUjk4bVhHV2NQdUJCdUZ6VHNNdjhmQXZibjJsbkJ4dFR4MVZiSXVLUDE2ZGVwQVd1blFWcVpRZzBlVjR5V1J2Yzg4dUFReHkySHVkQ2pIbzhWckdiRzdfRGxoZjBTX1VmYw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2023-12-22",
+   "titulo": "Prueba: BYD Seal EV520 AWD (82,56 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYVYxeGJXSXRLOGpGVnhWOGFmU0hzeldUTTQ3VE4wbDlFT1laUnlTcGloNks2NGNfSXVnMXF1ZEVUMUtVMDNmZ1NFV3VsSU5pMXduM19VakNKXy1IVEYzRV9QYjJfdzZiUXcxeHBWTGswRWpNUnJXajI2VVdfd2xMeA?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  }
+ ],
+ "internacional": [
+  {
+   "fecha": "2026-11-17",
+   "titulo": "30 coches eléctricos a prueba: Mercedes y BMW ganan, pero XPeng sorprende",
+   "medio": "Movilidad Eléctrica",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV2lxeHY3Ti03YjFjc3FnZ1VwLWZ0ZjcxdG5nSmc1MzljbTN3emo0cHFjR1Uza3RIWGZ4NTVHQU83Zzl3S0d3T3FoLXlldURfZ21DZHpuTE9SYzk0c2gzRFhTRU5VZmdSc0FKanZmSGRRNXptQjh6c3hJeXEyUWxmUGFYZVZJSkVwQkJSb3hjbw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Audi A2 e-tron First Drive: Does The Iconic Nameplate Live Up To The Hype?",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/815599/audi-a2-e-tron-2027-review-first-drive/",
+   "modelo_id": null,
+   "tipo": "Primer contacto",
+   "pais": null
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "30 coches eléctricos se enfrentan en una prueba de autonomía: Mercedes y BMW dominan, y XPeng sorprende",
+   "medio": "FCE",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVktGdm9meTBUYnRrdi03ZFdtN3hHX1RXQjU4dm1OaXhHSlV2UVBsc1VvcWtFS2x6dzQydC1NSG4wcGlVY0NiVlVXX3FyTnMtYlZvVWplUDNjaVlJTS1idi1vUHVPbFRMdDE3R0M0Q3E0MEtOWTZKMzRkQ2pLQXh2TG5zb3RfSHJ3ZTNBWUJUT0dMTm9nbk1aTk9nZjhsMTAwSUpqMkdKRjdmLWJtYjFIT0VQbTBpbWZF?oc=5",
+   "modelo_id": null,
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-29",
+   "titulo": "VÍDEO| Prueba del Skoda Epiq 55: el eléctrico fabricado en España que puede cambiar las reglas del segmento",
+   "medio": "El Periódico de la Energía",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2JHYTQ1LXJ5a1prbmpIU0ZnaU1BX2xqcTRIcDZjc2U4aUF2OFpOSGcwNTl6cmJCTnJJRmRYclhXVy1qeGVyVjZ0T0pGWExGVTJyYVdCSV84Q2ppQUNZWFNjYzREdUZpbkxNc1g3XzlqejlmZWhZMEZIc2VsQnRzaTFzU2Y?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-28",
+   "titulo": "Prueba de autonomía a 120 km/h del Hyundai Ioniq 3",
+   "medio": "FCE",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUGljMHVxSm1uYm9RQTJ2eWxiT3gteGpUTjhtU1Y0OHVnTzA3cEZONWdZVWZkOVpZaW1jWGlFbU9oTFJBekhNZmZiVUNzenpzWnlaTUE0MzZhSEpyU1FTWHUzNzMwT2dtSmJ2VGVzVms3MGJEa3NwRFBjdVNpV1h3X0lNRVhFeFdCS0xkOWFiYU9EVGFpWGEyVnhOQ0h3bE16aFQxSzhveHU5ZHQ1dTFF?oc=5",
+   "modelo_id": null,
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-26",
+   "titulo": "Prueba MItsubishi Eclipse Cross: el familiar eléctrico con más de 550 km de autonomía real que demuestra que nos hemos equivocado todos con «la fiebre SUV»",
+   "medio": "Autonocion",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRVk01Yko0b0lDdDF4Rk5CMExtQlM5Z1dHZkJhMnZmUmF1N052NXZ3Vl90WmdhQUNYaE1EZnE1WlAzbFVSczlsaEVvVGIyTVVpdkFXNG93d3Y1RzlpVWtTdDJoZThrYURHamZB?oc=5",
+   "modelo_id": null,
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-25",
+   "titulo": "PRUEBA en VÍDEO del Leapmotor B05: \"No solo pretende agitar el mercado eléctrico, sino también el general\"",
+   "medio": "Periodismo del Motor",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11amlmek9jUHBIQk1kSEU3LURZVDRQUnZEUTNoVVB2QjA0TG9JcHVTMmtaaENGeDNackNVUWVaakFaTGs2TTNpSTRQTFRodUk3SnY5NFBXNnJfaC1kajhINl81bVJPMHFLSmRjVFRoZ0NZRFB4MlJr0gF8QVVfeXFMTVR0S3Z3alA0TkdRTjZVcGZjM05FN1dRZ1RPdWNYZXd2NGF1OVR3eHdOQzdkNFU1RGNFWmdWRmdCeFZ0M1VpYnpQMUMxWll1ZEkyUExOSmk0UHF5cVE3dEplQm1BTlQ0R01mN1hNcXJyUGRBb2llWm5Gb2Vubg?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-22",
+   "titulo": "2027 Land Rover Range Rover Electric: First Drive",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/812974/range-rover-electric-first-drive/",
+   "modelo_id": null,
+   "tipo": "Primer contacto",
+   "pais": "Reino Unido"
+  },
+  {
+   "fecha": "2026-10-20",
+   "titulo": "Prueba del Citroën ë-C3 Aircross: la revolución eléctrica empieza en la ciudad",
+   "medio": "Movilidad Eléctrica",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HcF8zR080am55VlhMdkd3Y3Z0UkJ6Y3dsMFNOcUhxRzRvalVOZTdJZGo2azJBWTc0Skx3VVFKRlkxVlhFZGVGMmRVVDk3cE12dDJoTVFtMzVnUDdXb2dNXzlqUklsZTF3Ynp3MEluV0xpQQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-10-06",
+   "titulo": "I Drove the $30,000 Kia EV3—And It Might Be the Best Value EV Yet",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/810861/kia-ev3-review-drive-best-affordable-ev/",
+   "modelo_id": "kia-ev3",
+   "tipo": "Prueba",
+   "pais": "EE.UU."
+  },
+  {
+   "fecha": "2026-09-15",
+   "titulo": "2027 Mercedes GLC 400 Electric Review: The Best Mercedes EV Ever, And It’s Not Close",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/808381/mercedes-glc/",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": null
+  },
+  {
+   "fecha": "2026-08-03",
+   "titulo": "Tesla Model Y Performance: prueba de autonomía real a velocidad constante",
+   "medio": "Híbridos y Eléctricos",
+   "url": "https://www.hibridosyelectricos.com/coches/velocidad-constante-hasta-se-quedan-sin-bateria-se-paran-tesla-vuelve-demostrar-no-tiene-rival_88404_102.html",
+   "modelo_id": "tesla-model-y-rwd",
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-06-28",
+   "titulo": "NIO ES8: drive review",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/799953/nio-es8-drive-review-2026/",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "China"
+  },
+  {
+   "fecha": "2026-06-16",
+   "titulo": "Xiaomi SU7 Ultra: test drive",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/798799/xiaom-su7-ultra-test-drive/",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "China"
+  },
+  {
+   "fecha": "2026-06-09",
+   "titulo": "Rivian R2: first drive review",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/798129/rivian-r2-first-drive-review/",
+   "modelo_id": null,
+   "tipo": "Primer contacto",
+   "pais": "EE.UU."
+  },
+  {
+   "fecha": "2026-01-26",
+   "titulo": "2026 Toyota RAV4 PHEV Review: Does A Plug Make America's Best-Selling SUV Better?",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/785393/2026-toyota-rav4-phev-review/",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": null
+  },
+  {
+   "fecha": "2026-01-20",
+   "titulo": "El Tesla Model Y más barato: 431 km reales en autopista",
+   "medio": "Híbridos y Eléctricos",
+   "url": "https://www.hibridosyelectricos.com/coches/tesla-tendra-muchos-problemas-pero-esta-prueba-real-confirma-autonomia-tesla-model-mas-barato-no-es_84633_102.html",
+   "modelo_id": "tesla-model-y-rwd",
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026",
+   "titulo": "Del 100% al 5%: comparativa europea de autonomía real",
+   "medio": "Motor1 España",
+   "url": "https://es.motor1.com/photos/928111/del-100-al-5-2026/",
+   "modelo_id": null,
+   "tipo": "Comparativa",
+   "pais": "Europa"
+  },
+  {
+   "fecha": "2025-12-30",
+   "titulo": "2025 Ford Mustang Mach-E Review: Can It Keep Up With The Pack In 2026?",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/783070/2025-ford-mustang-mach-e-review/",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": null
+  },
+  {
+   "fecha": "2025-11-06",
+   "titulo": "2026 Cadillac Optiq-V First Drive: A Tesla-Plug EV Hot Rod That's More Than Meets The Eye",
+   "medio": "InsideEVs",
+   "url": "https://insideevs.com/reviews/778187/2026-cadillac-optiq-v-first-drive/",
+   "modelo_id": null,
+   "tipo": "Primer contacto",
+   "pais": null
+  }
+ ]
+}

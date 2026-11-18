@@ -1,0 +1,6381 @@
+{
+ "actualizado": "2026-11-17",
+ "total": 247,
+ "fuentes": [
+  "UTE (mapa público de movilidad eléctrica)",
+  "Open Charge Map (CC BY 4.0)",
+  "© colaboradores de OpenStreetMap (ODbL)"
+ ],
+ "nota": "Red de UTE: datos oficiales de UTE. Otros operadores: datos colaborativos, pueden faltar cargadores recientes.",
+ "cargadores": [
+  {
+   "id": "ute-ancap-bella-uni-n-30-2715",
+   "nombre": "ANCAP Bella Unión",
+   "direccion": "Ruta 3 Km. 628,000, 55100 Artigas",
+   "ciudad": "Bella Unión",
+   "departamento": "Artigas",
+   "lat": -30.2715,
+   "lon": -57.585944,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-30-3982",
+   "nombre": "Plaza Artigas",
+   "direccion": "Gral. eugenio Garzón y Eduardo Castro",
+   "ciudad": "Artigas",
+   "departamento": "Artigas",
+   "lat": -30.398181,
+   "lon": -56.464125,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-batlle-y-ord-ez-30-4036",
+   "nombre": "Plaza Batlle y Ordóñez",
+   "direccion": "Treinta y Tres y Av. Carlos Lecueder",
+   "ciudad": "Artigas",
+   "departamento": "Artigas",
+   "lat": -30.403596,
+   "lon": -56.469119,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-289015",
+   "nombre": "Plaza de Los Ninos",
+   "direccion": "HGWP+5VM, 55000 Artigas,",
+   "ciudad": "Artigas",
+   "departamento": "Artigas",
+   "lat": -30.404325,
+   "lon": -56.461945,
+   "operador": "Sin dato",
+   "horario": null,
+   "costo": null,
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2024-01-15",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=289015"
+  },
+  {
+   "id": "ute-plaza-de-los-ni-os-30-4048",
+   "nombre": "Plaza de los Niños",
+   "direccion": "Juan Antonio Lavalleja y Héctor Princivalle",
+   "ciudad": "Artigas",
+   "departamento": "Artigas",
+   "lat": -30.404784,
+   "lon": -56.462912,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ute-bella-uni-n-30-2594",
+   "nombre": "UTE Bella Unión",
+   "direccion": "Joaquin Suarez esq. Gral. Fructuoso Rivera",
+   "ciudad": "Bella Unión",
+   "departamento": "Artigas",
+   "lat": -30.259375,
+   "lon": -57.599202,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-canelones-34-5128",
+   "nombre": "ANCAP Canelones",
+   "direccion": "Ruta 11 km 102,200",
+   "ciudad": "Canelones",
+   "departamento": "Canelones",
+   "lat": -34.512814,
+   "lon": -56.246288,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-car-one-34-8173",
+   "nombre": "ANCAP Car One",
+   "direccion": "Ruta Interbalnearia esq. Av. Uruguay",
+   "ciudad": "Ciudad de la Costa",
+   "departamento": "Canelones",
+   "lat": -34.817322,
+   "lon": -55.97914,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-la-paz-34-7501",
+   "nombre": "ANCAP La Paz",
+   "direccion": "Ruta 5 km 19700 esq Tomás Aldabalde",
+   "ciudad": "La Paz",
+   "departamento": "Canelones",
+   "lat": -34.750076,
+   "lon": -56.252772,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-los-cerrillos-34-6075",
+   "nombre": "ANCAP Los Cerrillos",
+   "direccion": "Ruta 46 esquina Brig. Gral. Juan Antonio Lavalleja",
+   "ciudad": "Los Cerrillos",
+   "departamento": "Canelones",
+   "lat": -34.607492,
+   "lon": -56.357654,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-piedra-del-toro-34-6940",
+   "nombre": "ANCAP Piedra del Toro",
+   "direccion": "Ruta 8 Km. 41.500, 15600 Piedra del Toro, Departamento de Canelones",
+   "ciudad": "Piedra del Toro",
+   "departamento": "Canelones",
+   "lat": -34.694035,
+   "lon": -55.856194,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-san-luis-34-7703",
+   "nombre": "ANCAP San Luis",
+   "direccion": "Ruta Interbalnearia Km. 63,500",
+   "ciudad": "San Luis",
+   "departamento": "Canelones",
+   "lat": -34.77033,
+   "lon": -55.576509,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-santa-luc-a-34-4588",
+   "nombre": "ANCAP Santa Lucía",
+   "direccion": "Batlle y Ordóñez esquina Benito Nardone",
+   "ciudad": "Santa Lucía",
+   "departamento": "Canelones",
+   "lat": -34.458815,
+   "lon": -56.389911,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-sauce-dc-34-6467",
+   "nombre": "ANCAP Sauce DC",
+   "direccion": "Treinta y Tres esquina Antonio Ledesma",
+   "ciudad": "Sauce",
+   "departamento": "Canelones",
+   "lat": -34.646658,
+   "lon": -56.058881,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-tala-34-3435",
+   "nombre": "ANCAP Tala",
+   "direccion": "Tomás Berreta y Guzmán Azuaga",
+   "ciudad": "Tala",
+   "departamento": "Canelones",
+   "lat": -34.343524,
+   "lon": -55.758813,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-almenara-mall-34-8261",
+   "nombre": "Almenara Mall",
+   "direccion": "Ruta Gral. Líber Seregni km 22,500",
+   "ciudad": "Ciudad de la Costa",
+   "departamento": "Canelones",
+   "lat": -34.826103,
+   "lon": -55.997272,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-aeropuerto-gb-t-34-8447",
+   "nombre": "Ancap Aeropuerto GB/T",
+   "direccion": "Ruta 101 casi Av. De las Americas",
+   "ciudad": "Ciudad de la Costa",
+   "departamento": "Canelones",
+   "lat": -34.84471,
+   "lon": -56.019646,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-atl-ntida-dc2-34-7681",
+   "nombre": "Atlántida DC2",
+   "direccion": "Dr. Alfredo Crisci casi Ruta Interlbanearia",
+   "ciudad": "Atlántida",
+   "departamento": "Canelones",
+   "lat": -34.768094,
+   "lon": -55.769008,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-centro-de-atenci-n-tur-stica-atl-ntida-34-7691",
+   "nombre": "Centro de Atención Turística Atlántida",
+   "direccion": "Calle 2 esq. Calle 3",
+   "ciudad": "Atlántida",
+   "departamento": "Canelones",
+   "lat": -34.769107,
+   "lon": -55.764404,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-312918",
+   "nombre": "EOne Parador Fito",
+   "direccion": "Ruta 8 Km 61",
+   "ciudad": "",
+   "departamento": "Canelones",
+   "lat": -34.662711,
+   "lon": -55.644729,
+   "operador": "eOne",
+   "horario": "24 hs",
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-15",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=312918"
+  },
+  {
+   "id": "ute-estadio-mart-nez-monegal-34-5226",
+   "nombre": "Estadio Martínez Monegal",
+   "direccion": "Av. Martínez Monegal y Juan Antonio Lavalleja",
+   "ciudad": "Canelones",
+   "departamento": "Canelones",
+   "lat": -34.522627,
+   "lon": -56.275257,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-macromercado-carrasco-34-8701",
+   "nombre": "Macromercado Carrasco",
+   "direccion": "Avenida Al Parque 2495",
+   "ciudad": "Ciudad de la Costa",
+   "departamento": "Canelones",
+   "lat": -34.870062,
+   "lon": -56.022234,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 7,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 7,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-macromercado-las-piedras-34-7320",
+   "nombre": "Macromercado Las Piedras",
+   "direccion": "Ruta 5 km 22",
+   "ciudad": "Las Piedras",
+   "departamento": "Canelones",
+   "lat": -34.731973,
+   "lon": -56.248159,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-del-plata-34-7696",
+   "nombre": "Parque del Plata",
+   "direccion": "Mario Ferreira y Calle 1",
+   "ciudad": "Parque del Plata",
+   "departamento": "Canelones",
+   "lat": -34.769568,
+   "lon": -55.7294,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-del-plata-rambla-34-7527",
+   "nombre": "Parque del Plata Rambla",
+   "direccion": "Rbla.Costanera Artigas",
+   "ciudad": "Parque del Plata",
+   "departamento": "Canelones",
+   "lat": -34.75274,
+   "lon": -55.704017,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-la-floresta-34-7597",
+   "nombre": "Plaza Artigas La Floresta",
+   "direccion": "Avenida General Artigas esquina San José",
+   "ciudad": "La Floresta",
+   "departamento": "Canelones",
+   "lat": -34.759725,
+   "lon": -55.672995,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-atl-ntida-34-7745",
+   "nombre": "Plaza Atlántida",
+   "direccion": "Roger Balet esq. Republica de Chile",
+   "ciudad": "Atlantida",
+   "departamento": "Canelones",
+   "lat": -34.77453,
+   "lon": -55.76064,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-pando-34-7213",
+   "nombre": "Plaza Pando",
+   "direccion": "Ituzaingó esq. Gral. José G. Artigas",
+   "ciudad": "Pando",
+   "departamento": "Canelones",
+   "lat": -34.721257,
+   "lon": -55.959839,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-san-jacinto-34-5441",
+   "nombre": "Plaza San Jacinto",
+   "direccion": "Maria Vera esq. Cayetano Gonzalez",
+   "ciudad": "San Jacinto",
+   "departamento": "Canelones",
+   "lat": -34.544143,
+   "lon": -55.871189,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-sauce-34-6501",
+   "nombre": "Plaza Sauce",
+   "direccion": "General Artigas esq. Ruta 107",
+   "ciudad": "Sauce",
+   "departamento": "Canelones",
+   "lat": -34.650089,
+   "lon": -56.064885,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-de-deportes-de-pando-34-7231",
+   "nombre": "Plaza de Deportes de Pando",
+   "direccion": "Jose Pedro Varela esquina Ruta 8",
+   "ciudad": "Pando",
+   "departamento": "Canelones",
+   "lat": -34.723076,
+   "lon": -55.957135,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-san-ram-n-34-2882",
+   "nombre": "San Ramón",
+   "direccion": "Baltazar. Brum esq. Av. José Batlle y Ordóñez",
+   "ciudad": "San Ramón",
+   "departamento": "Canelones",
+   "lat": -34.288229,
+   "lon": -55.958338,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-shopping-las-piedras-34-7258",
+   "nombre": "Shopping Las Piedras",
+   "direccion": "Av. José Gervasio Artigas esq. Francisca Arnal de Artigas",
+   "ciudad": "Las Piedras",
+   "departamento": "Canelones",
+   "lat": -34.725792,
+   "lon": -56.202705,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-474246",
+   "nombre": "[NES] DISA Canelones",
+   "direccion": "Fructuoso Rivera Km 42.7",
+   "ciudad": "Canelones",
+   "departamento": "Canelones",
+   "lat": -34.55026,
+   "lon": -56.272429,
+   "operador": "NES Charge",
+   "horario": null,
+   "costo": "u$s 0.55 KW",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 80,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 80,
+   "puntos": 2,
+   "verificado": "2026-01-20",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474246"
+  },
+  {
+   "id": "ocm-476034",
+   "nombre": "eOne Geant 1",
+   "direccion": "Avenida Ingeniero Luis Giannattasio",
+   "ciudad": "",
+   "departamento": "Canelones",
+   "lat": -34.866613,
+   "lon": -56.024395,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "EOne App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 1
+    },
+    {
+     "tipo": "Otro",
+     "kw": 180,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 2,
+   "verificado": "2026-02-11",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=476034"
+  },
+  {
+   "id": "ocm-308789",
+   "nombre": "eOne Géant 2",
+   "direccion": "Av. de las Américas 9000, Canelones",
+   "ciudad": "Ciudad de la Costa",
+   "departamento": "Canelones",
+   "lat": -34.866645,
+   "lon": -56.024361,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 4,
+   "verificado": "2026-01-14",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=308789"
+  },
+  {
+   "id": "ute-447-duty-free-shop-31-8678",
+   "nombre": "447 Duty Free Shop",
+   "direccion": "Av. Jose G. Artigas",
+   "ciudad": "Acegua",
+   "departamento": "Cerro Largo",
+   "lat": -31.867824,
+   "lon": -54.166725,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-melo-32-3632",
+   "nombre": "ANCAP Melo",
+   "direccion": "18 de Julio y Ejido",
+   "ciudad": "Melo",
+   "departamento": "Cerro Largo",
+   "lat": -32.363165,
+   "lon": -54.166607,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-rio-branco-32-5989",
+   "nombre": "ANCAP Rio Branco",
+   "direccion": "Ruta 26 km 84",
+   "ciudad": "Río Branco",
+   "departamento": "Cerro Largo",
+   "lat": -32.598919,
+   "lon": -53.416144,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-tupamba-32-8384",
+   "nombre": "ANCAP Tupambaé",
+   "direccion": "Ruta 7 y Uruguay",
+   "ciudad": "Tupambaé",
+   "departamento": "Cerro Largo",
+   "lat": -32.838449,
+   "lon": -54.762031,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-panda-free-shop-32-5823",
+   "nombre": "Panda Free Shop",
+   "direccion": "Juanita Arismendi de Imicoz esq. Ruta 26",
+   "ciudad": "Rio Branco",
+   "departamento": "Cerro Largo",
+   "lat": -32.582336,
+   "lon": -53.378589,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-melo-32-3638",
+   "nombre": "TaTa Melo",
+   "direccion": "Villanueva Saravia Pinto esquina Treinta y Tres",
+   "ciudad": "Melo",
+   "departamento": "Cerro Largo",
+   "lat": -32.363814,
+   "lon": -54.165666,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-carmelo-33-9865",
+   "nombre": "ANCAP Carmelo",
+   "direccion": "33 Orientales entre Tomas Gomez y Paraguay",
+   "ciudad": "Carmelo",
+   "departamento": "Colonia",
+   "lat": -33.986462,
+   "lon": -58.282765,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-conchillas-34-1641",
+   "nombre": "ANCAP Conchillas",
+   "direccion": "Ruta 55 esquina Maestro Banchero Ibaldi",
+   "ciudad": "Conchillas",
+   "departamento": "Colonia",
+   "lat": -34.16405,
+   "lon": -58.012372,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-florencio-sanchez-33-8756",
+   "nombre": "ANCAP Florencio Sanchez",
+   "direccion": "25 de Agosto esq. Artigas",
+   "ciudad": "Florencio Sanchez",
+   "departamento": "Colonia",
+   "lat": -33.875561,
+   "lon": -57.372838,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-nueva-palmira-11-33-8850",
+   "nombre": "ANCAP Nueva Palmira 11",
+   "direccion": "Ruta 21 esq. San José, Nueva Palmira",
+   "ciudad": "Nueva Palmira",
+   "departamento": "Colonia",
+   "lat": -33.885016,
+   "lon": -58.381832,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-rosario-34-3224",
+   "nombre": "ANCAP Rosario",
+   "direccion": "Ruta 2. esq.Baltasar Brum",
+   "ciudad": "Rosario",
+   "departamento": "Colonia",
+   "lat": -34.322365,
+   "lon": -57.349989,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-475757",
+   "nombre": "Avenida Daniel Armand Ugón",
+   "direccion": "Avenida Daniel Armand Ugón",
+   "ciudad": "Colonia Valdense",
+   "departamento": "Colonia",
+   "lat": -34.341875,
+   "lon": -57.265098,
+   "operador": "Sin dato",
+   "horario": null,
+   "costo": null,
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 7,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 7,
+   "puntos": 1,
+   "verificado": "2026-02-11",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=475757"
+  },
+  {
+   "id": "ute-colonia-shopping-34-4662",
+   "nombre": "Colonia Shopping",
+   "direccion": "Franklin Roosevelt y Fray Bentos",
+   "ciudad": "Colonia del Sacramento",
+   "departamento": "Colonia",
+   "lat": -34.466156,
+   "lon": -57.835495,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 5,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1,
+     "cable": false
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 7,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-colonia-valdense-34-3371",
+   "nombre": "Colonia Valdense",
+   "direccion": "Ruta 1 vieja esq. Timbó",
+   "ciudad": "Colonia Valdense",
+   "departamento": "Colonia",
+   "lat": -34.337131,
+   "lon": -57.253007,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-475806",
+   "nombre": "Doctor Emilio Barbaroux",
+   "direccion": "Doctor Emilio Barbaroux",
+   "ciudad": "Colonia Valdense",
+   "departamento": "Colonia",
+   "lat": -34.3427,
+   "lon": -57.265351,
+   "operador": "Sin dato",
+   "horario": null,
+   "costo": "0",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 7,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 7,
+   "puntos": 1,
+   "verificado": "2026-02-12",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=475806"
+  },
+  {
+   "id": "ocm-475905",
+   "nombre": "Municipio colonia valdence",
+   "direccion": "Avenida Daniel Armand Ugón",
+   "ciudad": "Colonia Valdense",
+   "departamento": "Colonia",
+   "lat": -34.34207,
+   "lon": -57.265191,
+   "operador": "Sin dato",
+   "horario": null,
+   "costo": "0",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 7,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 7,
+   "puntos": 1,
+   "verificado": "2026-02-13",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=475905"
+  },
+  {
+   "id": "ute-nueva-helvecia-dc-avenida-34-2941",
+   "nombre": "Nueva Helvecia DC Avenida.",
+   "direccion": "Av. José Batlle y Ordoñez, esq. Daniel Soulier",
+   "ciudad": "Nueva Helvecia",
+   "departamento": "Colonia",
+   "lat": -34.294134,
+   "lon": -57.235032,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-florencio-s-nchez-33-8759",
+   "nombre": "Plaza Artigas Florencio Sánchez",
+   "direccion": "Calle Artigas, esquina 19 de Abril.",
+   "ciudad": "Florencio Sánchez",
+   "departamento": "Colonia",
+   "lat": -33.87588,
+   "lon": -57.370886,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-de-la-familia-carmelo-33-9898",
+   "nombre": "Plaza De la Familia - Carmelo",
+   "direccion": "19 de Abril esquina Ansina",
+   "ciudad": "Carmelo",
+   "departamento": "Colonia",
+   "lat": -33.989815,
+   "lon": -58.281705,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-los-fundadores-34-2849",
+   "nombre": "Plaza Los Fundadores",
+   "direccion": "Berna esq. 25 de Agosto",
+   "ciudad": "Nueva Helvecia",
+   "departamento": "Colonia",
+   "lat": -34.284876,
+   "lon": -57.233898,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-de-toros-de-colonia-34-4374",
+   "nombre": "Plaza de Toros de Colonia",
+   "direccion": "Juan Manuel Caballero y Río de la Plata",
+   "ciudad": "Colonia del Sacramento",
+   "departamento": "Colonia",
+   "lat": -34.437433,
+   "lon": -57.865045,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-tarariras-34-2645",
+   "nombre": "Terminal Tarariras",
+   "direccion": "Gutirerrez Ruiz esq. Ruta 22",
+   "ciudad": "Tarariras",
+   "departamento": "Colonia",
+   "lat": -34.264543,
+   "lon": -57.610165,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-312921",
+   "nombre": "[EOne] Axion Valdense",
+   "direccion": "Ruta 1 Vieja esquina Av. Artigas",
+   "ciudad": "Colonia Valdense",
+   "departamento": "Colonia",
+   "lat": -34.336283,
+   "lon": -57.258913,
+   "operador": "eOne",
+   "horario": "24 hs",
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-17",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=312921"
+  },
+  {
+   "id": "ute-ancap-sarand-del-y-33-3442",
+   "nombre": "ANCAP Sarandí del Yí",
+   "direccion": "Pte. Bernardo Berro 604",
+   "ciudad": "Sarandí del Yí",
+   "departamento": "Durazno",
+   "lat": -33.344227,
+   "lon": -55.628443,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-carlos-reyles-33-0570",
+   "nombre": "Carlos Reyles",
+   "direccion": "Manuel Oribe esquina Estanislao del Portillo",
+   "ciudad": "Carlos Reyles",
+   "departamento": "Durazno",
+   "lat": -33.056951,
+   "lon": -56.47604,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-durazno-posto-del-camionero-33-3879",
+   "nombre": "Durazno Posto del Camionero",
+   "direccion": "Basilio Muñoz casi Ruta 5",
+   "ciudad": "Durazno",
+   "departamento": "Durazno",
+   "lat": -33.387899,
+   "lon": -56.52299,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-junta-local-centenario-32-8341",
+   "nombre": "Junta Local Centenario",
+   "direccion": "Bvar. Artigas esq. Ruta 5",
+   "ciudad": "Pueblo Centenario",
+   "departamento": "Durazno",
+   "lat": -32.83409,
+   "lon": -56.496295,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-la-paloma-durazno-32-7279",
+   "nombre": "La Paloma Durazno",
+   "direccion": "Macaria Domínguez esquina Severino Cristiano López",
+   "ciudad": "La Paloma",
+   "departamento": "Durazno",
+   "lat": -32.727884,
+   "lon": -55.576405,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-villa-del-carmen-33-2413",
+   "nombre": "Plaza Artigas Villa del Carmen",
+   "direccion": "Dr. Ricardo J. Schunk s/n",
+   "ciudad": "Villa del Carmen",
+   "departamento": "Durazno",
+   "lat": -33.241286,
+   "lon": -56.013596,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-independencia-durazno-33-3801",
+   "nombre": "Plaza Independencia Durazno",
+   "direccion": "Brig. Gral. Fructuoso Rivera entre Eusebio Piriz y Brig. Gral. Manuel Oribe",
+   "ciudad": "Durazno",
+   "departamento": "Durazno",
+   "lat": -33.38006,
+   "lon": -56.522342,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-sarand-durazno-33-3768",
+   "nombre": "Plaza Sarandí Durazno",
+   "direccion": "General Artigas entre Luis Alberto de Herrera y 19 de Abril",
+   "ciudad": "Durazno",
+   "departamento": "Durazno",
+   "lat": -33.37675,
+   "lon": -56.524798,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-durazno-33-3866",
+   "nombre": "TaTa Durazno",
+   "direccion": "Wilson Ferreira Aldunate 419",
+   "ciudad": "Durazno",
+   "departamento": "Durazno",
+   "lat": -33.386637,
+   "lon": -56.524468,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-utec-durazno-33-3872",
+   "nombre": "UTEC Durazno",
+   "direccion": "Dr. Maciel entre Rubino y Morquio, Durazno",
+   "ciudad": "Durazno",
+   "departamento": "Durazno",
+   "lat": -33.387208,
+   "lon": -56.51478,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-trinidad-33-5132",
+   "nombre": "ANCAP Trinidad",
+   "direccion": "Ines Durán 1061 y Navea",
+   "ciudad": "Trinidad",
+   "departamento": "Flores",
+   "lat": -33.513166,
+   "lon": -56.907767,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-trinidad-ruta-3-33-5280",
+   "nombre": "ANCAP Trinidad - Ruta 3",
+   "direccion": "Ruta 3 esq. Ruta 14",
+   "ciudad": "Trinidad",
+   "departamento": "Flores",
+   "lat": -33.52803,
+   "lon": -56.894656,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ecoparque-talice-33-5082",
+   "nombre": "Ecoparque Talice",
+   "direccion": "Ruta 3 km 193",
+   "ciudad": "Trinidad",
+   "departamento": "Flores",
+   "lat": -33.508249,
+   "lon": -56.937011,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-cerro-colorado-33-8656",
+   "nombre": "ANCAP Cerro Colorado",
+   "direccion": "Alejandro Gallinal, Ruta 7 km. 168",
+   "ciudad": "Cerro Colorado",
+   "departamento": "Florida",
+   "lat": -33.865605,
+   "lon": -55.550759,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-florida-34-0969",
+   "nombre": "ANCAP Florida",
+   "direccion": "Ruta 5 y 56 , Florida",
+   "ciudad": "Florida",
+   "departamento": "Florida",
+   "lat": -34.096919,
+   "lon": -56.196372,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-sarand-grande-33-7343",
+   "nombre": "ANCAP Sarandí Grande",
+   "direccion": "Ruta 5 km 139.5 esq. Profesor Martínez García",
+   "ciudad": "Sarandí Grande",
+   "departamento": "Florida",
+   "lat": -33.734268,
+   "lon": -56.32209,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-cardal-34-2984",
+   "nombre": "Cardal",
+   "direccion": "Treinta y Tres Orientales y Ruta 77",
+   "ciudad": "Cardal",
+   "departamento": "Florida",
+   "lat": -34.298366,
+   "lon": -56.391217,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-asamblea-34-1012",
+   "nombre": "Plaza Asamblea",
+   "direccion": "Gral. Venancio Flores esq. Alejandro Gallinal",
+   "ciudad": "Florida",
+   "departamento": "Florida",
+   "lat": -34.101224,
+   "lon": -56.214377,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-casup-34-1003",
+   "nombre": "Plaza Casupá",
+   "direccion": "Luis Alberto de Herrera y Av. Pons y Juani",
+   "ciudad": "Casupá",
+   "departamento": "Florida",
+   "lat": -34.100338,
+   "lon": -55.651763,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-de-chamizo-34-2437",
+   "nombre": "Plaza de Chamizo",
+   "direccion": "Facundo Fernandez, entre 18 de Julio y 25 de Agosto",
+   "ciudad": "Chamizo",
+   "departamento": "Florida",
+   "lat": -34.24366,
+   "lon": -55.917378,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-florida-34-0960",
+   "nombre": "TaTa Florida",
+   "direccion": "Fructuoso Rivera 3320 entre Dr. González y Manuel Calleros",
+   "ciudad": "Florida",
+   "departamento": "Florida",
+   "lat": -34.095979,
+   "lon": -56.214462,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-jos-batlle-y-ord-ez-33-4704",
+   "nombre": "ANCAP José Batlle y Ordóñez",
+   "direccion": "19 de Abril y Ruta 7",
+   "ciudad": "José Batlle y Ordóñez",
+   "departamento": "Lavalleja",
+   "lat": -33.47043,
+   "lon": -55.15019,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-jos-pedro-varela-33-4573",
+   "nombre": "ANCAP José Pedro Varela",
+   "direccion": "Calle Treinta y Tres esquina 18 de Julio",
+   "ciudad": "José Pedro Varela",
+   "departamento": "Lavalleja",
+   "lat": -33.457275,
+   "lon": -54.527432,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-mariscala-34-0465",
+   "nombre": "ANCAP Mariscala",
+   "direccion": "Ruta 8 Km. 182,000, 30000 Lavalleja, Departamento de Lavalleja",
+   "ciudad": "Mariscala",
+   "departamento": "Lavalleja",
+   "lat": -34.046532,
+   "lon": -54.782152,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-minas-34-3761",
+   "nombre": "ANCAP Minas",
+   "direccion": "Diagonal Oribe y Luis A. de Herrera",
+   "ciudad": "Minas",
+   "departamento": "Lavalleja",
+   "lat": -34.376132,
+   "lon": -55.246748,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-de-minas-34-4254",
+   "nombre": "Parque de Minas",
+   "direccion": "Ruta 12 km 347.500",
+   "ciudad": "Minas",
+   "departamento": "Lavalleja",
+   "lat": -34.425438,
+   "lon": -55.193831,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-las-delicias-34-3665",
+   "nombre": "Plaza Las Delicias",
+   "direccion": "Ansina casi Garibaldi",
+   "ciudad": "Minas",
+   "departamento": "Lavalleja",
+   "lat": -34.36645,
+   "lon": -55.224245,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-l-zaro-cabrera-34-5987",
+   "nombre": "Plaza Lázaro Cabrera",
+   "direccion": "Sarandí entre 25 de Agosto y Ruta 8",
+   "ciudad": "Solís de Mataojo",
+   "departamento": "Lavalleja",
+   "lat": -34.598733,
+   "lon": -55.466932,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-rivera-minas-34-3756",
+   "nombre": "Plaza Rivera Minas",
+   "direccion": "Ituzaingó esquina Franklin Delano Roosevelt",
+   "ciudad": "Minas",
+   "departamento": "Lavalleja",
+   "lat": -34.37563,
+   "lon": -55.242589,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-jos-ignacio-34-8350",
+   "nombre": "ANCAP José Ignacio",
+   "direccion": "Ruta 10 y Camino Ing. Sainz Martinez",
+   "ciudad": "José Ignacio",
+   "departamento": "Maldonado",
+   "lat": -34.835025,
+   "lon": -54.644789,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-roosevelt-punta-del-este-34-9332",
+   "nombre": "ANCAP Roosevelt Punta del Este",
+   "direccion": "Roosevelt y Naciones Unidas",
+   "ciudad": "Maldonado",
+   "departamento": "Maldonado",
+   "lat": -34.933228,
+   "lon": -54.941723,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 20,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 20,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-ruta-39-y-perimetral-34-8811",
+   "nombre": "ANCAP Ruta 39 y Perimetral",
+   "direccion": "Ruta 39 y Ruta Perimetral",
+   "ciudad": "Maldonado",
+   "departamento": "Maldonado",
+   "lat": -34.881119,
+   "lon": -54.950266,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-solanas-34-8780",
+   "nombre": "ANCAP Solanas",
+   "direccion": "Ruta 93 Km. 118,000",
+   "ciudad": "Maldonado",
+   "departamento": "Maldonado",
+   "lat": -34.877969,
+   "lon": -55.052786,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-475402",
+   "nombre": "Aeropuerto Laguna Del Sauce",
+   "direccion": "Ruta Interbalnearia General Líber Seregni",
+   "ciudad": "",
+   "departamento": "Maldonado",
+   "lat": -34.861629,
+   "lon": -55.098028,
+   "operador": "Eve Move",
+   "horario": null,
+   "costo": "EVE App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1
+    },
+    {
+     "tipo": "Otro",
+     "kw": 60,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2026-02-02",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=475402"
+  },
+  {
+   "id": "ute-autom-vil-club-del-uruguay-34-9136",
+   "nombre": "Automóvil Club del Uruguay",
+   "direccion": "Zelmar Michelini, esq 3 de febrero -",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.913647,
+   "lon": -54.960424,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-472969",
+   "nombre": "EVE DISA Baltazar Brum",
+   "direccion": "Dr. Baltazar Brum 2746",
+   "ciudad": "Montevideo",
+   "departamento": "Maldonado",
+   "lat": -34.881239,
+   "lon": -56.201126,
+   "operador": "Eve Move",
+   "horario": null,
+   "costo": "EVE App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 40,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2026-01-22",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=472969"
+  },
+  {
+   "id": "ocm-472970",
+   "nombre": "EVE DISA Punta Ballena",
+   "direccion": "Ruta Interbalnearia General Líber Seregni",
+   "ciudad": "Punta Ballena",
+   "departamento": "Maldonado",
+   "lat": -34.90433,
+   "lon": -55.029297,
+   "operador": "Eve Move",
+   "horario": null,
+   "costo": "EVE App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2026-01-14",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=472970"
+  },
+  {
+   "id": "ocm-303732",
+   "nombre": "EVE Open Mall",
+   "direccion": "San Francisco",
+   "ciudad": "Punta Del Este",
+   "departamento": "Maldonado",
+   "lat": -34.942268,
+   "lon": -54.936026,
+   "operador": "Eve Move",
+   "horario": "EVE App",
+   "costo": null,
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 120,
+     "cantidad": 2
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 60,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 120,
+   "puntos": 4,
+   "verificado": "2026-02-02",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=303732"
+  },
+  {
+   "id": "ocm-267581",
+   "nombre": "Estacionamiento Devoto",
+   "direccion": "Estacionamiento Devoto",
+   "ciudad": "Punta Del Este",
+   "departamento": "Maldonado",
+   "lat": -34.933811,
+   "lon": -54.939199,
+   "operador": "Sin dato",
+   "horario": "Carga gratuita de acceso publico para usar mientras se compra en el supermercado",
+   "costo": "0",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 11,
+     "cantidad": 5
+    }
+   ],
+   "max_kw": 11,
+   "puntos": 5,
+   "verificado": "2025-02-17",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=267581"
+  },
+  {
+   "id": "ute-estaci-n-cantegril-34-9236",
+   "nombre": "Estación Cantegril",
+   "direccion": "Patria Vieja & Avenida Franklin Delano Roosevelt",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.923599,
+   "lon": -54.951846,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-estaci-n-pen-nsula-34-9675",
+   "nombre": "Estación Península",
+   "direccion": "Capitán Miranda esquina El Trinquete",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.967524,
+   "lon": -54.951832,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-hospital-de-pan-de-az-car-34-7787",
+   "nombre": "Hospital de Pan de Azúcar",
+   "direccion": "Francisco Bonilla y Rincón",
+   "ciudad": "Pan de Azúcar",
+   "departamento": "Maldonado",
+   "lat": -34.778726,
+   "lon": -55.224045,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-la-barra-34-9133",
+   "nombre": "La Barra",
+   "direccion": "Los Destinos y Bartolomé Hidalgo",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.913318,
+   "lon": -54.861858,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-liga-de-fomento-punta-del-este-34-9572",
+   "nombre": "Liga de fomento Punta del Este",
+   "direccion": "Rb. Dr. Claudio Williman esq. Pedro Risso",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.957151,
+   "lon": -54.940704,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 8,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 8,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-macromercado-maldonado-34-9153",
+   "nombre": "Macromercado Maldonado",
+   "direccion": "Bulevar Artigas y Cachimba del Rey",
+   "ciudad": "Maldonado",
+   "departamento": "Maldonado",
+   "lat": -34.915348,
+   "lon": -54.944933,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-municipio-punta-del-este-34-9596",
+   "nombre": "Municipio Punta del Este",
+   "direccion": "Calle 30 esquina Gorlero",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.959565,
+   "lon": -54.940092,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 3,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-novillo-alegre-punta-34-9357",
+   "nombre": "Novillo Alegre Punta",
+   "direccion": "Av. al Paso de la Cadena esq. Av. Roosevelt",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.935722,
+   "lon": -54.937054,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-punta-del-este-parada-3-34-9503",
+   "nombre": "Punta del Este - Parada 3",
+   "direccion": "Bvar Artigas y Av Francisco Salazar",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.95026,
+   "lon": -54.937023,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-punta-del-este-parada-5-34-9421",
+   "nombre": "Punta del Este - Parada 5",
+   "direccion": "Lunas de Oro y Avda. Roosevelt",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.942108,
+   "lon": -54.932418,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-san-rafael-34-9408",
+   "nombre": "San Rafael",
+   "direccion": "Acapulco y Av. Mar del Plata",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.940828,
+   "lon": -54.9163,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-312920",
+   "nombre": "Shopping Atlantico",
+   "direccion": "Av. Rosevelt parada 22",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.915626,
+   "lon": -54.961003,
+   "operador": "Evergo",
+   "horario": null,
+   "costo": "U$S 0.46",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 50,
+     "cantidad": 2
+    },
+    {
+     "tipo": "CHAdeMO",
+     "kw": 50,
+     "cantidad": 2
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 11,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 50,
+   "puntos": 1,
+   "verificado": "2025-05-30",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=312920"
+  },
+  {
+   "id": "ute-tata-maldonado-34-9091",
+   "nombre": "TaTa Maldonado",
+   "direccion": "25 de Mayo 600",
+   "ciudad": "Maldonado",
+   "departamento": "Maldonado",
+   "lat": -34.909077,
+   "lon": -54.955319,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-piri-polis-34-8620",
+   "nombre": "Terminal Piriápolis",
+   "direccion": "Santos Negro González y Misiones",
+   "ciudad": "Piriápolis",
+   "departamento": "Maldonado",
+   "lat": -34.86203,
+   "lon": -55.274783,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 7,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 7,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-san-carlos-34-7935",
+   "nombre": "Terminal San Carlos",
+   "direccion": "José Enrique Rodó esq. Nuble González Olaza",
+   "ciudad": "San Carlos",
+   "departamento": "Maldonado",
+   "lat": -34.793473,
+   "lon": -54.923909,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-474223",
+   "nombre": "[DMC] Club Ituzaingo",
+   "direccion": "Avenida Del Mar 20100",
+   "ciudad": "Punta Del Este",
+   "departamento": "Maldonado",
+   "lat": -34.940516,
+   "lon": -54.925002,
+   "operador": "DMC Mobility",
+   "horario": "App DMC",
+   "costo": "u$s 0.31 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 120,
+     "cantidad": 4
+    }
+   ],
+   "max_kw": 120,
+   "puntos": 4,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474223"
+  },
+  {
+   "id": "ocm-474222",
+   "nombre": "[DMC] Estacion Salinas",
+   "direccion": "Ruta Interbalnearia Km 38",
+   "ciudad": "Salinas",
+   "departamento": "Maldonado",
+   "lat": -34.774985,
+   "lon": -55.842062,
+   "operador": "DMC Mobility",
+   "horario": "App DMC",
+   "costo": "u$s 0.31 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 120,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 120,
+   "puntos": 2,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474222"
+  },
+  {
+   "id": "ocm-472897",
+   "nombre": "[EOne] Disco Fresh Market Parada 5",
+   "direccion": "Julio Herrera y Reissig",
+   "ciudad": "",
+   "departamento": "Maldonado",
+   "lat": -34.943165,
+   "lon": -54.933579,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 2,
+   "verificado": "2026-02-02",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=472897"
+  },
+  {
+   "id": "ocm-474227",
+   "nombre": "[UMT] Punta Shopping",
+   "direccion": "Avenida Franklin Delano Roosevelt",
+   "ciudad": "Punta Del Este",
+   "departamento": "Maldonado",
+   "lat": -34.939851,
+   "lon": -54.934066,
+   "operador": "UMT EV Charge",
+   "horario": "App UMT EV",
+   "costo": "u$s 0.30 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 40,
+     "cantidad": 4
+    }
+   ],
+   "max_kw": 40,
+   "puntos": 4,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474227"
+  },
+  {
+   "id": "ocm-312919",
+   "nombre": "eOne Axion Peninsula",
+   "direccion": "Calle 20 esquina Calle 30",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.958509,
+   "lon": -54.940927,
+   "operador": "eOne",
+   "horario": "24 hs",
+   "costo": "eOne App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-14",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=312919"
+  },
+  {
+   "id": "ute-ancap-ruta-1-y-camino-flores-34-8189",
+   "nombre": "ANCAP Ruta 1 y Camino Flores",
+   "direccion": "Ruta 1 y Camino Flores",
+   "ciudad": "Paso de la Arena",
+   "departamento": "Montevideo",
+   "lat": -34.818895,
+   "lon": -56.344162,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-acceso-emergencia-hospital-de-cl-nicas-34-8908",
+   "nombre": "Acceso Emergencia Hospital de Clínicas",
+   "direccion": "Avd Italia esquina José Brito Foresti",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.890751,
+   "lon": -56.15184,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 8,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 8,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-303731",
+   "nombre": "Auxicar",
+   "direccion": "Avenida Italia 4374",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.887457,
+   "lon": -56.115249,
+   "operador": "Eve Move",
+   "horario": null,
+   "costo": "EVE App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 60,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2026-02-02",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=303731"
+  },
+  {
+   "id": "ute-av-fco-soca-y-libertad-34-9086",
+   "nombre": "Av. Fco. Soca y Libertad",
+   "direccion": "Av. Fransisco Soca esq. Libertad",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.908627,
+   "lon": -56.153853,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-banco-central-del-uruguay-34-9034",
+   "nombre": "Banco Central del Uruguay",
+   "direccion": "Florida esq. Av Uruguay",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.903352,
+   "lon": -56.19966,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-batov-34-8903",
+   "nombre": "Batoví",
+   "direccion": "Batoví esquina Dr. Luis P. Lenguas",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.890289,
+   "lon": -56.185279,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 6,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 6,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-belloni-34-8552",
+   "nombre": "Belloni",
+   "direccion": "Av. José Belloni y Av. 8 de Octubre",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.855226,
+   "lon": -56.132189,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-casino-parque-hotel-34-9128",
+   "nombre": "Casino Parque Hotel",
+   "direccion": "Dr. Luis Piera y Lauro Müller",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.912848,
+   "lon": -56.169618,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-centro-de-eventos-latu-34-8793",
+   "nombre": "Centro de Eventos LATU",
+   "direccion": "María Luisa Saldún de Rodríguez esquina Acceso Espacio Ciencia",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.879315,
+   "lon": -56.080521,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-309001",
+   "nombre": "EOne Disco Fresh Market Italia",
+   "direccion": "Magariños Cervantes 2052",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.887035,
+   "lon": -56.140796,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-15",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=309001"
+  },
+  {
+   "id": "ocm-472935",
+   "nombre": "EOne Disco Fresh Market Legrand",
+   "direccion": "Avenida Enrique Legrand",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.890148,
+   "lon": -56.098766,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-14",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=472935"
+  },
+  {
+   "id": "ocm-309057",
+   "nombre": "EOne Fresh Market Disco 8",
+   "direccion": "Av 8 De Octubre 2681",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.889487,
+   "lon": -56.160499,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=309057"
+  },
+  {
+   "id": "ocm-303730",
+   "nombre": "EVE Zonamerica",
+   "direccion": "Henry Ford",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.791647,
+   "lon": -56.070611,
+   "operador": "Evergo",
+   "horario": "EVE App required",
+   "costo": "10.50",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 60,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2026-01-11",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=303730"
+  },
+  {
+   "id": "ute-electrolinera-leguizam-n-34-8963",
+   "nombre": "Electrolinera Leguizamón",
+   "direccion": "Jose Leguizamon 3463",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.896317,
+   "lon": -56.140618,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 14,
+     "cable": true
+    },
+    {
+     "tipo": "GB/T DC",
+     "kw": 30,
+     "cantidad": 6,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 22,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-electrolinera-malvin-34-8874",
+   "nombre": "Electrolinera Malvin",
+   "direccion": "Valencia esq Estanislao López",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.88744,
+   "lon": -56.104194,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 8,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 8,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-260129",
+   "nombre": "Estadio Centenario",
+   "direccion": "Avenida Doctor Américo Ricaldoni",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.891553,
+   "lon": -56.154468,
+   "operador": "Sin dato",
+   "horario": null,
+   "costo": null,
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 1,
+   "verificado": "2023-04-17",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=260129"
+  },
+  {
+   "id": "ute-fing-reissig-34-9185",
+   "nombre": "FING Reissig",
+   "direccion": "Av. Julio Herrera y Reassing",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.918522,
+   "lon": -56.166267,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-fing-sosa-34-9192",
+   "nombre": "FING Sosa",
+   "direccion": "Av. Julio Maria Sosa",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.919209,
+   "lon": -56.166498,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-golf-34-9279",
+   "nombre": "Golf",
+   "direccion": "Bulevar General Artigas y Errazquin",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.927901,
+   "lon": -56.161484,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 3,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 5,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-gremial-del-taxi-cpatu-34-8681",
+   "nombre": "Gremial del Taxi CPATU",
+   "direccion": "Burgues 3143",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.868071,
+   "lon": -56.186521,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-hospital-bse-34-8673",
+   "nombre": "Hospital BSE",
+   "direccion": "Av. José Pedro Varela 3420",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.86731,
+   "lon": -56.160038,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-hospital-de-ojos-saint-bois-34-7889",
+   "nombre": "Hospital de Ojos Saint Bois",
+   "direccion": "Camino Fauquet y Guanahani",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.78891,
+   "lon": -56.241787,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-hotel-nh-montevideo-34-9098",
+   "nombre": "Hotel NH Montevideo",
+   "direccion": "Carlos A. Miles y Misiones",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.909845,
+   "lon": -56.204714,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 4,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-intendencia-34-9058",
+   "nombre": "Intendencia",
+   "direccion": "Santiago de Chile esq. San José",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.905827,
+   "lon": -56.185525,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 6,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 6,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-joanic-34-8790",
+   "nombre": "Joanicó",
+   "direccion": "Joanicó esquina Bv. Jose Batlle y Ordoñez",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.87903,
+   "lon": -56.148899,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 3,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-latu-34-8804",
+   "nombre": "LATU",
+   "direccion": "Avenida Italia 6201",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.880403,
+   "lon": -56.077182,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-la-cumparsita-34-9147",
+   "nombre": "La Cumparsita",
+   "direccion": "La Cumparsita esq. Ejido",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.914665,
+   "lon": -56.185604,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-macromercado-san-mart-n-34-8664",
+   "nombre": "Macromercado San Martín",
+   "direccion": "San Martín 3222",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.866408,
+   "lon": -56.180314,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-montevideo-shopping-34-9040",
+   "nombre": "Montevideo Shopping",
+   "direccion": "Av. Luis A. de Herrera 1290",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.903968,
+   "lon": -56.136669,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-palacio-legislativo-dc-34-8903",
+   "nombre": "Palacio Legislativo DC",
+   "direccion": "Av. de las Leyes y Colombia",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.89031,
+   "lon": -56.187982,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-palacio-de-la-luz-aguilar-34-8851",
+   "nombre": "Palacio de la Luz - Aguilar",
+   "direccion": "Gral. Fausto Aguilar entre Paraguay y Mendoza",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.885144,
+   "lon": -56.195179,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 8,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 8,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-palacio-de-la-luz-paraguay-34-8851",
+   "nombre": "Palacio de la Luz - Paraguay",
+   "direccion": "Paraguay esq. Aguilar",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.885124,
+   "lon": -56.194744,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-palacio-de-la-luz-dc-mendoza-34-8853",
+   "nombre": "Palacio de la Luz DC Mendoza",
+   "direccion": "Mendoza esq. Fausto Aguilar",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.885336,
+   "lon": -56.195505,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parking-cinemateca-34-9088",
+   "nombre": "Parking Cinemateca",
+   "direccion": "Bartolomé Mitre 1224",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.908805,
+   "lon": -56.20082,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-de-la-amistad-34-9022",
+   "nombre": "Parque de la amistad",
+   "direccion": "Alejo Rosell y Ruis esquina Av. Rivera",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.902205,
+   "lon": -56.146114,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-col-n-34-8058",
+   "nombre": "Plaza Colón",
+   "direccion": "Vidiella entre Av. Eugenio Garzón y A. Passadore",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.805776,
+   "lon": -56.221745,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-paul-harris-34-8764",
+   "nombre": "Plaza Paul Harris",
+   "direccion": "Barradas y Av. Italia",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.876355,
+   "lon": -56.037748,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 90,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 16,
+     "cable": true
+    }
+   ],
+   "max_kw": 90,
+   "puntos": 18,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-samuel-lafone-34-8680",
+   "nombre": "Plaza Samuel Lafone",
+   "direccion": "Ruperto Perez Martinez y Heredia",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.867971,
+   "lon": -56.236788,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-san-mart-n-34-8755",
+   "nombre": "Plaza San Martín",
+   "direccion": "Soldados Orientales de S. Martín esq. Uruguayana",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.875475,
+   "lon": -56.200208,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 4,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-shopping-nuevocentro-34-8697",
+   "nombre": "Shopping Nuevocentro",
+   "direccion": "Br. Artigas y Pampillo y Novas",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.869657,
+   "lon": -56.169246,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-skatepark-carrasco-34-8843",
+   "nombre": "Skatepark Carrasco",
+   "direccion": "Costa Rica y Eduardo Couture",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.884348,
+   "lon": -56.058088,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 12,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 12,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-del-cerro-34-8731",
+   "nombre": "Terminal del Cerro",
+   "direccion": "Pedro Castellino y Ramón Tabárez",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.873082,
+   "lon": -56.248884,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-del-cerro-2-34-8732",
+   "nombre": "Terminal del Cerro 2",
+   "direccion": "Pedro Castellino y Ramón Tabárez",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.873204,
+   "lon": -56.249964,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-uam-34-8204",
+   "nombre": "UAM",
+   "direccion": "Camino Perez y Ruta 5",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.820376,
+   "lon": -56.269914,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-474224",
+   "nombre": "[DMC] Estación Centenario",
+   "direccion": "Avenida Centenario 3109",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.882667,
+   "lon": -56.152794,
+   "operador": "DMC Mobility",
+   "horario": "App DMC",
+   "costo": "u$s 0.31 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 120,
+     "cantidad": 4
+    }
+   ],
+   "max_kw": 120,
+   "puntos": 4,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474224"
+  },
+  {
+   "id": "ocm-474231",
+   "nombre": "[UMT] Tienda Inglesa Central",
+   "direccion": "Avenida Italia 5820",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.882963,
+   "lon": -56.082053,
+   "operador": "UMT EV Charge",
+   "horario": "App UMT EV",
+   "costo": "u$s 0.30 KW",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 40,
+     "cantidad": 4
+    }
+   ],
+   "max_kw": 40,
+   "puntos": 4,
+   "verificado": "2026-01-19",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=474231"
+  },
+  {
+   "id": "ocm-307589",
+   "nombre": "eOne Axion Carrasco",
+   "direccion": "4W4R+WQM Puntas de Santiago",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.89271,
+   "lon": -56.058085,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 1,
+   "verificado": "2026-01-14",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=307589"
+  },
+  {
+   "id": "ocm-476022",
+   "nombre": "eOne Axion Perimetral",
+   "direccion": "Ruta César Mayo Gutiérrez",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.783966,
+   "lon": -56.223605,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "Eone App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 2,
+   "verificado": "2026-02-11",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=476022"
+  },
+  {
+   "id": "ocm-460031",
+   "nombre": "eOne Axion Prado",
+   "direccion": "Joaquin Suarez y Luis Alberto de Herrera",
+   "ciudad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.858,
+   "lon": -56.196543,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "u$s 0.33 Kw",
+   "conectores": [
+    {
+     "tipo": "GB/T DC",
+     "kw": 180,
+     "cantidad": 1
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 2,
+   "verificado": "2026-01-15",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=460031"
+  },
+  {
+   "id": "ocm-476026",
+   "nombre": "eOne Disco Fresh Market Scoseria",
+   "direccion": "Doctor José Scosería",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.915429,
+   "lon": -56.156077,
+   "operador": "eOne",
+   "horario": null,
+   "costo": "EOne App",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 180,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 180,
+   "puntos": 2,
+   "verificado": "2026-02-11",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=476026"
+  },
+  {
+   "id": "ute-ancap-constancia-32-2065",
+   "nombre": "ANCAP Constancia",
+   "direccion": "Ruta 3 km 384",
+   "ciudad": "Constancia",
+   "departamento": "Paysandú",
+   "lat": -32.20649,
+   "lon": -58.002403,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-francolino-paysand-32-3184",
+   "nombre": "ANCAP Francolino Paysandú",
+   "direccion": "Av. España y Juncal",
+   "ciudad": "Paysandú",
+   "departamento": "Paysandú",
+   "lat": -32.318365,
+   "lon": -58.074368,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-guich-n-32-3588",
+   "nombre": "ANCAP Guichón",
+   "direccion": "Dr. Penza 272 y Avda. Artigas",
+   "ciudad": "Guichón",
+   "departamento": "Paysandú",
+   "lat": -32.35879,
+   "lon": -57.202215,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-paysand-32-3525",
+   "nombre": "ANCAP Paysandú",
+   "direccion": "Ruta 3 km 366",
+   "ciudad": "Paysandú",
+   "departamento": "Paysandú",
+   "lat": -32.35249,
+   "lon": -58.050937,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-el-eucalipto-31-9026",
+   "nombre": "El Eucalipto",
+   "direccion": "Ruta 26 km 99",
+   "ciudad": "El Eucalipto",
+   "departamento": "Paysandú",
+   "lat": -31.902577,
+   "lon": -57.267275,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-estadio-parque-artigas-32-3224",
+   "nombre": "Estadio Parque Artigas",
+   "direccion": "Bvlr. Artigas y 25 de Mayo",
+   "ciudad": "Paysandú",
+   "departamento": "Paysandú",
+   "lat": -32.322433,
+   "lon": -58.071688,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-constituci-n-paysand-32-3167",
+   "nombre": "Plaza Constitución Paysandú",
+   "direccion": "Florida esquina Juan Zorrilla de San Martín",
+   "ciudad": "Paysandú",
+   "departamento": "Paysandú",
+   "lat": -32.316711,
+   "lon": -58.081011,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-paysand-32-3151",
+   "nombre": "TaTa Paysandú",
+   "direccion": "Washington 1673",
+   "ciudad": "Paysandú",
+   "departamento": "Paysandú",
+   "lat": -32.315113,
+   "lon": -58.069285,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tambores-31-8769",
+   "nombre": "Tambores",
+   "direccion": "Francisco Lascano y Calle 27",
+   "ciudad": "Tambores",
+   "departamento": "Paysandú",
+   "lat": -31.876912,
+   "lon": -56.240687,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-buena-uni-n-31-2521",
+   "nombre": "ANCAP Buena Unión",
+   "direccion": "Ruta 5 y Ruta 30",
+   "ciudad": "Buena Unión",
+   "departamento": "Rivera",
+   "lat": -31.252128,
+   "lon": -55.664532,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-rivera-30-9148",
+   "nombre": "ANCAP Rivera",
+   "direccion": "Luis Alberto de Herrera y Ruta 5",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.914811,
+   "lon": -55.539302,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-vichadero-31-7752",
+   "nombre": "ANCAP Vichadero",
+   "direccion": "Bulevar Artigas y Dr. Paradera",
+   "ciudad": "Vichadero",
+   "departamento": "Rivera",
+   "lat": -31.775192,
+   "lon": -54.687176,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-macromercado-rivera-30-9205",
+   "nombre": "Macromercado Rivera",
+   "direccion": "Julio M. Sosa esquina Frugoni",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.920494,
+   "lon": -55.539817,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-minas-de-corrales-31-5707",
+   "nombre": "Minas de Corrales",
+   "direccion": "Avenida Davison y Dr. Ross",
+   "ciudad": "Minas de Corrales",
+   "departamento": "Rivera",
+   "lat": -31.570654,
+   "lon": -55.471489,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-rivera-30-8999",
+   "nombre": "Plaza Artigas - Rivera",
+   "direccion": "Agraciada y Gral. Artigas",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.899893,
+   "lon": -55.541061,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-shopping-si-eriz-30-9003",
+   "nombre": "Shopping Siñeriz",
+   "direccion": "Av Sepe 51",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.90026,
+   "lon": -55.523848,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-rivera-30-9060",
+   "nombre": "TaTa Rivera",
+   "direccion": "Agustin Ortega esq. Av. Sarandi",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.906018,
+   "lon": -55.544446,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tranqueras-plaza-los-33-orientales-31-1908",
+   "nombre": "Tranqueras - Plaza Los 33 Orientales",
+   "direccion": "Dr. Dellepiane y Brasil",
+   "ciudad": "Tranqueras",
+   "departamento": "Rivera",
+   "lat": -31.190784,
+   "lon": -55.767166,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-utec-rivera-30-9324",
+   "nombre": "UTEC Rivera",
+   "direccion": "Guido Machado Brum esquina calle de entrada a UTEC",
+   "ciudad": "Rivera",
+   "departamento": "Rivera",
+   "lat": -30.932403,
+   "lon": -55.547607,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-chuy-33-6947",
+   "nombre": "ANCAP Chuy",
+   "direccion": "Gral Artigas 209 y Samuel Prilliac, 27100",
+   "ciudad": "Chuy",
+   "departamento": "Rocha",
+   "lat": -33.694694,
+   "lon": -53.455267,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-rocha-34-4964",
+   "nombre": "ANCAP Rocha",
+   "direccion": "Ruta 9 km 206,400, 27000",
+   "ciudad": "Rocha",
+   "departamento": "Rocha",
+   "lat": -34.496353,
+   "lon": -54.327217,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-vel-zquez-34-0348",
+   "nombre": "ANCAP Velázquez",
+   "direccion": "Ruta 15 km 84,500",
+   "ciudad": "Velázquez",
+   "departamento": "Rocha",
+   "lat": -34.034776,
+   "lon": -54.280123,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-chuy-dfa-33-6932",
+   "nombre": "CHUY DFA",
+   "direccion": "Avenida Brasil 267",
+   "ciudad": "Chuy",
+   "departamento": "Rocha",
+   "lat": -33.693156,
+   "lon": -53.448956,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-centro-cultural-la-paloma-34-6585",
+   "nombre": "Centro Cultural La Paloma",
+   "direccion": "Dr. Javier Barrios Amorín y Paloma",
+   "ciudad": "La Paloma",
+   "departamento": "Rocha",
+   "lat": -34.658477,
+   "lon": -54.154971,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-la-paloma-34-6640",
+   "nombre": "La Paloma",
+   "direccion": "Av. de la Iglesia entre Av. Del Navío y Av. Sirio",
+   "ciudad": "La Paloma",
+   "departamento": "Rocha",
+   "lat": -34.663984,
+   "lon": -54.157528,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-la-pedrera-34-5912",
+   "nombre": "La Pedrera",
+   "direccion": "Pitanga y Av. Principal",
+   "ciudad": "La Pedrera",
+   "departamento": "Rocha",
+   "lat": -34.591214,
+   "lon": -54.127803,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-lascano-33-6795",
+   "nombre": "Lascano",
+   "direccion": "Walter Montaldo esquina Ruta 15",
+   "ciudad": "Lascano",
+   "departamento": "Rocha",
+   "lat": -33.679473,
+   "lon": -54.210895,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-santa-teresa-34-0020",
+   "nombre": "Parque Santa Teresa",
+   "direccion": "Ruta 9 Km 302, Rocha",
+   "ciudad": "Parque Nacional de Santa Teresa",
+   "departamento": "Rocha",
+   "lat": -34.002017,
+   "lon": -53.552156,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-rocha-oficina-de-turismo-34-4888",
+   "nombre": "Rocha - Oficina de Turismo",
+   "direccion": "Ruta 9 y Ruta 15",
+   "ciudad": "Rocha",
+   "departamento": "Rocha",
+   "lat": -34.488761,
+   "lon": -54.320398,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-rocha-34-4838",
+   "nombre": "TaTa Rocha",
+   "direccion": "General Artigas 221",
+   "ciudad": "Rocha",
+   "departamento": "Rocha",
+   "lat": -34.483813,
+   "lon": -54.331616,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-castillos-34-1968",
+   "nombre": "Terminal Castillos",
+   "direccion": "19 de Abril Esquina Avenida Brasil",
+   "ciudad": "Castillos",
+   "departamento": "Rocha",
+   "lat": -34.196818,
+   "lon": -53.849058,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-punta-del-diablo-34-0368",
+   "nombre": "Terminal Punta del Diablo",
+   "direccion": "Bv. Sta. Teresa, esquina España",
+   "ciudad": "Rocha",
+   "departamento": "Rocha",
+   "lat": -34.036811,
+   "lon": -53.562956,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-arroyo-grande-32-9134",
+   "nombre": "ANCAP Arroyo Grande",
+   "direccion": "Ruta 3, Departamento de Río Negro",
+   "ciudad": "Arroyo Grande",
+   "departamento": "Río Negro",
+   "lat": -32.913389,
+   "lon": -57.406569,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-fray-bentos-33-1694",
+   "nombre": "ANCAP Fray Bentos",
+   "direccion": "Ruta 2 y 24 (Solo Tarjeta física)",
+   "ciudad": "Fray Bentos",
+   "departamento": "Río Negro",
+   "lat": -33.169447,
+   "lon": -58.181172,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-young-32-7050",
+   "nombre": "ANCAP Young",
+   "direccion": "Montevideo 3194",
+   "ciudad": "Young",
+   "departamento": "Río Negro",
+   "lat": -32.704954,
+   "lon": -57.630866,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-duty-free-shop-fray-bentos-33-1133",
+   "nombre": "Duty Free Shop Fray Bentos",
+   "direccion": "Estacionamiento Duty Free Shop",
+   "ciudad": "Puente Internacional  San Martín",
+   "departamento": "Río Negro",
+   "lat": -33.113267,
+   "lon": -58.24494,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-estadio-municipal-parque-liebig-s-33-1192",
+   "nombre": "Estadio Municipal Parque Liebig's",
+   "direccion": "Brasil esquina Lynch",
+   "ciudad": "Fray Bentos",
+   "departamento": "Río Negro",
+   "lat": -33.119171,
+   "lon": -58.318528,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-municipio-de-young-32-6998",
+   "nombre": "Municipio de Young",
+   "direccion": "25 de Agosto esquina Vía Ferrocarril",
+   "ciudad": "Young",
+   "departamento": "Río Negro",
+   "lat": -32.699762,
+   "lon": -57.627834,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-parque-lineal-young-32-7030",
+   "nombre": "Parque Lineal Young",
+   "direccion": "Rincón esquina Ruta 3",
+   "ciudad": "Young",
+   "departamento": "Río Negro",
+   "lat": -32.703046,
+   "lon": -57.632967,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    },
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-constituci-n-fray-bentos-33-1162",
+   "nombre": "Plaza Constitución Fray Bentos",
+   "direccion": "Treinta y Tres entre 18 de Julio y Rincón",
+   "ciudad": "Fray Bentos",
+   "departamento": "Río Negro",
+   "lat": -33.116197,
+   "lon": -58.313329,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-libertad-san-javier-32-6660",
+   "nombre": "Plaza Libertad, San Javier",
+   "direccion": "18 de Julio esquina José Pedro Varela",
+   "ciudad": "San Javier",
+   "departamento": "Río Negro",
+   "lat": -32.665965,
+   "lon": -58.134127,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-rivera-fray-bentos-33-1305",
+   "nombre": "Plaza Rivera, Fray Bentos",
+   "direccion": "Rincón esquina Alzaibar",
+   "ciudad": "Fray Bentos",
+   "departamento": "Río Negro",
+   "lat": -33.130505,
+   "lon": -58.29644,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-romay-nuevo-berl-n-32-9802",
+   "nombre": "Plaza Romay, Nuevo Berlín",
+   "direccion": "Av. Carlos Romay, esquina Rep. Argentina",
+   "ciudad": "Nuevo Berlín",
+   "departamento": "Río Negro",
+   "lat": -32.980167,
+   "lon": -58.06165,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-terminal-fray-bentos-33-1231",
+   "nombre": "Terminal Fray Bentos",
+   "direccion": "José Pedro Varela esquina 18 de Julio",
+   "ciudad": "Fray Bentos",
+   "departamento": "Río Negro",
+   "lat": -33.123088,
+   "lon": -58.304784,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-salto-31-4264",
+   "nombre": "ANCAP Salto",
+   "direccion": "Ruta 3 km 491,500",
+   "ciudad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.426445,
+   "lon": -57.933983,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-barrio-dos-naciones-31-3672",
+   "nombre": "Barrio Dos Naciones",
+   "direccion": "Calle C esq. Apolon de Mirbeck",
+   "ciudad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.36716,
+   "lon": -57.960458,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-33-orientales-31-3876",
+   "nombre": "Plaza 33 Orientales",
+   "direccion": "Juan Carlos Gomez esq. Artigas",
+   "ciudad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.387629,
+   "lon": -57.970822,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-rinc-n-de-valent-n-31-2809",
+   "nombre": "Rincón de Valentín",
+   "direccion": "Ruta 31 km 75",
+   "ciudad": "Rincón de Valentín",
+   "departamento": "Salto",
+   "lat": -31.280946,
+   "lon": -57.199288,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-303694",
+   "nombre": "Shopping Salto",
+   "direccion": "Avenida José Batlle y Ordóñez",
+   "ciudad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.384297,
+   "lon": -57.944464,
+   "operador": "Evergo",
+   "horario": null,
+   "costo": "U$S 0.46 / KW",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 50,
+     "cantidad": 1
+    },
+    {
+     "tipo": "CHAdeMO",
+     "kw": 50,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 50,
+   "puntos": 1,
+   "verificado": "2025-05-30",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=303694"
+  },
+  {
+   "id": "ute-termas-de-daym-n-31-4559",
+   "nombre": "Termas de Daymán",
+   "direccion": "Av Paysandu esq. Ruta 3",
+   "ciudad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.455851,
+   "lon": -57.909633,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-termas-del-arapey-30-9472",
+   "nombre": "Termas del Arapey",
+   "direccion": "Brasil esq. Uruguay",
+   "ciudad": "Arapey",
+   "departamento": "Salto",
+   "lat": -30.947162,
+   "lon": -57.522245,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-ciudad-del-plata-34-7378",
+   "nombre": "ANCAP Ciudad del Plata",
+   "direccion": "Ruta 1 vieja km 31,800",
+   "ciudad": "Ciudad del Plata",
+   "departamento": "San José",
+   "lat": -34.737758,
+   "lon": -56.44172,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-la-radial-34-5592",
+   "nombre": "ANCAP La Radial",
+   "direccion": "Ruta 1 km 66",
+   "ciudad": "Paraje La Radial",
+   "departamento": "San José",
+   "lat": -34.559155,
+   "lon": -56.744655,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    },
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-san-jos-de-mayo-ocampo-34-3325",
+   "nombre": "ANCAP San José de Mayo - Ocampo",
+   "direccion": "Ruta 3 esquina Av. José Pedro Varela",
+   "ciudad": "San José de Mayo",
+   "departamento": "San José",
+   "lat": -34.33246,
+   "lon": -56.726218,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ciudad-rodr-guez-34-3990",
+   "nombre": "Ciudad Rodríguez",
+   "direccion": "Ciudad Rodriguez - Peaje Viejo",
+   "ciudad": "Ciudad Rodríguez",
+   "departamento": "San José",
+   "lat": -34.398989,
+   "lon": -56.543087,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ecilda-paullier-34-3626",
+   "nombre": "Ecilda Paullier",
+   "direccion": "Ruta 1 vieja esquina Ruta 11",
+   "ciudad": "Ecilda Paullier",
+   "departamento": "San José",
+   "lat": -34.362588,
+   "lon": -57.057478,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-gino-restaurante-34-7270",
+   "nombre": "Gino Restaurante",
+   "direccion": "Ruta 1 km 34,200",
+   "ciudad": "Playa Pascual",
+   "departamento": "San José",
+   "lat": -34.726978,
+   "lon": -56.465056,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-libertad-34-6361",
+   "nombre": "Libertad",
+   "direccion": "Maestro Víctor Banchero y Wilson Ferreira Aldunate",
+   "ciudad": "Libertad",
+   "departamento": "San José",
+   "lat": -34.636123,
+   "lon": -56.622786,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-jos-gervasio-artigas-san-jos-34-3390",
+   "nombre": "Plaza José Gervasio Artigas San José",
+   "direccion": "Asamblea entre Avda. Manuel Oribe y Monseñor Ricardo Di Martino",
+   "ciudad": "San José de Mayo",
+   "departamento": "San José",
+   "lat": -34.338951,
+   "lon": -56.707558,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-san-jos-dc-1-34-3425",
+   "nombre": "San José DC 1",
+   "direccion": "Emilio Frugoni esquina Ruta 11",
+   "ciudad": "San José de Mayo",
+   "departamento": "San José",
+   "lat": -34.342544,
+   "lon": -56.70298,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ute-libertad-34-6323",
+   "nombre": "UTE Libertad",
+   "direccion": "José Enrique Rodó, esquina San José",
+   "ciudad": "Libertad",
+   "departamento": "San José",
+   "lat": -34.632346,
+   "lon": -56.615782,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 30,
+     "cantidad": 3,
+     "cable": true
+    }
+   ],
+   "max_kw": 30,
+   "puntos": 3,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-cardona-33-8753",
+   "nombre": "ANCAP Cardona",
+   "direccion": "Ruta 2 casi rotonda Cardona",
+   "ciudad": "Cardona",
+   "departamento": "Soriano",
+   "lat": -33.875254,
+   "lon": -57.380458,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-dolores-33-5177",
+   "nombre": "ANCAP Dolores",
+   "direccion": "Ruta 21 esq. Perimetral Juan Manuel Blanes",
+   "ciudad": "Dolores",
+   "departamento": "Soriano",
+   "lat": -33.517676,
+   "lon": -58.203379,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-jos-enrique-rod-33-7008",
+   "nombre": "ANCAP José Enrique Rodó",
+   "direccion": "Ruta 2 Km. 208,500",
+   "ciudad": "José Enrique Rodó",
+   "departamento": "Soriano",
+   "lat": -33.700847,
+   "lon": -57.525943,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-mercedes-33-2631",
+   "nombre": "ANCAP Mercedes",
+   "direccion": "Ruta 2 km 278,5",
+   "ciudad": "Mercedes",
+   "departamento": "Soriano",
+   "lat": -33.26307,
+   "lon": -58.017944,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-plaza-artigas-mercedes-33-2566",
+   "nombre": "Plaza Artigas - Mercedes",
+   "direccion": "Gral. José G. Artigas y Don Bosco",
+   "ciudad": "Mercedes",
+   "departamento": "Soriano",
+   "lat": -33.256562,
+   "lon": -58.027775,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ocm-304602",
+   "nombre": "Ruta 21",
+   "direccion": "Ruta 21",
+   "ciudad": "",
+   "departamento": "Soriano",
+   "lat": -33.541202,
+   "lon": -58.228479,
+   "operador": "Evergo",
+   "horario": "24hs",
+   "costo": "U$S 0.46 / Kw",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 50,
+     "cantidad": 1
+    },
+    {
+     "tipo": "CHAdeMO",
+     "kw": 50,
+     "cantidad": 1
+    }
+   ],
+   "max_kw": 50,
+   "puntos": 2,
+   "verificado": "2025-05-30",
+   "fuente": "Open Charge Map",
+   "url": "https://map.openchargemap.io/?id=304602"
+  },
+  {
+   "id": "ute-tata-mercedes-33-2501",
+   "nombre": "TaTa Mercedes",
+   "direccion": "José Enrique Rodó esquina General Artigas",
+   "ciudad": "Mercedes",
+   "departamento": "Soriano",
+   "lat": -33.250149,
+   "lon": -58.028526,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-18-de-julio-tacuaremb-31-7185",
+   "nombre": "ANCAP 18 de Julio - Tacuarembó",
+   "direccion": "18 de Julio y José Catalogne",
+   "ciudad": "Tacuarembó",
+   "departamento": "Tacuarembó",
+   "lat": -31.718491,
+   "lon": -55.985661,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-am-rica-tacuaremb-31-7262",
+   "nombre": "ANCAP América Tacuarembó",
+   "direccion": "Av. Pablo Ríos y Juan Manuel Blanes",
+   "ciudad": "Tacuarembó",
+   "departamento": "Tacuarembó",
+   "lat": -31.726224,
+   "lon": -55.971861,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-caraguat-32-2327",
+   "nombre": "ANCAP Caraguatá",
+   "direccion": "Ruta 26 km 355",
+   "ciudad": "Caraguatá",
+   "departamento": "Tacuarembó",
+   "lat": -32.232676,
+   "lon": -54.966438,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-paso-de-los-toros-32-7933",
+   "nombre": "ANCAP Paso de los Toros",
+   "direccion": "Ruta 5 km. 251,100",
+   "ciudad": "Paso de los Toros",
+   "departamento": "Tacuarembó",
+   "lat": -32.793311,
+   "lon": -56.520291,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-san-gregorio-de-polanco-32-6176",
+   "nombre": "ANCAP San Gregorio de Polanco",
+   "direccion": "Av. Mollo 179",
+   "ciudad": "San Gregorio de Polanco",
+   "departamento": "Tacuarembó",
+   "lat": -32.617641,
+   "lon": -55.835642,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-cetec-norte-ute-paso-de-los-toros-32-8131",
+   "nombre": "CETEC Norte UTE - Paso de los Toros",
+   "direccion": "Atanasio Sierra y Manuel Oribe",
+   "ciudad": "Paso de los Toros",
+   "departamento": "Tacuarembó",
+   "lat": -32.813112,
+   "lon": -56.503748,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-tata-tacuaremb-31-7129",
+   "nombre": "TaTa Tacuarembó",
+   "direccion": "Pte. Joaquín Suarez esq. Gral. Venancio Flores",
+   "ciudad": "Tacuarembó",
+   "departamento": "Tacuarembó",
+   "lat": -31.712854,
+   "lon": -55.977657,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-ancap-treinta-y-tres-33-2361",
+   "nombre": "ANCAP Treinta y Tres",
+   "direccion": "Ruta 8 Km. 285,000",
+   "ciudad": "Treinta y Tres",
+   "departamento": "Treinta y Tres",
+   "lat": -33.236092,
+   "lon": -54.39778,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 43,
+     "cantidad": 1,
+     "cable": true
+    }
+   ],
+   "max_kw": 43,
+   "puntos": 1,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-municipio-vergara-32-9378",
+   "nombre": "Municipio Vergara",
+   "direccion": "Jacinto Ruiz esq. Dionisio Coronel",
+   "ciudad": "Vergara",
+   "departamento": "Treinta y Tres",
+   "lat": -32.937824,
+   "lon": -53.937334,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-policia-caminera-ruta-17-33-2102",
+   "nombre": "Policia Caminera Ruta 17",
+   "direccion": "Ruta 17 esq. Ruta 8",
+   "ciudad": "Treinta y tres",
+   "departamento": "Treinta y Tres",
+   "lat": -33.210155,
+   "lon": -54.385449,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "Tipo 2",
+     "kw": 22,
+     "cantidad": 2,
+     "cable": false
+    }
+   ],
+   "max_kw": 22,
+   "puntos": 2,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-vieja-usina-ute-treinta-y-tres-33-2346",
+   "nombre": "Vieja Usina UTE - Treinta y Tres",
+   "direccion": "Manuel Calleros y Las Tropas",
+   "ciudad": "Treinta y Tres",
+   "departamento": "Treinta y Tres",
+   "lat": -33.234617,
+   "lon": -54.398588,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-17",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  }
+ ]
+}

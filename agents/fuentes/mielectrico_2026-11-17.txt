@@ -1,0 +1,173 @@
+# Relevamiento de referencia: https://mielectrico.uy/explore (17/11/2026), 201 versiones.
+# marca|modelo|versión|precio US$|batería kWh|segmento
+ArcFox|Alpha S5||39950|65|Sedán
+ArcFox|Alpha T5||35950|65|SUV mediano
+ArcFox|T1|Extra Full|25650|42.3|Hatchback
+ArcFox|T1|Full|22990|42.3|Hatchback
+Audi|Q6 e-tron|Performance|96000|100|SUV mediano premium
+Audi|Q6 e-tron|Quattro S Line|112000|100|SUV mediano premium
+Audi|Q6 e-tron Sportback|S|118000||SUV mediano premium
+Audi|Q8 e-tron Sportback|55 S|134000|106|SUV grande premium
+BAW|E7||12990|18.72|Urbano
+BAW|E7|Pro|14490|22.29|Urbano
+BAW|L7||12990|18.72|Urbano
+BAW|Mini Truck|Pickup|11467|15.12|Pick-up
+BAW|Mini Truck|Box (furgón)|11877|14.4|Utilitario
+BAW|Pony|Cargo|11490|13.7|Utilitario
+BAW|Pony|Standard|12490|13.7|Utilitario
+Bestune|Joy 03|Exclusive|26900|62.87|SUV compacto
+Bestune|Joy 03|Premium|34900|49.25|SUV compacto
+Bestune|Nat||23990|55|Monovolumen
+Bestune|Xiaoma||11190|13.9|Urbano
+BMW|i5|eDrive40 M Sport|109990|81.2|Sedán premium
+BMW|iX|xDrive40 Luxury|84990|76.6|SUV grande premium
+BMW|iX1|eDrive25L M Sport|49990|66.5|SUV compacto premium
+BMW|iX1|eDrive20 M Sport|79990|64.7|SUV compacto premium
+BMW|iX1|eDrive20 xLine|68990|64.7|SUV compacto premium
+BMW|iX1|eDrive20 xLine Plus|76990|64.7|SUV compacto premium
+BMW|iX1|xDrive30 M Sport|69990|64.7|SUV compacto premium
+BMW|iX2|xDrive30|78990|64.8|SUV compacto premium
+BMW|iX3|Leading|74900||SUV mediano premium
+BYD|D1||27990|53.56|Monovolumen
+BYD|Han|GL 600 AWD|75990|85.4|Sedán
+BYD|Han|GS 700 FWD|69990|85.4|Sedán
+BYD|Seagull|Surf|22990|43.2|Urbano
+BYD|Seal|AWD|59990|82.56|Sedán
+BYD|Sealion 7|AWD|46990|82.5|SUV mediano
+BYD|Sealion Blue|RWD|35990|71.8|SUV mediano
+BYD|Song Plus EV||41990|71.8|SUV mediano
+BYD|Tang|GS|80990|108.8|SUV grande
+BYD|Yuan Plus|LUX|31990|60.48|SUV compacto
+Changan|Lumin|35 kW|13990|17.65|Urbano
+Chery|eQ1||17990|30.8|Urbano
+Chery|eQ7||35990|67.12|SUV mediano
+Chevrolet|Blazer EV||74990|102|SUV grande
+Chevrolet|Equinox EV||65990|85|SUV mediano
+Citroën|Ami||12990|5.4|Cuadriciclo
+Citroën|ë-Berlingo||43990|50|Utilitario
+Deepal|S07|BEV|47990|67|SUV mediano
+Deepal|S05|BEV|39990|56|SUV compacto
+DFSK|EC35||23990|38.7|Utilitario
+Dongfeng|Nammi 330||17990|31.4|Hatchback
+Dongfeng|Nammi 330|EU|19990|31.4|Hatchback
+Dongfeng|Vigo|E2|25990|44.94|SUV compacto
+Dongfeng|Vigo|E2+|28990|51.87|SUV compacto
+Farizon|V6E||34990|41.86|Utilitario
+Foton|eToano Pro||57950|77|Utilitario
+Foton|eTunland||43950|88.5|Pick-up
+Foton|eWonder|Pick-up|24549|41.86|Pick-up
+Foton|eWonder|Box (furgón)|26188|41.86|Utilitario
+GAC|Aion ES||26990|53.7|Sedán
+GAC|Aion V|Max|31990|75.26|SUV mediano
+GAC|Aion V|Plus|28990|64.5|SUV mediano
+GAC|Aion Y|Plus|34990|63.2|SUV compacto
+GAC|Hyptec HT||49990|72.7|SUV mediano
+Geely|EX2|Pro|20489|39.4|Hatchback
+Geely|EX5|Pro|31990|60.22|SUV compacto
+Geely|Geometry C|GF+|27290|70|Hatchback
+Geely|Geometry C|GS|33990|53|Hatchback
+Geely|Geometry E||22490|39.4|SUV compacto
+Gonow|SY00||30990|53.58|Sin clasificar
+GWM|Ora 03|GT|30990|57.7|Hatchback
+GWM|Ora 03|Skin|25590|57.7|Hatchback
+GWM|Ora 03|Skin 400|23490|47.8|Hatchback
+GWM|Ora 03|SR|28990|57.7|Hatchback
+GWM|Ora 5|High|26990|58.33|SUV compacto
+GWM|Ora 5|Middle|24990|58.33|SUV compacto
+Hyundai|Ioniq 5|Limited Long Range AWD 72,6 kWh|67990|72.6|SUV mediano
+Hyundai|Ioniq 5|Limited Long Range RWD 72,6 kWh|59990|72.6|SUV mediano
+Hyundai|Ioniq 5|Limited Long Range RWD 84 kWh|65990|84|SUV mediano
+Hyundai|Ioniq 5|Safe Long Range RWD 72,6 kWh|49990|72.6|SUV mediano
+Hyundai|Ioniq 5|Safe Long Range RWD 84 kWh|55990|84|SUV mediano
+Hyundai|Kona Electric|Limited Standard Range|36990|48.4|SUV compacto
+JAC|e-S1||17990|30.2|SUV compacto
+JAC|e-S3|Ytterby|22990|41|SUV compacto
+JAC|eJ7||32990|50.1|Sedán
+JAC|M3 EV||32799|50.23|Monovolumen
+JAC|Sunray EV||59990|92.16|Utilitario
+Jeep|Avenger||41990|54|SUV compacto
+JMC|Carrying EV||29900|64|Utilitario
+JMC|JMEV EV2|30 kW|13990|15.86|Urbano
+JMC|JMEV EV3|50 kW|16990|31.2|Urbano
+JMC|JMEV GSE|Family 110 kW|26990|60|SUV compacto
+JMC|JMEV GSE|Luxury 118 kW|41990|60|SUV compacto
+Keyton|Q2|Pick-up|25500|41.86|Pick-up
+Kia|EV3|Light|44900|58.3|SUV compacto
+Kia|EV5|Air 2WD Standard Range|49990|64.2|SUV mediano
+Kia|EV5|Land 2WD Long Range|55990|88.16|SUV mediano
+Kia|Niro EV||39600||SUV compacto
+Leapmotor|B10|Design|33990|67.1|SUV compacto
+Leapmotor|B10|Life|29990|56.2|SUV compacto
+Leapmotor|C10|REEV (extensor de autonomía)|36990|28.4|SUV mediano
+Leapmotor|C16|BEV|43990|67.7|SUV grande
+Leapmotor|T03||19990|41.3|Urbano
+Lynk & Co|02|Halo EV|36990|66|SUV compacto
+Lynk & Co|02|Pro|39990|66|SUV compacto
+Maxus|eDeliver 3|Chasis|38990|50.2|Utilitario
+Maxus|eDeliver 3|LWB|39990|53|Utilitario
+Maxus|eDeliver 3|SWB|36990|50.2|Utilitario
+Maxus|eDeliver 5||51227|64|Utilitario
+Maxus|eDeliver 9|Minibús L3H2|91487|88.55|Utilitario
+Maxus|eDeliver 9|Minibús L3H3|96377||Utilitario
+Maxus|eDeliver 9|L2H2|52490|89|Utilitario
+Maxus|eDeliver 9|L3H2|58990|89|Utilitario
+Maxus|eDeliver 9|L3H3|59990|89|Utilitario
+Maxus|eTerron 9||78067|102.2|Pick-up
+Maxus|Euniq 6||55990|70|SUV mediano
+Maxus|T90 EV||59990|88.55|Pick-up
+Mercedes-Benz|EQA|260|61990||SUV compacto premium
+Mercedes-Benz|EQA|350|87990|66.5|SUV compacto premium
+Mercedes-Benz|EQB|260|69990||SUV mediano premium
+Mercedes-Benz|EQB|350|89990|66.5|SUV mediano premium
+Mercedes-Benz|EQE|350+|139990|90.6|Sedán premium
+Mercedes-Benz|eSprinter|314|77900|81|Utilitario
+Mercedes-Benz|eSprinter|414|96136|81|Utilitario
+Mercedes-Benz|G 580||380000|116|SUV grande premium
+MG|MG4|Luxury Extended Range|37900|77|Hatchback
+MG|MG4|XPower|39900|64|Hatchback
+MG|Cyberster||84900|77|Deportivo
+Mini|Aceman|SE Favoured|45990|54.2|SUV compacto premium
+Mini|Aceman|E Classic|44990|40.7|SUV compacto premium
+Mini|Aceman|JCW E|59990|54.2|SUV compacto premium
+Mini|Countryman|E Favoured|68990|64.6|SUV compacto premium
+Mini|Cooper|E|43990|40.7|Hatchback
+Mini|Cooper|SE|50990|54.2|Hatchback
+Mini|Cooper|JCW E|57990|54.2|Hatchback
+Omoda|E5|Luxury|33990|50.6|SUV compacto
+Jaecoo|5 EV|Comfort|27990|58.9|SUV compacto
+Jaecoo|6 EV|Flagship 4WD|43990|69.77|SUV mediano
+Peugeot|e-Partner||39990|50|Utilitario
+Riddara|RD6|ECO 2WD|32000|63|Pick-up
+Smart|#1|Brabus|60990|66|SUV compacto premium
+Smart|#1|Pro+|52990|66|SUV compacto premium
+Smart|#1|Pure|39990|49|SUV compacto premium
+Smart|#3|Brabus|63990|66|SUV compacto premium
+Smart|#3|Pro|46990|49|SUV compacto premium
+Smart|#3|Pro+|54990|66|SUV compacto premium
+Tesla|Cybertruck|AWD|189900||Pick-up
+Tesla|Model Y|AWD|41490||SUV mediano
+Victory|Box EV||32819|41.86|Utilitario
+Victory|Furgón EV||29890|41.86|Utilitario
+Victory|SCH1030|Pick-up cabina simple|29036|41.86|Pick-up
+Victory|SCH1030S|Pick-up doble cabina|30866|41.86|Pick-up
+Volkswagen|ID.3|Pro|38900||Hatchback
+Volkswagen|ID.3|Pure|34990||Hatchback
+Volkswagen|ID.4|Crozz Pro|54790||SUV mediano
+Volkswagen|ID.4|Crozz Pure|43790||SUV mediano
+Volkswagen|ID.4|X Pure Smart|43900|55|SUV mediano
+Volkswagen|ID.6|Pro|63590||SUV grande
+Volkswagen|ID.7|Vizzion Pro|56900|84.8|Sedán
+Volvo|EC40|P6 Single Motor RWD|69900|69|SUV compacto premium
+Volvo|EC40|Twin Ultimate AWD|74900||SUV compacto premium
+Volvo|EX30|Core (e40)|39900|51|SUV compacto premium
+Volvo|EX30|Plus Extended Range (e60)|50500|69|SUV compacto premium
+Volvo|EX30|Ultra Extended Range (e60)|54900|69|SUV compacto premium
+Volvo|EX40|P6 Single Motor RWD|59900|69|SUV compacto premium
+Volvo|EX40|P8 Twin Motor AWD|74900|78|SUV compacto premium
+XEV|Yoyo||12990|10.3|Cuadriciclo
+Xpeng|G9|Performance 4x4|74990|97.9|SUV grande
+Zeekr|001|Flagship 400 kW|79989|100|Sedán premium
+Zeekr|001|Long Range 400 kW|69990|100|Sedán premium
+Zeekr|7X|Core RWD 75 kWh|57990|75|SUV mediano premium
+Zeekr|7X|Performance AWD|69989|100|SUV mediano premium
+Zeekr|X|Flagship 315 kW|55990|69|SUV compacto premium

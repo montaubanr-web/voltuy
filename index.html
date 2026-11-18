@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoltUY · Vehículos eléctricos en Uruguay: precios, comparador y noticias</title>
+<meta name="description" content="Todos los vehículos eléctricos que se venden en Uruguay (autos, SUV, pick-ups y utilitarios): precios, autonomía, comparador, normativa (IMESI, patente, UTE), noticias y debates de usuarios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/styles.css">
+<!-- MONETIZACIÓN: pegar aquí el script de Google AdSense cuando el sitio tenga dominio propio y sea aprobado -->
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a href="#inicio" class="logo"><span class="bolt">⚡</span>Volt<b>UY</b></a>
+    <nav id="nav">
+      <a href="#modelos">Modelos</a>
+      <a href="#elegir">¿Cuál elijo?</a>
+      <a href="#usados">Usados</a>
+      <a href="#comparar">Comparar <span id="cmpCount" class="pill hidden">0</span></a>
+      <a href="#cargadores">Cargadores</a>
+      <a href="#tests">Tests</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#normativa">Normativa</a>
+      <a href="#viaje">Viaje</a>
+      <a href="#calculadora">Costos</a>
+      <a href="#debates">Comunidad</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Menú">☰</button>
+  </div>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section id="inicio" class="view">
+    <div class="hero">
+      <div class="wrap hero-in">
+        <div>
+          <p class="kicker">Uruguay · movilidad eléctrica</p>
+          <h1>Todo sobre vehículos eléctricos en Uruguay, <span class="grad">en un solo lugar</span>.</h1>
+          <p class="lead">Precios de lista, autonomía, comparador lado a lado, cambios de normativa y lo que opinan quienes ya manejan uno. Actualizado todos los días.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#modelos">Ver los modelos</a>
+            <a class="btn btn-ghost" href="#viaje">Planificá un viaje</a>
+          </div>
+          <div class="car-chips"><a href="#modelos" data-car="Auto">🚗 Autos</a><a href="#modelos" data-car="SUV">🚙 SUV</a><a href="#modelos" data-car="Pick-up">🛻 Pick-ups</a><a href="#modelos" data-car="Utilitario">🚐 Utilitarios</a></div>
+          <form class="search" id="heroSearch"><input id="heroQ" placeholder="Buscá una marca o modelo: Seagull, Tesla, Yuan…" aria-label="Buscar modelo"><button>Buscar</button></form>
+        </div>
+        <div class="stats" id="stats"></div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="ad-slot" data-slot="home-top">Espacio publicitario · 728×90</div>
+      <div class="promo-row">
+        <a class="promo miem" href="#miem" id="promoMiem"><b>💸 Devolución del MIEM: hasta $ 45.000</b><span>Si tu eléctrico 0 km tiene más de un año de uso, podés cobrarla vos, sin intermediarios. <em id="miemDias"></em></span></a>
+        <a class="promo" href="#elegir"><b>🧭 ¿Qué eléctrico me conviene?</b><span>Respondé 6 preguntas y te mostramos los modelos que mejor se adaptan.</span></a>
+        <a class="promo" href="#alojamientos"><b>🏨 Alojamientos con cargador</b><span>Hoteles, termas y casas donde cargar mientras descansás.</span></a>
+      </div>
+      <div class="section-head"><h2>Últimas noticias de Uruguay</h2><a href="#noticias">Ver todas →</a></div>
+      <div class="news-grid" id="homeNews"></div>
+      <div class="section-head"><h2>Los eléctricos más vendidos de 2026</h2><select id="vMes" aria-label="Período"></select></div>
+      <div class="ventas" id="homeVentas"></div>
+      <div class="cards" id="homeTop"></div>
+      <div class="newsletter">
+        <div><h3>El resumen semanal del eléctrico en Uruguay</h3><p>Noticias, precios que cambiaron, costo de la nafta vs. la luz y cargadores nuevos. Un correo por semana; te podés dar de baja cuando quieras.</p></div>
+        <form id="nlForm"><input type="email" required placeholder="tu@correo.com" aria-label="Correo"><button class="btn btn-primary">Suscribirme</button></form>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELOS -->
+  <section id="modelos" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Modelos a la venta en Uruguay</h1><p id="modelosNota" class="muted"></p></div>
+      <div class="filters">
+        <input id="fQ" placeholder="Buscar…" aria-label="Buscar">
+        <select id="fMarca"><option value="">Todas las marcas</option></select>
+        <select id="fCar"><option value="">Todos los vehículos</option><option value="Auto">Autos</option><option value="SUV">SUV</option><option value="Pick-up">Pick-ups</option><option value="Utilitario">Utilitarios y furgones</option><option value="Cuadriciclo">Cuadriciclos</option></select>
+        <select id="fTipo"><option value="">Eléctrico y enchufable</option><option value="BEV">100% eléctrico (BEV)</option><option value="PHEV">Híbrido enchufable (PHEV)</option></select>
+        <select id="fSeg"><option value="">Todos los segmentos</option></select>
+        <label class="range">Hasta <b id="fPrecioLbl"></b><input type="range" id="fPrecio" min="11000" max="100000" step="1000" value="100000"></label>
+        <select id="fOrden"><option value="precio">Precio: menor a mayor</option><option value="-precio">Precio: mayor a menor</option><option value="-autonomia">Mayor autonomía</option><option value="-ventas">Más vendidos 2026</option></select>
+      </div>
+      <p class="muted small" id="fCount"></p>
+      <div class="cards" id="modelGrid"></div>
+      <div class="ad-slot" data-slot="modelos-bottom">Espacio publicitario · 728×90</div>
+    </div>
+  </section>
+
+  <!-- COMPARAR -->
+  <section id="comparar" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Comparador</h1><p class="muted">Elegí hasta 4 modelos con el botón «Comparar» del catálogo o desde acá.</p></div>
+      <div class="cmp-add"><select id="cmpSelect"><option value="">+ Agregar un modelo…</option></select></div>
+      <div id="cmpTable" class="cmp-wrap"></div>
+    </div>
+  </section>
+
+
+  <!-- CARGADORES -->
+  <section id="cargadores" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Mapa de cargadores</h1><p class="muted" id="cgNota"></p></div>
+      <div class="filters">
+        <input id="cgQ" placeholder="Buscar lugar, ciudad u operador…" aria-label="Buscar cargador">
+        <select id="cgConector"><option value="">Todos los conectores</option><option>CCS2</option><option>Tipo 2</option><option>CHAdeMO</option><option>GB/T DC</option></select>
+        <select id="cgPot"><option value="0">Cualquier potencia</option><option value="40">Rápida DC (40 kW o más)</option><option value="100">Ultrarrápida DC (100 kW o más)</option></select>
+        <select id="cgDepto"><option value="">Todos los departamentos</option></select>
+        <select id="cgOp"><option value="">Todos los operadores</option></select>
+        <label class="range">Estimar espera a las <select id="cgHora"></select></label>
+        <button class="btn btn-sm btn-cmp" id="cgCerca" type="button">📍 Cerca mío</button>
+      </div>
+      <p class="muted small" id="cgCount"></p>
+      <div class="map-wrap">
+        <div id="map" role="region" aria-label="Mapa de cargadores"></div>
+        <div class="cg-list" id="cgList"></div>
+      </div>
+      <div class="legend small">
+        <span><i style="background:#16A34A"></i> Ultrarrápida ≥100 kW</span><span><i style="background:#84CC16"></i> Rápida 40–99 kW</span><span><i style="background:#22D3EE"></i> Semirrápida (DC &lt;40 kW o AC 11–22 kW)</span><span><i style="background:#94A3B8"></i> Lenta o sin dato</span>
+      </div>
+      <details class="explica"><summary>¿Cómo estimamos la espera?</summary>
+        <p>Por ahora es una <b>estimación orientativa</b>: combina la hora elegida, el día de la semana, la temporada (en verano la demanda en Maldonado y Rocha se dispara), si el cargador es rápido y cuántos conectores tiene. A medida que los usuarios reportan sus esperas con el botón «Reportar», mostramos la mediana real de cada cargador. No usamos datos de tránsito de Google Maps ni Waze porque miden autos en la calle, no ocupación de cargadores.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- TESTS -->
+  <section id="tests" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Tests y pruebas de manejo</h1><p class="muted">Pruebas publicadas por medios uruguayos y de otros países, enlazadas a cada modelo del catálogo.</p></div>
+      <div class="tabs" id="testTabs"><button data-tt="uruguay" class="on">Uruguay</button><button data-tt="internacional">Internacional</button></div>
+      <div class="filters"><select id="testModelo"><option value="">Todos los modelos</option></select><input id="testQ" placeholder="Buscar en los tests…" aria-label="Buscar test"></div>
+      <div class="chips" id="testTipos"></div>
+      <div class="news-grid" id="testList"></div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section id="noticias" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Noticias</h1><p class="muted" id="newsUpd"></p></div>
+      <div class="tabs" id="newsTabs">
+        <button data-t="uruguay" class="on">Uruguay</button>
+        <button data-t="internacional">Internacional</button>
+      </div>
+      <div class="chips" id="newsCats"></div>
+      <div class="news-list" id="newsList"></div>
+    </div>
+  </section>
+
+  <!-- NORMATIVA -->
+  <section id="normativa" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Normativa y beneficios</h1><p class="muted">Impuestos, patente, seguros y carga. Cada dato enlaza a su fuente.</p></div>
+      <div class="rules" id="rules"></div>
+    </div>
+  </section>
+
+
+  <!-- DEVOLUCIÓN MIEM -->
+  <section id="miem" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Devolución del MIEM por tu vehículo eléctrico</h1><p class="muted">Certificados de Eficiencia Energética 2026: un pago único de hasta $ 45.000 por vehículo liviano 100% eléctrico. Lo tramitás vos, gratis, en línea. <b id="miemCierre"></b></p></div>
+      <div class="calc">
+        <form class="calc-in" id="miemForm">
+          <h3 style="margin:0">¿Te corresponde?</h3>
+          <label>Tu vehículo es <select name="tipo"><option value="bev">100% eléctrico</option><option value="phev">Híbrido o enchufable</option></select></label>
+          <label>Ruedas <select name="ruedas"><option value="4">4 ruedas (auto, SUV, utilitario liviano)</option><option value="2">2 o 3 ruedas (moto, triciclo)</option><option value="pesado">Camión u ómnibus</option></select></label>
+          <label>¿Lo compraste 0 km? <select name="nuevo"><option value="si">Sí, nuevo y sin uso</option><option value="no">No, usado (o fue de test drive)</option></select></label>
+          <label>¿Está empadronado a tu nombre o de tu empresa? <select name="padron"><option value="si">Sí</option><option value="no">No / todavía no</option></select></label>
+          <label>Fecha en que empezaste a usarlo <input type="date" name="inicio" required></label>
+          <label>¿Tenés cuenta bancaria a tu nombre (o de la empresa)? <select name="cuenta"><option value="si">Sí</option><option value="no">No</option></select></label>
+          <button class="btn btn-primary">Ver si califico</button>
+        </form>
+        <div class="calc-out" id="miemRes"><p>Completá el formulario y te decimos si calificás, desde cuándo podés postularte y qué tenés que preparar.</p></div>
+      </div>
+      <div class="section-head"><h2>Paso a paso</h2></div>
+      <ol class="pasos" id="miemPasos"></ol>
+      <p class="muted small">Información de la convocatoria oficial del MIEM. VoltUY no cobra ni hace el trámite: es gratuito y lo puede hacer la propia persona. Ante dudas, el MIEM atiende solo por correo en daee@miem.gub.uy.</p>
+    </div>
+  </section>
+
+  <!-- RECOMENDADOR -->
+  <section id="elegir" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>¿Qué eléctrico me conviene?</h1><p class="muted">Seis preguntas y te mostramos los modelos que mejor encajan, con el porqué. Usa precios actuales, consumo homologado por URSEA, ventas 2026 y la opinión de la comunidad.</p></div>
+      <div class="calc">
+        <form class="calc-in" id="eForm">
+          <label>Presupuesto máximo <input type="range" id="ePres" min="12000" max="100000" step="1000" value="35000"><b id="ePresLbl"></b></label>
+          <label>Tipo de vehículo <select id="eCar"><option value="">Me da igual</option><option value="Auto">Auto (hatch o sedán)</option><option value="SUV">SUV</option><option value="Pick-up">Pick-up</option><option value="Utilitario">Utilitario o furgón</option></select></label>
+          <label>Kilómetros por día <input type="range" id="eKm" min="5" max="250" step="5" value="40"><b id="eKmLbl"></b></label>
+          <label>Viajes largos (más de 250 km) <select id="eViaje"><option value="0">Casi nunca</option><option value="1" selected>Algunas veces al año</option><option value="2">Seguido (todos los meses)</option></select></label>
+          <label>¿Podés cargar en casa o en el trabajo? <select id="eCasa"><option value="1">Sí</option><option value="0">No, dependo de la red pública</option></select></label>
+          <label>¿Qué te importa más? <select id="ePrio"><option value="precio">Pagar lo menos posible</option><option value="autonomia">La mayor autonomía</option><option value="espacio">Espacio y confort</option><option value="respaldo">Marca con muchos vendidos y respaldo</option></select></label>
+        </form>
+        <div class="calc-out"><div id="eRes"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- USADOS -->
+  <section id="usados" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Eléctricos usados</h1><p class="muted">Precios de referencia por modelo y año a partir de los avisos de MercadoLibre, actualizados a diario, y qué revisar antes de comprar.</p></div>
+      <div class="filters"><select id="uModelo"></select><span class="muted small" id="uUpd"></span></div>
+      <div id="uRes"></div>
+      <div class="section-head"><h2>Checklist antes de comprar un eléctrico usado</h2></div>
+      <div class="rules" id="uCheck"></div>
+    </div>
+  </section>
+
+  <!-- ALOJAMIENTOS -->
+  <section id="alojamientos" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Alojamientos con cargador</h1><p class="muted">Hoteles, termas, casas y cabañas donde podés cargar tu eléctrico durante la estadía, o con un cargador público a pasos.</p></div>
+      <div class="filters"><select id="aDepto"><option value="">Todo el país</option></select><select id="aTipo"><option value="">Todos los tipos</option></select>
+        <button class="btn btn-primary" type="button" id="btnAloj">＋ Sumá tu alojamiento</button></div>
+      <div class="aloj-list" id="aList"></div>
+      <div class="planes" id="aPlanes"></div>
+    </div>
+  </section>
+
+  <!-- EMPRESAS Y FLOTAS -->
+  <section id="empresas" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Empresas y flotas</h1><p class="muted">Utilitarios, pick-ups y furgones eléctricos a la venta en Uruguay, cuánto ahorra tu flota y qué beneficios existen.</p></div>
+      <div class="calc">
+        <div class="calc-in">
+          <h3 style="margin:0">Ahorro de tu flota</h3>
+          <label>Cantidad de vehículos <input type="number" id="fN" value="5" min="1"></label>
+          <label>Km por día de cada vehículo <input type="number" id="fKm" value="120" min="5"></label>
+          <label>Días de uso por año <input type="number" id="fDias" value="280" min="50" max="365"></label>
+          <label>Hoy usan <select id="fComb"></select></label>
+          <label>Consumo actual (litros cada 100 km) <input type="number" id="fLitros" value="10" step="any"></label>
+          <label>Consumo eléctrico (kWh cada 100 km) <input type="number" id="fCons" value="22" step="any"></label>
+          <label>Carga <select id="fTar"><option value="valle">Base, en horario valle (Triple Horario)</option><option value="llano">Base, horario llano</option><option value="dc">Red pública rápida de UTE</option></select></label>
+        </div>
+        <div class="calc-out"><div class="kpis" id="fKpis"></div><p class="small" id="fNota" style="color:#B7CDBE"></p></div>
+      </div>
+      <div class="rules" id="fBenef"></div>
+      <div class="section-head"><h2>Utilitarios y pick-ups eléctricos</h2><a href="#modelos" data-car="Utilitario">Ver en el catálogo →</a></div>
+      <div class="table-wrap"><table class="tbl" id="fTabla"></table></div>
+      <div class="newsletter"><div><h3>¿Querés electrificar tu flota?</h3><p>Contanos cuántos vehículos tenés y cómo los usás. Te ayudamos a comparar modelos, costos y beneficios, y te conectamos con importadores e instaladores.</p></div><button class="btn btn-primary" type="button" data-flota="1">Pedir asesoramiento</button></div>
+    </div>
+  </section>
+
+  <!-- COSTOS -->
+  <section id="calculadora" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Costos de energía</h1><p class="muted">¿Cuánto cuesta cada kilómetro según dónde cargás? Con tarifas vigentes de UTE y precios de ANCAP.</p></div>
+      <div class="calc">
+        <div class="calc-in">
+          <label>Tu vehículo eléctrico <select id="kModelo"></select></label>
+          <label>Consumo (kWh cada 100 km) <input type="number" id="kCons" step="any"><span class="muted small" id="kConsNota"></span></label>
+          <label>Kilómetros por día <input type="range" id="kKm" min="5" max="200" step="5" value="40"><b id="kKmLbl"></b></label>
+          <label>Tarifa en casa <select id="kTarifa"></select></label>
+          <label>Carga en casa <input type="range" id="kCasa" min="0" max="100" step="5" value="80"><b id="kCasaLbl"></b></label>
+          <label>De lo que cargás afuera, en carga rápida (DC) <input type="range" id="kDc" min="0" max="100" step="5" value="50"><b id="kDcLbl"></b></label>
+          <hr>
+          <label>Comparar con un auto a <select id="kComb"></select></label>
+          <label>Consumo del auto a combustión (litros cada 100 km) <input type="number" id="kLitros" value="7" step="any"></label>
+        </div>
+        <div class="calc-out">
+          <div class="kpis" id="kKpis"></div>
+          <h3 style="margin:6px 0 0">Costo anual según cómo cargues</h3>
+          <div id="kBars"></div>
+          <p class="small" style="color:#9AA6C1" id="kNota"></p>
+        </div>
+      </div>
+      <div class="section-head"><h2>Costo total de tenencia</h2><span class="muted small">Compra, energía, patente, seguro, mantenimiento y devolución del MIEM</span></div>
+      <div class="calc">
+        <div class="calc-in">
+          <label>Años <input type="range" id="tAnios" min="1" max="10" value="5"><b id="tAniosLbl"></b></label>
+          <label>Precio del eléctrico (US$) <input type="number" id="tPrecioE" step="100"></label>
+          <label>Precio del auto a nafta que comparás (US$) <input type="number" id="tPrecioC" value="21990" step="100"></label>
+          <label>Tipo de cambio ($ por US$) <input type="number" id="tTC" value="39" step="any"></label>
+          <div class="two"><label>Seguro anual (% del valor) <input type="number" id="tSeg" value="3.5" step="any"></label>
+          <label>Patente nafta (% del valor) <input type="number" id="tPatC" value="5" step="any"></label></div>
+          <div class="two"><label>Mantenimiento eléctrico (US$/año) <input type="number" id="tMantE" value="200"></label>
+          <label>Mantenimiento nafta (US$/año) <input type="number" id="tMantC" value="450"></label></div>
+          <label class="chk"><input type="checkbox" id="tMiem" checked> Cobro la devolución del MIEM ($ 45.000)</label>
+          <label class="chk"><input type="checkbox" id="tAnual" checked> Pago la patente anual (20% de descuento)</label>
+        </div>
+        <div class="calc-out"><div class="kpis" id="tKpis"></div><div id="tBars"></div><p class="small" style="color:#B7CDBE" id="tNota"></p></div>
+      </div>
+      <div class="section-head"><h2>Tarifas vigentes</h2><span class="muted small" id="tarUpd"></span></div>
+      <div class="rules" id="tarifas"></div>
+      <div class="ad-slot" data-slot="costos">Espacio para patrocinio: cargadores domiciliarios, instaladores o seguros</div>
+    </div>
+  </section>
+
+  <!-- VIAJE -->
+  <section id="viaje" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Planificador de viaje</h1><p class="muted">Calculá cuánta batería vas a usar, dónde parar a cargar y cuánto cuesta el viaje frente a la nafta.</p></div>
+      <div class="trip">
+        <form class="calc-in" id="vForm">
+          <div class="two"><label>Origen <input id="vOrigen" list="vLocs" value="Montevideo" required></label>
+          <label>Destino <input id="vDestino" list="vLocs" value="Punta del Diablo" required></label></div>
+          <datalist id="vLocs"></datalist>
+          <label>Vehículo <select id="vModelo"></select></label>
+          <div class="two"><label>Batería (kWh) <input type="number" id="vBat" step="any" min="10"></label>
+          <label>Consumo a 90 km/h (kWh/100 km) <input type="number" id="vCons" step="any"></label></div>
+          <div class="two"><label>Batería al salir <input type="range" id="vSoc" min="20" max="100" step="5" value="90"><b id="vSocLbl"></b></label>
+          <label>Llegar con al menos <input type="range" id="vRes" min="5" max="40" step="5" value="15"><b id="vResLbl"></b></label></div>
+          <div class="two"><label>Velocidad en ruta <select id="vVel"><option value="90">90 km/h</option><option value="100" selected>100 km/h</option><option value="110">110 km/h</option></select></label>
+          <label>Hora de salida <input type="time" id="vHora" value="09:00"></label></div>
+          <label class="chk"><input type="checkbox" id="vClima"> Aire acondicionado o calefacción todo el viaje</label>
+          <button class="btn btn-primary" type="submit">Calcular viaje</button>
+          <p class="muted small" id="vAviso"></p>
+        </form>
+        <div class="trip-out">
+          <div id="vMap"></div>
+          <div id="vRes1"></div>
+        </div>
+      </div>
+      <details class="explica"><summary>¿Cómo calculamos?</summary>
+        <p>Trazamos la ruta por calle con OpenStreetMap (OpenRouteService u OSRM). El consumo a 90 km/h parte del rendimiento homologado por URSEA (ciclo de ensayo estándar) aumentado 15% para uso en ruta, o de una estimación por tipo de auto si no hay dato confiable. El consumo sube con la velocidad: partimos de ese valor y le sumamos el efecto del aire, que crece con el cuadrado de la velocidad. Para las paradas elegimos cargadores rápidos a menos de 3 km de la ruta, usando el más lejano al que llegás con la reserva elegida, y cargamos hasta 80%. El tiempo de carga considera la potencia del cargador y la que admite tu auto. Es una estimación en terreno plano: viento, lluvia, carga y estilo de manejo pueden cambiarla.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- DEBATES -->
+  <section id="debates" class="view">
+    <div class="wrap">
+      <div class="page-head"><h1>Comunidad</h1><p class="muted">Lo que viven los dueños de eléctricos en Uruguay: consumo real, problemas y debates. Datos propios que aportan los usuarios, resumidos cada semana.</p></div>
+      <div class="com-hero">
+        <div class="kpis" id="comKpis"></div>
+        <button class="btn btn-primary" id="btnExp">⚡ Contá tu experiencia (2 min)</button>
+      </div>
+      <div class="tabs" id="comTabs">
+        <button data-ct="resumen" class="on">Resumen semanal</button>
+        <button data-ct="consumo">Consumo real</button>
+        <button data-ct="problemas">Problemas y satisfacción</button>
+        <button data-ct="debates">Debates</button>
+      </div>
+      <div id="comBody"></div>
+      <div id="comDeb" class="hidden">
+        <div id="debateList" class="debates"></div>
+        <div id="debateThread" class="thread hidden"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Modal de cotización (lead para concesionarios) -->
+<dialog id="leadDlg">
+  <form id="leadForm" method="dialog">
+    <h3>Pedir cotización</h3>
+    <p class="muted small" id="leadModel"></p>
+    <input name="nombre" required placeholder="Nombre">
+    <input name="email" type="email" required placeholder="Correo">
+    <input name="telefono" placeholder="Teléfono (opcional)">
+    <select name="departamento"><option>Montevideo</option><option>Canelones</option><option>Maldonado</option><option>Otro departamento</option></select>
+    <label class="small"><input type="checkbox" required> Acepto que mis datos se compartan con el concesionario para recibir la cotización.</label>
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<!-- Contacto -->
+<dialog id="contDlg">
+  <form id="contForm" method="dialog">
+    <h3>Escribinos</h3>
+    <input name="nombre" required maxlength="80" placeholder="Nombre">
+    <input name="email" type="email" required placeholder="Tu correo">
+    <select name="motivo"><option>Consulta general</option><option>Corrección de datos</option><option>Quiero anunciar</option><option>Prensa</option><option>Flotas y empresas</option><option>Alojamiento con cargador</option></select>
+    <textarea name="mensaje" required maxlength="3000" placeholder="Mensaje"></textarea>
+    <input name="web" class="hidden" tabindex="-1" autocomplete="off">
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<!-- Reporte de espera en un cargador -->
+<dialog id="repDlg">
+  <form id="repForm" method="dialog">
+    <h3>Reportar espera</h3>
+    <p class="muted small" id="repNombre"></p>
+    <label class="small">¿Cuánto esperaste para conectar?</label>
+    <select name="espera"><option value="0">No esperé</option><option value="5">Unos 5 minutos</option><option value="15">Unos 15 minutos</option><option value="30">Unos 30 minutos</option><option value="60">Una hora o más</option></select>
+    <label class="small">¿Funcionaba el cargador?</label>
+    <select name="funciona"><option value="1">Sí</option><option value="0">No / con fallas</option></select>
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<!-- Experiencia estructurada (consumo real + problemas) -->
+<dialog id="expDlg">
+  <form id="expForm" method="dialog">
+    <h3>Tu experiencia con tu eléctrico</h3>
+    <p class="muted small">Anónimo. Lo usamos solo en promedios (mínimo 3 dueños por modelo) para mostrar consumo real y problemas frecuentes.</p>
+    <label class="small">Modelo</label>
+    <select name="modelo" id="expModelo" required></select>
+    <div class="row2">
+      <div><label class="small">Consumo que te marca el auto</label><input name="consumo" type="text" inputmode="decimal" pattern="[0-9]{1,2}([.,][0-9]{1,2})?" required placeholder="ej. 14,5"></div>
+      <div><label class="small">Unidad</label><select name="unidad"><option value="kwh100">kWh/100 km</option><option value="kmkwh">km/kWh</option></select></div>
+    </div>
+    <div class="row2">
+      <div><label class="small">Uso principal</label><select name="uso"><option value="ciudad">Ciudad</option><option value="mixto" selected>Mixto</option><option value="ruta">Ruta</option></select></div>
+      <div><label class="small">Estación</label><select name="estacion"><option value="verano">Verano</option><option value="otono">Otoño</option><option value="invierno">Invierno</option><option value="primavera">Primavera</option></select></div>
+    </div>
+    <div class="row2">
+      <div><label class="small">Km recorridos (aprox.)</label><input name="km" type="number" min="0" max="500000" placeholder="ej. 12000"></div>
+      <div><label class="small">Departamento</label><select name="departamento" id="expDepto"><option value="">—</option></select></div>
+    </div>
+    <label class="small">¿Tuviste alguno de estos problemas?</label>
+    <div class="checks" id="expProb"></div>
+    <label class="small">¿Lo recomendarías? (1 = nada, 5 = sí, sin dudas)</label>
+    <div class="stars" id="expStars"></div>
+    <input type="hidden" name="nota" value="">
+    <textarea name="texto" maxlength="800" placeholder="Opcional: contá algo útil para otros (ej. autonomía real en ruta, posventa, cargador en casa)"></textarea>
+    <input name="web" class="hidden" tabindex="-1" autocomplete="off">
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<!-- Alerta de precio -->
+<dialog id="alertaDlg">
+  <form id="alertaForm" method="dialog">
+    <h3 id="alertaTit">Avisame si baja el precio</h3>
+    <div id="alertaHist"></div>
+    <input type="hidden" name="modelo_id">
+    <label class="small">Tu correo</label><input name="email" type="email" required placeholder="tu@correo.com">
+    <label class="small">Avisame cuando baje de (US$, opcional)</label><input name="objetivo" type="number" step="100" placeholder="Cualquier baja">
+    <p class="muted small">Te mandamos un correo para confirmar. Un aviso por baja de precio; te das de baja con un clic.</p>
+    <input name="web" class="hidden" tabindex="-1" autocomplete="off">
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cerrar</button><button class="btn btn-primary" value="ok">Crear alerta</button></div>
+  </form>
+</dialog>
+<!-- Alta de alojamiento -->
+<dialog id="alojDlg">
+  <form id="alojForm" method="dialog">
+    <h3>Sumá tu alojamiento</h3>
+    <label class="small">Nombre del alojamiento</label><input name="nombre" required maxlength="120">
+    <div class="row2"><div><label class="small">Tipo</label><select name="tipo"><option>Hotel</option><option>Casa o apartamento</option><option>Cabaña</option><option>Posada o B&amp;B</option><option>Estancia o turismo rural</option><option>Termas</option><option>Camping</option></select></div>
+    <div><label class="small">Localidad</label><input name="localidad" required maxlength="80"></div></div>
+    <div class="row2"><div><label class="small">Cargador</label><select name="cargador"><option>Enchufe común (2,3 kW)</option><option>Wallbox AC 7 kW</option><option>Wallbox AC 11-22 kW</option><option>Carga rápida DC</option></select></div>
+    <div><label class="small">¿Para quién?</label><select name="acceso"><option>Solo huéspedes</option><option>Huéspedes y público</option></select></div></div>
+    <label class="small">Web, Airbnb o Booking (para reservar)</label><input name="url" type="url" placeholder="https://">
+    <label class="small">Correo de contacto</label><input name="email" type="email" required>
+    <label class="small">Plan</label>
+    <select name="plan" id="alojPlan"><option value="basico">Básico · gratis</option><option value="destacado">Destacado · temporada</option><option value="destacado_anual">Destacado · anual</option></select>
+    <p class="muted small" id="alojPlanTxt"></p>
+    <input name="web" class="hidden" tabindex="-1" autocomplete="off">
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<footer>
+  <div class="wrap foot-in">
+    <div><a class="logo" href="#inicio"><span class="bolt">⚡</span>Volt<b>UY</b></a><p class="muted small">Información independiente sobre movilidad eléctrica en Uruguay. Rendimientos homologados: Registro de Etiquetado Vehicular de URSEA. Los precios son de lista y pueden cambiar; verificá con el concesionario.</p></div>
+    <div class="small"><b>Contacto y publicidad</b><br>Correcciones de datos, prensa o anunciar tu marca.<br><button class="btn btn-sm btn-primary" id="btnContacto" type="button" style="margin-top:8px">Escribinos</button></div>
+    <div class="small"><b>Secciones</b><br><a href="#empresas">Empresas y flotas</a><br><a href="#alojamientos">Alojamientos con cargador</a><br><a href="#miem">Devolución del MIEM</a><br><a href="#usados">Usados</a></div>
+    <div class="small muted" id="footUpd"></div>
+  </div>
+</footer>
+<div id="toast" class="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+ "actualizado": null,
+ "nota": "Lo completa agents/actualizar_usados.py a diario con avisos de MercadoLibre (API oficial; requiere ML_CLIENT_ID y ML_CLIENT_SECRET).",
+ "modelos": {}
+}

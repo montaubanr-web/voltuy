@@ -1,0 +1,943 @@
+{
+ "actualizado": "2026-11-17",
+ "uruguay": [
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Boom de autos eléctricos: se vendieron 78 cero kilómetro por día en los primeros diez meses de 2026",
+   "resumen": "",
+   "fuente": "El Observador",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGcxSF9fdFdJV1huN29nb1JfZ0tWNWwxQ1UtaDI4MDRia3FBTDUzeU04cEYyZHBOQXpIbEJodHNmTHFTSmd4OFNjQWktdU5xQ1daSEQxS2hOa0pqV3FleFpLSmxQTDRLTllveFlMNGdmOUFtVnd5OTFJMW80R1N2bjN1ZllJN1FwRldKbUx6UFpxblNVQldRc2dDR1FfcURJTF8waTdoNmFET2loT3Z6eWNvVzBLaWhXTk1fYU5JUzJmOUJVM01VZWlRM0hEMkpmaVVaOEZvcVZrTTd4ZTQ0?oc=5",
+   "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Tesla confirmó cuándo comenzará a vender sus autos eléctricos en Argentina: qué modelos llegan y cuánto costarían",
+   "resumen": "",
+   "fuente": "RoadShow",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeC1ERFpnVzNlbjRVQ2NXUXVwdWU5WlBLbG92ZC01X0VEdDh4TnlQQV81cTRNbGRYajlnU3kxb3FEMmNhUTdlRENYSXotMFFyNnZYTTJTdThXVld5R2NhTnJVM0x3emY3bXdOVjJMUTQ3SFVDcnNsakZkTi1ELWF6LVpEdVk5LWxEQUUyRjZRRGVxb05YelNER290UWNfOTcyUDZsa2NMNXZOQVBoZTFISEF1OFBRVUE2NE9qa21yRm1VdTdyWkRXQ1NJVnJ5bWtxTVNRbG5CYWo?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Intendentes congelan patente 2027 para autos a combustión: ¿qué pasa con los eléctricos?",
+   "resumen": "",
+   "fuente": "Montevideo Portal",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSEo0U2JDOVZpZ1hwbEdMVXNJbXpQUUIyMHJoeXR4Ylg0b3hIZU5XdlpFZFp1SkhTd1o4TTBDMTV0VTdLUy1MN0hXOU50YzFid1JmOUloWld2aXhwck5qWllmMGlGVlZLb2VhdW8ydllzc0Q5aFNpUG45QXFVcFVGWW5uZG1SVmlrQ3Jmc2hvZXJpTWJjenJFUnVOd2V6VFdTQ293V0pQLVRicjg5Y1U3eENDTnBwY3R0ZmhseVQ0QWNKa0F1VzJPODVqYUR1b1VU0gH0AUFVX3lxTFBxUXBmaWZZNE4wTElnQ2lidFZEUDY1TGRsYVVZRzk4NG5Hb25mRXJaSHVVUFEtLW9pcGtwby01SXdWdTBPd09DZzFhOHhUajNlUTNqMkVOLVNScGVhVHlQdUd4czZKNXlHd2MwMXFpUHZBcU03Z2MzT0tibGNLRkdTOVMtSngxSnNMM3Q4eUVrRmxCR21JX1gxbE54dE80SUdFWDhvOXVTT2h6Tm9iTzQyQmZmeVl5NFVnQjJwQWhHOUxLVFphTlNGX1VuY2ZSYnF2QXJjRDhkSmtiYW9UNmNZd2hLZE5YbHhueXJsZ1NTQ3VVQkw?oc=5",
+   "categoria": "Normativa"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Intendentes acordaron las patentes para 2027: sin ajustes para los vehículos a combustión y nuevas franjas para los eléctricos",
+   "resumen": "",
+   "fuente": "la diaria",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaVRaaXJQYWF2YWVfdXFWdFd6cENFcUpPbXV4YlJfa2FNRkVjUmxFT2RyZUNCZE9hSHlMaG0xU1BEMVBjQVp1ZE9fMVRXMHpBX3NHTkpsLW9CMFpVUHVlcWU0WlUzSEVycGRqai1xTWh2MV8xUTV4RHVHT051aUJoNERZMjFOUFhJOVFPSDBxSk5HbUtnbDBIRk5fZEQwTFVFbWhJOGFzcnlXMGJvVlhZRG1pUEQ5R21ZZ3Vub0NoeFdpekMtdjl4dUJxZWU4emhENWs2QzB6bU5DZldRZHpYOHBkNmRoZ3REWk82ZW9IaS1vNzR3RnJuSVg1cjcyNXU2QS1tNUlvQdIBlwJBVV95cUxPZUpwUTVvZGh2ZGpCTkw1b2FKQmpFZXhyYXdmTjI4b1VwZzczc2VYTWQyZjBHcmRMUzdXM3ZNV0QxcFRzNXRxOVgwcC1odldnNHJtQnc4U0oxcDl3YTZVTVhQTEZNa01XRHdHYnRkZl91Rmt4eTdTQk11ekVaRU90Z1V1UFFhS0VkbHAxUzhjdG5SdGtYeUlFaXc2a2pLdmZnZGdBR2pVTDN6VEh5NDRJZUlYNll1RnE4NUlsdVRvcFg4V3VhVkdzSUlERkRVWlQxcE1SVGI5MDhPYWl6OUdQVjhWQ3BHVW5mUHg5OVF6YUpEejlJTUNPWHZvU2dwbUQ3MGRZVzYyXzVjVEZZdnktNFBlNWkwUFk?oc=5",
+   "categoria": "Normativa"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "La llegada de autos eléctricos desborda el Puerto de Montevideo y obliga a abrir predios de emergencia",
+   "resumen": "",
+   "fuente": "Ambito",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNTNiRXhaR2xOR04wSGwxMGtUcFc5d2hwY1FJNGQydm1XUHJJNXo2YjFUTXpNQmV4WHJJYndDTkk3OHIzbEF5OWlyOEF6QTRkUVlvWHlhS0VnUFVUU0ZOTXRQdWJPMWpTdXI0cnBpNGlwM29xaURzTGZhNWpaWWFvLUNPeGZLS3hnYkQ3b25idThHX1NrRDczY09BdVBmNERoTF9Vb0gyNjR5a3VVeGhkdzAyX2ZCNE05OFFObHh2TF9YbnJrNkR5RmlYb9IB0AFBVV95cUxONjdhV0lWWnQ3X2phT2dDNks1eFJ2VmQxOEhFZGF5THg3YjhwMGhkSFBHelNVMGI5X2dHa19lNXhOM0VLSjlCeVQ4NXFOdHVRVm1HNV91ZGstaVhSWHdXN0xuMjJaWTFqQWF2UHp0ZWFmakx6MktiYnV3YjR0QVMxOHAtdmhuUEt0Rkx4Vndybm9WYWdnRnZxZ1IxWlpJMTZ1aWxjV2NZV1JoRWxjQU82UEZPWndla2RoNDlkLTQ1aVpBbnJMbWQzclNvSUJPbWUx?oc=5",
+   "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Patente 2027: intendentes mantienen valores para autos a combustión y aumentarán los de eléctricos más caros",
+   "resumen": "",
+   "fuente": "EL PAÍS Uruguay",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZzBzYzZhcDJFcTVKRlJVSHpXUFkyc21iN0V4X295OEIxYmdnazRRTlJabXA1dml2NV9TZkREMVU5Mm0wLXRJNS1hMWQ3YTNBdVYtamNQcHNzVi1xZzJfZEVhNnhheHdkMS1VdWptVVRaSWROWlVLT3ktSlF0UWxZUmZlMWFmcjNxeUY2SHJfRkxxbE45R0kydWoyRy05R0ZjdGFLN2EwTE5vZ1EybF9BNE9taHQwQm1EU19UNDFwdzUzLU5Sb29NRjBOM3J6VTlsSkpXTy1GakM5Q1VFXy13OVkwaERockJTYUE?oc=5",
+   "categoria": "Normativa"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "Una falla tecnológica paralizó la red de carga para vehículos eléctricos de UTE en todo el país",
+   "resumen": "",
+   "fuente": "El Telégrafo",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZXU4bXdjSWtEOUc2cXhLQWx2TzhtM2t2UEZxTUgyZ1JWTm5UcVJLMnBJQ25tamI2a3BvdzJ2TWFFamdfYkxPUWUyZXY0d0hHNU55WjVCSE9vR3hEQ0lNZjlZQnRlX2hVNkFKa3NfZ0h6N3hqcGpfM3VkNmdLSFloYVlzNzNzLWwtNHgwdm1GMFNIbUxRX0VKYUxoODlCdXVkOENmeWtDQmpRRUJtUzJlR2d1eGpfYTF3Ylplb1ROd2ZuSUFQeWgwbmQxZmM?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "Falla en sistema de UTE dejó fuera de servicio cargadores para vehículos eléctricos en todo el país",
+   "resumen": "",
+   "fuente": "San José Ahora",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNnBkOHVUSjZtd0h3N1R5UGtZLTBMbnhEcW5ULXJmRGlfQVRXODVuVFBWZndyZjBVd3ZBVDY5MnFhcklRZVprcTcyc2FPUy1CdlV5LXhZNGx5b0RVY0dfOFpuVUpMTlpHOVdoSWQtYklKWGFsc2VZWDZwVV92RWVGUDEweDZfUFNZNFFNdjVCcEJwZ04yYU8xOXRuYmRETWJsMmZBS2VQaU1FcHpNT3VheGNIVXBGV3k3dmRWUFIydHk1cHBxT0V1anAtdjBKcE9vVERNYnFR?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Una falla informática dejó fuera de servicio los cargadores eléctricos de UTE en todo Uruguay",
+   "resumen": "",
+   "fuente": "Ambito",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWXRJdFNmSDJ3UjYtLTB4N0JKR1NJNC1uRUZBY0ljSEhqT0h2emN3LWpzSzZWcjJ4bEJudDd1NHdYVUs3d2lRMWQwVHlWb3VNbFpaVGdwX1lVSFRNQ08ySGZMM3k2aURjbVhFNF9HZ3VaVWIxSEZkUjh4cWFjUEZYcHgwT1BiTUJRWk4xZVNYNkRLRFZNODl2SnFFOUtXNU91R0ktNW1Dcm05bHJKeEpsWWhrYjJOTEnSAbwBQVVfeXFMUFg2SVVZRW0yTTNPRGhDWlFMdnBFeF9QWERicEN4THhxUkZydFJTbTRyUWpPR2EtWW51NFFNajJVUE5iZnJqblhmSmxoMlVHTU52RV9mQTZCVkJFbUZfUnBfVTlTWkt2ZUJKX2E1UlVLYkhYNS0zUXNFRUR6ZW5WT3BxQkRQbUdWMmhvbjdwSjVCdGExb2hTczdmblpJZjh2alY1M2hCZFhzcVV1aFNzajlSSDJ5QmtIMVdiOF8?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Comprar un Tesla en Argentina: desde cuándo se podrán encargar lo autos eléctricos de Elon Musk y qué modelos llegarán al país",
+   "resumen": "",
+   "fuente": "Infobae",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONkptMkdURDhseTFRcEVWc3JWWUloQ1VDclJoaGx0NHVDdEFGeGxUUXB1VlFmS29QMDRuMzZvZGd3MUpwQUE2YzR2MkY3V1Uwb3dvWVRKVmtYOW80YkU2MEtqemhjQzZXNTUxUThNa3Mxb19lQ2xacjdPMFc5YzhQeXVTYTItaXZURzdaNDB2Vk8ydklZVlBZMWJYVmo1ZnMwZTZNZVgyUndjT0FncG9MUmlSU2U5N3NKSjU2VkQ4Q0ZmZ9IB3AFBVV95cUxNZjVyLTk5STNGVW1seG5QUVdWQUNSWWZjM0w4TEkyT1EtTlJvSjViMGR2Zk1ObTFiTmljMGRiMU5jTDBTY0cxWEJSeDFlZndjQ004Nk9vTWNjYV93dlFNSFNsRnVFcWw5R1kzZHZhOEpkd1czY0V6M1UzYkRHNUl0ZTgxYm5fWGh1eDlDaC1vUlhNVXU0TGZaYUxGdE05eXlIYnJvcDZpb1VGNlE5LUpFV1ljYXc2dlpCQ1FjMmVIUXF2SHU0V01YWUNDTkI1eGxiSWI3cmt0bDl2bEpW?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Falla informática afectó red de cargadores eléctricos de UTE en el país",
+   "resumen": "",
+   "fuente": "Uruguay Al Día",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYVRZa2tQVlgxMkotZF85TXh4a3dBLVlLekZ3cmxrVG1OMzJpby0xMURwT2U4QnNfRWthY0hfbGRqRHBGbk5lam4wem1fUzdLWjhpODNTN0lfdEJUeEpyU3N3b3oxTlpSRXdYWEJIQkhIYVVSaXUtdGg4YXpsVGd4X3djNHZhV01BeDN5cW5Ldlc0b19EaUJma3BoUHBpZnNXeWc?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Una falla afectó a casi todos los puntos de carga del país para vehículos eléctricos",
+   "resumen": "",
+   "fuente": "Montevideo Portal",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUlRJamFkLTQ2QWNxeDAtWmpIWnF1cVRaYUVtTS10X2J4LVZ5enF2WDZPcC04djN5T0pVc2xLYngzaEY1ZlRmMFlZdHZCdHhFbmZlVWtEdTl3WUE3T1lOZFR3MVNOdmdPTEFvLUdHaGM5am5WT3pEVG1vRDZCa2UzQWhUV0g2UmVyNzh1X2lqRzR4a3hfc2IwT2xCSWRjX2ZycmdVN1RiR2JqV29zTmhXa0N4RWRMSGpDSHNyeWctMTVnZVFpOTJ4MEhGaG3SAfABQVVfeXFMT2w3Q3BsS0o4cmctVjhtZXNhSnZXNnZzYzNZN0FrOFFjRDdQUW9iODJ3ZUh6T2xocnJueXZveDAzYVZlXzVINUVkd0dhTTMxS3o5dTMwQlBxN1N0SmRGNFhEdzBFY3VPbUdFWGpjSmlzOVJNNThjMUo2UGlPMjFhOC1GWVVZb0tLQ2NDNGNKUlpoemp1cHlLVjUwOVhRSFBlbGJqUDZjZ1hrVGRDVnU4QXQxLUpSb0ltWFdxYzNFVDI3R29lR3NXc2ktTXZuaEY5ZWJSLWpXeW9KNGJhSkd1dlA5RGxYM2hCMXA4VDdPSGVn?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Falla provocó caída temporal de la red de cargadores para vehículos eléctricos: el comunicado de UTE",
+   "resumen": "",
+   "fuente": "EL PAÍS Uruguay",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaklzbDdLdGFsSFZEdW5NaGROVlYxVlRwMmkzTEd5dkJvS0laUVQ3MXA1Y1NGaGd6di1rZzRSaGFraXZKSXFmQ3F2c0FCSlM0NnVad3VqYldSSV93cEhabWtqeTZUcm1JQlpMNzFXNlNrOGVZWG9XWE1ocGVBTkZSUTNhZGtOM1FYMDdJMHgzb0dlaHR4Z3I1QlY3RXFTR3M1QTloMVVLZWMxT0JFcjNwRUhHNjFqR3p6MDEydXFQWWVKVUlPRFNFV1Q1LWxlYmRkYUVDWS1TczB2QkNTVEdQZw?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Movilidad eléctrica (Uruguay): Cayó el sistema de carga de UTE y se registran fallas en casi todo el país.",
+   "resumen": "",
+   "fuente": "Cadena del Mar",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbzJPb0RYVHZWSThpTEd5RXlFNk53SWRORWpaN1hHX095VUV5UHZzZFJWanNtLTUtaVB3NHZRZnhnLUlES3UwSVR0Y1dUXzJLTTBoLTNFYWowSXAzbVdwRlZHUURoN0FKcDJkQkdHeUlSOTVTdHU2VDJGcXZNaE5oa3FONGhzVGx6U2NsdEtlODRxeHFWRnBUREVEOTlBbTZEOHNTeHRXMkZjc1BWazBHZ2VhVjY1Z1k0UHZPeGgyZDhmb29yMnYyMUN0alBzR2pfWHdJZDdyZDQ?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Una actualización de Windows afectó la red de cargadores eléctricos de UTE - Carmelo Portal",
+   "resumen": "",
+   "fuente": "Carmelo Portal",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPandKeU9Na1FUVURxbTNOM3R1LW15dk5KNThYSWlpbGVDeTNUSWxhZ1FtM001RU9KcUxoTkR2X0dpZUhabFZHM05ta3FzLUtxRWxJTldUUDA1ZXVNdjVHeXlEY2UwRm1GaXBfTGp0VVFGRXBzbFpPSlhCTUNCbnVrb0pSdFRCbVJfazdPSTJVckRETWh4WXNubzdsYzV6NHhmalZDMTh3QlE0SjZzNW5TaDAySWQzUdIBtgFBVV95cUxPandKeU9Na1FUVURxbTNOM3R1LW15dk5KNThYSWlpbGVDeTNUSWxhZ1FtM001RU9KcUxoTkR2X0dpZUhabFZHM05ta3FzLUtxRWxJTldUUDA1ZXVNdjVHeXlEY2UwRm1GaXBfTGp0VVFGRXBzbFpPSlhCTUNCbnVrb0pSdFRCbVJfazdPSTJVckRETWh4WXNubzdsYzV6NHhmalZDMTh3QlE0SjZzNW5TaDAySWQzUQ?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Movilidad eléctrica (Uruguay): Se restableció el sistema de UTE y la red de cargadores volvió a operar con normalidad.",
+   "resumen": "",
+   "fuente": "Cadena del Mar",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcGFRcHdibWtnQldrcTEtLV9FTFFFMmlmUlFrd0V6M2pkTXBJMDNFcWYzUS1tbmxPRFk2Q3AzUmt1RS16bHgzV0M3RHNEWEREcEdYNndSUDFUdC00cnd1Y19rclRtNzFLTHJLeE01bWVMaHF5b1ZHX2xRQm54M0RlRWVPdGI5enNxTTJWVmFOcEJxUEI0RmwtdV9iYXRPZ040ZnVjYTYwX0NHd29YaWloVnVtUVVyalFwVGVCR0cwUUYzQm8zM051RkZHc0h6WGZBTHRXeGtzcjA2NkR3Qm9MN0hQYW1hVEtq?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Intendentes retoman estudio de cambios en las patentes para 2027, con la mira en los autos eléctricos",
+   "resumen": "",
+   "fuente": "EL PAÍS Uruguay",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkJocWhlVEx1RF9sX0JHWklOV0ZDX0dCMW5UYkF2VXlCcmdxSTBQSmhwQnRpdmZ4dXlvbERyakk3Qll6Vmd4S2tndTdZZXdLNzRXekpUTUMwcVBZdlF3WF83b3RNMl9peVJkNjQ4ajVxT1RxR3FETlY2SGY2NUdOc0tNeHBZVS1VVkpyWkp5Nnp4NnB1Nms3RUhhWS1oa1JpNUJUb1ptM0l3M1V0ZjV6OS1mUlNjNUFNSzd4eDVIZUZEdDdOV2x5MXhlNUhwVDlvTTB4cUhybnB1Q2dLeXZUMQ?oc=5",
+   "categoria": "Normativa"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "El reclamo de los estacioneros: \"Si beneficiás al que compra un Tesla, beneficiá también al que anda en un Fitito\"",
+   "resumen": "",
+   "fuente": "El Observador",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVlhzODNzcTJXaU9FTUNEWXBOVWRIN0YwOXg4YnRZZndqeFFKY0MxWjFIakhvMUV4TVlXaGFlb2Q1UkNhd1BWamg2Z20zUWpxQTQwRmw2MWtZWFdVNjRjY2tpdTA0cmU1N3RNMmpSVld6Z28tdFFGaGZyWkowZVZkTnNFeG5fdEpxOVJNM1lBa285dGpuVHk5VXZYUEYxTDZrY1d2QTlzZjIxbmJCb0M4X3J4Ym5TYTFFLW9aako4aW00blZTd25UWlc0Z0hCWUdtN1JWVHB2dmtPWktIVXBNUzExeXIzbDE4WnN3eVhqa1lydzRLUnU3cNIB_gFBVV95cUxQSjNhTEdhMEU5QnlQVEdkbFFfZExYeDYwZ1JQdVpCYXc4dmVuVFZoYVMyRC1zMk51MUI0eW1FM2hxMHVDa3pVNldOU3hxd05FV01OeFQ1S0ZhQjM4emVIX0U2czUyclI0cUl2cUhlMVRTbEVYX1R0V2hkZmMyS215REFYWWxOTUdiNkJwalhuSnE0Vkdlc2pyX2RIblkxRzlKaFRCbEY2dHRnbUdFSjRkR1NoeUJ3Snh4YVoyR0c5NzBqYkdzMDJESHF6R2lMNDhFNk9nWWlJcm9COFFfazVpdE5ZQ2hzN0F2ZmFlMEtfQnFNYjJGbjdGa1hmb0oxdw?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "Se dispara la venta de autos eléctricos en Uruguay: el sector crece 74% en octubre a meses de un nuevo Imesi",
+   "resumen": "",
+   "fuente": "EL PAÍS Uruguay",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdHBYUUpPZ0d3OFNlN2hlLUtIZk5IemFabnVJMWo1Vktsd2lLYkdPMkpYV0pTZEllNTc5Q25RM09CYWFKXzFxNnVXaHNDVEthb1RZTnZ6T0hZeXdaNmdUYUprc2trMWFpeTV1cU5kY29OVFM4Y284Q2d3WVY0RHlhMkRfazEzR1k3Z1dSbno1V1ZtdG5Rd2phVEpBTXJWUTA?oc=5",
+   "categoria": "Normativa"
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "\"Uno de los más modernos y sustentables\": llegó al puerto de Montevideo buque gigante con más de 3300 vehículos eléctricos",
+   "resumen": "",
+   "fuente": "Teledoce.com",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPX1NldWJpMGx0WDhaUU5ZLWg2ODdmTlc5OE9BVWM4UlFxZ0pEaEt4b0Jjem1vZmVtVzk5bTJrNXVvZnFiME5zSFN5dE0tcVlaaVhPalloY0lGeEdtcVBRQ3NMRUlSeXNpY2JSUEZlQnc1YlZpcmo2T2UwaHREeGViemNwODdjVy12NnpERUxxZW5xSG0wUGt5Q2FGNHpOUUs3c0J6UHktcFFqTU1sQUZtakNwbkJ6MzV2NWZHTDkxdnNOMV9CQzhQZ21zT0JtcnA0MWNQdXFnYlZ6QkJPTHNlVmZUeGVlRnJ2eG9fS21aU0RhSy1IV21mMUJB0gH_AUFVX3lxTE5XTlFUYXU5S09zNVFDTF9ETGhDSU9aYlZmN0dCUElYckxsQm82eGNVWXh0cjlOWDRuem1nbExwMHJXVHdyZzFTZmNZWEFyd1JPbnYwZXBoQU9zajRlZ2FVQTJNbHFUcW0zdUZ0ZldmcXZhSjNaODRYQXIxeUF4ZlphNTBGSnI2bVJfeF9URElMR1FzUlRybUhtTW43dUp2WGZTMmx3U1R1d1BKZjhXR25BZy1NTldhSW5oR3VvY29veDMwUDlxUGEtUG9iUU5WM28xZWh0c3BsTjVDcFdUNGx0ai1RQ2huekRnWGU1cHg4cnV5dE5LYmNzSWlpVWVabw?oc=5",
+   "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "Los 10 autos eléctricos más vendidos en Uruguay (BYD domina el ranking y hay un nuevo jugador en el podio)",
+   "resumen": "",
+   "fuente": "InfoNegocios Uruguay",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNanRxVTVldXhxZ0FOaHZERXpmRVdYMXlxSzhYbXo5QnBhR2ZnSkZVRHMtVXJTQ1RlR21DOXFkU2tGQjBISmFqTnlrU3djT0lWSFJMaTZ0Qm5qTDhvXy1UQnh6REUxeGhzblEyY1RFSzdUZGpFemhOeFNTYmY0MGVkLUcyVXM4ODdJSWlVdGVGTm1oQzRyeFlmMHZxWkVkdjlNOHozcTdQUlRpQlBrdDlZWXlRQWtBVzVvbmZrVkZEby1ULXpZYkJnSVRvcmd1cFRJdXVBMDRDaW5HR0RBQml3ZkRn0gHiAUFVX3lxTE1qdHFVNWV1eHFnQU5odkRFemZFV1gxeXFLOFhtejlCcGFHZmdKRlVEcy1VclNDVGVHbUM5cWRTa0ZCMEhKYWpOeWtTd2NPSVZIUkxpNnRCbmpMOG9fLVRCeHpERTF4aHNuUTJjVEVLN1RkakV6aE54U1NiZjQwZWQtRzJVczg4N0lJaVV0ZUZObWhDNHJ4WWYwdnFaRWR2OU04ejNxN1BSVGlCUGt0OVlZeVFBa0FXNW9uZmtWRkRvLVQtelliQmdJVG9yZ3VwVEl1dUEwNENpbkdHREFCaXdmRGc?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "Movilidad eléctrica (autos eléctricos)",
+   "resumen": "",
+   "fuente": "UTE",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBERXhQQU5UU2JLa0xCMzdrdXFiMlp0T3Y5aXFobFRjQVdjcjVnNndMa19ib3NUYXBTZEdXQ2dzQUpkOEx5V255eVJMLWdyMkJh?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "El mercado de autos eléctricos mantiene su expansión y creció un 3,3% en octubre",
+   "resumen": "",
+   "fuente": "Ambito",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdTJycVUwVmYwczYzelRLVG5FVEg5Z3E1OG1ZMV9tNjI4ZmpGWE9sVHVJVWFDUGNYUVpHX0c4Wm1pUk00clk5bENibDVBbDlXbnRaS0VNeEwwN0RpNlBuNEhKaUZOTTI4WWt1UjNqQ2FFT01jaWZuVkFGVEsxelo0MGlQdHRIX09sR1ZyQlEwREppbHRQZDRFd0FWTEQ5NW81V1hfeC04S0FfZnlsOUNTWEZR0gG3AUFVX3lxTFBteG5leEZXdlV1Q1I4anlGRl9VWFlENTF2Xzg2ZE5jYkJmUHFJQ0dJbmVWeV9xLXFiMHNFbVRZaTM1dTJRSk9fSjU4MEl6enlKcFJYTTlaSy1iSGVqNnpSa2ZZLVhSdHNJS0FfS0lLRjNCcXU3NVgzNkpHOVV6bmtJNHU0YW9ROWsxVHUwazVDSGNkQUpYZWpYQWtfZkNDdHNMUWFfX0JhS0YtZ0NFdzRiV3o3V0puUQ?oc=5",
+   "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-10",
+   "titulo": "Moody's mantiene visión estable sobre Uruguay y lo ve “líder regional” en autos eléctricos",
+   "resumen": "",
+   "fuente": "Montevideo Portal",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcHdDV0RRSkZBd09FczdtY05JUzNCVlN4b053TUhFQk5vTjNGcWVKZE03SFVIMWtreGNqVkh5NGxFclk4S09NUXR1b004d2xsamU5RVI3RFV2dzB6VFRfUVZvd3g1WDdvZHVZR0M3cjd6YlRTcUw0ckNBWVJJWEYxUnFNb29GM1lJdlNDX2VFNllPWDNsa0JTTUV4SnZwUVhyME9GWVVWcWZGQjMzRVdmRjNTTU81Q05vcFkyMUFpSHNWTW5lUnNTVUEyYU5jeV93SUHSAfYBQVVfeXFMTmwwUTZWbGlnTGlCQWJJcUxKaHdvVGg0VENJY0s3RFBFTDFUeWdidTFxMlVMVXhpLTZRU0Z2V2xCaDZjNzZoV04zREd5MUY4VDNjVjVzT3pUVjg3V3VkWWxsZTNrQ0hWajE1Si1QanpkcjFwM0hTMEZJX2lybUR6QXRmU2huaUl0aVo5cmVFbmF2c25CdXBmR2owZUtQXzh0bDFyWFRGWmJFMTREOEtacnhIclEzYkxUOVpwMFVKZUotTDhsdGN5S0E3SUNhcGdzV3VSTTQ3WXI1X2luaTl2N09xWm4tLWhWSDZQeXZHbGJLWUJET3Rn?oc=5",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-10",
+   "titulo": "Robaron cargadores eléctricos de UTE en Malvín y hace dos meses que no están operativos",
+   "resumen": "",
+   "fuente": "Montevideo Portal",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNODRCZ3gxODAyT3lpT2lVWER1V0xtYUpZUEVLZHNmR29UbHB0eWhSQjJlUi1CU2RuS2lOUllKc1FSLWVjSzVhYmlpc3g0aVNTY1ViSjVRVnZoREZqZi1oM0RkcHV1TlZPLXRkSXR0eld4b09TX0VNNHNKai1rWjJlLUZHejVwQVdXdWZmMmZKZ3k1dEljNVBSTzRWUGwxNFA3dmxsNmJWVk1jQ3dEakk1bG9uYkVWdDlGY0x6ajgyaGZmUGRVWWEtYm5FX2haMzRS0gH0AUFVX3lxTE11N3JGVXZ1T0xYT1VIRUprcEU4S1FsUG1WZnEzX2VDRHZLV1Z6dkVzLWJ3djg4SU1ZaVktdW54YU8wekRLSlJWejBOdUlQQ1Q1Z0JmaWhDRl82eHprekhqWGxpbWNzUUpYMWtrN0Izb3psVXhhZzk1NXJrZ0RUemF4R201dFppdmtTMEtlUi01dE95TnQwZTRtOGxDNHgzTjI0OWpOTG5RcGx0Q3c2Z25EWENSMkdfc2o2aTQxemRKM05yeWg1R2Z3UWdjWVhEa0UzMGlBUmY3cmtvcWpVRUVPSmdJUGVHanl5Vm1ueUJ6clBYdHg?oc=5",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11",
+   "titulo": "Llega el MCrown Mini EV4, un gemelo del Wuling Mini EV con otra insignia",
+   "resumen": "Autoblog lo describe como el mismo producto con menos batería y autonomía, a un precio casi igual.",
+   "categoria": "Lanzamiento",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/11/lanzamiento-mcrown-mini-ev4.html"
+  },
+  {
+   "fecha": "2026-10-19",
+   "titulo": "Hyundai estrena en Uruguay la SUV eléctrica Elexio antes que en el resto de la región",
+   "resumen": "El fabricante anuncia hasta 610 km de autonomía para el nuevo modelo.",
+   "categoria": "Lanzamiento",
+   "fuente": "El Observador",
+   "url": "https://www.elobservador.com.uy/hyundai-eligio-uruguay-el-debut-regional-un-suv-100-electrico-610-kilometros-autonomia-que-ofrece-el-nuevo-modelo-n6060924"
+  },
+  {
+   "fecha": "2026-10-05",
+   "titulo": "El MEF estudia postergar el IMESI a los eléctricos previsto para enero",
+   "resumen": "Según Búsqueda, la inminencia del impuesto está adelantando compras; todavía no hay anuncio oficial.",
+   "categoria": "Normativa",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/10/el-mef-analiza-aplazar-el-imesi-los.html"
+  },
+  {
+   "fecha": "2026-10",
+   "titulo": "A prueba: Tesla Model 3 Performance AWD durante una semana",
+   "resumen": "Precio base de US$ 49.990; la unidad probada llegaba a US$ 50.990 con pintura opcional.",
+   "categoria": "Test",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/10/prueba-tesla-model-3-performance-awd-85.html"
+  },
+  {
+   "fecha": "2026-09-11",
+   "titulo": "Los eléctricos fueron el 51% de las ventas de agosto",
+   "resumen": "Sobre 6.781 vehículos vendidos en el mes, según ACAU.",
+   "categoria": "Mercado",
+   "fuente": "El Observador",
+   "url": "https://www.elobservador.com.uy/mas-electricos-hibridos-y-suv-como-esta-cambiando-el-mercado-automotor-uruguayo-y-que-lugar-ocupa-mg-n6058999"
+  },
+  {
+   "fecha": "2026-09-07",
+   "titulo": "Chevrolet baja precios: el Spark EUV pasa a costar desde US$ 21.990",
+   "resumen": "La marca reposicionó también Captiva EV y Captiva PHEV.",
+   "categoria": "Precios",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/09/chevrolet-redobla-su-apuesta-en-uruguay.html"
+  },
+  {
+   "fecha": "2026-07-27",
+   "titulo": "UTE busca comercios y particulares que cedan lugares para nuevos cargadores",
+   "resumen": "Los espacios elegidos se usarán cinco años para ampliar la red pública de carga.",
+   "categoria": "Carga",
+   "fuente": "Ámbito",
+   "url": "https://www.ambito.com/uruguay/ute-subsidiara-comercios-que-cedan-espacios-cargadores-autos-electricos-n6304178"
+  },
+  {
+   "fecha": "2026-07-23",
+   "titulo": "BYD vuelve a bajar precios tras la llegada de Tesla",
+   "resumen": "Rebajas de hasta US$ 5.000 en sus modelos de gama alta y de US$ 1.000 en el Seagull.",
+   "categoria": "Precios",
+   "fuente": "El Observador",
+   "url": "https://www.elobservador.com.uy/cafe-y-negocios/en-pie-guerra-byd-vuelve-bajar-los-precios-sus-autos-electricos-la-llegada-tesla-y-la-antesala-del-imesi-n6051761"
+  },
+  {
+   "fecha": "2026-07-18",
+   "titulo": "Tesla desembarca oficialmente: Model 3 desde US$ 32.990 y Model Y desde US$ 36.490",
+   "resumen": "La venta es directa, sin importador, con punto de venta en Punta Carretas Shopping.",
+   "categoria": "Lanzamiento",
+   "fuente": "El Observador",
+   "url": "https://www.elobservador.com.uy/cafe-y-negocios/tesla/el-plan-tesla-uruguay-segun-su-country-manager-financiamiento-infraestructura-carga-y-una-estrategia-que-va-mas-alla-vender-autos-n6051198"
+  },
+  {
+   "fecha": "2026-07-01",
+   "titulo": "Decreto: los eléctricos de más de US$ 19.000 de valor de importación pagarán IMESI desde 2027",
+   "resumen": "5% entre US$ 19.001 y 27.000; 9% por encima. Aplica a vehículos de pasajeros.",
+   "categoria": "Normativa",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/07/gobierno-aplicara-imesi-electricos-con.html"
+  },
+  {
+   "fecha": "2026-06-10",
+   "titulo": "Por primera vez se venden más eléctricos que autos a nafta en un mes",
+   "resumen": "En mayo se comercializaron 2.671 eléctricos a batería en el segmento de livianos.",
+   "categoria": "Mercado",
+   "fuente": "Ámbito",
+   "url": "https://www.ambito.com/uruguay/las-ventas-autos-electricos-marcaron-un-record-y-superaron-primera-vez-los-nafteros-n6286872"
+  },
+  {
+   "fecha": "2026-05-14",
+   "titulo": "Wuling Mini EV entra en preventa en Uruguay",
+   "resumen": "Uno de los eléctricos de cinco puertas más accesibles del mercado.",
+   "categoria": "Lanzamiento",
+   "fuente": "Autoblog",
+   "url": "https://www.autoblog.com.uy/2026/05/lanzamiento-wuling-mini-ev.html"
+  }
+ ],
+ "internacional": [
+  {
+   "fecha": "2026-11-17",
+   "titulo": "REO returns to challenge Slate and Fathom in a cheap truck showdown",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/reo-returns-to-challenge-slate-and-fathom-in-a-cheap-truck-showdown/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Bentley’s First EV Is Already Sold Out, And Production Hasn’t Even Started",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815694/bentley-torcal-sold-out-2027-official/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "AYK Energy expands business with large marine battery systems",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/ayk-energy-expands-business-with-large-marine-battery-systems/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Volkswagen opens pre-orders for ID. Aura L5 in China",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/volkswagen-opens-pre-orders-for-id-aura-l5-in-china/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "WeaveGrid and Hyundai Motor Group partner on US smart charging and V2G",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/weavegrid-and-hyundai-motor-group-partner-on-us-smart-charging-and-v2g/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Toyota recalls C-HR+ worldwide due to battery control unit issue",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/toyota-recalls-c-hr-worldwide-due-to-battery-control-unit-issue/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "India: Delhivery to add up to 2,000 electric light commercial vehicles",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/india-delhivery-to-add-up-to-2000-electric-light-commercial-vehicles/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Renault to create 2,000 new jobs in EV production",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/renault-to-create-2000-new-jobs-in-ev-production/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Kia launches Carens EV in Indonesia as its first locally built electric model",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/17/kia-launches-carens-ev-in-indonesia-as-its-first-locally-built-electric-model/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Adding wind cuts solar + battery storage power costs nearly 20%",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/adding-wind-cuts-solar-battery-storage-power-costs-nearly-20-percent/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Ausom Black Friday sale has the right scooter for the right job, at the right price",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/ausom-black-friday-sale-right-scooter-right-job-at-right-price/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Volkswagen’s cheapest EV already has buyers waiting nearly 2 years",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/volkswagens-cheapest-ev-buyers-waiting-nearly-2-years/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Motorcycles are notoriously dangerous. Could electric motorcycles actually change that?",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/motorcycles-are-notoriously-dangerous-could-electric-motorcycles-actually-change-that/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Anker SOLIX S5000 power station $2,380 exclusive savings, Navee ST3 Pro e-scooter $552 low, Lectric e-bike accessory sale, more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/anker-solix-s5000-power-station-navee-st3-pro-e-scooter-lectric-e-bike-accessory-sale-more/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Model X on Autopilot/FSD hit a pole and flipped, killing passenger",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-model-x-pole-rollover-naples/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "BYD is bringing its $10,000 ‘Great’ Seagull overseas, but it won’t replace the Dolphin Surf",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/byd-bringing-10000-great-seagull-ev-overseas/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla confirms €3B Cybercab factory at Giga Berlin for up to 1M a year",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/tesla-cybercab-giga-berlin-3-billion-1-million/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Trump again orders broken coal plant to stay open, even after court said it’s illegal",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/trump-again-orders-broken-coal-plant-to-stay-open-even-after-court-said-its-illegal/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Hyundai IONIQ 5 caught with a new high-tech interior and big display screen",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/hyundai-ioniq-5-caught-new-high-tech-interior-big-display/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla on Autopilot/FSD was going 74 mph before fiery crash that killed 3",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-fiery-crash-el-dorado-hills/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla on Autopilot/FSD hit an overturned truck at 71 mph, killing 3",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-overturned-truck-naples-i75/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Volkswagen prices its new ID. Cross for the UK, but the $35,000 version comes later",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/16/volkswagen-prices-new-id-cross-35000-version-comes-later-uk/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "The Electric Baby Land Rover Defender And Range Rover GT Will Begin Production Next Year",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815648/land-rover-baby-defender-production/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Mercedes Is Bringing Hands-Free Driving To Certain U.S. Highways In 2027",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815643/mercedes-hands-free-driving-usa/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Keeps Killing Cars. Now It Wants To Build Cybercabs In Germany",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815634/tesla-german-factory-expansion-cybercab/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Model 3 Maintenance Guide: What Needs Servicing And What Doesn't",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/814818/tesla-model-3-maintenance-guide/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "BMW Just Started Making EV Batteries In America. The New iX5 Will Be First In Line",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815585/bmw-ev-factory-us-ix5-production-start/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "BMW’s iX5 Beat The Lucid Gravity On Highway Range. Not On Efficiency",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815570/bmw-ix5-highway-range-test/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Just Bumped The Cheapest Model Y’s Range, But The Price Stays The Same",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815562/tesla-model-y-rwd-range-boost-2027/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Drivers Can Now Plug In And Charge Automatically at Ionna Stations",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815544/tesla-autocharge-ionna-app/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla announces multi-billion-euro expansion of Gigafactory Grünheide",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/tesla-announces-multi-billion-euro-expansion-of-gigafactory-grunheide/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Vilnius Airport replaces diesel buses with battery-electric buses",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/vilnius-airport-replaces-diesel-buses-with-battery-electric-buses/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "CATL to become market leader in passenger car battery swapping",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/catl-to-become-market-leader-in-passenger-car-battery-swapping/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "US researchers identify electrode drying risk during fast charging",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/us-researchers-identify-electrode-drying-risk-during-fast-charging/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "ASTAG Charge launches with 100 companies across 60 locations",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/astag-charge-launches-with-100-companies-across-60-locations/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Lucid cuts cash burn and secures additional $1.75 billion",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/lucid-cuts-cash-burn-and-secures-additional-1-75-billion/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Kempower plans to cut up to 120 jobs worldwide",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/kempower-plans-to-cut-up-to-120-jobs-worldwide/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Terawatt Infrastructure opens four fleet charging hubs in the US",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/terawatt-infrastructure-opens-four-fleet-charging-hubs-in-the-us/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Li Auto to enter four new Asian markets and launch right-hand-drive cars",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/li-auto-to-enter-four-new-asian-markets-and-launch-right-hand-drive-cars/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Price jump for Tesla Model Y AWD – base trim no longer available",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/price-jump-for-tesla-model-y-awd-base-trim-no-longer-available/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Visteon, Shinry and Infineon develop single-stage 22 kW onboard charger",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/visteon-shinry-and-infineon-develop-single-stage-22-kw-onboard-charger/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Denmark plans social EV subsidies from 2028",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/denmark-plans-social-ev-subsidies-from-2028/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Tesla Cybercab for private sale comes without steering wheel but with restrictions",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/tesla-cybercab-for-private-sale-comes-without-steering-wheel-but-with-restrictions/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "BMW opens battery assembly plant for the new iX5",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/bmw-opens-battery-assembly-plant-for-the-new-ix5/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-16",
+   "titulo": "Veolia opens battery black mass recycling plant in France",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/16/veolia-opens-battery-black-mass-recycling-plant-in-france/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "Is Tesla rushing out a half-baked Cybercab just to shave MKBHD’s head?",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/15/tesla-cybercab-mkbhd-bet-musk-chicken/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "Mowing milestone: Greenzie surpasses 255,000 autonomous miles mowed",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/15/mowing-milestone-greenzie-surpasses-255000-autonomous-miles-mowed/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "High altitude, bitter cold, zero drivers: autonomous trucks take on Tibetan mine",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/15/high-altitude-bitter-cold-zero-drivers-autonomous-trucks-take-on-tibetan-mine/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-15",
+   "titulo": "China’s electric airliner era starts with a 19-seat plane and 400 km of range",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "$20K Nissan NX7 PHEV goes on sale with nearly 200 miles of electric range",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/14/20k-nissan-nx7-phev-goes-on-sale-with-nearly-200-miles-of-electric-range/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Check your ego at the door: Stellantis’ new electric dolly turns ANY car into a tow rig",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/14/check-your-ego-at-the-door-stellantis-new-electric-dolly-turns-any-car-into-a-tow-rig/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/14/huawei-set-to-challenge-tesla-powerwall-with-new-20-kw-home-battery/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "I finally got a USB-C charging e-bike, and it costs 75% less than Rivian’s bike",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/14/i-finally-got-a-usb-c-charging-e-bike-and-it-costs-75-less-than-rivians-bike/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Rinnai’s new heat pump water heaters get smarter – and easier to install",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/rinnai-new-heat-pump-water-heaters-get-smarter-and-easier-to-install/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Diesel Prices Are Surging. This Electric Trucking Company Is Seeing More Interest",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815472/diesel-prices-electric-trucks-einride/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Canada invests billions in charging infrastructure and grid upgrades",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Nevoya seals multi-year deal with Meta to deploy 25 electric trucks between California and Arizona.",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/14/nevoya-seals-multi-year-deal-with-meta-to-deploy-25-electric-trucks-between-california-and-arizona/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-14",
+   "titulo": "Legal proceedings should establish whether the BYD Ti7 is a Copy of JLR’s Defender",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Volkswagen may have just hinted at the name of its next affordable EV",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/volkswagen-trademark-name-next-affordable-ev/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "BYD’s new flagship Tang SUV starts at about $34,000 with two enormous screens",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/byd-opens-tang-ev-orders-two-enormous-screens-for-34000/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Podcast: Tesla trims are falling like flies, Hyundai 2027 lineup, and BYD’s Rolls-Royce",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/podcast-tesla-trims-are-falling-like-flies-hyundai-2027-lineup-and-byds-rolls-royce/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Volkswagen is delaying another EV based on the SSP",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Velotric Discover M mid-drive multi-terrain e-bike new $2,399 low + expanded Aventon sale, EcoFlow power station flash sale, more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/velotric-discover-m-mid-drive-multi-terrain-e-bike-aventon-ecoflow-power-station/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Tesla stops selling every Cybertruck except the $109,990 Cyberbeast",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Hyundai is overhauling the Kona, and it looks like it may still be offered as an EV after all",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/hyundai-overhauling-kona-ev/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Here are the coolest e-motorcycles and gear we saw at EICMA 2026",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/here-are-the-coolest-e-motorcycles-and-gear-we-saw-at-eicma-2026/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Meta to deploy 25 electric semi trucks across I-10 corridor, but has nothing to ship",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/meta-to-deploy-25-electric-semi-trucks-across-i-10-corridor-but-has-nothing-to-ship/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Tesla kills $41,990 Model Y AWD: all-wheel drive now costs $8,000 more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/tesla-kills-41990-model-y-awd-configurator/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Zonveer ZX3 review: one of the best-value electric dirt bikes for beginners",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/zonveer-zx3-review-1299-electric-dirt-bike-beginners/",
+   "categoria": "Test"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Wheel-E Podcast: Juiced Scrambler Core, battery passports, Engwe M20, more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/wheel-e-podcast-juiced-scrambler-core-battery-passports-engwe-m20-more/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Review: Engwe’s M20 3.0 is a 60V Super73 killer at a fraction of the price",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/13/review-engwes-m20-3-0-is-a-60v-super73-killer-at-a-fraction-of-the-price/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "The VW ID. Buzz Is Getting A New Job As A Robotaxi",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815293/vw-volkswagen-id-buzz-robotaxi/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Audi A4 EV Delayed Amid VW Group Financial Troubles: Report",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815433/audi-a4-ev-delayed-report/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Tesla Just Killed Its Cheapest All-Wheel-Drive Model Y",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815395/tesla-model-y-awd-discontinued/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "A Record Number Of Uber Miles Are Happening In EVs",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815368/uber-evs-record-miles-global-q3-2026/",
+   "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Dacia Sandero electric version expected to achieve around 400 km range",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/13/dacia-sandero-electric-version-expected-to-achieve-around-400-km-range/",
+   "categoria": "General"
+  }
+ ]
+}

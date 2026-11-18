@@ -1,0 +1,51 @@
+{
+ "actualizado": "2026-11-18",
+ "convocatoria": "CEE 2026 · Medidas de eficiencia energética estandarizadas (MMEE std)",
+ "tope_uyu": 45000,
+ "precio_cee_uyu_tep": 925,
+ "apertura": "2026-06-24",
+ "cierre": "2026-12-15",
+ "inicio_operacion_desde": "2023-12-16",
+ "antiguedad_minima_dias": 365,
+ "requisitos": [
+  "Vehículo liviano 100% eléctrico de 2, 3 o 4 ruedas, empadronado, con batería de litio o superior.",
+  "Comprado nuevo y sin uso: no se aceptan usados ni unidades de test drive.",
+  "En uso desde el 16/12/2023 y con al menos un año de uso al momento de postularte.",
+  "Cuenta bancaria a nombre de quien se postula (persona o empresa).",
+  "Personas jurídicas: certificados vigentes de DGI y BPS."
+ ],
+ "pasos": [
+  {
+   "t": "Leé las bases",
+   "d": "Confirmá los requisitos y el cálculo del monto.",
+   "url": "https://www.gub.uy/ministerio-industria-energia-mineria/sites/ministerio-industria-energia-mineria/files/2026-06/CEE%202026_Bases%20de%20la%20convocatoria%20MMEE%20std_v1.pdf"
+  },
+  {
+   "t": "Completá el formulario",
+   "d": "Planilla Excel del MIEM y declaración de postulación firmada (certificado notarial si corresponde).",
+   "url": "https://www.gub.uy/ministerio-industria-energia-mineria/sites/ministerio-industria-energia-mineria/files/2026-08/CEE2026_Formulario_MMEE%20std_V1.2_NOMBRE%20DEL%20POSTULANTE.xlsx"
+  },
+  {
+   "t": "Postulá en línea",
+   "d": "Única vía: Trámites en línea. Cargá los datos y documentos, firmá y subí la declaración.",
+   "url": "https://www.gub.uy/tramites/certificados-eficiencia-energetica-cee"
+  },
+  {
+   "t": "Entregá el original en papel",
+   "d": "Dentro de 10 días hábiles: declaración original (y certificado notarial si aplica) en la Dirección Nacional de Energía, Rincón 719, planta baja, de 9 a 17 h. Sobre a nombre de DAEE con el número de trámite, «CEE 2026 MMEE std» y tu nombre. Si no llega a tiempo, la postulación queda descalificada.",
+   "url": null
+  },
+  {
+   "t": "Cobrá",
+   "d": "Evaluaciones mensuales; el pago suele llegar entre 1,5 y 2,5 meses después de postularte.",
+   "url": null
+  }
+ ],
+ "enlaces": {
+  "tabla_ilustrativa": "https://www.gub.uy/ministerio-industria-energia-mineria/sites/ministerio-industria-energia-mineria/files/2026-06/CEE2026_Tabla%20ilustrativa%20resultados%20para%20veh%C3%ADculos%20el%C3%A9ctricos.pdf",
+  "preguntas_frecuentes": "https://www.gub.uy/ministerio-industria-energia-mineria/sites/ministerio-industria-energia-mineria/files/2026-07/CEE2026_MMEE%20std_Preguntas%20frecuentes_v2.pdf",
+  "instructivo": "https://www.gub.uy/ministerio-industria-energia-mineria/sites/ministerio-industria-energia-mineria/files/2026-07/CEE2026_Instructivo%20de%20Tr%C3%A1mites%20en%20l%C3%ADnea%20MMEE%20STD_v1.pdf",
+  "convocatoria": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/convocatorias/certificados-eficiencia-energetica-2026-para-medidas-eficiencia-0"
+ },
+ "flotas": "Las flotas también se postulan como medida estandarizada, sin límite de ahorros de energía; el tope es por vehículo."
+}

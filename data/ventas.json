@@ -1,0 +1,1711 @@
+{
+ "actualizado": "2026-11-18",
+ "anio": 2026,
+ "nota": "Unidades 0 km de modelos 100 % eléctricos registradas por ACAU, mes a mes. Listas por modelo publicadas por Autoblog (sección Ventas). Se excluyen híbridos; cuando ACAU agrupa versión eléctrica y enchufable en una sola línea, se indica. La lista de cada mes incluye los modelos eléctricos con ventas relevantes; los de 1 o 2 unidades pueden no figurar.",
+ "meses": [
+  {
+   "mes": "2026-01",
+   "fuente": "https://www.autoblog.com.uy/2026/02/ventas-enero-2026.html",
+   "total_electricos": 1662,
+   "fuente_total": "ACAU, citado por Bloomberg Línea",
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 299,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 277,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 156,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 137,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 131,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 117,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 68,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "e2",
+     "unidades": 65,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 59,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 50,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 46,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 44,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 43,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 22,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "Friday EV",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Lynk & Co",
+     "modelo": "02",
+     "unidades": 11,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "6 EV",
+     "unidades": 11,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion ES",
+     "unidades": 5,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MG4",
+     "unidades": 5,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "e-S1",
+     "unidades": 3,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Bestune",
+     "modelo": "Xiaoma",
+     "unidades": 3,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Mini",
+     "modelo": "Cooper E/SE",
+     "unidades": 3,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "XEV",
+     "modelo": "Yoyo",
+     "unidades": 3,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-02",
+   "fuente": "https://www.autoblog.com.uy/2026/03/ventas-febrero-2026.html",
+   "total_electricos": 1664,
+   "fuente_total": "ACAU, citado por Montevideo Portal",
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 239,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 184,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 125,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 119,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 117,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 113,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 110,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 101,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 89,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 66,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "D1",
+     "unidades": 64,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "e2",
+     "unidades": 62,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 56,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 37,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 36,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 32,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 18,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 18,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 17,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Lynk & Co",
+     "modelo": "02",
+     "unidades": 17,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Karry",
+     "modelo": "KQ53 EV",
+     "unidades": 5,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Bestune",
+     "modelo": "Xiaoma",
+     "unidades": 4,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-03",
+   "fuente": "https://www.autoblog.com.uy/2026/04/ventas-marzo-2026.html",
+   "total_electricos": 1806,
+   "fuente_total": "calculado: 5.132 eléctricos en el primer trimestre (Autoblog/ACAU) menos enero y febrero",
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 321,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 309,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 142,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "e2",
+     "unidades": 122,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 99,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 96,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 90,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 72,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 54,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Mage EV",
+     "unidades": 40,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 39,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 32,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 32,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 27,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 26,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 24,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 22,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 9,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Song Plus EV",
+     "unidades": 9,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Mini",
+     "modelo": "Aceman",
+     "unidades": 7,
+     "categoria": "SUV"
+    }
+   ]
+  },
+  {
+   "mes": "2026-04",
+   "fuente": "https://www.autoblog.com.uy/2026/05/ventas-abril-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 521,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 203,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 189,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 112,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 112,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 96,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 96,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 93,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 82,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 78,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 78,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 62,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 61,
+     "categoria": "SUV",
+     "nota": "incluye versiones PHEV/EREV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 56,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 56,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "e2",
+     "unidades": 41,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 38,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion Y",
+     "unidades": 36,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 29,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 24,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Zeekr",
+     "modelo": "7X",
+     "unidades": 15,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 13,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Song Plus EV",
+     "unidades": 9,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Karry",
+     "modelo": "KQ53 EV",
+     "unidades": 8,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Sealion 7",
+     "unidades": 7,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Xpeng",
+     "modelo": "G6",
+     "unidades": 7,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Maxus",
+     "modelo": "eDeliver 7",
+     "unidades": 7,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 6,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "e-S1",
+     "unidades": 3,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-05",
+   "fuente": "https://www.autoblog.com.uy/2026/06/ventas-mayo-2026.html",
+   "total_electricos": 2888,
+   "fuente_total": "ACAU, citado por El Economista",
+   "modelos": [
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 355,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 354,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 296,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 194,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 187,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 120,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 100,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 94,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 92,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 85,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 77,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 72,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 71,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 65,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 63,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MGS5",
+     "unidades": 56,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 50,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 44,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "Friday EV",
+     "unidades": 23,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 22,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 20,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Wuling",
+     "modelo": "Bingo",
+     "unidades": 20,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 20,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 19,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "ArcFox",
+     "modelo": "T1",
+     "unidades": 16,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Lynk & Co",
+     "modelo": "02",
+     "unidades": 15,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 14,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion ES",
+     "unidades": 11,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Karry",
+     "modelo": "KQ53 EV",
+     "unidades": 10,
+     "categoria": "Utilitario"
+    }
+   ]
+  },
+  {
+   "mes": "2026-06",
+   "fuente": "https://www.autoblog.com.uy/2026/07/ventas-junio-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 322,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 218,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 207,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 194,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 153,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 145,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 138,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 98,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MGS5",
+     "unidades": 96,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 84,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 2",
+     "unidades": 82,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 73,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 66,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 48,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 37,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 33,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 26,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 22,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Lynk & Co",
+     "modelo": "02",
+     "unidades": 22,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 22,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Karry",
+     "modelo": "KQ53 EV",
+     "unidades": 20,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 16,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 15,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 15,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "Friday EV",
+     "unidades": 15,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Wuling",
+     "modelo": "Bingo",
+     "unidades": 12,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Mercedes-Benz",
+     "modelo": "EQA",
+     "unidades": 12,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "ArcFox",
+     "modelo": "T1",
+     "unidades": 11,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-07",
+   "fuente": "https://www.autoblog.com.uy/2026/08/ventas-julio-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 454,
+     "categoria": "SUV",
+     "nota": "incluye versiones PHEV/EREV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 413,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 224,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 208,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 201,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 181,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 157,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 128,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 113,
+     "categoria": "SUV",
+     "nota": "incluye versiones PHEV/EREV"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 5",
+     "unidades": 94,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 92,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 82,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 78,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 69,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MGS5",
+     "unidades": 59,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 38,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Wuling",
+     "modelo": "Bingo",
+     "unidades": 30,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion ES",
+     "unidades": 26,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 26,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 25,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 23,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 20,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Hudson",
+     "modelo": "eBuddy",
+     "unidades": 20,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 2",
+     "unidades": 15,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 8,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-08",
+   "fuente": "https://www.autoblog.com.uy/2026/09/ventas-agosto-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 503,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 331,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 328,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 328,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 279,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 207,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 180,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 135,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 116,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 115,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 5",
+     "unidades": 112,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 102,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 94,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 2",
+     "unidades": 91,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 85,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 47,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MGS5",
+     "unidades": 39,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "Friday EV",
+     "unidades": 33,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MG4 Urban",
+     "unidades": 31,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 18,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 18,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BMW",
+     "modelo": "iX3",
+     "unidades": 15,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Song Plus EV",
+     "unidades": 12,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 12,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "ArcFox",
+     "modelo": "T1",
+     "unidades": 10,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion ES",
+     "unidades": 9,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Farizon",
+     "modelo": "V6E",
+     "unidades": 7,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Hudson",
+     "modelo": "eBuddy",
+     "unidades": 6,
+     "categoria": "Utilitario"
+    }
+   ]
+  },
+  {
+   "mes": "2026-09",
+   "fuente": "https://www.autoblog.com.uy/2026/10/ventas-septiembre-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 367,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 311,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 248,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 204,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 199,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 196,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 5",
+     "unidades": 193,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 144,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 142,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 104,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 103,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 101,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 92,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 90,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MG4 Urban",
+     "unidades": 67,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 66,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 49,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 39,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 34,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 2",
+     "unidades": 31,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 24,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 22,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "BMW",
+     "modelo": "iX3",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "Friday EV",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Karry",
+     "modelo": "KQ53 EV",
+     "unidades": 19,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Citroën",
+     "modelo": "Ami",
+     "unidades": 18,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Bestune",
+     "modelo": "Joy 03",
+     "unidades": 17,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BAIC",
+     "modelo": "EU5",
+     "unidades": 8,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion ES",
+     "unidades": 8,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Forthing",
+     "modelo": "S7 EV",
+     "unidades": 7,
+     "categoria": "Auto"
+    }
+   ]
+  },
+  {
+   "mes": "2026-10",
+   "fuente": "https://www.autoblog.com.uy/2026/11/ventas-octubre-2026.html",
+   "total_electricos": null,
+   "fuente_total": null,
+   "modelos": [
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Pro",
+     "unidades": 379,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "New E2 X",
+     "unidades": 288,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX2",
+     "unidades": 269,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Omoda",
+     "modelo": "E5",
+     "unidades": 232,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Seagull/Seagull Surf",
+     "unidades": 213,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 5",
+     "unidades": 201,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Geely",
+     "modelo": "EX5",
+     "unidades": 172,
+     "categoria": "SUV",
+     "nota": "incluye versiones PHEV/EREV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Nammi",
+     "unidades": 155,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion V",
+     "unidades": 149,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Spark EUV",
+     "unidades": 142,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 3",
+     "unidades": 128,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GAC",
+     "modelo": "Aion UT",
+     "unidades": 111,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Riddara",
+     "modelo": "RD6",
+     "unidades": 92,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Chevrolet",
+     "modelo": "Captiva EV",
+     "unidades": 85,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Dongfeng",
+     "modelo": "Vigo",
+     "unidades": 71,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MG4 Urban",
+     "unidades": 50,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Toyota",
+     "modelo": "bZ4X",
+     "unidades": 44,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Jaecoo",
+     "modelo": "5 EV",
+     "unidades": 30,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "JAC",
+     "modelo": "Ytterby (E-S3)",
+     "unidades": 29,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "MG",
+     "modelo": "MGS5",
+     "unidades": 28,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "BYD",
+     "modelo": "Yuan Plus",
+     "unidades": 23,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Bestune",
+     "modelo": "Joy 03",
+     "unidades": 21,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Deepal",
+     "modelo": "S05",
+     "unidades": 20,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Leapmotor",
+     "modelo": "B10",
+     "unidades": 19,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Lynk & Co",
+     "modelo": "02",
+     "unidades": 16,
+     "categoria": "SUV"
+    },
+    {
+     "marca": "Hudson",
+     "modelo": "eBuddy",
+     "unidades": 14,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "JMC",
+     "modelo": "JMEV 2",
+     "unidades": 13,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Victory",
+     "modelo": "Furgón/Box/Pick-up",
+     "unidades": 13,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "Farizon",
+     "modelo": "V6E",
+     "unidades": 9,
+     "categoria": "Utilitario"
+    },
+    {
+     "marca": "BAIC",
+     "modelo": "EU5",
+     "unidades": 8,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Changan",
+     "modelo": "Lumin",
+     "unidades": 7,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "GWM",
+     "modelo": "Ora 03",
+     "unidades": 7,
+     "categoria": "Auto"
+    },
+    {
+     "marca": "Citroën",
+     "modelo": "Ami",
+     "unidades": 4,
+     "categoria": "Auto"
+    }
+   ]
+  }
+ ]
+}

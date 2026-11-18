@@ -1,0 +1,11 @@
+{
+ "nota": "Importadores oficiales por marca. 'paginas' son las URLs donde el importador publica modelos y precios. El agente editorial de Claude completa las URLs vacías (busca el sitio oficial) y las corrige si cambian. El agente diario solo lee las URLs cargadas.",
+ "importadores": [
+  {"importador": "Sadar", "marcas": ["BYD", "Peugeot", "Riddara"], "paginas": [], "fuente_dato": "El Observador, 18/08/2026"},
+  {"importador": "Grupo Santa Rosa", "marcas": ["Nissan", "Renault", "Changan", "JMC", "Mitsubishi", "GWM", "Leapmotor", "Omoda", "Jaecoo"], "paginas": [], "fuente_dato": "Forbes Argentina 2025; Autoblog 03/11/2026"},
+  {"importador": "Lestido", "marcas": ["GAC"], "paginas": [], "fuente_dato": "Montevideo Portal 2026"},
+  {"importador": "Autolider (Inchcape)", "marcas": ["Smart"], "paginas": [], "fuente_dato": "Autoblog 20/03/2025"},
+  {"importador": "Tesla Uruguay (venta directa)", "marcas": ["Tesla"], "paginas": [], "fuente_dato": "Montevideo Portal 2026"}
+ ],
+ "marcas_sin_importador_identificado": ["ArcFox", "Audi", "BAW", "Bestune", "BMW", "Chery", "Chevrolet", "Citroën", "Deepal", "DFSK", "Dongfeng", "Farizon", "Fiat", "Foton", "Geely", "Gonow", "Hyundai", "JAC", "Jeep", "Keyton", "Kia", "Lynk & Co", "Maxus", "Mercedes-Benz", "MG", "Mini", "Victory", "Volkswagen", "Volvo", "Wuling", "XEV", "Xpeng", "Zeekr"]
+}

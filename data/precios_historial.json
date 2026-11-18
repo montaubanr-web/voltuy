@@ -1,0 +1,1266 @@
+{
+ "desde": "2026-11-18",
+ "nota": "Precio de lista por versión cada vez que cambia (lo agrega agents/actualizar_precios.py).",
+ "historial": {
+  "bestune-xiaoma": [
+   [
+    "2026-11",
+    11190
+   ]
+  ],
+  "baw-mini-truck-pickup": [
+   [
+    "2026-11",
+    11467
+   ]
+  ],
+  "baw-pony-cargo": [
+   [
+    "2026-11",
+    11490
+   ]
+  ],
+  "baw-mini-truck-box-furgon": [
+   [
+    "2026-11",
+    11877
+   ]
+  ],
+  "wuling-macaron-youth": [
+   [
+    "2026-04",
+    12490
+   ]
+  ],
+  "baw-pony-standard": [
+   [
+    "2026-11",
+    12490
+   ]
+  ],
+  "baw-e7": [
+   [
+    "2026-11",
+    12990
+   ]
+  ],
+  "baw-l7": [
+   [
+    "2026-11",
+    12990
+   ]
+  ],
+  "citroen-ami": [
+   [
+    "2026-11",
+    12990
+   ]
+  ],
+  "xev-yoyo": [
+   [
+    "2026-11",
+    12990
+   ]
+  ],
+  "wuling-mini-ev": [
+   [
+    "2026-05",
+    13990
+   ]
+  ],
+  "changan-lumin-35-kw": [
+   [
+    "2026-11",
+    13990
+   ]
+  ],
+  "jmc-jmev-ev2-30-kw": [
+   [
+    "2026-11",
+    13990
+   ]
+  ],
+  "baw-e7-pro": [
+   [
+    "2026-11",
+    14490
+   ]
+  ],
+  "jmc-jmev-ev3-50-kw": [
+   [
+    "2026-11",
+    16990
+   ]
+  ],
+  "chery-eq1": [
+   [
+    "2026-11",
+    17990
+   ]
+  ],
+  "dongfeng-nammi-330": [
+   [
+    "2026-11",
+    17990
+   ]
+  ],
+  "jac-e-s1": [
+   [
+    "2026-11",
+    17990
+   ]
+  ],
+  "byd-seagull-300": [
+   [
+    "2026-11",
+    18990
+   ]
+  ],
+  "dongfeng-nammi-330-eu": [
+   [
+    "2026-11",
+    19990
+   ]
+  ],
+  "leapmotor-t03": [
+   [
+    "2026-11",
+    19990
+   ]
+  ],
+  "geely-ex2-pro": [
+   [
+    "2026-11",
+    20489
+   ]
+  ],
+  "byd-seagull-380": [
+   [
+    "2026-11",
+    20990
+   ]
+  ],
+  "chevrolet-spark-euv": [
+   [
+    "2026-09",
+    21990
+   ]
+  ],
+  "gac-aion-ut": [
+   [
+    "2026-11",
+    21990
+   ]
+  ],
+  "geely-ex2": [
+   [
+    "2026-11",
+    22490
+   ]
+  ],
+  "geely-geometry-e": [
+   [
+    "2026-11",
+    22490
+   ]
+  ],
+  "dongfeng-nammi-430": [
+   [
+    "2025-08",
+    22990
+   ]
+  ],
+  "arcfox-t1-full": [
+   [
+    "2026-11",
+    22990
+   ]
+  ],
+  "byd-seagull-surf": [
+   [
+    "2026-11",
+    22990
+   ]
+  ],
+  "jac-e-s3-ytterby": [
+   [
+    "2026-11",
+    22990
+   ]
+  ],
+  "gwm-ora-03-skin-400": [
+   [
+    "2026-11",
+    23490
+   ]
+  ],
+  "bestune-nat": [
+   [
+    "2026-11",
+    23990
+   ]
+  ],
+  "dfsk-ec35": [
+   [
+    "2026-11",
+    23990
+   ]
+  ],
+  "foton-ewonder-pick-up": [
+   [
+    "2026-11",
+    24549
+   ]
+  ],
+  "gwm-ora-5-middle": [
+   [
+    "2026-11",
+    24990
+   ]
+  ],
+  "keyton-q2-pick-up": [
+   [
+    "2026-11",
+    25500
+   ]
+  ],
+  "gwm-ora-03-skin": [
+   [
+    "2026-11",
+    25590
+   ]
+  ],
+  "arcfox-t1-extra-full": [
+   [
+    "2026-11",
+    25650
+   ]
+  ],
+  "byd-dolphin-e2": [
+   [
+    "2025-08",
+    25990
+   ]
+  ],
+  "gac-aion-ut-max": [
+   [
+    "2026-03",
+    25990
+   ]
+  ],
+  "dongfeng-vigo-e2": [
+   [
+    "2026-11",
+    25990
+   ]
+  ],
+  "foton-ewonder-box-furgon": [
+   [
+    "2026-11",
+    26188
+   ]
+  ],
+  "bestune-joy-03-exclusive": [
+   [
+    "2026-11",
+    26900
+   ]
+  ],
+  "gac-aion-es": [
+   [
+    "2026-11",
+    26990
+   ]
+  ],
+  "gwm-ora-5-high": [
+   [
+    "2026-11",
+    26990
+   ]
+  ],
+  "jmc-jmev-gse-family-110-kw": [
+   [
+    "2026-11",
+    26990
+   ]
+  ],
+  "mg-mgs5-comfort": [
+   [
+    "2026-11",
+    26990
+   ]
+  ],
+  "geely-geometry-c-gf-plus": [
+   [
+    "2026-11",
+    27290
+   ]
+  ],
+  "byd-yuan-pro-gs": [
+   [
+    "2026-11",
+    27990
+   ]
+  ],
+  "byd-d1": [
+   [
+    "2026-11",
+    27990
+   ]
+  ],
+  "jaecoo-5-ev-comfort": [
+   [
+    "2026-11",
+    27990
+   ]
+  ],
+  "omoda-e5": [
+   [
+    "2026-11",
+    28990
+   ]
+  ],
+  "gac-aion-v-plus": [
+   [
+    "2026-11",
+    28990
+   ]
+  ],
+  "gwm-ora-03-sr": [
+   [
+    "2026-11",
+    28990
+   ]
+  ],
+  "dongfeng-vigo-e2-plus": [
+   [
+    "2026-11",
+    28990
+   ]
+  ],
+  "victory-sch1030-pick-up-cabina-simple": [
+   [
+    "2026-11",
+    29036
+   ]
+  ],
+  "victory-furgon-ev": [
+   [
+    "2026-11",
+    29890
+   ]
+  ],
+  "mg4": [
+   [
+    "2026-11",
+    29900
+   ]
+  ],
+  "jmc-carrying-ev": [
+   [
+    "2026-11",
+    29900
+   ]
+  ],
+  "byd-yuan-pro-gsx": [
+   [
+    "2026-11",
+    29990
+   ]
+  ],
+  "leapmotor-b10-life": [
+   [
+    "2026-11",
+    29990
+   ]
+  ],
+  "victory-sch1030s-pick-up-doble-cabina": [
+   [
+    "2026-11",
+    30866
+   ]
+  ],
+  "byd-yuan-pro-gsi-plus": [
+   [
+    "2026-02",
+    30990
+   ]
+  ],
+  "jaecoo-5-ev": [
+   [
+    "2026-11",
+    30990
+   ]
+  ],
+  "gonow-sy00": [
+   [
+    "2026-11",
+    30990
+   ]
+  ],
+  "gwm-ora-03-gt": [
+   [
+    "2026-11",
+    30990
+   ]
+  ],
+  "mg-zs-ev-comfort": [
+   [
+    "2026-11",
+    31990
+   ]
+  ],
+  "byd-yuan-plus-lux": [
+   [
+    "2026-11",
+    31990
+   ]
+  ],
+  "gac-aion-v-max": [
+   [
+    "2026-11",
+    31990
+   ]
+  ],
+  "geely-ex5-pro": [
+   [
+    "2026-11",
+    31990
+   ]
+  ],
+  "omoda-e5-luxury-430": [
+   [
+    "2026-11",
+    31990
+   ]
+  ],
+  "riddara-rd6-eco-2wd": [
+   [
+    "2026-11",
+    32000
+   ]
+  ],
+  "jac-m3-ev": [
+   [
+    "2026-11",
+    32799
+   ]
+  ],
+  "victory-box-ev": [
+   [
+    "2026-11",
+    32819
+   ]
+  ],
+  "byd-yuan-pro-dmi": [
+   [
+    "2026-11",
+    32990
+   ]
+  ],
+  "tesla-model-3-rwd": [
+   [
+    "2026-07",
+    32990
+   ]
+  ],
+  "jac-ej7": [
+   [
+    "2026-11",
+    32990
+   ]
+  ],
+  "chevrolet-captiva-ev": [
+   [
+    "2026-11",
+    33990
+   ]
+  ],
+  "geely-geometry-c-gs": [
+   [
+    "2026-11",
+    33990
+   ]
+  ],
+  "leapmotor-b10-design": [
+   [
+    "2026-11",
+    33990
+   ]
+  ],
+  "omoda-e5-luxury": [
+   [
+    "2026-11",
+    33990
+   ]
+  ],
+  "mg-mgs5-luxury-long-range": [
+   [
+    "2026-11",
+    33990
+   ]
+  ],
+  "bestune-joy-03-premium": [
+   [
+    "2026-11",
+    34900
+   ]
+  ],
+  "farizon-v6e": [
+   [
+    "2026-11",
+    34990
+   ]
+  ],
+  "gac-aion-y-plus": [
+   [
+    "2026-11",
+    34990
+   ]
+  ],
+  "volkswagen-id-3-pure": [
+   [
+    "2026-11",
+    34990
+   ]
+  ],
+  "arcfox-alpha-t5": [
+   [
+    "2026-11",
+    35950
+   ]
+  ],
+  "geely-ex5": [
+   [
+    "2026-11",
+    35990
+   ]
+  ],
+  "byd-sealion-blue-rwd": [
+   [
+    "2026-11",
+    35990
+   ]
+  ],
+  "chery-eq7": [
+   [
+    "2026-11",
+    35990
+   ]
+  ],
+  "tesla-model-y-rwd": [
+   [
+    "2026-07",
+    36490
+   ]
+  ],
+  "hyundai-kona-electric-limited-standard-range": [
+   [
+    "2026-11",
+    36990
+   ]
+  ],
+  "leapmotor-c10-reev-extensor-de-autonomia": [
+   [
+    "2026-11",
+    36990
+   ]
+  ],
+  "lynk-co-02-halo-ev": [
+   [
+    "2026-11",
+    36990
+   ]
+  ],
+  "maxus-edeliver-3-swb": [
+   [
+    "2026-11",
+    36990
+   ]
+  ],
+  "mg-mg4-luxury-extended-range": [
+   [
+    "2026-11",
+    37900
+   ]
+  ],
+  "tesla-model-3-lr": [
+   [
+    "2026-07",
+    37990
+   ]
+  ],
+  "mg-zs-ev-deluxe": [
+   [
+    "2026-02",
+    37990
+   ]
+  ],
+  "fiat-600e": [
+   [
+    "2026-11",
+    37990
+   ]
+  ],
+  "volkswagen-id-3-pro": [
+   [
+    "2026-11",
+    38900
+   ]
+  ],
+  "leapmotor-c10-ev": [
+   [
+    "2026-06",
+    38990
+   ]
+  ],
+  "maxus-edeliver-3-chasis": [
+   [
+    "2026-11",
+    38990
+   ]
+  ],
+  "kia-niro-ev": [
+   [
+    "2026-11",
+    39600
+   ]
+  ],
+  "mg-mg4-xpower": [
+   [
+    "2026-11",
+    39900
+   ]
+  ],
+  "volvo-ex30-core-e40": [
+   [
+    "2026-11",
+    39900
+   ]
+  ],
+  "arcfox-alpha-s5": [
+   [
+    "2026-11",
+    39950
+   ]
+  ],
+  "byd-song-plus-dmi": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "jaecoo-6-ev": [
+   [
+    "2026-02",
+    39990
+   ]
+  ],
+  "leapmotor-c11": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "deepal-s05-bev": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "lynk-co-02-pro": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "maxus-edeliver-3-lwb": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "peugeot-e-partner": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "smart-1-pure": [
+   [
+    "2026-11",
+    39990
+   ]
+  ],
+  "tesla-model-y-lr": [
+   [
+    "2026-07",
+    41490
+   ]
+  ],
+  "tesla-model-y-awd": [
+   [
+    "2026-11",
+    41490
+   ]
+  ],
+  "byd-song-plus-ev": [
+   [
+    "2026-11",
+    41990
+   ]
+  ],
+  "jeep-avenger": [
+   [
+    "2026-11",
+    41990
+   ]
+  ],
+  "jmc-jmev-gse-luxury-118-kw": [
+   [
+    "2026-11",
+    41990
+   ]
+  ],
+  "volkswagen-id-4-crozz-pure": [
+   [
+    "2026-11",
+    43790
+   ]
+  ],
+  "volkswagen-id-4-x-pure-smart": [
+   [
+    "2026-11",
+    43900
+   ]
+  ],
+  "foton-etunland": [
+   [
+    "2026-11",
+    43950
+   ]
+  ],
+  "citroen-e-berlingo": [
+   [
+    "2026-11",
+    43990
+   ]
+  ],
+  "leapmotor-c16-bev": [
+   [
+    "2026-11",
+    43990
+   ]
+  ],
+  "mini-cooper-e": [
+   [
+    "2026-11",
+    43990
+   ]
+  ],
+  "jaecoo-6-ev-flagship-4wd": [
+   [
+    "2026-11",
+    43990
+   ]
+  ],
+  "kia-ev3-light": [
+   [
+    "2026-11",
+    44900
+   ]
+  ],
+  "mini-aceman-e-classic": [
+   [
+    "2026-11",
+    44990
+   ]
+  ],
+  "peugeot-e-2008": [
+   [
+    "2026-02",
+    45990
+   ]
+  ],
+  "mini-aceman-se-favoured": [
+   [
+    "2026-11",
+    45990
+   ]
+  ],
+  "zeekr-x": [
+   [
+    "2026-11",
+    46990
+   ]
+  ],
+  "byd-sealion-7-awd": [
+   [
+    "2026-11",
+    46990
+   ]
+  ],
+  "smart-3-pro": [
+   [
+    "2026-11",
+    46990
+   ]
+  ],
+  "deepal-s07-bev": [
+   [
+    "2026-11",
+    47990
+   ]
+  ],
+  "tesla-model-3-perf": [
+   [
+    "2026-10",
+    49990
+   ]
+  ],
+  "kia-ev3": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "bmw-ix1-edrive25l-m-sport": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "gac-hyptec-ht": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "hyundai-ioniq-5-safe-long-range-rwd-72-6-kwh": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "kia-ev5-air-2wd-standard-range": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "toyota-bz4x-limited-2wd": [
+   [
+    "2026-11",
+    49990
+   ]
+  ],
+  "volvo-ex30-plus-extended-range-e60": [
+   [
+    "2026-11",
+    50500
+   ]
+  ],
+  "mini-cooper-se": [
+   [
+    "2026-11",
+    50990
+   ]
+  ],
+  "maxus-edeliver-5": [
+   [
+    "2026-11",
+    51227
+   ]
+  ],
+  "maxus-edeliver-9-l2h2": [
+   [
+    "2026-11",
+    52490
+   ]
+  ],
+  "smart-1-pro-plus": [
+   [
+    "2026-11",
+    52990
+   ]
+  ],
+  "volkswagen-id-4-crozz-pro": [
+   [
+    "2026-11",
+    54790
+   ]
+  ],
+  "volvo-ex30-ultra-extended-range-e60": [
+   [
+    "2026-11",
+    54900
+   ]
+  ],
+  "xpeng-g6": [
+   [
+    "2026-11",
+    54990
+   ]
+  ],
+  "smart-3-pro-plus": [
+   [
+    "2026-11",
+    54990
+   ]
+  ],
+  "hyundai-ioniq-5-safe-long-range-rwd-84-kwh": [
+   [
+    "2026-11",
+    55990
+   ]
+  ],
+  "kia-ev5-land-2wd-long-range": [
+   [
+    "2026-11",
+    55990
+   ]
+  ],
+  "maxus-euniq-6": [
+   [
+    "2026-11",
+    55990
+   ]
+  ],
+  "zeekr-x-flagship-315-kw": [
+   [
+    "2026-11",
+    55990
+   ]
+  ],
+  "volkswagen-id-7-vizzion-pro": [
+   [
+    "2026-11",
+    56900
+   ]
+  ],
+  "foton-etoano-pro": [
+   [
+    "2026-11",
+    57950
+   ]
+  ],
+  "mini-cooper-jcw-e": [
+   [
+    "2026-11",
+    57990
+   ]
+  ],
+  "zeekr-7x-core-rwd-75-kwh": [
+   [
+    "2026-11",
+    57990
+   ]
+  ],
+  "maxus-edeliver-9-l3h2": [
+   [
+    "2026-11",
+    58990
+   ]
+  ],
+  "volvo-ex40-p6-single-motor-rwd": [
+   [
+    "2026-11",
+    59900
+   ]
+  ],
+  "byd-seal-awd": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "hyundai-ioniq-5-limited-long-range-rwd-72-6-kwh": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "jac-sunray-ev": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "maxus-edeliver-9-l3h3": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "maxus-t90-ev": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "mini-aceman-jcw-e": [
+   [
+    "2026-11",
+    59990
+   ]
+  ],
+  "smart-1-brabus": [
+   [
+    "2026-11",
+    60990
+   ]
+  ],
+  "mercedes-benz-eqa-260": [
+   [
+    "2026-11",
+    61990
+   ]
+  ],
+  "volkswagen-id-6-pro": [
+   [
+    "2026-11",
+    63590
+   ]
+  ],
+  "smart-3-brabus": [
+   [
+    "2026-11",
+    63990
+   ]
+  ],
+  "chevrolet-equinox-ev": [
+   [
+    "2026-11",
+    65990
+   ]
+  ],
+  "hyundai-ioniq-5-limited-long-range-rwd-84-kwh": [
+   [
+    "2026-11",
+    65990
+   ]
+  ],
+  "hyundai-ioniq-5-limited-long-range-awd-72-6-kwh": [
+   [
+    "2026-11",
+    67990
+   ]
+  ],
+  "bmw-ix1-edrive20-xline": [
+   [
+    "2026-11",
+    68990
+   ]
+  ],
+  "mini-countryman-e-favoured": [
+   [
+    "2026-11",
+    68990
+   ]
+  ],
+  "volvo-ec40-p6-single-motor-rwd": [
+   [
+    "2026-11",
+    69900
+   ]
+  ],
+  "zeekr-7x-performance-awd": [
+   [
+    "2026-11",
+    69989
+   ]
+  ],
+  "bmw-ix1-xdrive30-m-sport": [
+   [
+    "2026-11",
+    69990
+   ]
+  ],
+  "byd-han-gs-700-fwd": [
+   [
+    "2026-11",
+    69990
+   ]
+  ],
+  "mercedes-benz-eqb-260": [
+   [
+    "2026-11",
+    69990
+   ]
+  ],
+  "zeekr-001-long-range-400-kw": [
+   [
+    "2026-11",
+    69990
+   ]
+  ],
+  "bmw-ix3-leading": [
+   [
+    "2026-11",
+    74900
+   ]
+  ],
+  "volvo-ec40-twin-ultimate-awd": [
+   [
+    "2026-11",
+    74900
+   ]
+  ],
+  "volvo-ex40-p8-twin-motor-awd": [
+   [
+    "2026-11",
+    74900
+   ]
+  ],
+  "chevrolet-blazer-ev": [
+   [
+    "2026-11",
+    74990
+   ]
+  ],
+  "xpeng-g9-performance-4x4": [
+   [
+    "2026-11",
+    74990
+   ]
+  ],
+  "byd-han-gl-600-awd": [
+   [
+    "2026-11",
+    75990
+   ]
+  ],
+  "bmw-ix1-edrive20-xline-plus": [
+   [
+    "2026-11",
+    76990
+   ]
+  ],
+  "mercedes-benz-esprinter-314": [
+   [
+    "2026-11",
+    77900
+   ]
+  ],
+  "maxus-eterron-9": [
+   [
+    "2026-11",
+    78067
+   ]
+  ],
+  "bmw-ix2-xdrive30": [
+   [
+    "2026-11",
+    78990
+   ]
+  ],
+  "zeekr-001-flagship-400-kw": [
+   [
+    "2026-11",
+    79989
+   ]
+  ],
+  "bmw-ix1-edrive20-m-sport": [
+   [
+    "2026-11",
+    79990
+   ]
+  ],
+  "byd-tang-gs": [
+   [
+    "2026-11",
+    80990
+   ]
+  ],
+  "mg-cyberster": [
+   [
+    "2026-11",
+    84900
+   ]
+  ],
+  "bmw-ix-xdrive40-luxury": [
+   [
+    "2026-11",
+    84990
+   ]
+  ],
+  "mercedes-benz-eqa-350": [
+   [
+    "2026-11",
+    87990
+   ]
+  ],
+  "mercedes-benz-eqb-350": [
+   [
+    "2026-11",
+    89990
+   ]
+  ],
+  "maxus-edeliver-9-minibus-l3h2": [
+   [
+    "2026-11",
+    91487
+   ]
+  ],
+  "audi-q6-e-tron-performance": [
+   [
+    "2026-11",
+    96000
+   ]
+  ],
+  "mercedes-benz-esprinter-414": [
+   [
+    "2026-11",
+    96136
+   ]
+  ],
+  "maxus-edeliver-9-minibus-l3h3": [
+   [
+    "2026-11",
+    96377
+   ]
+  ],
+  "bmw-i5-edrive40-m-sport": [
+   [
+    "2026-11",
+    109990
+   ]
+  ],
+  "audi-q6-e-tron-quattro-s-line": [
+   [
+    "2026-11",
+    112000
+   ]
+  ],
+  "audi-q6-e-tron-sportback-s": [
+   [
+    "2026-11",
+    118000
+   ]
+  ],
+  "audi-q8-e-tron-sportback-55-s": [
+   [
+    "2026-11",
+    134000
+   ]
+  ],
+  "mercedes-benz-eqe-350-plus": [
+   [
+    "2026-11",
+    139990
+   ]
+  ],
+  "tesla-cybertruck-awd": [
+   [
+    "2026-11",
+    189900
+   ]
+  ],
+  "mercedes-benz-g-580": [
+   [
+    "2026-11",
+    380000
+   ]
+  ]
+ }
+}

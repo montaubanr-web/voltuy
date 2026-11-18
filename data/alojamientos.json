@@ -1,0 +1,103 @@
+{
+ "actualizado": "2026-11-18",
+ "nota": "Lo arma agents/actualizar_alojamientos.py: cargadores públicos en hoteles y termas (UTE, Open Charge Map), alojamientos de OpenStreetMap con cargador propio o a menos de 300 m de uno, y altas enviadas por los propios alojamientos (verificadas).",
+ "planes": [
+  {
+   "id": "basico",
+   "nombre": "Básico",
+   "precio": "Gratis",
+   "detalle": [
+    "Ficha con tipo de cargador y acceso",
+    "Enlace a tu web o a tu anuncio de reservas",
+    "Visible en el listado de tu departamento"
+   ]
+  },
+  {
+   "id": "destacado",
+   "nombre": "Destacado temporada",
+   "precio": "$ 2.490 (dic–mar)",
+   "detalle": [
+    "Primero en el listado y con sello «Destacado»",
+    "Fotos y botón de reserva directo",
+    "Aparece en el planificador de viaje cuando la ruta pasa cerca",
+    "Mención en el newsletter de temporada"
+   ]
+  },
+  {
+   "id": "destacado_anual",
+   "nombre": "Destacado anual",
+   "precio": "$ 5.990 por año",
+   "detalle": [
+    "Todo lo del plan de temporada, los 12 meses",
+    "Estadísticas mensuales de visitas y clics a tu ficha",
+    "Prioridad en notas y guías de escapadas"
+   ]
+  }
+ ],
+ "alojamientos": [
+  {
+   "id": "cg-ute-casino-parque-hotel-34-9128",
+   "nombre": "Casino Parque Hotel",
+   "tipo": "Hotel",
+   "localidad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.912848,
+   "lon": -56.169618,
+   "cargador": "UTE · hasta 60 kW",
+   "acceso": "Público (red de UTE)",
+   "distancia_m": 0,
+   "url": null,
+   "fuente": "UTE",
+   "origen": "cargadores",
+   "destacado": false
+  },
+  {
+   "id": "cg-ute-hotel-nh-montevideo-34-9098",
+   "nombre": "Hotel NH Montevideo",
+   "tipo": "Hotel",
+   "localidad": "Montevideo",
+   "departamento": "Montevideo",
+   "lat": -34.909845,
+   "lon": -56.204714,
+   "cargador": "UTE · hasta 22 kW",
+   "acceso": "Público (red de UTE)",
+   "distancia_m": 0,
+   "url": null,
+   "fuente": "UTE",
+   "origen": "cargadores",
+   "destacado": false
+  },
+  {
+   "id": "cg-ute-termas-de-daym-n-31-4559",
+   "nombre": "Termas de Daymán",
+   "tipo": "Termas",
+   "localidad": "Salto",
+   "departamento": "Salto",
+   "lat": -31.455851,
+   "lon": -57.909633,
+   "cargador": "UTE · hasta 60 kW",
+   "acceso": "Público (red de UTE)",
+   "distancia_m": 0,
+   "url": null,
+   "fuente": "UTE",
+   "origen": "cargadores",
+   "destacado": false
+  },
+  {
+   "id": "cg-ute-termas-del-arapey-30-9472",
+   "nombre": "Termas del Arapey",
+   "tipo": "Termas",
+   "localidad": "Arapey",
+   "departamento": "Salto",
+   "lat": -30.947162,
+   "lon": -57.522245,
+   "cargador": "UTE · hasta 22 kW",
+   "acceso": "Público (red de UTE)",
+   "distancia_m": 0,
+   "url": null,
+   "fuente": "UTE",
+   "origen": "cargadores",
+   "destacado": false
+  }
+ ]
+}

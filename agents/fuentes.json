@@ -1,0 +1,55 @@
+{
+  "uruguay": [
+    {
+      "nombre": "Google Noticias: autos eléctricos Uruguay",
+      "url": "https://news.google.com/rss/search?q=%22autos+el%C3%A9ctricos%22+Uruguay+when:7d&hl=es-419&gl=UY&ceid=UY:es-419",
+      "filtrar": true
+    },
+    {
+      "nombre": "Google Noticias: IMESI eléctricos",
+      "url": "https://news.google.com/rss/search?q=IMESI+el%C3%A9ctricos+Uruguay+when:7d&hl=es-419&gl=UY&ceid=UY:es-419",
+      "filtrar": true
+    },
+    {
+      "nombre": "Google Noticias: UTE carga eléctricos",
+      "url": "https://news.google.com/rss/search?q=UTE+carga+veh%C3%ADculos+el%C3%A9ctricos+when:7d&hl=es-419&gl=UY&ceid=UY:es-419",
+      "filtrar": true
+    },
+    {
+      "nombre": "Google Noticias: Autoblog eléctricos",
+      "url": "https://news.google.com/rss/search?q=site:autoblog.com.uy+el%C3%A9ctrico+when:7d&hl=es-419&gl=UY&ceid=UY:es-419",
+      "filtrar": true
+    }
+  ],
+  "internacional": [
+    {
+      "nombre": "Electrek",
+      "url": "https://electrek.co/feed/",
+      "filtrar": false
+    },
+    {
+      "nombre": "InsideEVs",
+      "url": "https://insideevs.com/rss/news/all/",
+      "filtrar": false
+    },
+    {
+      "nombre": "electrive",
+      "url": "https://www.electrive.com/feed/",
+      "filtrar": false
+    }
+  ],
+  "palabras_clave": [
+    "eléctric",
+    "electric",
+    " ev ",
+    "híbrido enchufable",
+    "phev",
+    "bev",
+    "imesi",
+    "cargador",
+    "electrolinera",
+    "tesla",
+    "byd",
+    "electromovilidad"
+  ]
+}

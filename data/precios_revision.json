@@ -1,0 +1,53 @@
+{
+ "fecha": "2026-11-17",
+ "fuentes": {
+  "importador": false,
+  "mercadolibre": false,
+  "mielectrico": true
+ },
+ "cambios_aplicados": [],
+ "alertas": [
+  {
+   "tipo": "diferencia_referencia",
+   "id": "chevrolet-spark-euv",
+   "modelo": "Chevrolet Spark EUV Activ",
+   "actual": 21990,
+   "referencia": 24990,
+   "fuente": "https://mielectrico.uy/autos-electricos/chevrolet-spark-euv"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mg-zs-ev-deluxe",
+   "modelo": "MG ZS EV Deluxe",
+   "actual": 37990,
+   "referencia": 31990,
+   "fuente": "https://mielectrico.uy/autos-electricos/mg-zs-ev-2024"
+  }
+ ],
+ "modelos_sin_catalogar": [
+  {
+   "tipo": "solo_en_referencia",
+   "fuente": "mielectrico",
+   "nombre": "mielectrico.uy",
+   "url": "https://mielectrico.uy/autos-electricos/byd-new-e2-x-2026",
+   "titulo": "BYD New E2 X",
+   "precio": 25990
+  },
+  {
+   "tipo": "solo_en_referencia",
+   "fuente": "mielectrico",
+   "nombre": "mielectrico.uy",
+   "url": "https://mielectrico.uy/autos-electricos/foton-wonder-pickup",
+   "titulo": "Foton Wonder Pickup",
+   "precio": 24549
+  },
+  {
+   "tipo": "solo_en_referencia",
+   "fuente": "mielectrico",
+   "nombre": "mielectrico.uy",
+   "url": "https://mielectrico.uy/autos-electricos/mini-jcw-e",
+   "titulo": "MINI JCW E",
+   "precio": 57990
+  }
+ ]
+}
