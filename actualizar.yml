@@ -1,0 +1,71 @@
+name: Agentes diarios de VoltUY
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # todos los días 07:17 de Uruguay (10:17 UTC)
+  workflow_dispatch: {}      # botón para correrlo a mano
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Precio de la nafta (ANCAP)
+        run: python agents/actualizar_combustible.py
+      - name: Rendimiento homologado (URSEA)
+        run: python agents/actualizar_ursea.py
+      - name: Precios y modelos (importadores + MercadoLibre + control cruzado)
+        continue-on-error: true
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+        run: python agents/actualizar_precios.py
+      - name: Avisos de baja de precio (Brevo)
+        continue-on-error: true
+        env:
+          SITIO_URL: ${{ vars.SITIO_URL }}
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          CONTACTO_EMAIL: ${{ secrets.CONTACTO_EMAIL }}
+        run: python agents/enviar_alertas.py
+      - name: Usados (MercadoLibre)
+        continue-on-error: true
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+        run: python agents/actualizar_usados.py
+      - name: Alojamientos con cargador (UTE + OCM + OpenStreetMap)
+        continue-on-error: true
+        run: python agents/actualizar_alojamientos.py
+      - name: Aviso de revisión (issue en GitHub si hay algo para mirar)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python agents/aviso_revision.py > /tmp/aviso.md || true
+          if [ -s /tmp/aviso.md ]; then
+            n=$(gh issue list --label precios --state open --json number -q '.[0].number')
+            if [ -n "$n" ]; then gh issue comment "$n" --body-file /tmp/aviso.md;
+            else gh label create precios --color FBBF24 2>/dev/null || true; gh issue create --title "Revisar precios y modelos" --label precios --body-file /tmp/aviso.md; fi
+          fi
+      - name: Noticias
+        run: python agents/actualizar_noticias.py
+      - name: Tests
+        run: python agents/actualizar_tests.py
+      - name: Cargadores (Open Charge Map + OpenStreetMap)
+        env:
+          OCM_API_KEY: ${{ secrets.OCM_API_KEY }}   # opcional; sin clave usa la exportación pública
+        run: python agents/actualizar_cargadores.py
+      - name: Publicar cambios
+        run: |
+          git config user.name "voltuy-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "Datos del $(date -u +%F)" && git push)

@@ -1,0 +1,38 @@
+name: Newsletter semanal (borrador)
+
+on:
+  schedule:
+    - cron: "43 11 * * 4"   # jueves 08:43 de Uruguay
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Analizar la comunidad (infografías y resúmenes de debates)
+        env:
+          SITIO_URL: ${{ vars.SITIO_URL }}
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+        run: python agents/analizar_comunidad.py
+      - name: Armar newsletter y dejarlo como borrador en Brevo
+        env:
+          SITIO_URL: ${{ vars.SITIO_URL }}
+          SITIO_NOMBRE: ${{ vars.SITIO_NOMBRE }}
+          NEWSLETTER_REMITENTE: ${{ vars.NEWSLETTER_REMITENTE }}
+          CONTACTO_EMAIL: ${{ vars.CONTACTO_EMAIL }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ vars.BREVO_LIST_ID }}
+        run: python agents/generar_newsletter.py
+      - name: Guardar el número en el repositorio (archivo histórico)
+        run: |
+          git config user.name "voltuy-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add newsletter/ data/historial/ data/comunidad.json
+          git diff --cached --quiet || (git commit -m "Newsletter $(date -u +%F)" && git push)
