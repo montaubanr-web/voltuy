@@ -1,0 +1,28 @@
+name: Videos de la semana (YouTube)
+
+on:
+  schedule:
+    - cron: "23 11 * * 1,4"   # lunes y jueves 08:23 de Uruguay
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar videos nuevos
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        run: python agents/actualizar_videos.py
+      - name: Publicar cambios
+        run: |
+          git config user.name "voltuy-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/videos.json
+          git diff --cached --quiet || (git commit -m "Videos del $(date -u +%F)" && git push)
