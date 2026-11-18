@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "fuente": "URSEA · Registro de Etiquetado Vehicular",
  "url": "https://ursea.gub.uy/URSEA-web/pages/etiquetadoVehicular/productosEtiquetadoVehicular.xhtml",
  "nota": "Rendimiento homologado según norma UNIT 1130 (ciclo de ensayo estandarizado).",
@@ -292,14 +292,14 @@
   },
   {
    "marca": "FARIZON",
-   "modelo": "V6E",
+   "modelo": "V6E SSTA",
    "tipo": "BEV",
    "potencia_kw": 100.0,
    "bateria_kwh": 42.0,
    "rendimiento_km_kwh": 6.0,
    "consumo_kwh_100km": 16.7,
    "autonomia_km": 270.0,
-   "registro": "RV-E01965"
+   "registro": "RV-E01973"
   },
   {
    "marca": "DONGFENG",
@@ -663,17 +663,6 @@
    "consumo_kwh_100km": 14.3,
    "autonomia_km": 442.0,
    "registro": "RV-E01264"
-  },
-  {
-   "marca": "FARIZON",
-   "modelo": "V6E SSTA",
-   "tipo": "BEV",
-   "potencia_kw": 100.0,
-   "bateria_kwh": 42.0,
-   "rendimiento_km_kwh": 6.0,
-   "consumo_kwh_100km": 16.7,
-   "autonomia_km": 270.0,
-   "registro": "RV-E01073"
   },
   {
    "marca": "LEAPMOTOR",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "uruguay": [
   {
    "fecha": "2026-11-13",
@@ -300,6 +300,24 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVktGdm9meTBUYnRrdi03ZFdtN3hHX1RXQjU4dm1OaXhHSlV2UVBsc1VvcWtFS2x6dzQydC1NSG4wcGlVY0NiVlVXX3FyTnMtYlZvVWplUDNjaVlJTS1idi1vUHVPbFRMdDE3R0M0Q3E0MEtOWTZKMzRkQ2pLQXh2TG5zb3RfSHJ3ZTNBWUJUT0dMTm9nbk1aTk9nZjhsMTAwSUpqMkdKRjdmLWJtYjFIT0VQbTBpbWZF?oc=5",
    "modelo_id": null,
    "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "PRUEBA: Nuevo DACIA SPRING 2024 | ¿El coche ELÉCTRICO urbano más BARATO y lógico desde 17.900€?",
+   "medio": "Motor.es",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWlhTLTYzT0pIWE1MNUFGek81M1lqV3hWMnN4UmxLNnBfT01MZlpvakZjTmpzaGNzX29FU20za3JJQno0VzNmNWZ4ZjU4ZlBLazZ0NE14U2ZGT3NOaHpzd2o3X2JQa2dpekVjWkNxVGJKWTFOWUpsWWpTbGZvMFdPdWpJQm1fSEF4clBweXBocGdaT20ydFUyeHVWSTQyREpiR1F2N1FtTXduZTBVSmhRWHVEVXJVcVhP?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-11",
+   "titulo": "Prueba Hyundai IONIQ 5 N: 650 CV eléctricos para disfrutar como nunca",
+   "medio": "Motorpoint",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tOTBwYUdqRXhrTVJaM1dhTXF1aFo0X0VfVHVRZEswWE5QNTQyZVIyNE1FR2dGbnFKemY0cUxsQ2hGQXA4dTh2TnFJeVkza1hIcVNiVnU4TU11U0UtblNoVS1GSG5nbGdqLXc?oc=5",
+   "modelo_id": "hyundai-ioniq-5-safe-long-range-rwd-72-6-kwh",
+   "tipo": "Prueba",
    "pais": "España"
   },
   {

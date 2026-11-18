@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-17",
- "total": 247,
+ "actualizado": "2026-11-18",
+ "total": 251,
  "fuentes": [
   "UTE (mapa público de movilidad eléctrica)",
   "Open Charge Map (CC BY 4.0)",
@@ -29,7 +29,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -54,7 +54,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -79,7 +79,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -128,7 +128,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -153,7 +153,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -178,7 +178,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -203,7 +203,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -228,7 +228,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -253,7 +253,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -278,7 +278,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -309,7 +309,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -334,7 +334,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -359,7 +359,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -384,7 +384,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -409,7 +409,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -434,7 +434,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -459,7 +459,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -490,7 +490,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -539,7 +539,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -564,7 +564,7 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -589,7 +589,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -614,7 +614,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -639,7 +639,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -664,7 +664,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -689,7 +689,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -714,7 +714,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -745,7 +745,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -770,7 +770,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -801,7 +801,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -832,7 +832,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -863,7 +863,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -965,7 +965,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -990,7 +990,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1015,7 +1015,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1040,7 +1040,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1065,7 +1065,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1090,7 +1090,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1115,7 +1115,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1140,7 +1140,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1165,7 +1165,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1196,7 +1196,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1221,7 +1221,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1282,7 +1282,7 @@
    ],
    "max_kw": 60,
    "puntos": 7,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1307,7 +1307,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1380,7 +1380,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1405,7 +1405,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1436,7 +1436,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1461,7 +1461,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1486,7 +1486,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1511,9 +1511,27 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "osm-n5993689288",
+   "nombre": "UTE",
+   "direccion": "",
+   "ciudad": "",
+   "departamento": "Colonia",
+   "lat": -34.471749,
+   "lon": -57.841843,
+   "operador": "UTE",
+   "horario": null,
+   "costo": null,
+   "conectores": [],
+   "max_kw": null,
+   "puntos": 1,
+   "verificado": null,
+   "fuente": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/node/5993689288"
   },
   {
    "id": "ocm-312921",
@@ -1560,7 +1578,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1585,7 +1603,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1610,7 +1628,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1635,7 +1653,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1660,7 +1678,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1685,7 +1703,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1710,7 +1728,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1735,7 +1753,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1760,7 +1778,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1785,7 +1803,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1810,7 +1828,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1835,7 +1853,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1860,9 +1878,33 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "osm-n13822818821",
+   "nombre": "Punto de carga",
+   "direccion": "",
+   "ciudad": "",
+   "departamento": "Flores",
+   "lat": -33.517057,
+   "lon": -56.898387,
+   "operador": "Sin dato",
+   "horario": "24/7",
+   "costo": "yes",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 2
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 2,
+   "verificado": null,
+   "fuente": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/node/13822818821"
   },
   {
    "id": "ute-ancap-cerro-colorado-33-8656",
@@ -1885,7 +1927,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1910,7 +1952,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1935,7 +1977,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1960,7 +2002,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -1985,7 +2027,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2010,7 +2052,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2035,7 +2077,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2060,7 +2102,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2085,7 +2127,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2110,7 +2152,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2141,7 +2183,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2172,7 +2214,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2197,7 +2239,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2222,7 +2264,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2247,7 +2289,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2272,7 +2314,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2297,7 +2339,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2322,7 +2364,7 @@
    ],
    "max_kw": 20,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2347,7 +2389,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2372,7 +2414,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2426,7 +2468,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2568,7 +2610,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2593,7 +2635,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2618,7 +2660,32 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
+   "fuente": "UTE",
+   "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "ute-jardines-de-la-sierra-34-9376",
+   "nombre": "Jardines de La Sierra",
+   "direccion": "Roosevelt esq. Oslo edificio Jardines de la Sierra",
+   "ciudad": "Punta del Este",
+   "departamento": "Maldonado",
+   "lat": -34.937551,
+   "lon": -54.935737,
+   "operador": "UTE",
+   "horario": null,
+   "costo": "Tarifa UTE (ver Costos)",
+   "conectores": [
+    {
+     "tipo": "CCS2",
+     "kw": 60,
+     "cantidad": 4,
+     "cable": true
+    }
+   ],
+   "max_kw": 60,
+   "puntos": 4,
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2643,7 +2710,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2668,7 +2735,7 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2693,7 +2760,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2718,7 +2785,7 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2743,7 +2810,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2762,19 +2829,13 @@
     {
      "tipo": "CCS2",
      "kw": 60,
-     "cantidad": 2,
+     "cantidad": 6,
      "cable": true
-    },
-    {
-     "tipo": "Tipo 2",
-     "kw": 22,
-     "cantidad": 2,
-     "cable": false
     }
    ],
    "max_kw": 60,
-   "puntos": 4,
-   "verificado": "2026-11-17",
+   "puntos": 6,
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2799,7 +2860,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2824,7 +2885,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2883,7 +2944,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2908,7 +2969,7 @@
    ],
    "max_kw": 60,
    "puntos": 7,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -2933,7 +2994,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3078,7 +3139,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3103,7 +3164,7 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3157,7 +3218,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3182,7 +3243,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3207,7 +3268,7 @@
    ],
    "max_kw": 60,
    "puntos": 6,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3232,7 +3293,7 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3263,7 +3324,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3288,7 +3349,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3426,7 +3487,7 @@
    ],
    "max_kw": 60,
    "puntos": 22,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3451,9 +3512,27 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
+  },
+  {
+   "id": "osm-w1546348152",
+   "nombre": "Electrolinera UTE Plaza Jefferson",
+   "direccion": "",
+   "ciudad": "",
+   "departamento": "Montevideo",
+   "lat": -34.914383,
+   "lon": -56.183423,
+   "operador": "UTE",
+   "horario": null,
+   "costo": null,
+   "conectores": [],
+   "max_kw": null,
+   "puntos": 4,
+   "verificado": null,
+   "fuente": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/way/1546348152"
   },
   {
    "id": "ocm-260129",
@@ -3500,7 +3579,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3525,7 +3604,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3562,7 +3641,7 @@
    ],
    "max_kw": 43,
    "puntos": 5,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3587,7 +3666,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3612,7 +3691,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3643,7 +3722,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3668,7 +3747,7 @@
    ],
    "max_kw": 22,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3693,7 +3772,7 @@
    ],
    "max_kw": 43,
    "puntos": 6,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3724,7 +3803,7 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3749,7 +3828,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3774,7 +3853,7 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3799,7 +3878,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3824,7 +3903,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3849,7 +3928,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3874,7 +3953,7 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3899,7 +3978,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3924,7 +4003,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3949,7 +4028,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3974,7 +4053,7 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -3999,7 +4078,7 @@
    ],
    "max_kw": 43,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4030,7 +4109,7 @@
    ],
    "max_kw": 90,
    "puntos": 18,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4055,7 +4134,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4080,7 +4159,7 @@
    ],
    "max_kw": 22,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4105,7 +4184,7 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4130,7 +4209,7 @@
    ],
    "max_kw": 60,
    "puntos": 12,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4161,7 +4240,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4186,7 +4265,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4217,7 +4296,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4391,7 +4470,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4416,7 +4495,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4441,7 +4520,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4466,7 +4545,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4491,7 +4570,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4522,7 +4601,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4547,7 +4626,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4572,7 +4651,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4597,7 +4676,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4622,7 +4701,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4647,7 +4726,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4672,7 +4751,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4703,7 +4782,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4728,7 +4807,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4753,7 +4832,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4778,7 +4857,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4803,7 +4882,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4828,7 +4907,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4853,7 +4932,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4878,7 +4957,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4903,7 +4982,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4928,7 +5007,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4953,7 +5032,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -4978,7 +5057,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5003,7 +5082,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5028,7 +5107,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5053,7 +5132,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5078,7 +5157,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5103,7 +5182,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5128,7 +5207,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5153,7 +5232,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5178,7 +5257,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5203,7 +5282,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5228,7 +5307,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5253,7 +5332,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5278,7 +5357,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5303,7 +5382,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5328,7 +5407,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5359,7 +5438,7 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5384,7 +5463,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5409,7 +5488,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5434,7 +5513,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5459,7 +5538,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5484,7 +5563,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5509,7 +5588,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5534,7 +5613,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5559,7 +5638,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5584,7 +5663,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5638,7 +5717,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5663,7 +5742,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5688,7 +5767,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5719,7 +5798,7 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5744,7 +5823,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5769,7 +5848,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5794,7 +5873,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5819,7 +5898,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5844,7 +5923,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5869,7 +5948,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5894,7 +5973,7 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5919,7 +5998,7 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5944,7 +6023,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5969,7 +6048,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -5994,7 +6073,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6019,7 +6098,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6044,7 +6123,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6098,7 +6177,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6123,7 +6202,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6148,7 +6227,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6173,7 +6252,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6198,7 +6277,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6223,7 +6302,7 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6248,7 +6327,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6273,7 +6352,7 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6298,7 +6377,7 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6323,7 +6402,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6348,7 +6427,7 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   },
@@ -6373,7 +6452,7 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-17",
+   "verificado": "2026-11-18",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html"
   }
