@@ -849,7 +849,15 @@
   function initUsados() {
     const U = state.usados || {}, ids = Object.keys(U.modelos || {});
     $("#uCheck").innerHTML = CHECK_USADOS.map(([t, d]) => `<div class="rule"><h3>✔ ${esc(t)}</h3><p>${esc(d)}</p></div>`).join("");
-    if (!ids.length) { $("#uModelo").classList.add("hidden"); $("#uRes").innerHTML = `<div class="empty">Los precios de usados se completan a diario con los avisos de MercadoLibre cuando el sitio esté publicado y conectado a su API.<br><span class="small muted">Vas a ver precio de referencia por año y kilómetros, y los avisos más convenientes de cada modelo.</span></div>`; return; }
+    if (!ids.length) {
+      const mods = [...new Map(state.modelos.filter((m) => m.tipo === "BEV").map((m) => [m.marca + " " + m.modelo, m])).keys()].sort();
+      $("#uModelo").innerHTML = mods.map((n) => `<option>${esc(n)}</option>`).join("");
+      const pinta0 = () => { const q = $("#uModelo").value, slug = q.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-");
+        $("#uRes").innerHTML = `<div class="empty">Estamos sumando precios de referencia de usados por año y kilómetros.<br>Mientras tanto, mirá los avisos de <b>${esc(q)}</b> usados:<br><br>
+          <a class="btn btn-primary" href="https://autos.mercadolibre.com.uy/${slug}-usado" target="_blank" rel="noopener">Ver avisos en MercadoLibre ↗</a>
+          <br><span class="small muted">Antes de comprar, repasá el checklist de abajo.</span></div>`; };
+      $("#uModelo").addEventListener("input", pinta0); pinta0(); return;
+    }
     $("#uUpd").textContent = "Actualizado " + fecha(U.actualizado);
     $("#uModelo").innerHTML = ids.sort((a, b) => U.modelos[b].n - U.modelos[a].n).map((id) => `<option value="${id}">${esc(U.modelos[id].nombre)} (${U.modelos[id].n} avisos)</option>`).join("");
     const pinta = () => { const d = U.modelos[$("#uModelo").value];
