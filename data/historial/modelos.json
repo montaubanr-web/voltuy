@@ -2182,8 +2182,8 @@
    "fuente_precio": "https://mielectrico.uy/explore",
    "verificar": true,
    "ursea": {
-    "modelo": "V6E",
-    "registro": "RV-E01965",
+    "modelo": "V6E SSTA",
+    "registro": "RV-E01973",
     "rendimiento_km_kwh": 6.0,
     "consumo_kwh_100km": 16.7,
     "bateria_kwh": 42.0,
