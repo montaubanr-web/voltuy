@@ -357,3 +357,15 @@ label.chk{flex-direction:row!important;align-items:center;gap:8px}
 .plan.dest{border-color:var(--sun);background:linear-gradient(180deg,#FFFBEB,#fff)}.plan .precio{font-family:"Space Grotesk";font-size:1.3rem;font-weight:700;color:var(--ink)}.plan ul{padding-left:18px;font-size:.88rem;flex:1}
 @media(max-width:860px){.promo-row,.planes-grid{grid-template-columns:1fr}}
 footer .logo{color:#fff}footer .logo b{-webkit-text-fill-color:#FCD34D}
+
+/* Mapa de cargadores: estado en vivo y cobertura */
+.vivo{display:inline-block;font-size:.8rem;font-weight:700;padding:2px 8px;border-radius:999px;margin-top:4px}
+.vivo.libre{background:#DCFCE7;color:#166534}.vivo.uso{background:#FEF3C7;color:#92400E}.vivo.fuera{background:#FEE2E2;color:#991B1B}
+.vivo-tag{color:#166534;font-weight:600}
+.dot-vivo{display:inline-block;width:8px;height:8px;border-radius:50%;background:#16A34A;margin-right:4px;animation:pulsoVivo 1.6s infinite}
+@keyframes pulsoVivo{0%{box-shadow:0 0 0 0 rgba(22,163,74,.6)}70%{box-shadow:0 0 0 7px rgba(22,163,74,0)}100%{box-shadow:0 0 0 0 rgba(22,163,74,0)}}
+.legend .ring{display:inline-block;width:12px;height:12px;border-radius:50%;border:3px solid;margin-right:4px;vertical-align:-2px;background:#fff}
+.ring.libre{border-color:#16A34A}.ring.uso{border-color:#F59E0B}.ring.fuera{border-color:#DC2626}.ring.sd{border-color:#0B1020;border-width:1px}
+.chk{display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.cobertura{margin-top:18px;padding:16px 18px;border-radius:14px;background:#fff;border:1px solid rgba(0,0,0,.08)}
+.cobertura h3{margin:0 0 6px}.cobertura .chips{margin:10px 0}.cobertura .chip b{margin-left:4px}

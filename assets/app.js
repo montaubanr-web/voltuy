@@ -400,7 +400,43 @@
   }
 
   // ---------- Cargadores ----------
-  let map = null, capa = null, marcadores = {};
+  let map = null, capa = null, marcadores = {}, vivoTimer = null;
+  // ---- Estado en vivo (mapa interoperable de operadores: UTE, eOne, DMC, Evergo, Eve…) ----
+  const VIVO_URL = "https://back-app.eve-move.com/eve/miem";
+  state.vivo = {}; state.vivoHora = null;
+  async function cargarVivo() {
+    let d = await api("/api/cargadores/estado");
+    if (!d || !d.ok) {  // sin servidor (vista previa): consulta directa
+      try {
+        const t = await (await fetch(VIVO_URL)).text(), fin = t.indexOf("\n[");
+        const S = { Available: "L", Charging: "C", Unavailable: "F" };
+        d = { ok: true, hora: new Date().toISOString(), estaciones: JSON.parse(fin > 0 ? t.slice(0, fin) : t).filter((e) => e.latitude != null)
+          .map((e) => ({ lat: +e.latitude, lon: +e.longitude, c: (e.cnns || []).map((k) => S[k.status] || "F").join("") })) };
+      } catch { d = null; }
+    }
+    if (!d || !d.ok) { $("#cgVivo").textContent = ""; return; }
+    const vivo = {}, kx = 111320 * Math.cos(-33 * Math.PI / 180);
+    d.estaciones.forEach((e) => {
+      let mejor = null, dm = 70;
+      state.cargadores.forEach((c) => { const m = Math.hypot((c.lat - e.lat) * 110570, (c.lon - e.lon) * kx); if (m < dm) { dm = m; mejor = c; } });
+      if (!mejor) return;
+      const v = vivo[mejor.id] || { L: 0, C: 0, F: 0 };
+      [...e.c].forEach((x) => v[x]++);
+      vivo[mejor.id] = v;
+    });
+    state.vivo = vivo; state.vivoHora = new Date(d.hora);
+    const n = Object.keys(vivo).length;
+    $("#cgVivo").innerHTML = `<i class="dot-vivo"></i> Estado en vivo de ${n} ubicaciones · ${state.vivoHora.toLocaleTimeString("es-UY", { hour: "2-digit", minute: "2-digit" })}`;
+    if (location.hash.slice(1).split("/")[0] === "cargadores") renderCargadores();
+  }
+  function vivoDe(c) {
+    const v = state.vivo[c.id]; if (!v) return null;
+    const total = v.L + v.C + v.F;
+    if (v.L) return { cls: "libre", txt: `${v.L} de ${total} libre${v.L > 1 ? "s" : ""}` };
+    if (v.C) return { cls: "uso", txt: `Todos en uso (${v.C})` };
+    return { cls: "fuera", txt: "Fuera de servicio" };
+  }
+  const COLOR_VIVO = { libre: "#16A34A", uso: "#F59E0B", fuera: "#DC2626" };
   const DC = ["CCS2", "CHAdeMO", "GB/T DC"];
   const dcKw = (c) => Math.max(0, ...(c.conectores || []).filter((k) => DC.includes(k.tipo)).map((k) => k.kw || 0));
   const potRef = (c) => dcKw(c) || Math.min(c.max_kw || 0, 22);  // en AC el auto carga a 7-22 kW aunque el cargador diga 43
@@ -429,24 +465,26 @@
   function cgFiltrados() {
     const q = $("#cgQ").value.trim().toLowerCase(), con = $("#cgConector").value, pot = +$("#cgPot").value, dep = $("#cgDepto").value, op = $("#cgOp").value;
     return state.cargadores.filter((c) => (!q || `${c.nombre} ${c.direccion} ${c.ciudad} ${c.departamento} ${c.operador}`.toLowerCase().includes(q))
-      && (!con || c.conectores.some((k) => k.tipo === con)) && (!pot || dcKw(c) >= pot) && (!dep || c.departamento === dep) && (!op || c.operador === op));
+      && (!con || c.conectores.some((k) => k.tipo === con)) && (!pot || dcKw(c) >= pot) && (!dep || c.departamento === dep) && (!op || c.operador === op)
+      && (!$("#cgLibre").checked || (state.vivo[c.id] && state.vivo[c.id].L > 0)));
   }
   function plugs(c) { return `<div class="plugs">${c.conectores.map((k) => `<span class="plug ${["CCS2", "CHAdeMO", "GB/T DC"].includes(k.tipo) ? "dc" : ""}">${k.cantidad}× ${esc(k.tipo)}${k.kw ? " " + k.kw + " kW" : ""}</span>`).join("")}</div>`; }
   function popupHtml(c) {
-    const [cls, txt] = estimarEspera(c, +$("#cgHora").value);
-    return `<h4>${esc(c.nombre)}</h4><div class="small muted">${esc([c.direccion, c.ciudad, c.departamento].filter(Boolean).join(", "))}</div>
+    const [cls, txt] = estimarEspera(c, +$("#cgHora").value), v = vivoDe(c);
+    return `<h4>${esc(c.nombre)}</h4>${v ? `<div class="vivo ${v.cls}">● Ahora: ${esc(v.txt)}</div>` : ""}
+      ${c.no_visto_dias ? `<div class="warn small">Hace ${c.no_visto_dias} días que no aparece en su fuente: puede haber sido retirado.</div>` : ""}<div class="small muted">${esc([c.direccion, c.ciudad, c.departamento].filter(Boolean).join(", "))}</div>
       ${plugs(c)}<div class="small">Operador: <b>${esc(c.operador)}</b>${c.horario ? ` · ${esc(c.horario)}` : ""}${c.costo ? `<br>Costo: ${esc(c.costo)}` : ""}</div>
-      <div style="margin-top:6px"><span class="espera ${cls}">Espera ${txt.toLowerCase()} (estimada)</span></div>
+      ${v ? "" : `<div style="margin-top:6px"><span class="espera ${cls}">Espera ${txt.toLowerCase()} (estimada)</span></div>`}
       <div class="small muted" data-rep="${c.id}"></div>
       <div class="pop-actions"><a href="https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lon}" target="_blank" rel="noopener">Cómo llegar ↗</a><button data-reportar="${c.id}">Reportar</button></div>
-      <div class="small muted" style="margin-top:6px">Fuente: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.fuente)}</a>${c.verificado ? ` · verificado ${esc(fecha(c.verificado))}` : ""}</div>`;
+      <div class="small muted" style="margin-top:6px">Fuente: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.fuente)}</a>${c.visto ? ` · confirmado en su fuente ${esc(fecha(c.visto))}` : c.verificado ? ` · verificado ${esc(fecha(c.verificado))}` : ""}</div>`;
   }
   function initMap() {
     if (map || !window.L) return;
     map = L.map("map", { zoomControl: true, attributionControl: true }).setView([-32.8, -56], 7);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "© colaboradores de OpenStreetMap" }).addTo(map);
     if (state.uyGeo) L.geoJSON(state.uyGeo, { style: { color: "#0B1020", weight: 1.5, fillColor: "#F5F7FB", fillOpacity: 0.55 } }).addTo(map);
-    map.attributionControl.addAttribution("Cargadores: Open Charge Map, OpenStreetMap");
+    map.attributionControl.addAttribution("Cargadores: UTE, operadores, Open Charge Map, OpenStreetMap");
     map.on("popupopen", async (e) => {
       const el = e.popup.getElement().querySelector("[data-rep]"); if (!el) return;
       const r = await reportes(el.dataset.rep);
@@ -456,14 +494,15 @@
   function renderCargadores() {
     const list = cgFiltrados(), hora = +$("#cgHora").value;
     $("#cgCount").textContent = `${list.length} de ${state.cargadores.length} ubicaciones`;
-    $("#cgList").innerHTML = list.slice(0, 200).map((c) => { const [cls, txt] = estimarEspera(c, hora); return `<div class="cg" data-cg="${c.id}">
+    $("#cgList").innerHTML = list.slice(0, 200).map((c) => { const [cls, txt] = estimarEspera(c, hora), v = vivoDe(c); return `<div class="cg" data-cg="${c.id}">
       <h4>${esc(c.nombre)}</h4><div class="meta">${esc([c.ciudad, c.departamento].filter(Boolean).join(", "))} · ${esc(c.operador)}${dcKw(c) ? ` · DC hasta ${dcKw(c)} kW` : c.max_kw ? ` · AC ${c.max_kw} kW` : ""}</div>
-      ${plugs(c)}<span class="espera ${cls}">Espera ${txt.toLowerCase()}</span></div>`; }).join("") || '<div class="empty">Ningún cargador coincide.</div>';
+      ${plugs(c)}${v ? `<span class="vivo ${v.cls}">● ${esc(v.txt)}</span>` : `<span class="espera ${cls}">Espera ${txt.toLowerCase()}</span>`}</div>`; }).join("") || '<div class="empty">Ningún cargador coincide.</div>';
     if (!map) return;
     if (capa) capa.remove();
     capa = L.layerGroup(); marcadores = {};
     list.forEach((c) => {
-      const mk = L.circleMarker([c.lat, c.lon], { radius: dcKw(c) >= 40 ? 8 : 6, color: "#0B1020", weight: 1, fillColor: colorKw(potRef(c)), fillOpacity: 0.95 })
+      const v = vivoDe(c);
+      const mk = L.circleMarker([c.lat, c.lon], { radius: dcKw(c) >= 40 ? 8 : 6, color: v ? COLOR_VIVO[v.cls] : "#0B1020", weight: v ? 3 : 1, fillColor: colorKw(potRef(c)), fillOpacity: c.no_visto_dias ? 0.4 : 0.95 })
         .bindPopup(() => popupHtml(c));
       mk.addTo(capa); marcadores[c.id] = mk;
     });
@@ -980,14 +1019,15 @@
     $$("#nav a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + v));
     $("#nav").classList.remove("open");
     if (v === "debates") renderComunidad();
-    if (v === "cargadores") { initMap(); renderCargadores(); setTimeout(() => map && map.invalidateSize(), 50); }
+    if (v === "cargadores") { initMap(); renderCargadores(); setTimeout(() => map && map.invalidateSize(), 50);
+      if (!vivoTimer) { cargarVivo(); vivoTimer = setInterval(() => { if (location.hash.slice(1).split("/")[0] === "cargadores" && !document.hidden) cargarVivo(); }, 180000); } }
     if (v === "tests") renderTests();
     if (v === "viaje" && !vMap) calcularViaje();
     window.scrollTo(0, 0);
   }
 
   document.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-alerta],[data-plan],[data-flota],[data-vmes],[data-car],[data-ct],[data-exp],[data-png],[data-voto],[data-cmp],[data-lead],[data-rm],[data-tema],[data-tests],[data-cg],[data-reportar],[data-tt],[data-tipo],#newsTabs button,#newsCats button");
+    const t = e.target.closest("[data-alerta],[data-plan],[data-flota],[data-vmes],[data-car],[data-ct],[data-exp],[data-png],[data-voto],[data-cmp],[data-lead],[data-rm],[data-tema],[data-tests],[data-cg],[data-cgop],[data-reportar],[data-tt],[data-tipo],#newsTabs button,#newsCats button");
     if (!t) return;
     if (t.dataset.alerta) { abrirAlerta(t.dataset.alerta); return; }
     if (t.dataset.plan) { $("#alojPlan").value = t.dataset.plan; $("#btnAloj").click(); return; }
@@ -1001,6 +1041,7 @@
     if (t.dataset.tests) { $("#testModelo").value = t.dataset.tests; state.testTipo = ""; location.hash = "#tests"; renderTests(); return; }
     if (t.dataset.tt) { state.testTab = t.dataset.tt; state.testTipo = ""; $("#testModelo").value = ""; renderTests(); return; }
     if (t.dataset.tipo !== undefined) { state.testTipo = t.dataset.tipo; renderTests(); return; }
+    if (t.dataset.cgop != null) { $("#cgOp").value = t.dataset.cgop; renderCargadores(); $("#map").scrollIntoView({ behavior: "smooth", block: "center" }); return; }
     if (t.dataset.cg) { const c = state.cargadores.find((x) => x.id === t.dataset.cg); $$(".cg").forEach((x) => x.classList.toggle("on", x === t)); if (map && c) { map.setView([c.lat, c.lon], 14); marcadores[c.id] && marcadores[c.id].openPopup(); } return; }
     if (t.dataset.reportar) { const c = state.cargadores.find((x) => x.id === t.dataset.reportar); $("#repNombre").textContent = c ? c.nombre : ""; $("#repForm").dataset.id = t.dataset.reportar; $("#repDlg").showModal(); return; }
     if (t.dataset.cmp) toggleCmp(t.dataset.cmp);
@@ -1017,14 +1058,29 @@
     state.tarifas = tar; state.localidades = locs;
     state.modelos = mod.modelos; state.noticias = not; state.normativa = nor; state.debates = deb.temas;
     state.combustible = comb; state.tests = tst; state.cargadores = cg.cargadores || []; state.uyGeo = geo;
-    $("#cgNota").innerHTML = `${cg.total} ubicaciones · actualizado ${esc(fecha(cg.actualizado))}. ${esc(cg.nota || "")}`;
+    $("#cgNota").innerHTML = `${cg.total} ubicaciones${cg.puntos ? ` y ${cg.puntos} conectores` : ""} · actualizado ${esc(fecha(cg.actualizado))}.`;
+    const po = cg.por_operador || {};
+    $("#cgCobertura").innerHTML = `<h3>Cobertura del mapa</h3>
+      <p class="small muted">${esc(cg.nota || "")} Cada día se compara con el anterior: si una fuente falla o baja la cantidad de cargadores, recibimos un aviso y se mantienen los datos del día previo. Un cargador que deja de aparecer queda marcado y se quita a los 14 días.</p>
+      <div class="chips">${Object.entries(po).map(([k, n]) => `<button class="chip" data-cgop="${esc(k)}">${esc(k)} <b>${n}</b></button>`).join("")}</div>
+      <p class="small">¿Conocés un cargador que no está, o un dato mal? <button class="btn btn-sm btn-ghost-dark" id="cgFalta" type="button">Avisanos</button></p>
+      <p class="small muted">Fuentes: ${(cg.fuentes || []).map(esc).join(" · ")}.</p>`;
+    $("#cgFalta").onclick = () => $("#faltaDlg").showModal();
+    $("#faltaDlg").addEventListener("close", async () => {
+      if ($("#faltaDlg").returnValue !== "ok") return;
+      const f = Object.fromEntries(new FormData($("#faltaForm")));
+      const r = await api("/api/contacto", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ nombre: f.nombre, email: f.email, web: f.web, motivo: "cargador", mensaje: `Cargador: ${f.lugar}\n${f.detalle}` }) });
+      toast(r && r.ok ? "¡Gracias! Lo revisamos." : "No se pudo enviar ahora; probá más tarde.");
+      if (r && r.ok) $("#faltaForm").reset();
+    });
     const deptos = [...new Set(state.cargadores.map((c) => c.departamento).filter(Boolean))].sort();
     $("#cgDepto").innerHTML += deptos.map((d) => `<option>${esc(d)}</option>`).join("");
     const ops = [...new Set(state.cargadores.map((c) => c.operador))].sort();
     $("#cgOp").innerHTML = '<option value="">Todos los operadores</option>' + ops.map((o) => `<option>${esc(o)}</option>`).join("");
     const h0 = new Date().getHours();
     $("#cgHora").innerHTML = Array.from({ length: 24 }, (_, h) => `<option value="${h}" ${h === h0 ? "selected" : ""}>${String(h).padStart(2, "0")}:00</option>`).join("");
-    ["#cgQ", "#cgConector", "#cgPot", "#cgDepto", "#cgOp", "#cgHora"].forEach((x) => $(x).addEventListener("input", renderCargadores));
+    ["#cgQ", "#cgConector", "#cgPot", "#cgDepto", "#cgOp", "#cgHora", "#cgLibre"].forEach((x) => $(x).addEventListener("input", renderCargadores));
     $("#cgCerca").onclick = () => { try { navigator.geolocation.getCurrentPosition((p) => { initMap(); map && map.setView([p.coords.latitude, p.coords.longitude], 12); }, () => toast("No pudimos acceder a tu ubicación")); } catch { toast("Tu navegador no permite ubicar"); } };
     $("#testModelo").innerHTML += state.modelos.filter((m) => testsDe(m.id).length).map((m) => `<option value="${m.id}">${esc(nombreModelo(m.id))}</option>`).join("");
     $("#testQ").addEventListener("input", renderTests);
