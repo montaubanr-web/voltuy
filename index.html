@@ -111,15 +111,18 @@
         <select id="cgOp"><option value="">Todos los operadores</option></select>
         <label class="range">Estimar espera a las <select id="cgHora"></select></label>
         <button class="btn btn-sm btn-cmp" id="cgCerca" type="button">📍 Cerca mío</button>
+        <label class="chk small"><input type="checkbox" id="cgLibre"> Solo con conector libre ahora</label>
       </div>
-      <p class="muted small" id="cgCount"></p>
+      <p class="muted small"><span id="cgCount"></span> <span id="cgVivo" class="vivo-tag"></span></p>
       <div class="map-wrap">
         <div id="map" role="region" aria-label="Mapa de cargadores"></div>
         <div class="cg-list" id="cgList"></div>
       </div>
       <div class="legend small">
+        <span><b class="ring libre"></b> Libre ahora</span><span><b class="ring uso"></b> Todos en uso</span><span><b class="ring fuera"></b> Fuera de servicio</span><span><b class="ring sd"></b> Sin dato en vivo</span>
         <span><i style="background:#16A34A"></i> Ultrarrápida ≥100 kW</span><span><i style="background:#84CC16"></i> Rápida 40–99 kW</span><span><i style="background:#22D3EE"></i> Semirrápida (DC &lt;40 kW o AC 11–22 kW)</span><span><i style="background:#94A3B8"></i> Lenta o sin dato</span>
       </div>
+      <div class="cobertura" id="cgCobertura"></div>
       <details class="explica"><summary>¿Cómo estimamos la espera?</summary>
         <p>Por ahora es una <b>estimación orientativa</b>: combina la hora elegida, el día de la semana, la temporada (en verano la demanda en Maldonado y Rocha se dispara), si el cargador es rápido y cuántos conectores tiene. A medida que los usuarios reportan sus esperas con el botón «Reportar», mostramos la mediana real de cada cargador. No usamos datos de tránsito de Google Maps ni Waze porque miden autos en la calle, no ocupación de cargadores.</p>
       </details>
@@ -381,6 +384,19 @@
     <select name="espera"><option value="0">No esperé</option><option value="5">Unos 5 minutos</option><option value="15">Unos 15 minutos</option><option value="30">Unos 30 minutos</option><option value="60">Una hora o más</option></select>
     <label class="small">¿Funcionaba el cargador?</label>
     <select name="funciona"><option value="1">Sí</option><option value="0">No / con fallas</option></select>
+    <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
+  </form>
+</dialog>
+
+<!-- Cargador que falta en el mapa -->
+<dialog id="faltaDlg">
+  <form id="faltaForm" method="dialog">
+    <h3>¿Falta un cargador o hay un dato mal?</h3>
+    <p class="muted small">Lo revisamos y, si se confirma, aparece en el mapa. Si sos operador, contanos cuántos puntos tenés y dónde.</p>
+    <label class="small">Lugar y dirección</label><input name="lugar" required maxlength="200" placeholder="ej. Shopping Paysandú, estacionamiento">
+    <label class="small">Qué falta o qué está mal</label><textarea name="detalle" required maxlength="1000" rows="3" placeholder="ej. 2 cargadores Tipo 2 de 22 kW de la red X, abiertos 24 h"></textarea>
+    <div class="row2"><div><label class="small">Tu nombre</label><input name="nombre" required maxlength="80"></div><div><label class="small">Tu correo</label><input name="email" type="email" required maxlength="120"></div></div>
+    <input name="web" class="hidden" tabindex="-1" autocomplete="off">
     <div class="row"><button value="cancel" formnovalidate class="btn btn-ghost-dark">Cancelar</button><button class="btn btn-primary" value="ok">Enviar</button></div>
   </form>
 </dialog>
