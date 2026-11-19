@@ -1,7 +1,19 @@
 {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-19",
  "nota": "Videos de YouTube (YouTube Data API). Se muestran con atribución y enlace; los datos se renuevan o borran a los 30 días.",
  "uruguay": [
+  {
+   "id": "BjiYWIKYOfQ",
+   "url": "https://www.youtube.com/watch?v=BjiYWIKYOfQ",
+   "titulo": "Dudas ¿? | Patente 2027 | Autos Electricos | Uruguay",
+   "canal": "Movilidad Electrica 🇺🇾",
+   "fecha": "2026-11-18",
+   "miniatura": "https://i.ytimg.com/vi/BjiYWIKYOfQ/mqdefault.jpg",
+   "resumen": "PATENTE 2027: ¿QUÉ PASA SI MI LIBRETA DICE AÑO 2027?",
+   "modelo_id": null,
+   "obtenido": "2026-11-19",
+   "vistas": 770
+  },
   {
    "id": "Xc7RFDAm80U",
    "url": "https://www.youtube.com/watch?v=Xc7RFDAm80U",
@@ -11,8 +23,8 @@
    "miniatura": "https://i.ytimg.com/vi/Xc7RFDAm80U/mqdefault.jpg",
    "resumen": "Conviene pasarse al eléctrico en Uruguay?",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 9337
+   "obtenido": "2026-11-19",
+   "vistas": 10719
   },
   {
    "id": "cAaujOliJYM",
@@ -23,8 +35,8 @@
    "miniatura": "https://i.ytimg.com/vi/cAaujOliJYM/mqdefault.jpg",
    "resumen": "Los incentivos para los autos eléctricos perjudican a quienes usan nafta o son indispensables para la transición energética del ...",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 24802
+   "obtenido": "2026-11-19",
+   "vistas": 27420
   },
   {
    "id": "K3bac1IHSl4",
@@ -35,8 +47,8 @@
    "miniatura": "https://i.ytimg.com/vi/K3bac1IHSl4/mqdefault.jpg",
    "resumen": "Suscríbete",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 17210
+   "obtenido": "2026-11-19",
+   "vistas": 24256
   },
   {
    "id": "J-v4JHW1RTQ",
@@ -47,8 +59,8 @@
    "miniatura": "https://i.ytimg.com/vi/J-v4JHW1RTQ/mqdefault.jpg",
    "resumen": "Suscríbete",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 10830
+   "obtenido": "2026-11-19",
+   "vistas": 13618
   },
   {
    "id": "yCw5G-Sxlyw",
@@ -59,8 +71,8 @@
    "miniatura": "https://i.ytimg.com/vi/yCw5G-Sxlyw/mqdefault.jpg",
    "resumen": "Suscríbete",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 95043
+   "obtenido": "2026-11-19",
+   "vistas": 121367
   },
   {
    "id": "83bs2szGd1w",
@@ -71,8 +83,8 @@
    "miniatura": "https://i.ytimg.com/vi/83bs2szGd1w/mqdefault.jpg",
    "resumen": "Probamos el nuevo producto de ORA en Uruguay, que llega en variante eléctrico con estos precios y versiones: Middle - USD ...",
    "modelo_id": "gwm-ora-5-middle",
-   "obtenido": "2026-11-18",
-   "vistas": 4572
+   "obtenido": "2026-11-19",
+   "vistas": 4660
   },
   {
    "id": "TI6TEakQAzk",
@@ -83,8 +95,8 @@
    "miniatura": "https://i.ytimg.com/vi/TI6TEakQAzk/mqdefault.jpg",
    "resumen": "Los ELÉCTRICOS siguen dominando en ventas en Uruguay!",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 10107
+   "obtenido": "2026-11-19",
+   "vistas": 10258
   },
   {
    "id": "UZIEbu8XM8U",
@@ -95,7 +107,7 @@
    "miniatura": "https://i.ytimg.com/vi/UZIEbu8XM8U/mqdefault.jpg",
    "resumen": "CANTA O NO CANTA ESO ?",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
+   "obtenido": "2026-11-19",
    "vistas": 1038
   },
   {
@@ -107,8 +119,8 @@
    "miniatura": "https://i.ytimg.com/vi/Y-ezXD5lfME/mqdefault.jpg",
    "resumen": "",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 42096
+   "obtenido": "2026-11-19",
+   "vistas": 43815
   },
   {
    "id": "9nyU2ceyI00",
@@ -119,8 +131,8 @@
    "miniatura": "https://i.ytimg.com/vi/9nyU2ceyI00/mqdefault.jpg",
    "resumen": "La movilidad eléctrica sigue creciendo y queremos que seas parte!",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 1078
+   "obtenido": "2026-11-19",
+   "vistas": 1101
   },
   {
    "id": "kzof46__rmM",
@@ -131,20 +143,8 @@
    "miniatura": "https://i.ytimg.com/vi/kzof46__rmM/mqdefault.jpg",
    "resumen": "Federico de Castro, gerente de la Unión de Vendedores de Nafta del Uruguay (Unvenu), visitó la columna de economía junto a ...",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 20233
-  },
-  {
-   "id": "LYz_uiNYzFg",
-   "url": "https://www.youtube.com/watch?v=LYz_uiNYzFg",
-   "titulo": "Un Tesla se maneja solo por el un shopping de Montevideo",
-   "canal": "Juan Pablo De Marco",
-   "fecha": "2026-11-09",
-   "miniatura": "https://i.ytimg.com/vi/LYz_uiNYzFg/mqdefault.jpg",
-   "resumen": "",
-   "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 2007
+   "obtenido": "2026-11-19",
+   "vistas": 20866
   }
  ],
  "internacional": [
@@ -157,8 +157,20 @@
    "miniatura": "https://i.ytimg.com/vi/DhxhpRKZ_ys/mqdefault.jpg",
    "resumen": "This 7th Generation BMW M3 (EV) actually made me cry!",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 287387
+   "obtenido": "2026-11-19",
+   "vistas": 324521
+  },
+  {
+   "id": "9pRGY2beqCU",
+   "url": "https://www.youtube.com/watch?v=9pRGY2beqCU",
+   "titulo": "This Is Big: Testing Kia's All-New Small EV",
+   "canal": "Edmunds Cars",
+   "fecha": "2026-11-13",
+   "miniatura": "https://i.ytimg.com/vi/9pRGY2beqCU/mqdefault.jpg",
+   "resumen": "Can the all-new 2027 Kia EV3 claim the crown as the best electric SUV in its class?",
+   "modelo_id": null,
+   "obtenido": "2026-11-19",
+   "vistas": 217188
   },
   {
    "id": "YOhxDATF8yE",
@@ -173,16 +185,16 @@
    "vistas": 209827
   },
   {
-   "id": "9pRGY2beqCU",
-   "url": "https://www.youtube.com/watch?v=9pRGY2beqCU",
-   "titulo": "This Is Big: Testing Kia's All-New Small EV",
-   "canal": "Edmunds Cars",
-   "fecha": "2026-11-13",
-   "miniatura": "https://i.ytimg.com/vi/9pRGY2beqCU/mqdefault.jpg",
-   "resumen": "Can the all-new 2027 Kia EV3 claim the crown as the best electric SUV in its class?",
+   "id": "pH0TiAThWRw",
+   "url": "https://www.youtube.com/watch?v=pH0TiAThWRw",
+   "titulo": "BMW i3: 500 Mile Monster Is the Best Electric Car I’ve Ever Driven!",
+   "canal": "Everything Electric CARS",
+   "fecha": "2026-11-17",
+   "miniatura": "https://i.ytimg.com/vi/pH0TiAThWRw/mqdefault.jpg",
+   "resumen": "In this episode of Everything Electric CARS, Robert drives the brand new, all-electric BMW 3 Series.",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 198246
+   "obtenido": "2026-11-19",
+   "vistas": 132109
   },
   {
    "id": "N82De6wA_Dc",
@@ -193,20 +205,8 @@
    "miniatura": "https://i.ytimg.com/vi/N82De6wA_Dc/mqdefault.jpg",
    "resumen": "Welcome to EV TALKS!",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 127538
-  },
-  {
-   "id": "pH0TiAThWRw",
-   "url": "https://www.youtube.com/watch?v=pH0TiAThWRw",
-   "titulo": "BMW i3: 500 Mile Monster Is the Best Electric Car I’ve Ever Driven!",
-   "canal": "Everything Electric CARS",
-   "fecha": "2026-11-17",
-   "miniatura": "https://i.ytimg.com/vi/pH0TiAThWRw/mqdefault.jpg",
-   "resumen": "In this episode of Everything Electric CARS, Robert drives the brand new, all-electric BMW 3 Series.",
-   "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 99734
+   "obtenido": "2026-11-19",
+   "vistas": 131609
   },
   {
    "id": "FVmrf-gg0AU",
@@ -229,20 +229,20 @@
    "miniatura": "https://i.ytimg.com/vi/97abXgdP8KI/mqdefault.jpg",
    "resumen": "Starship catch and Cybercab orders in one weekend: SpaceX caught its ship coming back from orbit, and Tesla is selling a car ...",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 93474
+   "obtenido": "2026-11-19",
+   "vistas": 95393
   },
   {
-   "id": "PnpLeF9ss8c",
-   "url": "https://www.youtube.com/watch?v=PnpLeF9ss8c",
-   "titulo": "Leapmotor B05. El compacto eléctrico más barato. Prueba a fondo con Joan Dalmau. Review en español.",
-   "canal": "NeoMotor Prensa Ibérica",
-   "fecha": "2026-11-13",
-   "miniatura": "https://i.ytimg.com/vi/PnpLeF9ss8c/mqdefault.jpg",
-   "resumen": "El leapmotor B05 es uno de los mejores compactos eléctricos por su relación precio-prestaciones.",
+   "id": "i0x_Ok-Byr4",
+   "url": "https://www.youtube.com/watch?v=i0x_Ok-Byr4",
+   "titulo": "Sabse Sasti Compact EV? VinFast Electric Car First Look 🔥 Ask CARGURU",
+   "canal": "Ask CarGuru",
+   "fecha": "2026-11-18",
+   "miniatura": "https://i.ytimg.com/vi/i0x_Ok-Byr4/mqdefault.jpg",
+   "resumen": "Sabse Sasti Compact EV?",
    "modelo_id": null,
-   "obtenido": "2026-11-18",
-   "vistas": 72126
+   "obtenido": "2026-11-19",
+   "vistas": 92869
   }
  ]
 }
