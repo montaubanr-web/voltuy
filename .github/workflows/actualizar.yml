@@ -63,11 +63,22 @@ jobs:
       - name: Tests
         continue-on-error: true
         run: python agents/actualizar_tests.py
-      - name: Cargadores (Open Charge Map + OpenStreetMap)
+      - name: Cargadores (UTE + mapa interoperable + Open Charge Map + OpenStreetMap)
         continue-on-error: true
         env:
           OCM_API_KEY: ${{ secrets.OCM_API_KEY }}   # opcional; sin clave usa la exportación pública
         run: python agents/actualizar_cargadores.py
+      - name: Control del mapa de cargadores (issue si falla una fuente o baja la cantidad)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python agents/aviso_cargadores.py > /tmp/cg.md || true
+          if [ -s /tmp/cg.md ]; then
+            n=$(gh issue list --label cargadores --state open --json number -q '.[0].number')
+            if [ -n "$n" ]; then gh issue comment "$n" --body-file /tmp/cg.md;
+            else gh label create cargadores --color 16A34A 2>/dev/null || true; gh issue create --title "Revisar mapa de cargadores" --label cargadores --body-file /tmp/cg.md; fi
+          fi
       - name: Publicar cambios
         if: always()
         run: |
