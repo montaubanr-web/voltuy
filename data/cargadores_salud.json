@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-11-19",
+ "estado_fuentes": {
+  "UTE": "ok",
+  "Mapa interoperable de operadores": "ok",
+  "Open Charge Map": "ok",
+  "OpenStreetMap": "ok"
+ },
+ "por_fuente": {
+  "UTE": 214,
+  "Mapa interoperable de operadores": 107,
+  "Open Charge Map": 8
+ },
+ "por_operador": {
+  "UTE": 227,
+  "eOne": 33,
+  "Eve Move": 18,
+  "DMC Mobility": 17,
+  "Evergo": 15,
+  "Sin dato": 5,
+  "Operador local": 3,
+  "Costa Urbana Shopping": 2,
+  "Parking MP": 2,
+  "UMT EV Charge": 2,
+  "Turkos": 1,
+  "Bodega Pizzorno": 1,
+  "Colinas Center": 1,
+  "E.M.U.S.": 1,
+  "NES Charge": 1
+ },
+ "sin_ver": [],
+ "problemas": [],
+ "historial": [
+  {
+   "fecha": "2026-11-19",
+   "total": 329,
+   "puntos": 855
+  },
+  {
+   "fecha": "2026-11-19",
+   "total": 329,
+   "puntos": 855
+  },
+  {
+   "fecha": "2026-11-19",
+   "total": 329,
+   "puntos": 855
+  },
+  {
+   "fecha": "2026-11-19",
+   "total": 329,
+   "puntos": 855
+  }
+ ]
+}
