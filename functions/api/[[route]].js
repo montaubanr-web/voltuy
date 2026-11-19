@@ -6,6 +6,7 @@
 //   POST /api/newsletter                -> {email}  (con BREVO_API_KEY: alta con doble confirmación en Brevo)
 //   POST /api/contacto                  -> {nombre, email, motivo, mensaje} (con BREVO_API_KEY: aviso por correo a CONTACTO_EMAIL)
 //   GET  /api/ruta?o=lat,lon&d=lat,lon  -> ruta por calle (OpenRouteService si hay ORS_API_KEY; si no, OSRM público)
+//   GET  /api/cargadores/estado          -> estado en vivo de los cargadores (mapa interoperable), con caché de 2 min
 //   GET  /api/reportes?id=CARGADOR      -> mediana de espera reportada (últimos 90 días)
 //   POST /api/reportes                  -> {cargador, espera (min), funciona (bool)}
 //   POST /api/experiencias              -> {modelo, kwh100, uso, estacion, km, departamento, nota, problemas[], texto} (texto moderado)
@@ -51,6 +52,29 @@ export async function onRequest({ request, env, params }) {
   const route = (params.route || []).join("/");
   const method = request.method;
   const db = env.DB;
+  if (route === "cargadores/estado") {
+    // Una sola consulta cada 2 minutos al mapa interoperable, sin importar cuántas personas miren el mapa.
+    const cache = caches.default, clave = new Request("https://voltuy.cache/cargadores-estado");
+    let r = await cache.match(clave);
+    if (!r) {
+      try {
+        const res = await fetch("https://back-app.eve-move.com/eve/miem", { headers: { "user-agent": "VoltUY/1.0" } });
+        const texto = await res.text();
+        const fin = texto.indexOf("\n[");  // a veces el servicio devuelve dos listas pegadas
+        const datos = JSON.parse(fin > 0 ? texto.slice(0, fin) : texto);
+        const S = { Available: "L", Charging: "C", Unavailable: "F" };
+        const lista = datos.filter((e) => e.latitude != null).map((e) => ({
+          lat: +(+e.latitude).toFixed(5), lon: +(+e.longitude).toFixed(5),
+          c: (e.cnns || []).map((k) => S[k.status] || "F").join("") }));
+        r = new Response(JSON.stringify({ ok: true, hora: new Date().toISOString(), estaciones: lista }), {
+          headers: { "content-type": "application/json; charset=utf-8", "cache-control": "public, max-age=120" } });
+        await cache.put(clave, r.clone());
+      } catch (e) {
+        return json({ ok: false, error: "Estado en vivo no disponible" }, 502);
+      }
+    }
+    return r;
+  }
   if (!db) return json({ ok: false, error: "D1 no configurada" }, 500);
 
   try {
