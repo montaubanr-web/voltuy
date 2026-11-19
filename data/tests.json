@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-19",
  "uruguay": [
   {
    "fecha": "2026-11-13",
@@ -31,6 +31,14 @@
    "medio": "Autoblog",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOMmhndEs0MUNkaS1zOV9uMlQ3UllaUzZTRFMwRmQzWjZ2TlMtc0I0UUFPMi02RldTRDdXZm9FMzhacGIwcGQ1eDRCcUl3VWN5T2FpNjdHUkhUYXowQ180UXEzQVlSTGVoOEZYSjR5eW9kTzNlUXV3SHB3?oc=5",
    "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-10-26",
+   "titulo": "Probamos al Tesla Model Y: cómo es el eléctrico más vendido del mundo",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZTdvbFV0T1dNTzg1M1FveDJPb1BaRjJ2VGEyN0JzOTdpdXBybHJ1TjhXLThZd0NhVVFpUTdrZGZ4MjA3andvRXFXZVY1MGpIR3V3VnBLeWt4ZEE0SjdnYjl3NDZwVDRYek5mendNenl1bXdRQ21nUnJpeHVZeW9oSmZTOA?oc=5",
+   "modelo_id": "tesla-model-y-rwd",
    "tipo": "Prueba"
   },
   {
