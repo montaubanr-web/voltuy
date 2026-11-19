@@ -1,0 +1,20 @@
+{
+ "_nota": "Número de red del mapa interoperable (back-app.eve-move.com/eve/miem, el número sale del nombre del ícono) -> operador. Deducido comparando ubicaciones con Open Charge Map y por el prefijo de los nombres. El agente semanal de Claude lo revisa; si aparece una red nueva queda como 'Otro operador' y se avisa en el issue 'cargadores'.",
+ "12": "UTE",
+ "17": "eOne",
+ "27": "DMC Mobility",
+ "1": "Eve Move",
+ "2": "Eve Move",
+ "3": "Eve Move",
+ "8": "Eve Move",
+ "18": "Evergo",
+ "10": "Evergo",
+ "9": "Costa Urbana Shopping",
+ "15": "Parking MP",
+ "5": "E.M.U.S.",
+ "21": "Colinas Center",
+ "29": "Bodega Pizzorno",
+ "32": "Turkos",
+ "31": "Operador local",
+ "4": "Operador local"
+}

@@ -40,8 +40,19 @@ Trabajás sobre el repositorio <USUARIO>/voltuy (rama main).
 5. **Tests** (`data/tests.json`): para los tests con `modelo_id` null, si el modelo se vende en
    Uruguay y falta en el catálogo, agregalo a `modelos.json` (con fuente) y asociá el test.
    Borrá entradas que no sean pruebas de vehículos.
-6. **Cargadores**: revisá novedades de UTE y operadores privados (nuevas electrolineras) y anotá en
-   el resumen las que falten en `data/cargadores.json`, para cargarlas en Open Charge Map.
+6. **Cargadores**:
+   - Leé `data/cargadores_salud.json` y el issue abierto con etiqueta `cargadores`. Si una fuente
+     falló varios días seguidos, investigá la causa (cambio de dirección o de formato) y corregí
+     `agents/actualizar_cargadores.py`. Cuando esté resuelto, cerrá el issue con un comentario.
+   - Si hay redes del mapa interoperable sin nombre, identificá el operador por los nombres y las
+     ubicaciones de sus estaciones. Después completá `agents/fuentes/redes_interop.json`.
+   - Buscá noticias de cargadores nuevos de UTE y de los operadores privados (eOne, Eve Move, DMC,
+     Evergo, UMT, NES y otros). Revisá también las cifras que publica cada operador y comparalas
+     con `por_operador` en `data/cargadores.json`. Anotá en el resumen las diferencias grandes y los
+     lugares que falten.
+   - Revisá los avisos de «cargador faltante» recibidos por el formulario de contacto
+     (`/api/admin/export` o el correo de contacto). Los confirmados se cargan en Open Charge Map, y
+     así entran solos al mapa.
 7. **Tarifas** (`data/tarifas.json`): verificá en el pliego tarifario vigente de UTE (o el decreto del MIEM) los
    precios de energía de Doble y Triple Horario residencial, y en ute.com.uy los de la red pública (cargo base, kWh,
    minuto inactivo). Si cambiaron, actualizá valores, `vigencia` y `url`.
