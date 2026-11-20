@@ -1,6 +1,14 @@
 {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-20",
  "uruguay": [
+  {
+   "fecha": "2026-11-20",
+   "titulo": "UTE ofrece una tarifa que permite ahorrar hasta 80% en el consumo de electricidad: cómo funciona",
+   "resumen": "",
+   "fuente": "El Observador",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV1FJSVlRbWhYaF8yTC0tVWxyZVFKT2hBaVRxVUlCVFVaYm93TDVaTkZqMHdtUW40NE54ZE9sQ1JTZHBVa0MxNFhyYWZPU2U5LWtGM2tZSFZqYldHTmYyQWh4b0hmblVHLWFvdFNHeDdtZXVGQ2pWX0hzTXhaUHpZSENJejZWejhuQjdwZ3pRNVJKeUx0OTlQUkZTUmdHeUxDcEthcmZSVk9wZ2ZsUDJwS2xtSnd0SG1LSGxpdElwS0RrZWZWdXfSAcsBQVVfeXFMTVVZcFpPN29jeEVQcnZoRWlNSEdmRlJndXprZnFJa1dFb0ZLTnB4Qy1SdlR4VG12VF9FV29LTFBiRHR0MWFTRXh2MXBZaTNDQVpKc0pMbjc0SmxXcVBNNEZaeHNCTEJxX2FudG9XQlBkOWVVanRVX1Nwb0hKTEFvMVFBYWwxckRhSWRZUmZjMFpoeUx5UmpUOXZzSENwTWVDRWlXdXF6NGY5MDNEcHpwOElUdnJWNVZOTDNzUGt2Y05FaEVNbENSU1ZVT1E?oc=5",
+   "categoria": "General"
+  },
   {
    "fecha": "2026-11-19",
    "titulo": "Tesla tiene todo listo para desembarcar en Argentina: nuevos locales y algunos detalles de los modelos eléctricos que venderá",
@@ -16,6 +24,14 @@
    "fuente": "Rosario Finanzas",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVctcWNZcG9yS0tibF9JMzFYU1d2b0tXVnJQT1BiM1h6M1F6bnU1clE3eTJoZWE1bFRkU21VX3BEWWtxNkl0Zmlwb21aaU9DTTZFRXJISzVDRDhXVl9wc2tlaVdTU05wcWU1N0tJMkF1VC1QWGhBNl9qc3FHYmoyNkt0TWZ5al9YSUhueVh6RlRKRVpGekJWTUpZMmZKanF4a2ZWSWM5elVsbXd1RUJPQWdsVQ?oc=5",
    "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Tesla desembarca en Argentina con sus autos eléctricos y un sistema de venta no tradicional: dónde se podrá probarlos",
+   "resumen": "",
+   "fuente": "Dinamicarg",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvTlRaU1hXZkN6QTMzUVFTQjhrMUgwQzQyUFN5eC1rU2JLMVJZT2NCeVVSenJGSFdIeHhmT2hnN05SeTAxMHVfa2xaRnlrTG8zWTdiSFR4TE1wZ2tZR1RoTmIwX0oyNXc?oc=5",
+   "categoria": "Mercado"
   },
   {
    "fecha": "2026-11-18",
@@ -356,6 +372,38 @@
  ],
  "internacional": [
   {
+   "fecha": "2026-11-20",
+   "titulo": "GM’s V2G pilot wants to pay California drivers for power from parked EVs",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/gms-v2g-pilot-wants-to-pay-california-drivers-for-power-from-parked-evs/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-20",
+   "titulo": "NSSL keeps growing its electric terminal truck fleet, with no plans to stop",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/nssl-keeps-growing-its-electric-terminal-truck-fleet-with-no-plans-to-stop/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-20",
+   "titulo": "Lucid Is Slashing $15,000 Off The Gravity, But The Deal Won’t Last Long",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816205/lucid-15000-usd-discount-black-friday/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-20",
+   "titulo": "Hongqi EHS4: a battery-electric SUV with Leapmotor technology for Europe",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/20/hongqi-ehs4-a-battery-electric-suv-with-leapmotor-technology-for-europe/",
+   "categoria": "Batería"
+  },
+  {
    "fecha": "2026-11-19",
    "titulo": "Official 2026 Amazon Black Friday sale now live! Millions of deals: Apple, Google, TVs, home, more",
    "resumen": "",
@@ -426,6 +474,238 @@
    "fuente": "electrive",
    "url": "https://www.electrive.com/2026/11/19/ratp-dev-to-grow-share-of-e-buses-in-nancy-public-transport-fleet/",
    "categoria": "Mercado"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Alpitronic’s new SC plant to build 400 kW and 1 MW fast chargers",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/alpitronics-new-sc-plant-to-build-400-kw-and-1-mw-fast-chargers/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "BYD’s new Han EV spotted without camo, showing off its sleek fastback design",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/byds-new-han-ev-spotted-without-camo-showing-off-fastback-design/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Kia’s cheapest EV is coming next year, and it could cost under $25,000",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/kias-cheapest-ev-coming-2027-under-25k/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "EcoFlow Black Friday Sale + flash deals drop DELTA 3800 Gen4 to $1,614 low, Segway Xyber Air e-bike $1,800 low in sale, more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/ecoflow-black-friday-sale-delta-3800-gen4-segway-xyber-air-e-bike-more/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Hyundai claims 2027’s ‘Best EV Brand’ title as the IONIQ 5 and IONIQ 9 impress",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/hyundai-2027-best-ev-brand-ioniq-5-ioniq-9/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "BYD’s folding steering wheel isn’t a concept — it’s in a $49K SUV now",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/byd-folding-steering-wheel-tai-9-production/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "The Volkswagen ID. Buzz Beach is an electric van built for camping, but it’s not cheap",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/vw-reveals-id-buzz-beach-ev-camper-van-not-cheap/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Aptera (SEV) completes its first customer solar EV — for its top crowdfunder",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/aptera-sev-first-solar-ev-customer-delivery-investor/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Elon Musk announces another Tesla vehicle no one asked for",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Porsche’s newest electric car is a tiny 50 mph replica of a legendary racer",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/19/porsches-newest-electric-car-is-a-tiny-50-mph-replica-of-a-legendary-racer/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Aptera Finally Built Its First Car For Customer Delivery",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816138/aptera-deliver-production-vehicle/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Tesla's Driverless Cybercab Is Now Available In Dallas",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816139/tesla-cybercab-robotaxi-expands-to-dallas/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "The Next Generation Of U.S.-Made EV Batteries Is Getting Closer To Reality",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815929/panasonic-sila-domestic-battery-production/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Genesis Is Finally Getting Into The U.S. Hybrid Market",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816122/genesis-gv80-and-g80-hybrids/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "This Hedley Studios Porsche 550 J Is A Shrunken Electric Replica Track Toy",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815938/porsche-550-j-electric-replica/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Americans Bought More Used EVs In October. Fewer Of Them Were Teslas",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816103/october-us-used-ev-sales/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Alpitronic builds DC fast charger factory in South Carolina, USA",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/alpitronic-builds-dc-fast-charger-factory-in-south-carolina-usa/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "‘Nova’: Moment Energy launches second-life battery storage system",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/nova-moment-energy-launches-second-life-battery-storage-system/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Tesla opens its first public Megacharger in Texas",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/tesla-opens-its-first-public-megacharger-in-texas/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "TotalEnergies to install 1,500 EV charging points in London",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/totalenergies-to-install-1500-ev-charging-points-in-london/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Compact premium: first drive in the new Audi A2 e-tron",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/compact-premium-first-drive-in-the-new-audi-a2-e-tron/",
+   "categoria": "Test"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Tesla plant manager André Thierig faces penalty order following dispute with IG Metall",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/tesla-plant-manager-andre-thierig-faces-penalty-order-following-dispute-with-ig-metall/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Envision AESC surpasses production volume milestone for 46120 battery cells",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/envision-aesc-surpasses-production-volume-milestone-for-46120-battery-cells/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Sila secures billion-dollar offtake agreement with Panasonic",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/sila-secures-billion-dollar-offtake-agreement-with-panasonic/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "POSCO expands lithium business with major order from CATL",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/posco-expands-lithium-business-with-major-order-from-catl/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "2027 Bentley Torcal eSUVs sell out",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/2027-bentley-torcal-esuvs-sold-out/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "BMW iX5 enters series production",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/bmw-ix5-enters-series-production/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Ford delivers first LFP batteries for test fitting in Fathom prototypes",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/",
+   "categoria": "Test"
+  },
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Sany eTrucks: Targeting Europe with 500 km ranges – and competitive pricing",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/19/sany-etrucks-targeting-europe-with-500-km-ranges-and-competitive-pricing/",
+   "categoria": "General"
   },
   {
    "fecha": "2026-11-18",
@@ -729,270 +1009,6 @@
    "resumen": "",
    "fuente": "InsideEVs",
    "url": "https://insideevs.com/news/815956/bmw-i3-50-nurburgring-video/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-18",
-   "titulo": "Kia Made Its First EV 40 Years Ago. It Shows How Far Electric Cars Have Come",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815955/kia-ev-history-besta-sales/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "REO returns to challenge Slate and Fathom in a cheap truck showdown",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/16/reo-returns-to-challenge-slate-and-fathom-in-a-cheap-truck-showdown/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Bentley’s First EV Is Already Sold Out, And Production Hasn’t Even Started",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815694/bentley-torcal-sold-out-2027-official/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "AYK Energy expands business with large marine battery systems",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/ayk-energy-expands-business-with-large-marine-battery-systems/",
-   "categoria": "Batería"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Volkswagen opens pre-orders for ID. Aura L5 in China",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/volkswagen-opens-pre-orders-for-id-aura-l5-in-china/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "WeaveGrid and Hyundai Motor Group partner on US smart charging and V2G",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/weavegrid-and-hyundai-motor-group-partner-on-us-smart-charging-and-v2g/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Toyota recalls C-HR+ worldwide due to battery control unit issue",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/toyota-recalls-c-hr-worldwide-due-to-battery-control-unit-issue/",
-   "categoria": "Batería"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "India: Delhivery to add up to 2,000 electric light commercial vehicles",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/india-delhivery-to-add-up-to-2000-electric-light-commercial-vehicles/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Renault to create 2,000 new jobs in EV production",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/renault-to-create-2000-new-jobs-in-ev-production/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Kia launches Carens EV in Indonesia as its first locally built electric model",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/kia-launches-carens-ev-in-indonesia-as-its-first-locally-built-electric-model/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Solarcycle, PedalPoint Recycling merge to feed a $7.4B US metals refinery",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/solarcycle-pedalpoint-recycling-merge-to-feed-a-7-4b-us-metals-refinery/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Iceland’s first wind farm comes with a water-saving bonus",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/iceland-first-wind-farm-gives-its-hydropower-a-winter-boost/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Hyundai reveals new 7-seat Neira electric SUV",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/hyundai-reveals-new-7-seat-neira-electric-suv/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Waymo halts highway operation nationwide after CA DMV pause",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/waymo-halts-highway-operation-nationwide-after-ca-dmv-pause/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Scout Motors starts validation builds at $2B SC plant, deliveries in 2028",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/scout-motors-validation-builds-south-carolina-deliveries-2028/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Toyota adds $1,000 off and 0% APR to its bigger, more powerful electric SUV",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/toyota-adds-1000-off-0-apr-to-bigger-electric-suv/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Juiced Scrambler Mini launched as a cooler (and safer) e-bike option for teens and parents",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/juiced-scrambler-mini-launched-as-a-cooler-and-safer-e-bike-option-for-teens-and-parents/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "EcoFlow flash sale offers 5,018Wh TITAN Classic + 4x rigid solar panels $1,588 off, Hiboy EVs up to 45% off from $300, more",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/ecoflow-5018wh-titan-classic-hiboy-evs-more/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "BMW’s first US-built EV promises 456 miles of range and ultra-fast charging",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/bmws-first-us-built-ev-delivers-435-miles-range-fast-charging/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "11-term rep who mocked a kid’s letter about EVs currently losing her seat (Upd.)",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/this-boomer-rep-mocked-a-child-about-the-4-trillion-debt-she-saddled-him-with/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Tesla unveils 7.4 MW Powercore to take on ex-exec Baglino’s Heron Link",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/tesla-powercore-solid-state-transformer-heron-link/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "GM just made it way easier for EV drivers to charge at Electrify America stations",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/gm-easier-ev-drivers-charge-electrify-america/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Volkswagen is cooking up a ‘spicy’ new electric hot hatch",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/volkswagen-cooking-up-spicy-new-electric-hot-hatch/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Tesla needs wireless charging fast, or its $30,000 Cybercab can’t charge at home",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/17/tesla-cybercab-home-charging-wireless-problem/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Rivian Is Inviting Owners To Beta Test Its New Point-To-Point Assisted Driving Tech",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815761/rivian-autonomy-beta-test-closed/",
-   "categoria": "Test"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "REO Runabout vs. Slate Truck: Which Sub-$30,000 Truck Is Better?",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815780/reo-runabout-slate-auto/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Chevy, GMC, and Cadillac EV Owners Can Now Plug And Charge At Electrify America",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815783/plug-charge-electrify-america-gm/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "BYD Is Winning Over Japan With A Very Japanese Kind Of EV",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815741/byd-growing-in-japan-racco/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Envoy and LACI launch EV car-sharing initiative in New Jersey",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/envoy-and-laci-launch-ev-car-sharing-initiative-in-new-jersey/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Rolls-Royce Phantom VI swaps V8 for electric powertrain",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/rolls-royce-phantom-vi-swaps-v8-for-electric-powertrain/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Denza enters India, simultaneously launches D9 and Z9 GT",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/denza-enters-india-simultaneously-launches-d9-and-z9-gt/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "M&H Carriers deploys 18 new eSprinters for deliveries across northern Scotland",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/mh-carriers-deploys-18-new-esprinters-for-deliveries-across-northern-scotland/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-17",
-   "titulo": "Xpeng increases revenue in Q3 2026 to over three billion euros",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/17/xpeng-increases-revenue-in-q3-2026-to-over-three-billion-euros/",
    "categoria": "General"
   }
  ]

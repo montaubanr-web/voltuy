@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-20",
  "uruguay": [
   {
    "fecha": "2026-11-13",
@@ -31,6 +31,14 @@
    "medio": "Autoblog",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOMmhndEs0MUNkaS1zOV9uMlQ3UllaUzZTRFMwRmQzWjZ2TlMtc0I0UUFPMi02RldTRDdXZm9FMzhacGIwcGQ1eDRCcUl3VWN5T2FpNjdHUkhUYXowQ180UXEzQVlSTGVoOEZYSjR5eW9kTzNlUXV3SHB3?oc=5",
    "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-10-30",
+   "titulo": "Prueba: Tesla Model Y Premium Long Range RWD (85 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR3NGUkhDRWxmdWJYQVBicE40RXVvZGxBM3hBUkNGdHBDNDVhT0U3RGtzUk1SUDRyenVyUVhFZVJPdUxmcXkxdERrMUc4aUFQTDRFVjNFZVVMWWdrYzFiYmFBSGhWaUZISjNEMG1ieDdmenJKdTdXRDU1dHNyTWV4V243Y016b0U?oc=5",
+   "modelo_id": "tesla-model-y-lr",
    "tipo": "Prueba"
   },
   {
@@ -280,6 +288,14 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYVYxeGJXSXRLOGpGVnhWOGFmU0hzeldUTTQ3VE4wbDlFT1laUnlTcGloNks2NGNfSXVnMXF1ZEVUMUtVMDNmZ1NFV3VsSU5pMXduM19VakNKXy1IVEYzRV9QYjJfdzZiUXcxeHBWTGswRWpNUnJXajI2VVdfd2xMeA?oc=5",
    "modelo_id": null,
    "tipo": "Prueba"
+  },
+  {
+   "fecha": "2019-07-26",
+   "titulo": "Primer contacto: prueba de manejo del Nissan Leaf eléctrico",
+   "medio": "Montevideo Portal",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJMQVBSbGQ0aDNUY2UyWkd2eDRlRWROZExKZVFjXzZkYlBSMC0wQnpwWFJ1OGpmMEZ6X1Q4Z3BKQWQ2a3cxS25MU1dUWE85VlRoM2FfbnYyRFkzM29Gc3hSaFd3WmpRd01nOGlWUXRQeTdNU3pwNDJVOWc5WXFQZEE2UTJSOGEweDlSQU0tNUtfZVRFQlR4TUdkd0ZRc0hWM1VPZ09jSdIBywFBVV95cUxPb3FVNmR2cmVlcUtEY0EtbU80bFdiblg0UXRCSXdYdkdzMGxqbHUwajhVSmFncUh4cndDdXdWV3Vsd3c3c1R0SjF4eEpOb0NtR2hHbXJPS2h4ZVEwblRkYmxhRm9kVERhNEZPeVFtc3FHUFY5QXdkbUxiTmFISmFfNWdTUk4zRjJ3RkRUSWtwN2hDM0k4YnFUN3hrOFhoSktzYnhWMkRVczViZVFpWmFiUS1vS1ljU1UxSjdmUmFDdFBWSElSczBaM2M2WQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Primer contacto"
   }
  ],
  "internacional": [
