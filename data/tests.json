@@ -1,6 +1,14 @@
 {
- "actualizado": "2026-11-20",
+ "actualizado": "2026-11-21",
  "uruguay": [
+  {
+   "fecha": "2026-11-20",
+   "titulo": "Prueba: Xpeng G6 Performance AWD (80,23 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOFczVGlycG1sbnNXU0xFNHJRaVdWekxSMUNVTTJHaThfVTlGcldZZnVSZU84cWZZaGJrSFRSbl9RVV8tZDl4c0pVS3NXQmdRcTFsNkpYd0pzNjFaSmVKeWhXbEd4WC1KZ2Rhb2xPQXZqckhXbW5wVTlKUFJJcEhtV0laN3h1a2FV?oc=5",
+   "modelo_id": "xpeng-g6",
+   "tipo": "Prueba"
+  },
   {
    "fecha": "2026-11-13",
    "titulo": "Prueba: Tesla Model 3 Performance AWD (85 kWh)",
