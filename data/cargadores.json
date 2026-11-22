@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21",
+ "actualizado": "2026-11-22",
  "total": 330,
  "puntos": 859,
  "por_operador": {
@@ -69,11 +69,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-30-3982",
@@ -96,11 +96,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-batlle-y-ord-ez-30-4036",
@@ -123,11 +123,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-289015",
@@ -152,7 +152,7 @@
    "verificado": "2024-01-15",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=289015",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-de-los-ni-os-30-4048",
@@ -175,11 +175,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-turkos-artigas-30-4001",
@@ -202,11 +202,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ute-bella-uni-n-30-2594",
@@ -229,11 +229,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-canelones-34-5128",
@@ -256,11 +256,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-car-one-34-8173",
@@ -283,11 +283,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-la-paz-34-7501",
@@ -310,11 +310,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-los-cerrillos-34-6075",
@@ -337,11 +337,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-piedra-del-toro-34-6940",
@@ -364,11 +364,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-san-luis-34-7703",
@@ -397,11 +397,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-santa-luc-a-34-4588",
@@ -424,11 +424,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-sauce-dc-34-6467",
@@ -451,11 +451,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-tala-34-3435",
@@ -478,11 +478,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-almenara-mall-34-8261",
@@ -505,11 +505,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ancap-san-jacinto-34-5473",
@@ -532,11 +532,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-aeropuerto-gb-t-34-8447",
@@ -559,11 +559,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-atl-ntida-dc2-34-7681",
@@ -586,11 +586,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-barra-de-carrasco-34-8716",
@@ -613,11 +613,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-bodega-pizzorno-34-7151",
@@ -640,11 +640,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-centro-de-atenci-n-tur-stica-atl-ntida-34-7691",
@@ -673,11 +673,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-colinas-center-34-8100",
@@ -700,11 +700,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-costa-urbana-parking-norte-34-8404",
@@ -727,11 +727,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-costa-urbana-parking-sur-34-8415",
@@ -754,11 +754,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-atl-ntida-34-7372",
@@ -781,11 +781,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-golf-34-7372",
@@ -818,11 +818,11 @@
    ],
    "max_kw": 43,
    "puntos": 5,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-e-m-u-s-ciudad-de-la-costa-34-8411",
@@ -845,11 +845,11 @@
    ],
    "max_kw": 3,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-entrada-34-8125",
@@ -872,11 +872,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-estacionamiento-multi-34-8113",
@@ -899,11 +899,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-estacionamiento-platino-34-8148",
@@ -926,11 +926,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-estadio-mart-nez-monegal-34-5226",
@@ -953,11 +953,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-huertas-de-los-horneros-34-7976",
@@ -980,11 +980,11 @@
    ],
    "max_kw": 11,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-macromercado-carrasco-34-8701",
@@ -1007,11 +1007,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-macromercado-las-piedras-34-7320",
@@ -1034,11 +1034,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-del-plata-34-7696",
@@ -1061,11 +1061,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-del-plata-rambla-34-7527",
@@ -1088,11 +1088,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-la-floresta-34-7597",
@@ -1115,11 +1115,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-atl-ntida-34-7745",
@@ -1142,11 +1142,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-pando-34-7213",
@@ -1169,11 +1169,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-san-jacinto-34-5441",
@@ -1202,11 +1202,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-sauce-34-6501",
@@ -1229,11 +1229,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-de-deportes-de-pando-34-7231",
@@ -1262,11 +1262,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-san-ram-n-34-2882",
@@ -1295,11 +1295,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-shopping-las-piedras-34-7258",
@@ -1328,11 +1328,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-el-pinar-34-8043",
@@ -1355,11 +1355,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-pinamar-dc-34-7788",
@@ -1382,11 +1382,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-474246",
@@ -1411,7 +1411,7 @@
    "verificado": "2026-01-20",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=474246",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-aeropuerto-de-carrasco-34-8376",
@@ -1434,11 +1434,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-campera-almac-n-1-34-7071",
@@ -1461,11 +1461,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-car-one-center-1-34-8167",
@@ -1498,11 +1498,11 @@
    ],
    "max_kw": 180,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-car-one-center-3-34-8179",
@@ -1530,11 +1530,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-car-one-center-4-34-8165",
@@ -1562,11 +1562,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-fresh-market-la-caba-a-34-8041",
@@ -1589,11 +1589,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-g-ant-1-34-8666",
@@ -1621,11 +1621,11 @@
    ],
    "max_kw": 180,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-hotel-hampton-34-8506",
@@ -1648,11 +1648,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-moreira-autom-viles-atl-ntida-34-7664",
@@ -1675,11 +1675,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-parador-fito-34-6626",
@@ -1702,11 +1702,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-via-disegno-34-8439",
@@ -1729,11 +1729,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-voltt-test-34-6347",
@@ -1756,11 +1756,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-447-duty-free-shop-31-8678",
@@ -1783,11 +1783,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-melo-32-3632",
@@ -1810,11 +1810,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-rio-branco-32-5989",
@@ -1837,11 +1837,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-tupamba-32-8384",
@@ -1864,11 +1864,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-panda-free-shop-32-5823",
@@ -1891,11 +1891,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-melo-32-3638",
@@ -1918,11 +1918,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-megan-moss-45-8149",
@@ -1950,11 +1950,11 @@
    ],
    "max_kw": 180,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-carmelo-33-9865",
@@ -1977,11 +1977,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-conchillas-34-1641",
@@ -2004,11 +2004,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-florencio-sanchez-33-8756",
@@ -2031,11 +2031,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-nueva-palmira-11-33-8850",
@@ -2064,11 +2064,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-rosario-34-3224",
@@ -2091,11 +2091,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-475757",
@@ -2120,7 +2120,7 @@
    "verificado": "2026-02-11",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=475757",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-axion-cardona-33-8748",
@@ -2143,11 +2143,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-colonia-shopping-34-4662",
@@ -2182,11 +2182,11 @@
    ],
    "max_kw": 60,
    "puntos": 7,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-colonia-valdense-34-3371",
@@ -2209,11 +2209,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-475806",
@@ -2238,7 +2238,7 @@
    "verificado": "2026-02-12",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=475806",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-475905",
@@ -2263,7 +2263,7 @@
    "verificado": "2026-02-13",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=475905",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-nueva-helvecia-dc-avenida-34-2941",
@@ -2286,11 +2286,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-florencio-s-nchez-33-8759",
@@ -2313,11 +2313,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-de-la-familia-carmelo-33-9898",
@@ -2346,11 +2346,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-los-fundadores-34-2849",
@@ -2373,11 +2373,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-de-toros-de-colonia-34-4374",
@@ -2400,11 +2400,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-tarariras-34-2645",
@@ -2427,16 +2427,16 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-ancap-colonia-del-sacramento-34-4717",
    "nombre": "UTE ANCAP Colonia del Sacramento",
-   "direccion": "",
+   "direccion": "Avenida Buenos Aires",
    "ciudad": "Colonia del Sacramento",
    "departamento": "Colonia",
    "lat": -34.471664,
@@ -2454,11 +2454,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-valdense-34-3362",
@@ -2481,11 +2481,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-sarand-del-y-33-3442",
@@ -2508,11 +2508,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-carlos-reyles-33-0570",
@@ -2535,11 +2535,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-durazno-posto-del-camionero-33-3879",
@@ -2562,11 +2562,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-junta-local-centenario-32-8341",
@@ -2589,11 +2589,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-la-paloma-durazno-32-7279",
@@ -2616,11 +2616,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-villa-del-carmen-33-2413",
@@ -2643,11 +2643,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-independencia-durazno-33-3801",
@@ -2670,11 +2670,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-sarand-durazno-33-3768",
@@ -2697,11 +2697,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-durazno-33-3866",
@@ -2724,11 +2724,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-ancap-durazno-33-3939",
@@ -2751,11 +2751,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-ancap-puntas-de-malbajar-33-0761",
@@ -2778,11 +2778,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-utec-durazno-33-3872",
@@ -2805,11 +2805,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-trinidad-33-5132",
@@ -2832,11 +2832,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-trinidad-ruta-3-33-5280",
@@ -2859,11 +2859,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ecoparque-talice-33-5082",
@@ -2886,11 +2886,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-plaza-de-trinidad-33-5178",
@@ -2913,16 +2913,16 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-plaza-constituci-n-trinidad-33-5171",
    "nombre": "UTE Plaza Constitución Trinidad",
-   "direccion": "",
+   "direccion": "Doctor Luis Alberto de Herrera",
    "ciudad": "Trinidad",
    "departamento": "Flores",
    "lat": -33.517081,
@@ -2940,11 +2940,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-cerro-colorado-33-8656",
@@ -2967,11 +2967,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-florida-34-0969",
@@ -2994,11 +2994,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-sarand-grande-33-7343",
@@ -3021,11 +3021,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-cardal-34-2984",
@@ -3048,11 +3048,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-sarand-grande-33-7232",
@@ -3075,11 +3075,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-sarand-grande-florida-33-7232",
@@ -3102,11 +3102,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-asamblea-34-1012",
@@ -3129,11 +3129,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-casup-34-1003",
@@ -3156,11 +3156,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-de-chamizo-34-2437",
@@ -3183,11 +3183,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-florida-34-0960",
@@ -3210,11 +3210,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-jos-batlle-y-ord-ez-33-4704",
@@ -3237,11 +3237,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-jos-pedro-varela-33-4573",
@@ -3264,11 +3264,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-mariscala-34-0465",
@@ -3297,11 +3297,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-minas-34-3761",
@@ -3330,11 +3330,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-de-minas-34-4254",
@@ -3357,11 +3357,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-las-delicias-34-3665",
@@ -3384,11 +3384,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-l-zaro-cabrera-34-5987",
@@ -3411,11 +3411,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-rivera-minas-34-3756",
@@ -3438,11 +3438,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-shopping-minas-34-3689",
@@ -3458,23 +3458,23 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 1
     },
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 1
     }
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-jos-ignacio-34-8350",
@@ -3497,11 +3497,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-roosevelt-punta-del-este-34-9332",
@@ -3524,11 +3524,11 @@
    ],
    "max_kw": 20,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-ruta-39-y-perimetral-34-8811",
@@ -3551,11 +3551,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-solanas-34-8780",
@@ -3578,11 +3578,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-aeropuerto-laguna-del-sauce-34-8615",
@@ -3598,23 +3598,23 @@
    "costo": "Gratis",
    "conectores": [
     {
-     "tipo": "CCS2",
+     "tipo": "GB/T DC",
      "kw": 60,
      "cantidad": 1
     },
     {
-     "tipo": "GB/T DC",
+     "tipo": "CCS2",
      "kw": 60,
      "cantidad": 1
     }
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-autom-vil-club-del-uruguay-34-9136",
@@ -3637,11 +3637,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-club-ituzaingo-34-9404",
@@ -3664,11 +3664,11 @@
    ],
    "max_kw": 120,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estacion-salinas-34-7748",
@@ -3691,11 +3691,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-el-dorado-maldonado-pr-ximamente-34-8787",
@@ -3718,11 +3718,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-migues-34-8787",
@@ -3745,11 +3745,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-punta-del-este-club-ituzaing-34-9404",
@@ -3772,11 +3772,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-baltasar-brum-34-8813",
@@ -3809,11 +3809,11 @@
    ],
    "max_kw": 120,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-parada-16-34-9328",
@@ -3836,11 +3836,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-punta-ballena-34-9045",
@@ -3868,11 +3868,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-edificio-vermansa-34-9072",
@@ -3895,11 +3895,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-267581",
@@ -3924,7 +3924,7 @@
    "verificado": "2025-02-17",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=267581",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-estaci-n-cantegril-34-9236",
@@ -3953,11 +3953,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-estaci-n-pen-nsula-34-9675",
@@ -3980,11 +3980,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-etek-uruguay-34-8738",
@@ -4007,11 +4007,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-hospital-de-pan-de-az-car-34-7787",
@@ -4034,11 +4034,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-jardines-de-la-sierra-34-9376",
@@ -4061,11 +4061,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-la-barra-34-9133",
@@ -4088,11 +4088,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-liga-de-fomento-punta-del-este-34-9572",
@@ -4115,11 +4115,11 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-mp-punta-del-este-34-9378",
@@ -4142,11 +4142,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-macromercado-maldonado-34-9153",
@@ -4169,11 +4169,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-mobility-open-mall-34-9422",
@@ -4194,23 +4194,23 @@
      "cantidad": 2
     },
     {
-     "tipo": "GB/T DC",
+     "tipo": "CCS2",
      "kw": 60,
      "cantidad": 3
     },
     {
-     "tipo": "CCS2",
+     "tipo": "GB/T DC",
      "kw": 60,
      "cantidad": 3
     }
    ],
    "max_kw": 120,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-municipio-punta-del-este-34-9596",
@@ -4233,11 +4233,11 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-novillo-alegre-punta-34-9357",
@@ -4260,11 +4260,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-paseo-del-este-34-8816",
@@ -4287,11 +4287,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-punta-del-este-parada-3-34-9503",
@@ -4314,11 +4314,11 @@
    ],
    "max_kw": 60,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-punta-del-este-parada-5-34-9421",
@@ -4341,11 +4341,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-san-rafael-34-9408",
@@ -4368,11 +4368,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-shopping-atl-ntico-34-9158",
@@ -4405,11 +4405,11 @@
    ],
    "max_kw": 50,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-maldonado-34-9091",
@@ -4432,11 +4432,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-piri-polis-34-8620",
@@ -4459,11 +4459,11 @@
    ],
    "max_kw": 60,
    "puntos": 7,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-san-carlos-34-7935",
@@ -4486,11 +4486,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-474227",
@@ -4515,7 +4515,7 @@
    "verificado": "2026-01-19",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=474227",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-pen-nsula-34-9584",
@@ -4538,11 +4538,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-fresh-market-parada-5-34-9429",
@@ -4565,11 +4565,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-paseo-del-este-1-34-8801",
@@ -4597,11 +4597,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-ruta-1-y-camino-flores-34-8189",
@@ -4624,11 +4624,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-acceso-emergencia-hospital-de-cl-nicas-34-8908",
@@ -4651,11 +4651,11 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-auxicar-34-8875",
@@ -4683,11 +4683,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-av-fco-soca-y-libertad-34-9086",
@@ -4710,11 +4710,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-banco-central-del-uruguay-34-9034",
@@ -4737,11 +4737,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-batov-34-8903",
@@ -4764,11 +4764,11 @@
    ],
    "max_kw": 60,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-belloni-34-8552",
@@ -4791,16 +4791,16 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-carrasco-lawn-tennis-34-8848",
    "nombre": "Carrasco Lawn Tennis",
-   "direccion": "",
+   "direccion": "Costa Rica y Eduardo Couture",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.884837,
@@ -4818,11 +4818,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-casino-parque-hotel-34-9128",
@@ -4851,11 +4851,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-centro-de-eventos-latu-34-8793",
@@ -4878,11 +4878,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estacion-centenario-34-8829",
@@ -4905,11 +4905,11 @@
    ],
    "max_kw": 120,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estacion-centenario-montevideo-34-8829",
@@ -4932,11 +4932,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-cno-carrasco-montevideo-34-8733",
@@ -4959,11 +4959,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-bv-artigas-y-canelones-34-9068",
@@ -4986,11 +4986,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-electrolinera-leguizam-n-34-8963",
@@ -5025,11 +5025,11 @@
    ],
    "max_kw": 60,
    "puntos": 22,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-electrolinera-malvin-34-8874",
@@ -5052,11 +5052,11 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-enfoque-34-8840",
@@ -5079,11 +5079,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-fing-reissig-34-9185",
@@ -5106,11 +5106,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-fing-sosa-34-9192",
@@ -5133,11 +5133,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-golf-34-9279",
@@ -5172,11 +5172,11 @@
    ],
    "max_kw": 43,
    "puntos": 5,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-gremial-del-taxi-cpatu-34-8681",
@@ -5199,11 +5199,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-hospital-bse-34-8673",
@@ -5226,11 +5226,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-hospital-de-ojos-saint-bois-34-7889",
@@ -5259,11 +5259,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-hotel-nh-montevideo-34-9098",
@@ -5286,11 +5286,11 @@
    ],
    "max_kw": 22,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-intendencia-34-9058",
@@ -5313,11 +5313,11 @@
    ],
    "max_kw": 43,
    "puntos": 6,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-joanic-34-8790",
@@ -5346,11 +5346,11 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-kroser-carrasco-34-8817",
@@ -5373,11 +5373,11 @@
    ],
    "max_kw": 20,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-latu-34-8804",
@@ -5400,11 +5400,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-la-cumparsita-34-9147",
@@ -5427,11 +5427,11 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-macromercado-san-mart-n-34-8664",
@@ -5454,11 +5454,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-montevideo-shopping-34-9040",
@@ -5481,11 +5481,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-montevideo-shopping-34-9042",
@@ -5513,11 +5513,11 @@
    ],
    "max_kw": 50,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-montevideo-shopping-5to-piso-34-9031",
@@ -5540,11 +5540,11 @@
    ],
    "max_kw": 20,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-palacio-legislativo-dc-34-8903",
@@ -5567,11 +5567,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-palacio-de-la-luz-aguilar-34-8851",
@@ -5594,11 +5594,11 @@
    ],
    "max_kw": 60,
    "puntos": 8,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-palacio-de-la-luz-paraguay-34-8851",
@@ -5621,11 +5621,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-palacio-de-la-luz-dc-mendoza-34-8853",
@@ -5648,11 +5648,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parking-cinemateca-34-9088",
@@ -5675,11 +5675,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-parking-mp-setiembre-34-8981",
@@ -5702,11 +5702,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-parque-miramar-34-8586",
@@ -5729,11 +5729,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-de-la-amistad-34-9022",
@@ -5756,11 +5756,11 @@
    ],
    "max_kw": 43,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-paso-carrasco-34-8599",
@@ -5783,11 +5783,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-col-n-34-8058",
@@ -5810,11 +5810,11 @@
    ],
    "max_kw": 43,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-paul-harris-34-8764",
@@ -5843,11 +5843,11 @@
    ],
    "max_kw": 90,
    "puntos": 18,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-samuel-lafone-34-8680",
@@ -5870,11 +5870,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-san-mart-n-34-8755",
@@ -5897,11 +5897,11 @@
    ],
    "max_kw": 22,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-quijano-moto-bici-34-9059",
@@ -5924,11 +5924,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-quijano-vmp-34-9059",
@@ -5951,11 +5951,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-shopping-nuevocentro-34-8697",
@@ -5978,11 +5978,11 @@
    ],
    "max_kw": 30,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-shopping-plaza-italia-34-8877",
@@ -6010,11 +6010,11 @@
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-shopping-tres-cruces-34-8939",
@@ -6042,11 +6042,11 @@
    ],
    "max_kw": 50,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-skatepark-carrasco-34-8843",
@@ -6069,11 +6069,11 @@
    ],
    "max_kw": 60,
    "puntos": 12,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-del-cerro-34-8731",
@@ -6102,11 +6102,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-del-cerro-2-34-8732",
@@ -6129,11 +6129,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-uam-34-8204",
@@ -6162,11 +6162,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-ancap-rivera-y-bolivia-34-8906",
@@ -6189,11 +6189,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-estadio-centenario-34-8917",
@@ -6216,16 +6216,16 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-la-cumparsita-dc-34-9143",
    "nombre": "UTE La Cumparsita DC",
-   "direccion": "",
+   "direccion": "La Cumparsita esq. Ejido",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.914293,
@@ -6243,11 +6243,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-museo-zorrilla-34-9278",
@@ -6270,11 +6270,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-plaza-pedro-poveda-dc-34-8705",
@@ -6297,11 +6297,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-zonamerica-34-7916",
@@ -6329,11 +6329,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-zonamerica-explora-34-7873",
@@ -6349,23 +6349,23 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 1
     }
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ocm-474231",
@@ -6390,7 +6390,7 @@
    "verificado": "2026-01-19",
    "fuente": "Open Charge Map",
    "url": "https://map.openchargemap.io/?id=474231",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-carrasco-34-8926",
@@ -6413,16 +6413,16 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-perimetral-34-7839",
    "nombre": "eOne Axion Perimetral",
-   "direccion": "",
+   "direccion": "Ruta César Mayo Gutiérrez",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.783902,
@@ -6440,11 +6440,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-prado-34-8578",
@@ -6472,11 +6472,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-caf-tenis-san-nicol-s-34-8612",
@@ -6499,11 +6499,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-club-de-golf-del-uruguay-34-9222",
@@ -6526,11 +6526,11 @@
    ],
    "max_kw": 7,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-8-de-octubre-y-garibaldi-34-8900",
@@ -6553,11 +6553,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-fresh-market-av-italia-1-34-8870",
@@ -6585,11 +6585,11 @@
    ],
    "max_kw": 180,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-fresh-market-legrand-34-8899",
@@ -6612,11 +6612,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-disco-fresh-market-scoser-a-34-9154",
@@ -6639,11 +6639,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-liv-district-carrasco-1-34-8737",
@@ -6671,11 +6671,11 @@
    ],
    "max_kw": 180,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-liv-district-carrasco-2-34-8757",
@@ -6698,11 +6698,11 @@
    ],
    "max_kw": 180,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-tenis-san-nicol-s-34-8612",
@@ -6725,11 +6725,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-location-name-34-8122",
@@ -6752,11 +6752,11 @@
    ],
    "max_kw": 180,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-constancia-32-2065",
@@ -6779,11 +6779,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-francolino-paysand-32-3184",
@@ -6806,11 +6806,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-guich-n-32-3588",
@@ -6833,11 +6833,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-paysand-32-3525",
@@ -6860,11 +6860,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estacion-paysand-sura-32-3175",
@@ -6887,11 +6887,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estacion-paysand-sura-pr-ximamente-32-3175",
@@ -6914,11 +6914,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-paysand-32-3162",
@@ -6946,11 +6946,11 @@
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-el-eucalipto-31-9026",
@@ -6973,11 +6973,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-estadio-parque-artigas-32-3224",
@@ -7006,11 +7006,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-constituci-n-paysand-32-3167",
@@ -7033,11 +7033,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-paysand-32-3151",
@@ -7060,11 +7060,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tambores-31-8769",
@@ -7087,11 +7087,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-buena-uni-n-31-2521",
@@ -7114,11 +7114,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-rivera-30-9148",
@@ -7141,11 +7141,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-vichadero-31-7752",
@@ -7168,11 +7168,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-macromercado-rivera-30-9205",
@@ -7201,11 +7201,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-minas-de-corrales-31-5707",
@@ -7228,11 +7228,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-rivera-30-8999",
@@ -7255,11 +7255,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-shopping-si-eriz-30-9003",
@@ -7282,11 +7282,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-rivera-30-9060",
@@ -7309,11 +7309,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tranqueras-plaza-los-33-orientales-31-1908",
@@ -7336,11 +7336,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-utec-rivera-30-9324",
@@ -7363,11 +7363,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-chuy-33-6947",
@@ -7390,11 +7390,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-rocha-34-4964",
@@ -7417,11 +7417,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-vel-zquez-34-0348",
@@ -7444,11 +7444,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-chuy-dfa-33-6932",
@@ -7471,11 +7471,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-centro-cultural-la-paloma-34-6585",
@@ -7498,11 +7498,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-chuy-pr-ximamente-33-6930",
@@ -7525,11 +7525,11 @@
    ],
    "max_kw": 120,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-la-paloma-34-6640",
@@ -7552,11 +7552,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-la-pedrera-34-5912",
@@ -7579,11 +7579,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-lascano-33-6795",
@@ -7606,11 +7606,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-santa-teresa-34-0020",
@@ -7633,11 +7633,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-rocha-oficina-de-turismo-34-4888",
@@ -7660,11 +7660,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-rocha-34-4838",
@@ -7687,11 +7687,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-castillos-34-1968",
@@ -7714,11 +7714,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-punta-del-diablo-34-0368",
@@ -7741,11 +7741,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-test-location-13-7145",
@@ -7778,11 +7778,11 @@
    ],
    "max_kw": 180,
    "puntos": 14,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-semi-public-test-13-7348",
@@ -7815,11 +7815,11 @@
    ],
    "max_kw": 180,
    "puntos": 21,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-arroyo-grande-32-9134",
@@ -7842,11 +7842,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-fray-bentos-33-1694",
@@ -7869,11 +7869,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-young-32-7050",
@@ -7896,11 +7896,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-duty-free-shop-fray-bentos-33-1133",
@@ -7923,11 +7923,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-estadio-municipal-parque-liebig-s-33-1192",
@@ -7950,11 +7950,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-municipio-de-young-32-6998",
@@ -7977,11 +7977,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-parque-lineal-young-32-7030",
@@ -8010,11 +8010,11 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-constituci-n-fray-bentos-33-1162",
@@ -8037,11 +8037,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-libertad-san-javier-32-6660",
@@ -8064,11 +8064,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-rivera-fray-bentos-33-1305",
@@ -8091,11 +8091,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-romay-nuevo-berl-n-32-9802",
@@ -8118,11 +8118,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-terminal-fray-bentos-33-1231",
@@ -8145,11 +8145,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-eone-axion-young-32-6997",
@@ -8172,11 +8172,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-salto-31-4264",
@@ -8199,11 +8199,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-barrio-dos-naciones-31-3672",
@@ -8226,11 +8226,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-33-orientales-31-3876",
@@ -8253,11 +8253,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-rinc-n-de-valent-n-31-2809",
@@ -8280,11 +8280,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-shopping-salto-31-3841",
@@ -8300,23 +8300,23 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 1
     }
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-termas-de-daym-n-31-4559",
@@ -8339,11 +8339,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-termas-del-arapey-30-9472",
@@ -8366,11 +8366,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-ciudad-del-plata-34-7378",
@@ -8393,11 +8393,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-la-radial-34-5592",
@@ -8426,11 +8426,11 @@
    ],
    "max_kw": 60,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-san-jos-de-mayo-ocampo-34-3325",
@@ -8453,11 +8453,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ciudad-rodr-guez-34-3990",
@@ -8480,11 +8480,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ecilda-paullier-34-3626",
@@ -8507,11 +8507,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-gino-restaurante-34-7270",
@@ -8534,11 +8534,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-libertad-34-6361",
@@ -8561,11 +8561,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-playa-pascual-34-7417",
@@ -8588,11 +8588,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-jos-gervasio-artigas-san-jos-34-3390",
@@ -8615,11 +8615,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-san-jos-dc-1-34-3425",
@@ -8642,11 +8642,11 @@
    ],
    "max_kw": 30,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-central-punta-del-tigre-a-34-7500",
@@ -8669,11 +8669,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ute-libertad-34-6323",
@@ -8696,11 +8696,11 @@
    ],
    "max_kw": 30,
    "puntos": 3,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-ute-punta-del-tigre-34-7506",
@@ -8723,11 +8723,11 @@
    ],
    "max_kw": 7,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-cardona-33-8753",
@@ -8750,11 +8750,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-dolores-33-5177",
@@ -8777,11 +8777,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-jos-enrique-rod-33-7008",
@@ -8804,11 +8804,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-mercedes-33-2631",
@@ -8831,11 +8831,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-mercedes-33-2499",
@@ -8858,11 +8858,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-dmc-estaci-n-mercedes-pr-ximamente-33-2499",
@@ -8885,11 +8885,11 @@
    ],
    "max_kw": 120,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "int-disa-dolores-33-5412",
@@ -8917,11 +8917,11 @@
    ],
    "max_kw": 50,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "tiempo_real": true,
    "fuente": "Mapa interoperable de operadores",
    "url": "https://manager.eve-move.com/mapa",
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-plaza-artigas-mercedes-33-2566",
@@ -8944,11 +8944,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-mercedes-33-2501",
@@ -8971,11 +8971,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-18-de-julio-tacuaremb-31-7185",
@@ -8998,11 +8998,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-am-rica-tacuaremb-31-7262",
@@ -9025,11 +9025,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-caraguat-32-2327",
@@ -9052,11 +9052,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-paso-de-los-toros-32-7933",
@@ -9079,11 +9079,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-san-gregorio-de-polanco-32-6176",
@@ -9106,11 +9106,11 @@
    ],
    "max_kw": 22,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-cetec-norte-ute-paso-de-los-toros-32-8131",
@@ -9133,11 +9133,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-tata-tacuaremb-31-7129",
@@ -9160,11 +9160,11 @@
    ],
    "max_kw": 60,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-ancap-treinta-y-tres-33-2361",
@@ -9187,11 +9187,11 @@
    ],
    "max_kw": 43,
    "puntos": 1,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-municipio-vergara-32-9378",
@@ -9214,11 +9214,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-policia-caminera-ruta-17-33-2102",
@@ -9241,11 +9241,11 @@
    ],
    "max_kw": 22,
    "puntos": 2,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   },
   {
    "id": "ute-vieja-usina-ute-treinta-y-tres-33-2346",
@@ -9268,11 +9268,11 @@
    ],
    "max_kw": 60,
    "puntos": 4,
-   "verificado": "2026-11-21",
+   "verificado": "2026-11-22",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",
    "tiempo_real": true,
-   "visto": "2026-11-21"
+   "visto": "2026-11-22"
   }
  ]
 }

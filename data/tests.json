@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21",
+ "actualizado": "2026-11-22",
  "uruguay": [
   {
    "fecha": "2026-11-20",
@@ -307,6 +307,15 @@
   }
  ],
  "internacional": [
+  {
+   "fecha": "2026-11-22",
+   "titulo": "Galería: prueba del BMW M3 eléctrico de preproducción",
+   "medio": "Top Gear España",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZzBXUURndWo5ZDF5Tzc3RUc4OTQ3U3JKeHZ4RDNqdVlGMDdUM1pHUTJ6emtPSlhPZHRVYVlPaTc4WVlkczJIUV9PX3Fzc2UtNzhvajdXMWJNdkZta1N6UUNPUmZqRWp2Y0FFMTZ2ZWZCeTladkhLcU44UDZsSDU0VGRtcnRUR25Zekwxc2lveHN0U1lhUUxfSUtB?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
   {
    "fecha": "2026-11-17",
    "titulo": "30 coches eléctricos a prueba: Mercedes y BMW ganan, pero XPeng sorprende",
