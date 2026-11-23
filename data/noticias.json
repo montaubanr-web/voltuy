@@ -1,6 +1,14 @@
 {
- "actualizado": "2026-11-22",
+ "actualizado": "2026-11-23",
  "uruguay": [
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Uruguay superó a Estados Unidos en la proporción de autos eléctricos vendidos",
+   "resumen": "",
+   "fuente": "LaRed21",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUpSNzVMMWJmcDF0Nmt0QWwxQV8xT2Z2VExDZXFLdHJvcEVtVnVLdlg0Tk9xMG5CWFFKZTd0SkgwT3poVDlNaUxKNHlkWHd0eFIydV9YbkUwampHMExkNk9qdHFRb3ZIYTZ3QTQ1cnM3R1J4V3RINi1oRVBTWE4ta3QydUdDd3dZbnREcDlTQUpuWGFHRlJic2JwSnNFVE1Zcm9tZS1xd01Eazl4d29sVVFjd2dTZkM1eEE?oc=5",
+   "categoria": "General"
+  },
   {
    "fecha": "2026-11-21",
    "titulo": "Autos eléctricos: gobierno negocia con shoppings y Cutcsa para ampliar la red de carga y prepara una norma para edificios",
@@ -492,6 +500,30 @@
  ],
  "internacional": [
   {
+   "fecha": "2026-11-23",
+   "titulo": "China’s SC01 EV Sports Car Will Get Its Own Factory In Europe",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816431/sc-01-ev-europe-factory-2027/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "The BMW iX5 Was Driven Until It Died. It Had A Surprising Amount Of Hidden Range Left",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816416/2027-bmw-ix5-range-0-percent/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "The Mercedes-Benz EQS Sedan, EQS SUV, And EQE SUV Soldier On For 2027",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816403/2027-mercedes-benz-eqs-sedan-eqs-suv-eqe-suv-pricing/",
+   "categoria": "General"
+  },
+  {
    "fecha": "2026-11-22",
    "titulo": "Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck",
    "resumen": "",
@@ -513,6 +545,46 @@
    "resumen": "",
    "fuente": "InsideEVs",
    "url": "https://insideevs.com/news/816351/tesla-fsd-v15-new-features/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-22",
+   "titulo": "11-term House rep who mocked a kid’s letter about EVs has lost her seat (Upd.)",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/22/this-boomer-rep-mocked-a-child-about-the-4-trillion-debt-she-saddled-him-with/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-22",
+   "titulo": "Briggs & Stratton keeps the lights on longer with bigger 16 kWh LFP battery",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/22/briggs-stratton-keeps-the-lights-on-longer-with-bigger-16-kwh-lfp-battery/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-22",
+   "titulo": "From equipment to ferries to locomotives, Illinois ports are getting a ZEV makeover",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/22/from-equipment-to-ferries-to-locomotives-illinois-ports-are-getting-a-zev-makeover/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-22",
+   "titulo": "E-quipment highlight: Tadano rolls out 35-ton V320RC electric crane",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/22/e-quipment-highlight-tadano-rolls-out-35-ton-v320rc-electric-crane/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-22",
+   "titulo": "The U.S. Let Volvo Keep Selling Cars. Polestar Got A No. What About Mercedes?",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816281/mercedes-chinese-ownership-us-sales/",
    "categoria": "General"
   },
   {
@@ -1066,70 +1138,6 @@
    "fuente": "electrive",
    "url": "https://www.electrive.com/2026/11/19/alpitronic-builds-dc-fast-charger-factory-in-south-carolina-usa/",
    "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "‘Nova’: Moment Energy launches second-life battery storage system",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/nova-moment-energy-launches-second-life-battery-storage-system/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Tesla opens its first public Megacharger in Texas",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/tesla-opens-its-first-public-megacharger-in-texas/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "TotalEnergies to install 1,500 EV charging points in London",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/totalenergies-to-install-1500-ev-charging-points-in-london/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Compact premium: first drive in the new Audi A2 e-tron",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/compact-premium-first-drive-in-the-new-audi-a2-e-tron/",
-   "categoria": "Test"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Tesla plant manager André Thierig faces penalty order following dispute with IG Metall",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/tesla-plant-manager-andre-thierig-faces-penalty-order-following-dispute-with-ig-metall/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Envision AESC surpasses production volume milestone for 46120 battery cells",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/envision-aesc-surpasses-production-volume-milestone-for-46120-battery-cells/",
-   "categoria": "Batería"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Sila secures billion-dollar offtake agreement with Panasonic",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/sila-secures-billion-dollar-offtake-agreement-with-panasonic/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "POSCO expands lithium business with major order from CATL",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/posco-expands-lithium-business-with-major-order-from-catl/",
-   "categoria": "General"
   }
  ]
 }

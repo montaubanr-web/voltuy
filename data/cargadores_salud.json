@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-22",
+ "fecha": "2026-11-23",
  "estado_fuentes": {
   "UTE": "ok",
   "Mapa interoperable de operadores": "ok",
@@ -65,6 +65,11 @@
   },
   {
    "fecha": "2026-11-22",
+   "total": 330,
+   "puntos": 859
+  },
+  {
+   "fecha": "2026-11-23",
    "total": 330,
    "puntos": 859
   }
