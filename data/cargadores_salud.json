@@ -1,20 +1,20 @@
 {
- "fecha": "2026-11-23",
+ "fecha": "2026-11-24",
  "estado_fuentes": {
   "UTE": "ok",
   "Mapa interoperable de operadores": "ok",
   "Open Charge Map": "ok",
-  "OpenStreetMap": "no devolvió datos"
+  "OpenStreetMap": "ok"
  },
  "por_fuente": {
-  "UTE": 214,
-  "Mapa interoperable de operadores": 108,
+  "UTE": 215,
+  "Mapa interoperable de operadores": 109,
   "Open Charge Map": 8
  },
  "por_operador": {
   "UTE": 227,
-  "eOne": 33,
-  "Eve Move": 19,
+  "eOne": 34,
+  "Eve Move": 20,
   "DMC Mobility": 17,
   "Evergo": 15,
   "Sin dato": 5,
@@ -29,9 +29,7 @@
   "NES Charge": 1
  },
  "sin_ver": [],
- "problemas": [
-  "La fuente «OpenStreetMap» no devolvió datos (se usaron sus datos del día anterior)."
- ],
+ "problemas": [],
  "historial": [
   {
    "fecha": "2026-11-19",
@@ -72,6 +70,11 @@
    "fecha": "2026-11-23",
    "total": 330,
    "puntos": 859
+  },
+  {
+   "fecha": "2026-11-24",
+   "total": 332,
+   "puntos": 867
   }
  ]
 }

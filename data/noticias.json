@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23",
+ "actualizado": "2026-11-24",
  "uruguay": [
   {
    "fecha": "2026-11-23",
@@ -500,6 +500,54 @@
  ],
  "internacional": [
   {
+   "fecha": "2026-11-24",
+   "titulo": "The e-bike industry has a horsepower problem",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/the-e-bike-industry-has-a-horsepower-problem/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "BMW Can't Build Its New iX3 Fast Enough. Now It's Adding The iX4",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816582/bmw-ix4-production-start/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "VW’s Cheap EVs Are So Popular, Buyers Face Wait Times Of Nearly Two Years",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816560/vw-id-polo-cupra-raval-skoda-epiq-demand-high-wait-times/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "No more factory teams: Stellantis exits motorsport",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/24/no-more-factory-teams-stellantis-exits-motorsport/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "ACEA: battery-electric cars capture 30 per cent of EU passenger car market",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/24/acea-battery-electric-cars-capture-30-per-cent-of-eu-passenger-car-market/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "VW starts production of the long wheelbase ID. Buzz Cargo",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/24/vw-starts-production-of-the-long-wheelbase-id-buzz-cargo/",
+   "categoria": "General"
+  },
+  {
    "fecha": "2026-11-23",
    "titulo": "China’s SC01 EV Sports Car Will Get Its Own Factory In Europe",
    "resumen": "",
@@ -521,6 +569,230 @@
    "resumen": "",
    "fuente": "InsideEVs",
    "url": "https://insideevs.com/news/816403/2027-mercedes-benz-eqs-sedan-eqs-suv-eqe-suv-pricing/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "One of the world’s biggest zinc mines is getting Alaska’s largest solar farm",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/one-of-the-worlds-biggest-zinc-mines-is-getting-alaskas-largest-solar-farm/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Hyundai’s new Kona N Line is already out testing [Video]",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/hyundais-new-kona-n-line-spotted-first-time-video/",
+   "categoria": "Test"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Subaru is cutting EV prices by dropping one of its most distinctive features",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/subaru-cuts-ev-prices-dropping-most-distinctive-feature/",
+   "categoria": "Precios"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "EcoFlow TITAN 5000 Classic power station new $2,089 low, Velotric Nomad 2 e-bike + FREE extra battery $1,799 ($740 off), more",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/ecoflow-titan-5000-classic-power-station-velotric-nomad-2-e-bike-more/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "BYD Ti7 banned from the EU for copying the Land Rover Defender’s design",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/byd-ti7-banned-eu-land-rover-defender-design/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Toyota is giving the Corolla a radical makeover, including its first 100% electric version",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/toyota-corolla-radical-makeover-first-ev/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Tesla FSD v15 is AI4’s last shot as Musk reveals how little compute is left",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/tesla-fsd-v15-ai4-last-shot-compute-limit/",
+   "categoria": "Lanzamiento"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "BMW’s new iX4 is almost here, with 428 miles of range and seriously fast charging",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/bmws-ix4-promises-428-miles-range-and-ultra-fast-charging/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "If you can’t beat ’em: VW to export 300,000 Chinese-built cars per year by 2030",
+   "resumen": "",
+   "fuente": "Electrek",
+   "url": "https://electrek.co/2026/11/23/if-you-cant-beat-em-vw-to-export-300000-chinese-built-cars-per-year-by-2030/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Ford Has A Dedicated Battery Abuse Team. It Obsesses Over How Cells Fail",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816533/ford-lfp-ev-battery-abuse-team/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "This Little Electric Truck Looks Like France's Answer To The Slate",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816491/kilow-la-bagnole-ev-truck/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Tesla's EVs Could Get One Big Upgrade Next Year",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/816501/tesla-starlink-unsupervised-fsd/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Hyundai Ioniq 5 Maintenance Guide: What Needs Servicing And What Doesn’t",
+   "resumen": "",
+   "fuente": "InsideEVs",
+   "url": "https://insideevs.com/news/815737/hyundai-ioniq-5-maintenance-guide-schedule/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "‘The big advantage for us lies in flexibility’ – Electra manager Paul Tonini on battery storage",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/the-big-advantage-for-us-lies-in-flexibility-electra-manager-paul-tonini-on-battery-storage/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Fraunhofer explores lighter fuel cell bipolar plates",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/fraunhofer-explores-lighter-fuel-cell-bipolar-plates/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Mercedes receives KBA approval for door-to-door driving assistant",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/mercedes-receives-kba-approval-for-door-to-door-driving-assistant/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Siemens introduces DC contactor for megawatt charging",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/siemens-introduces-dc-contactor-for-megawatt-charging/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Court deems BYD Ti7 too similar to JLR Defender",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/court-deems-byd-ti7-too-similar-to-jlr-defender/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "TruckCharge Network now integrates public chargers from Milence",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/truckcharge-network-now-integrates-public-chargers-from-milence/",
+   "categoria": "Carga"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "VW ID. Polo: customers now face year-long wait times",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/vw-id-polo-customers-now-face-year-long-wait-times/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Solaris delivers 13 hydrogen buses to France",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/solaris-delivers-13-hydrogen-buses-to-france/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Adani Cement to deploy 410 heavy-duty electric trucks",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/adani-cement-to-deploy-410-heavy-duty-electric-trucks/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "EU Council signals shift away from binding EV quotas for corporate fleets",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/eu-council-signals-shift-away-from-binding-ev-quotas-for-corporate-fleets/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Aachen startup Cylib acquires BASF’s battery recycling business",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/aachen-startup-cylib-acquires-basfs-battery-recycling-business/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "EU and Indonesia agree free trade deal to cut tariffs on cars",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/eu-and-indonesia-agree-free-trade-deal-to-cut-tariffs-on-cars/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Opel and Leapmotor formalise battery-electric SUV partnership",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/opel-and-leapmotor-formalise-battery-electric-suv-partnership/",
+   "categoria": "Batería"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "EU-China hybrid import quota unlikely to apply to range extenders",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/eu-china-hybrid-import-quota-does-not-apply-to-range-extenders/",
+   "categoria": "General"
+  },
+  {
+   "fecha": "2026-11-23",
+   "titulo": "BMW iX4 rolls off production line alongside iX3 in Debrecen",
+   "resumen": "",
+   "fuente": "electrive",
+   "url": "https://www.electrive.com/2026/11/23/bmw-ix4-rolls-off-production-line-alongside-ix3-in-debrecen/",
    "categoria": "General"
   },
   {
@@ -865,278 +1137,6 @@
    "resumen": "",
    "fuente": "electrive",
    "url": "https://www.electrive.com/2026/11/20/gta-vi-fans-praise-lightning-fast-ev-charging-speeds/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "ESB and Tesco Ireland plot 200 kW EV chargers at five stores",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/esb-and-tesco-ireland-plot-200-kw-ev-chargers-at-five-stores/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Renault Twingo E-Tech: UK pricing revealed",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/",
-   "categoria": "Lanzamiento"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "India: Energy In Motion secures order for 500 electric heavy-duty trucks",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/india-energy-in-motion-secures-order-for-500-electric-heavy-duty-trucks/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Zenobē expands into Germany",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/zenobe-expands-into-germany/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Aptera completes first customer vehicle",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/aptera-completes-first-customer-vehicle/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Volkswagen ID. Cross opens for UK orders from £26,985",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/volkswagen-id-cross-opens-for-uk-orders-from-26985/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Onsemi introduces new SiC Platform: EliteSiC M4",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-20",
-   "titulo": "Ford Trucks partners with Circulor for battery passport",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/",
-   "categoria": "Batería"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Official 2026 Amazon Black Friday sale now live! Millions of deals: Apple, Google, TVs, home, more",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://9to5toys.com/2026/11/19/amazon-2026-black-friday-sale-now-live/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "The world’s biggest oil shock could give EVs and solar a boost",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/18/the-worlds-biggest-oil-shock-could-give-evs-and-solar-a-boost/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Tesla crashes make headlines, Lidar makes sense, IONNA makes it easy",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/18/tesla-crashes-make-headlines-lidar-makes-sense-ionna-makes-it-easy/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Nearly 1 In 5 Tesla Model Ys Failed Their First German Inspection",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816066/tesla-model-y-tuv-inspection/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Rivian’s Also Spinoff Pauses Deliveries Of Its $3,500 E-Bike After Months Of Delays",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816048/rivian-also-e-bike-delivery-pause/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "The EV Charging Company That’s Quietly Conquering America Is Building A New U.S. Factory",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816009/alpitronic-new-us-factory/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "A Tesla Model Y Without A Steering Wheel Is Coming: Musk",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815960/tesla-model-y-steering-wheel-remove/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Bosch to manufacture electric drivetrains for trucks in Brazil",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/bosch-to-manufacture-electric-drivetrains-for-trucks-in-brazil/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "RATP Dev to grow share of e-buses in Nancy public transport fleet",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/ratp-dev-to-grow-share-of-e-buses-in-nancy-public-transport-fleet/",
-   "categoria": "Mercado"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Alpitronic’s new SC plant to build 400 kW and 1 MW fast chargers",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/alpitronics-new-sc-plant-to-build-400-kw-and-1-mw-fast-chargers/",
-   "categoria": "Carga"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "BYD’s new Han EV spotted without camo, showing off its sleek fastback design",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/byds-new-han-ev-spotted-without-camo-showing-off-fastback-design/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Kia’s cheapest EV is coming next year, and it could cost under $25,000",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/kias-cheapest-ev-coming-2027-under-25k/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "EcoFlow Black Friday Sale + flash deals drop DELTA 3800 Gen4 to $1,614 low, Segway Xyber Air e-bike $1,800 low in sale, more",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/ecoflow-black-friday-sale-delta-3800-gen4-segway-xyber-air-e-bike-more/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Hyundai claims 2027’s ‘Best EV Brand’ title as the IONIQ 5 and IONIQ 9 impress",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/hyundai-2027-best-ev-brand-ioniq-5-ioniq-9/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "BYD’s folding steering wheel isn’t a concept — it’s in a $49K SUV now",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/byd-folding-steering-wheel-tai-9-production/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "The Volkswagen ID. Buzz Beach is an electric van built for camping, but it’s not cheap",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/vw-reveals-id-buzz-beach-ev-camper-van-not-cheap/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Aptera (SEV) completes its first customer solar EV — for its top crowdfunder",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/aptera-sev-first-solar-ev-customer-delivery-investor/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Elon Musk announces another Tesla vehicle no one asked for",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Porsche’s newest electric car is a tiny 50 mph replica of a legendary racer",
-   "resumen": "",
-   "fuente": "Electrek",
-   "url": "https://electrek.co/2026/11/19/porsches-newest-electric-car-is-a-tiny-50-mph-replica-of-a-legendary-racer/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Aptera Finally Built Its First Car For Customer Delivery",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816138/aptera-deliver-production-vehicle/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Tesla's Driverless Cybercab Is Now Available In Dallas",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816139/tesla-cybercab-robotaxi-expands-to-dallas/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "The Next Generation Of U.S.-Made EV Batteries Is Getting Closer To Reality",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815929/panasonic-sila-domestic-battery-production/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Genesis Is Finally Getting Into The U.S. Hybrid Market",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816122/genesis-gv80-and-g80-hybrids/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "This Hedley Studios Porsche 550 J Is A Shrunken Electric Replica Track Toy",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/815938/porsche-550-j-electric-replica/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Americans Bought More Used EVs In October. Fewer Of Them Were Teslas",
-   "resumen": "",
-   "fuente": "InsideEVs",
-   "url": "https://insideevs.com/news/816103/october-us-used-ev-sales/",
-   "categoria": "General"
-  },
-  {
-   "fecha": "2026-11-19",
-   "titulo": "Alpitronic builds DC fast charger factory in South Carolina, USA",
-   "resumen": "",
-   "fuente": "electrive",
-   "url": "https://www.electrive.com/2026/11/19/alpitronic-builds-dc-fast-charger-factory-in-south-carolina-usa/",
    "categoria": "Carga"
   }
  ]
