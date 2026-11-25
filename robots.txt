@@ -4,4 +4,4 @@ Disallow: /api/
 Disallow: /agents/
 Disallow: /functions/
 
-Sitemap: /sitemap.xml
+Sitemap: https://autoselectricosuy.pages.dev/sitemap.xml

@@ -24,7 +24,7 @@ SITIO = (os.environ.get("SITIO_URL") or "https://autoselectricosuy.pages.dev").r
 NOMBRE = "AutosEléctricosUY"
 HOY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"]
-CARPETAS = ["modelos", "marcas", "cargadores", "autos-electricos", "suv-electricas", "pick-ups-electricas",
+CARPETAS = ["privacidad", "terminos", "modelos", "marcas", "cargadores", "autos-electricos", "suv-electricas", "pick-ups-electricas",
             "utilitarios-electricos", "autos-electricos-baratos", "precios-autos-electricos", "devolucion-miem"]
 
 
@@ -126,7 +126,7 @@ def pagina(ruta, titulo, descripcion, cuerpo, migas, jsonld=None):
 {cuerpo}
 <p class="nota">Actualizado el {e(HOY)}. {NOMBRE} es un sitio independiente: los datos se actualizan todos los días desde fuentes públicas (importadores, URSEA, UTE, operadores de carga). Verificá precio y condiciones con el concesionario.</p>
 </main>
-<footer class="foot"><div class="wrap"><p class="muted small"><a href="/">{NOMBRE}</a> · Información independiente sobre movilidad eléctrica en Uruguay.</p></div></footer>
+<footer class="foot"><div class="wrap"><p class="muted small"><a href="/">{NOMBRE}</a> · Información independiente sobre movilidad eléctrica en Uruguay. · <a href="/privacidad/">Privacidad</a> · <a href="/terminos/">Términos de uso</a></p></div></footer>
 </body>
 </html>
 """
@@ -344,6 +344,41 @@ def main():
     urls.append(pagina("devolucion-miem", f"Devolución del MIEM para autos eléctricos {a}: requisitos y trámite | {NOMBRE}",
                        "Cómo pedir la devolución del MIEM (Certificados de Eficiencia Energética) por un auto eléctrico 0 km: requisitos, montos, plazos y paso a paso.",
                        cuerpo, [("Inicio", "/"), ("Devolución del MIEM", "/devolucion-miem/")]))
+
+    # ---------- Privacidad y términos ----------
+    cuerpo = f"""<h1>Política de privacidad</h1>
+<p>{NOMBRE} es un sitio informativo independiente sobre vehículos eléctricos en Uruguay. Tratamos los datos personales según la Ley N.º 18.331 de Protección de Datos Personales y sus normas reglamentarias.</p>
+<h2>Qué datos guardamos y para qué</h2>
+<ul>
+<li><b>Correo electrónico</b>, solo si lo dejás: para el newsletter, las alertas de precio que pidas o para responder tu consulta. Las suscripciones se confirman por correo y podés darte de baja con un clic en cualquier envío.</li>
+<li><b>Nombre, correo, teléfono y departamento</b>, solo si pedís una cotización o asesoramiento para empresas: se usan solo para responder tu pedido.</li>
+<li><b>Comentarios, experiencias, votos y reportes de cargadores</b> que publiques: se muestran en el sitio sin tu correo. Guardamos de forma temporal la dirección IP para evitar abusos.</li>
+<li><b>Altas de alojamientos</b>: los datos del establecimiento que envíes se publican en el directorio. Los pagos de planes destacados los procesa Mercado Pago; no vemos ni guardamos datos de tarjetas.</li>
+</ul>
+<h2>Con quién se comparten</h2>
+<p>No vendemos datos. Usamos proveedores que los procesan por nuestra cuenta: Cloudflare (alojamiento del sitio y base de datos), Brevo (envío de correos) y Mercado Pago (cobros). El mapa usa OpenStreetMap y el estado de los cargadores se consulta a sus operadores, sin enviar datos tuyos.</p>
+<h2>Tus derechos</h2>
+<p>Podés pedir acceso, rectificación o eliminación de tus datos en cualquier momento escribiéndonos desde el <a href="/#contacto">formulario de contacto</a>. También podés presentar un reclamo ante la Unidad Reguladora y de Control de Datos Personales (URCDP).</p>
+<h2>Cookies</h2>
+<p>El sitio no usa cookies de publicidad ni de seguimiento. Algunas preferencias (por ejemplo, tu tarifa de UTE o los modelos que comparás) se guardan solo en tu navegador.</p>
+<p class="nota">Última actualización: {HOY}.</p>"""
+    urls.append(pagina("privacidad", f"Política de privacidad | {NOMBRE}", f"Qué datos personales guarda {NOMBRE}, para qué los usa y cómo ejercer tus derechos.",
+                       cuerpo, [("Inicio", "/"), ("Privacidad", "/privacidad/")]))
+    cuerpo = f"""<h1>Términos de uso</h1>
+<p>Al usar {NOMBRE} aceptás estos términos.</p>
+<h2>Información</h2>
+<p>Los precios, autonomías, cargadores y demás datos se recopilan automáticamente de fuentes públicas (importadores, tiendas oficiales, URSEA, UTE, operadores de carga y otras) y se actualizan con frecuencia, pero pueden tener errores o demoras. Son orientativos: confirmá precio, equipamiento y condiciones con el vendedor antes de comprar. Los cálculos de costos y ahorros son estimaciones.</p>
+<h2>Independencia</h2>
+<p>{NOMBRE} no pertenece a ninguna marca, importador ni operador de carga. Los espacios publicitarios, los alojamientos destacados y los enlaces de afiliado se identifican como tales y no cambian los datos que mostramos.</p>
+<h2>Contenido de los usuarios</h2>
+<p>Quien publica comentarios, experiencias o reportes es responsable de lo que escribe. Podemos moderar o quitar contenido ofensivo, falso, publicitario o que viole derechos de terceros.</p>
+<h2>Alojamientos destacados</h2>
+<p>El plan destacado se activa al confirmarse el pago y vence en el plazo contratado, sin renovación automática. Los datos del alojamiento son responsabilidad de quien lo da de alta.</p>
+<h2>Contacto</h2>
+<p>Para correcciones, consultas o reclamos usá el <a href="/#contacto">formulario de contacto</a>.</p>
+<p class="nota">Última actualización: {HOY}.</p>"""
+    urls.append(pagina("terminos", f"Términos de uso | {NOMBRE}", f"Condiciones de uso de {NOMBRE}: alcance de la información, independencia, contenido de usuarios y planes destacados.",
+                       cuerpo, [("Inicio", "/"), ("Términos de uso", "/terminos/")]))
 
     # Dirección canónica de la página principal, con la misma base que el resto
     ix = R / "index.html"
