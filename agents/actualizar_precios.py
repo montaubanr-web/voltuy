@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente diario de precios y modelos de VoltUY.
+"""Agente diario de precios y modelos de AutosEléctricos.uy.
 
 Fuentes, en orden de prioridad:
   1. Sitios de los importadores oficiales (agents/fuentes/importadores.json).
@@ -25,7 +25,7 @@ R = Path(__file__).resolve().parent.parent
 MODELOS = R / "data/modelos.json"
 ESTADO = R / "data/precios_estado.json"
 REVISION = R / "data/precios_revision.json"
-UA = {"User-Agent": "VoltUY-agente/1.0 (+https://github.com/voltuy)"}
+UA = {"User-Agent": "AutosElectricosUY-agente/1.0 (+https://github.com/voltuy)"}
 UMBRAL = 0.15
 DIAS_DISCONTINUADO = 14
 HOY = datetime.now(timezone.utc).strftime("%Y-%m-%d")

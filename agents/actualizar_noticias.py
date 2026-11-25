@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente diario de noticias de VoltUY (gratis, sin IA).
+"""Agente diario de noticias de AutosEléctricos.uy (gratis, sin IA).
 
 Lee los feeds RSS de agents/fuentes.json, filtra por palabras clave, clasifica por
 categoría, elimina duplicados y actualiza data/noticias.json conservando las
@@ -33,7 +33,7 @@ CATEGORIAS = [
 
 
 def descargar(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "VoltUY-bot/1.0 (+https://voltuy.example)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "AutosElectricosUY-bot/1.0 (+https://autoselectricos.uy)"})
     with urllib.request.urlopen(req, timeout=25) as r:
         return r.read()
 

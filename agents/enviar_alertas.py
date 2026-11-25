@@ -13,7 +13,7 @@ SITIO, TOKEN, BREVO, REMITE = (os.environ.get(k) for k in ("SITIO_URL", "ADMIN_T
 
 
 def req(url, data=None, headers=None):
-    h = {"User-Agent": "VoltUY-agente/1.0", "content-type": "application/json", **(headers or {})}
+    h = {"User-Agent": "AutosElectricosUY-agente/1.0", "content-type": "application/json", **(headers or {})}
     with urllib.request.urlopen(urllib.request.Request(url, data=json.dumps(data).encode() if data is not None else None, headers=h), timeout=30) as r:
         return json.load(r)
 
@@ -48,10 +48,10 @@ def main():
         nombre = f'{m["marca"]} {m["modelo"]} {m.get("version") or ""}'.strip()
         antes = a.get("ultimo_aviso_precio") or a.get("precio_alta")
         html = (f"<p>Buenas noticias: el <b>{nombre}</b> bajó de US$ {antes:,} a <b>US$ {precio:,}</b>.</p>".replace(",", ".")
-                + f'<p><a href="{SITIO}/#modelos">Ver en VoltUY</a> · <a href="{m.get("fuente_precio") or m.get("fuente")}">Fuente del precio</a></p>'
+                + f'<p><a href="{SITIO}/#modelos">Ver en AutosEléctricos.uy</a> · <a href="{m.get("fuente_precio") or m.get("fuente")}">Fuente del precio</a></p>'
                 + f'<p style="color:#888;font-size:12px">Recibís este correo porque creaste una alerta. <a href="{SITIO}/api/alertas/baja?t={a["token"]}">Dejar de recibir avisos de este modelo</a>.</p>')
         try:
-            req("https://api.brevo.com/v3/smtp/email", {"sender": {"name": "VoltUY", "email": REMITE}, "to": [{"email": a["email"]}],
+            req("https://api.brevo.com/v3/smtp/email", {"sender": {"name": "AutosEléctricos.uy", "email": REMITE}, "to": [{"email": a["email"]}],
                                                          "subject": f"Bajó el precio: {nombre} a US$ {precio:,}".replace(",", "."), "htmlContent": html},
                 {"api-key": BREVO})
             admin("alertas/avisado", {"id": a["id"], "precio": precio})

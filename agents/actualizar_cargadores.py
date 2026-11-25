@@ -33,7 +33,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "data" / "cargadores.json"
-UA = {"User-Agent": "VoltUY-bot/1.0"}
+UA = {"User-Agent": "AutosElectricosUY-bot/1.0"}
 
 CONECTOR_OCM = {  # ConnectionTypeID de Open Charge Map -> nombre corto
     33: "CCS2", 32: "CCS1", 25: "Tipo 2", 1036: "Tipo 2", 2: "CHAdeMO",

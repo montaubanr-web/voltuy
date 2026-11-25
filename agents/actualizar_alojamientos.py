@@ -23,7 +23,7 @@ def dist(a, b, c, d):
 def osm():
     q = """[out:json][timeout:120];area["ISO3166-1"="UY"]->.uy;
     (nwr["tourism"~"hotel|motel|guest_house|apartment|chalet|hostel|camp_site"](area.uy);nwr["leisure"="resort"](area.uy););out center tags;"""
-    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": q}).encode(), headers={"User-Agent": "VoltUY-agente/1.0"})
+    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": q}).encode(), headers={"User-Agent": "AutosElectricosUY-agente/1.0"})
     with urllib.request.urlopen(req, timeout=180) as r:
         return json.load(r).get("elements", [])
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente de videos de VoltUY (lunes y jueves).
+"""Agente de videos de AutosEléctricos.uy (lunes y jueves).
 
 Busca en YouTube (API oficial YouTube Data API v3, clave gratuita YT_API_KEY) videos nuevos sobre
 vehículos eléctricos: Uruguay (últimos 14 días) e internacional (últimos 7 días, los más vistos).
@@ -34,7 +34,7 @@ RE_EV = re.compile(r"el[eé]ctric|\bev\b|\bbev\b|byd|tesla|kwh|cargador|carga r[
 def api(endpoint, **params):
     params["key"] = os.environ["YT_API_KEY"]
     url = API + endpoint + "?" + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "VoltUY-agente/1.0"}), timeout=30) as r:
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "AutosElectricosUY-agente/1.0"}), timeout=30) as r:
         return json.load(r)
 
 

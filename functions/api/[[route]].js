@@ -1,4 +1,4 @@
-// API de VoltUY para Cloudflare Pages Functions + base de datos D1 (plan gratuito).
+// API de AutosEléctricos.uy para Cloudflare Pages Functions + base de datos D1 (plan gratuito).
 // Rutas:
 //   GET  /api/comentarios?tema=ID      -> comentarios aprobados
 //   POST /api/comentarios               -> {tema, nombre, texto} queda "pendiente"
@@ -42,7 +42,7 @@ const escH = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "
 async function correo(env, to, subject, html) {
   if (!env.BREVO_API_KEY || !env.CONTACTO_EMAIL) return false;
   const r = await fetch("https://api.brevo.com/v3/smtp/email", { method: "POST", headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json" },
-    body: JSON.stringify({ sender: { name: "VoltUY", email: env.CONTACTO_EMAIL }, to: [{ email: to }], subject, htmlContent: html }) });
+    body: JSON.stringify({ sender: { name: "AutosEléctricos.uy", email: env.CONTACTO_EMAIL }, to: [{ email: to }], subject, htmlContent: html }) });
   return r.ok;
 }
 const PLANES = { destacado: { dias: 120, nombre: "Destacado temporada" }, destacado_anual: { dias: 365, nombre: "Destacado anual" } };
@@ -58,7 +58,7 @@ export async function onRequest({ request, env, params }) {
     let r = await cache.match(clave);
     if (!r) {
       try {
-        const res = await fetch("https://back-app.eve-move.com/eve/miem", { headers: { "user-agent": "VoltUY/1.0" } });
+        const res = await fetch("https://back-app.eve-move.com/eve/miem", { headers: { "user-agent": "AutosElectricosUY/1.0" } });
         const texto = await res.text();
         const fin = texto.indexOf("\n[");  // a veces el servicio devuelve dos listas pegadas
         const datos = JSON.parse(fin > 0 ? texto.slice(0, fin) : texto);
@@ -136,7 +136,7 @@ export async function onRequest({ request, env, params }) {
         const esc = (t) => t.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
         await fetch("https://api.brevo.com/v3/smtp/email", {
           method: "POST", headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json" },
-          body: JSON.stringify({ sender: { name: "Web VoltUY", email: env.CONTACTO_EMAIL }, to: [{ email: env.CONTACTO_EMAIL }],
+          body: JSON.stringify({ sender: { name: "Web AutosEléctricos.uy", email: env.CONTACTO_EMAIL }, to: [{ email: env.CONTACTO_EMAIL }],
             replyTo: { email, name: nombre }, subject: `[Contacto · ${motivo}] ${nombre}`,
             htmlContent: `<p><b>${esc(nombre)}</b> (${esc(email)}) · ${esc(motivo)}</p><p>${esc(mensaje).replace(/\n/g, "<br>")}</p>` }),
         });
@@ -159,7 +159,7 @@ export async function onRequest({ request, env, params }) {
         if (f) res = { ok: true, km: f.properties.summary.distance / 1000, min: f.properties.summary.duration / 60, coords: f.geometry.coordinates.map(([lo, la]) => [la, lo]) };
       }
       if (!res) {
-        const r = await fetch(`https://router.project-osrm.org/route/v1/driving/${olon},${olat};${dlon},${dlat}?overview=full&geometries=geojson`, { headers: { "User-Agent": "VoltUY/1.0" } });
+        const r = await fetch(`https://router.project-osrm.org/route/v1/driving/${olon},${olat};${dlon},${dlat}?overview=full&geometries=geojson`, { headers: { "User-Agent": "AutosElectricosUY/1.0" } });
         const j = await r.json(), rt = j.routes && j.routes[0];
         if (rt) res = { ok: true, km: rt.distance / 1000, min: rt.duration / 60, coords: rt.geometry.coordinates.map(([lo, la]) => [la, lo]) };
       }
@@ -247,7 +247,7 @@ export async function onRequest({ request, env, params }) {
       await db.prepare("INSERT INTO alertas (email, modelo_id, objetivo, token, ip) VALUES (?,?,?,?,?) ON CONFLICT(email, modelo_id) DO UPDATE SET objetivo = excluded.objetivo")
         .bind(email, modelo, objetivo, t, ip).run();
       const row = await db.prepare("SELECT token, confirmado FROM alertas WHERE email = ? AND modelo_id = ?").bind(email, modelo).first();
-      if (!row.confirmado) await correo(env, email, "Confirmá tu alerta de precio en VoltUY",
+      if (!row.confirmado) await correo(env, email, "Confirmá tu alerta de precio en AutosEléctricos.uy",
         `<p>Hola: pediste que te avisemos cuando baje el precio de <b>${escH(modelo)}</b>${objetivo ? ` por debajo de US$ ${objetivo}` : ""}.</p><p><a href="${base}/api/alertas/confirmar?t=${row.token}">Confirmar la alerta</a></p><p style="color:#888;font-size:12px">Si no fuiste vos, ignorá este correo.</p>`);
       return json({ ok: true });
     }
@@ -279,7 +279,7 @@ export async function onRequest({ request, env, params }) {
         const precio = Number(plan === "destacado" ? env.MP_PRECIO_TEMPORADA || 2490 : env.MP_PRECIO_ANUAL || 5990);
         const pref = await fetch("https://api.mercadopago.com/checkout/preferences", { method: "POST",
           headers: { authorization: `Bearer ${env.MP_ACCESS_TOKEN}`, "content-type": "application/json" },
-          body: JSON.stringify({ items: [{ title: `VoltUY · ${PLANES[plan].nombre} · ${nombre}`, quantity: 1, unit_price: precio, currency_id: "UYU" }],
+          body: JSON.stringify({ items: [{ title: `AutosEléctricos.uy · ${PLANES[plan].nombre} · ${nombre}`, quantity: 1, unit_price: precio, currency_id: "UYU" }],
             payer: { email }, external_reference: `aloj:${id}:${plan}`, notification_url: `${base}/api/mp/webhook`,
             back_urls: { success: `${base}/#alojamientos`, failure: `${base}/#alojamientos`, pending: `${base}/#alojamientos` }, auto_return: "approved" }) });
         if (pref.ok) { const pj = await pref.json(); return json({ ok: true, pago: pj.init_point }); }

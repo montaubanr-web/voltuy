@@ -1,4 +1,4 @@
-/* VoltUY · lógica del sitio (sin dependencias) */
+/* AutosEléctricos.uy · lógica del sitio (sin dependencias) */
 (() => {
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -45,7 +45,7 @@
         <em class="tag ${m.tipo === "PHEV" ? "phev" : ""}">${m.tipo === "PHEV" ? "Enchufable" : "100% eléctrico"}</em>
         ${m.destacado ? '<em class="tag dest">Destacado</em>' : ""}</div>
       <div class="body">
-        <h3>${esc(m.modelo)}</h3><div class="ver">${esc([...new Set([m.version, m.segmento].filter(Boolean))].join(" · "))}</div>
+        <h3><a class="ficha" href="/modelos/${esc(m.id)}/" title="Ficha completa del ${esc(m.marca + " " + m.modelo)}">${esc(m.modelo)}</a></h3><div class="ver">${esc([...new Set([m.version, m.segmento].filter(Boolean))].join(" · "))}</div>
         <div class="price">${usd(m.precio_usd)} ${m.fecha_precio ? `<small>(${esc(fecha(m.fecha_precio))})</small>` : ""}</div>
         <div class="specs">
           <span>🔋 <b>${m.bateria_kwh ?? "—"}</b> kWh</span>
@@ -613,7 +613,7 @@
       <text x="28" y="68" fill="#B7CDBE" font-family="Inter,sans-serif" font-size="13">${esc(sub)}</text>
       ${filas}
       <text x="28" y="${alto - 18}" fill="#8FAE99" font-family="Inter,sans-serif" font-size="11">${esc(pie)}</text>
-      <text x="${SVG_W - 28}" y="${alto - 18}" fill="#FCD34D" font-family="Space Grotesk,sans-serif" font-size="13" font-weight="700" text-anchor="end">⚡ VoltUY</text></svg>`;
+      <text x="${SVG_W - 28}" y="${alto - 18}" fill="#FCD34D" font-family="Space Grotesk,sans-serif" font-size="13" font-weight="700" text-anchor="end">⚡ AutosEléctricos.uy</text></svg>`;
   }
   function barras(items, max, fmt, y0) { // items: [{label, a, b?}] a = barra principal, b = referencia
     return items.map((it, i) => { const y = y0 + i * 40, w = 300, ax = 300;
@@ -634,7 +634,7 @@
       sub = "Todavía sin datos de dueños: ranking homologado URSEA (kWh/100 km, menos es mejor)";
     }
     const max = Math.max(...items.map((i) => Math.max(i.a, i.b || 0))) * 1.1;
-    return svgCard("¿Cuánto gastan de verdad?", sub, barras(items, max, (i) => `${n1(i.a)}${i.b ? ` · URSEA ${n1(i.b)}` : ""}${i.n ? ` · ${i.n} dueño${i.n > 1 ? "s" : ""}` : ""}`, 96), "Fuente: comunidad VoltUY y Registro de Etiquetado Vehicular (URSEA)", 96 + items.length * 40 + 40);
+    return svgCard("¿Cuánto gastan de verdad?", sub, barras(items, max, (i) => `${n1(i.a)}${i.b ? ` · URSEA ${n1(i.b)}` : ""}${i.n ? ` · ${i.n} dueño${i.n > 1 ? "s" : ""}` : ""}`, 96), "Fuente: comunidad AutosEléctricos.uy y Registro de Etiquetado Vehicular (URSEA)", 96 + items.length * 40 + 40);
   }
   function infoProblemas(a) {
     const it = Object.entries(a.prob).sort((x, y) => y[1] - x[1]).slice(0, 6).map(([k, n]) => ({ label: PROBLEMAS[k], a: n / a.total * 100, n, color: "#F97316" }));
@@ -653,7 +653,7 @@
       const ley = d.opciones.map((o, j) => `${o} ${Math.round((v[o] || 0) / tot * 100)}%`).join("   ·   ");
       return `<text x="28" y="${y + 4}" fill="#E6EAF2" font-family="Inter,sans-serif" font-size="13" font-weight="600">${esc(d.titulo.slice(0, 70))}</text>${segs}
         <text x="28" y="${y + 44}" fill="#B7CDBE" font-family="Inter,sans-serif" font-size="11">${esc(ley.slice(0, 110))} · ${tot} votos</text>`; }).join("");
-    return svgCard("Pulso de los debates", "Qué opina la comunidad esta semana", body, "Votos de usuarios de VoltUY (uno por persona y debate)", 100 + filas.length * 70 + 30);
+    return svgCard("Pulso de los debates", "Qué opina la comunidad esta semana", body, "Votos de usuarios de AutosEléctricos.uy (uno por persona y debate)", 100 + filas.length * 70 + 30);
   }
 
   function videoCard(v) {
@@ -902,7 +902,7 @@
     const pinta = () => { const d = U.modelos[$("#uModelo").value];
       $("#uRes").innerHTML = `<div class="table-wrap"><table class="tbl"><thead><tr><th>Año</th><th>Avisos</th><th>Precio típico</th><th>Rango</th><th>Km típicos</th></tr></thead><tbody>${d.por_anio.map((a) => `<tr><td>${a.anio}</td><td>${a.n}</td><td><b>US$ ${a.mediana.toLocaleString("es-UY")}</b></td><td>US$ ${a.p25.toLocaleString("es-UY")}–${a.p75.toLocaleString("es-UY")}</td><td>${a.km ? a.km.toLocaleString("es-UY") + " km" : "—"}</td></tr>`).join("")}</tbody></table></div>
         <div class="u-avisos">${d.avisos.map((x) => `<a class="u-aviso" href="${esc(x.url)}" target="_blank" rel="noopener"><b>US$ ${x.precio.toLocaleString("es-UY")}</b><span>${x.anio} · ${x.km ? x.km.toLocaleString("es-UY") + " km" : "km s/d"} · ${esc(x.lugar || "")}</span><em>${esc(x.titulo)}</em></a>`).join("")}</div>
-        <p class="muted small">Avisos de MercadoLibre. VoltUY no vende ni intermedia: verificá siempre el vehículo antes de comprar.</p>`; };
+        <p class="muted small">Avisos de MercadoLibre. AutosEléctricos.uy no vende ni intermedia: verificá siempre el vehículo antes de comprar.</p>`; };
     $("#uModelo").addEventListener("input", pinta); pinta();
   }
 

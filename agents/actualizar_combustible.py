@@ -29,7 +29,7 @@ def url_de(pid):
 
 
 def leer(pid):
-    req = urllib.request.Request(url_de(pid), headers={"User-Agent": "VoltUY-bot/1.0"})
+    req = urllib.request.Request(url_de(pid), headers={"User-Agent": "AutosElectricosUY-bot/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         texto = html.unescape(re.sub(r"<[^>]+>", " ", r.read().decode("utf-8", errors="ignore")))
     m = PATRON.search(re.sub(r"\s+", " ", texto))

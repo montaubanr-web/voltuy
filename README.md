@@ -1,8 +1,8 @@
-# VoltUY · portal de vehículos eléctricos de Uruguay
+# AutosEléctricos.uy · portal de vehículos eléctricos de Uruguay
 
 Sitio estático (HTML + CSS + JS, sin compilación) con datos en JSON, una API mínima para
 debates, cotizaciones y newsletter, y agentes que actualizan la información.
-«VoltUY» es un nombre provisorio: cambialo antes de comprar el dominio.
+Nombre del sitio: AutosEléctricos.uy (dominio autoselectricos.uy).
 
 ## Estructura
 
