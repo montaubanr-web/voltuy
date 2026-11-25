@@ -1,4 +1,4 @@
-name: Agentes diarios de VoltUY
+name: Agentes diarios de AutosEléctricosUY
 
 on:
   schedule:
@@ -17,6 +17,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Ordenar archivos subidos por error a la raíz del repo
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import os, shutil
+          from pathlib import Path
+          quedan = {"index.html", "README.md", "schema.sql", "build_preview.py", "robots.txt", "sitemap.xml", ".gitignore"}
+          destino = {"app.js": "assets", "styles.css": "assets", "leaflet.min.css": "assets", "[[route]].js": "functions/api"}
+          for f in Path(".").iterdir():
+              if not f.is_file() or f.name in quedan or f.name.startswith("."):
+                  continue
+              if f.suffix in (".yml", ".yaml"):          # los workflows se editan en .github/workflows
+                  f.unlink(); print("borrado", f.name); continue
+              carpeta = destino.get(f.name) or ("agents" if f.suffix in (".py", ".md") else None)
+              if carpeta:
+                  Path(carpeta).mkdir(parents=True, exist_ok=True)
+                  shutil.move(str(f), f"{carpeta}/{f.name}"); print("movido", f.name, "->", carpeta)
+          for d in Path(".").rglob("__pycache__"):
+              shutil.rmtree(d, ignore_errors=True)
+          PY
       - name: Precio de la nafta (ANCAP)
         continue-on-error: true
         run: python agents/actualizar_combustible.py
@@ -68,6 +88,11 @@ jobs:
         env:
           OCM_API_KEY: ${{ secrets.OCM_API_KEY }}   # opcional; sin clave usa la exportación pública
         run: python agents/actualizar_cargadores.py
+      - name: Páginas para Google (una por modelo, marca y departamento) + sitemap
+        continue-on-error: true
+        env:
+          SITIO_URL: ${{ vars.SITIO_URL }}
+        run: python agents/generar_paginas.py
       - name: Control del mapa de cargadores (issue si falla una fuente o baja la cantidad)
         continue-on-error: true
         env:
@@ -84,5 +109,5 @@ jobs:
         run: |
           git config user.name "voltuy-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/
+          git add -A -- . ':!**/__pycache__/**'
           git diff --cached --quiet || (git commit -m "Datos del $(date -u +%F)" && git push)
