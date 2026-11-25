@@ -1,7 +1,9 @@
 // API de AutosEléctricosUY para Cloudflare Pages Functions + base de datos D1 (plan gratuito).
 // Rutas:
-//   GET  /api/comentarios?tema=ID      -> comentarios aprobados
-//   POST /api/comentarios               -> {tema, nombre, texto} queda "pendiente"
+//   GET  /api/comentarios?tema=ID      -> comentarios aprobados (con id y padre para las respuestas)
+//   POST /api/comentarios               -> {tema, nombre, texto, padre?, email?, avisar?} queda "pendiente"
+//   GET  /api/comentarios/confirmar?t=  -> confirma el correo para avisos de respuesta · GET /api/comentarios/baja?t= -> deja de avisar
+//   GET  /api/comentarios/respuestas?h=RAIZ:DESDE,... -> respuestas aprobadas a mis conversaciones (campanita)
 //   POST /api/leads                     -> pedido de cotización (para vender leads a concesionarios)
 //   POST /api/newsletter                -> {email}  (con BREVO_API_KEY: alta con doble confirmación en Brevo)
 //   POST /api/contacto                  -> {nombre, email, motivo, mensaje} (con BREVO_API_KEY: aviso por correo a CONTACTO_EMAIL)
@@ -45,6 +47,43 @@ async function correo(env, to, subject, html) {
     body: JSON.stringify({ sender: { name: "AutosEléctricosUY", email: env.CONTACTO_EMAIL }, to: [{ email: to }], subject, htmlContent: html }) });
   return r.ok;
 }
+// Respuestas y avisos: agrega las columnas nuevas a "comentarios" si la base es anterior (una vez por instancia).
+let esquemaOk = false;
+async function asegurarEsquema(db) {
+  if (esquemaOk) return;
+  const { results } = await db.prepare("PRAGMA table_info(comentarios)").all();
+  const hay = new Set(results.map((c) => c.name));
+  for (const [col, tipo] of [["padre", "INTEGER"], ["email", "TEXT"], ["avisar", "INTEGER NOT NULL DEFAULT 0"], ["avisado", "INTEGER NOT NULL DEFAULT 0"]])
+    if (!hay.has(col)) await db.prepare(`ALTER TABLE comentarios ADD COLUMN ${col} ${tipo}`).run();
+  await db.prepare("CREATE INDEX IF NOT EXISTS idx_com_padre ON comentarios (padre, estado)").run();
+  await db.prepare("CREATE TABLE IF NOT EXISTS avisos_correo (email TEXT PRIMARY KEY, token TEXT NOT NULL, confirmado INTEGER NOT NULL DEFAULT 0, baja INTEGER NOT NULL DEFAULT 0, enviado TEXT, creado TEXT NOT NULL DEFAULT (datetime('now')))").run();
+  esquemaOk = true;
+}
+const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+
+// Cuando se aprueba una respuesta: avisa por correo a quien abrió la conversación y a quienes respondieron antes,
+// solo si lo pidieron y confirmaron su correo. Nunca al autor de la respuesta.
+async function avisarRespuesta(db, env, base, id) {
+  const r = await db.prepare("SELECT id, tema, nombre, texto, padre, email, avisado FROM comentarios WHERE id = ? AND estado = 'aprobado'").bind(id).first();
+  if (!r || !r.padre || r.avisado) return;
+  await db.prepare("UPDATE comentarios SET avisado = 1 WHERE id = ?").bind(id).run();
+  const { results } = await db.prepare(
+    `SELECT c.id, c.email, c.nombre, a.token FROM comentarios c JOIN avisos_correo a ON a.email = c.email
+     WHERE (c.id = ? OR (c.padre = ? AND c.id < ?)) AND c.estado = 'aprobado' AND c.avisar = 1 AND a.confirmado = 1 AND a.baja = 0`).bind(r.padre, r.padre, r.id).all();
+  const yo = (r.email || "").toLowerCase(), enviados = new Set();
+  for (const d of results) {
+    const e = d.email.toLowerCase();
+    if (e === yo || enviados.has(e)) continue;
+    enviados.add(e);
+    const propio = d.id === r.padre;
+    const link = `${base}/#debates/${encodeURIComponent(r.tema)}/c${r.id}`;
+    await correo(env, d.email, `${r.nombre} te respondió en AutosEléctricosUY`,
+      `<p>Hola ${escH(d.nombre)}: <b>${escH(r.nombre)}</b> respondió ${propio ? "a tu comentario" : "en una conversación en la que participaste"}:</p>
+       <blockquote style="border-left:3px solid #16A34A;margin:12px 0;padding:4px 12px;color:#333">${escH(r.texto.slice(0, 400))}${r.texto.length > 400 ? "…" : ""}</blockquote>
+       <p><a href="${link}">Ver la conversación y responder</a></p>
+       <p style="color:#888;font-size:12px">Recibís este correo porque pediste que te avisemos cuando te respondan. <a href="${base}/api/comentarios/baja?t=${d.token}">No quiero más avisos</a></p>`);
+  }
+}
 const PLANES = { destacado: { dias: 120, nombre: "Destacado temporada" }, destacado_anual: { dias: 365, nombre: "Destacado anual" } };
 
 export async function onRequest({ request, env, params }) {
@@ -78,24 +117,69 @@ export async function onRequest({ request, env, params }) {
   if (!db) return json({ ok: false, error: "D1 no configurada" }, 500);
 
   try {
+    if (route.startsWith("comentarios") || route === "admin/moderar") await asegurarEsquema(db);
+    const baseUrl = env.SITIO_URL || url.origin;
+
     if (route === "comentarios" && method === "GET") {
       const tema = clean(url.searchParams.get("tema"), 60);
       const { results } = await db
-        .prepare("SELECT nombre, texto, strftime('%d/%m/%Y', creado) AS fecha FROM comentarios WHERE tema = ? AND estado = 'aprobado' ORDER BY creado ASC LIMIT 500")
+        .prepare("SELECT id, padre, nombre, texto, strftime('%d/%m/%Y', creado) AS fecha FROM comentarios WHERE tema = ? AND estado = 'aprobado' ORDER BY id ASC LIMIT 500")
         .bind(tema).all();
-      return json({ ok: true, comentarios: results });
+      return json({ ok: true, comentarios: results, avisos: !!(env.BREVO_API_KEY && env.CONTACTO_EMAIL) });
     }
 
     if (route === "comentarios" && method === "POST") {
       const b = await request.json();
+      if (b.web) return json({ ok: true, estado: "pendiente" });
       const tema = clean(b.tema, 60), nombre = clean(b.nombre, 40), texto = clean(b.texto, 1500);
       if (!tema || !nombre || texto.length < 5) return json({ ok: false, error: "Datos incompletos" }, 400);
+      const email = clean(b.email, 120).toLowerCase();
+      if (email && !EMAIL_RE.test(email)) return json({ ok: false, error: "Correo inválido" }, 400);
+      const avisar = email && b.avisar ? 1 : 0;
       const ip = await hashIp(request.headers.get("cf-connecting-ip") || "");
       // Límite simple: 5 comentarios por hora por IP
       const { n } = await db.prepare("SELECT COUNT(*) AS n FROM comentarios WHERE ip = ? AND creado > datetime('now','-1 hour')").bind(ip).first();
       if (n >= 5) return json({ ok: false, error: "Demasiados comentarios, probá más tarde" }, 429);
-      await db.prepare("INSERT INTO comentarios (tema, nombre, texto, ip) VALUES (?, ?, ?, ?)").bind(tema, nombre, texto, ip).run();
-      return json({ ok: true, estado: "pendiente" });
+      // Las respuestas siempre cuelgan del comentario que abrió la conversación (un solo nivel).
+      let padre = null;
+      if (Number(b.padre) > 0) {
+        const p = await db.prepare("SELECT id, padre FROM comentarios WHERE id = ? AND tema = ? AND estado = 'aprobado'").bind(Number(b.padre), tema).first();
+        if (!p) return json({ ok: false, error: "El comentario que querés responder no existe" }, 400);
+        padre = p.padre || p.id;
+      }
+      const ins = await db.prepare("INSERT INTO comentarios (tema, nombre, texto, ip, padre, email, avisar) VALUES (?, ?, ?, ?, ?, ?, ?)")
+        .bind(tema, nombre, texto, ip, padre, email || null, avisar).run();
+      let confirmar = false;
+      if (avisar) {
+        await db.prepare("INSERT OR IGNORE INTO avisos_correo (email, token) VALUES (?, ?)").bind(email, token()).run();
+        const a = await db.prepare("SELECT token, confirmado, baja, enviado FROM avisos_correo WHERE email = ?").bind(email).first();
+        // Sin confirmar, o dado de baja antes: se vuelve a pedir confirmación (nadie puede reactivar avisos de otro).
+        if (!a.confirmado || a.baja) {
+          confirmar = true;
+          // Un correo de confirmación por día como máximo, para que nadie use el formulario para molestar a otro.
+          const reciente = a.enviado && Date.parse(a.enviado.replace(" ", "T") + "Z") > Date.now() - 86400000;
+          if (!reciente && await correo(env, email, "Confirmá tu correo para recibir respuestas en AutosEléctricosUY",
+            `<p>Hola ${escH(nombre)}: pediste que te avisemos cuando alguien responda tus comentarios en AutosEléctricosUY.</p><p><a href="${baseUrl}/api/comentarios/confirmar?t=${a.token}">Confirmar mi correo</a></p><p style="color:#888;font-size:12px">Lo pedís una sola vez. Si no fuiste vos, ignorá este correo y no te vamos a escribir.</p>`))
+            await db.prepare("UPDATE avisos_correo SET enviado = datetime('now') WHERE email = ?").bind(email).run();
+        }
+      }
+      return json({ ok: true, estado: "pendiente", id: ins.meta.last_row_id, raiz: padre || ins.meta.last_row_id, confirmar });
+    }
+
+    if (route === "comentarios/confirmar" || route === "comentarios/baja") {
+      const t = clean(url.searchParams.get("t"), 64);
+      const ok = t && (await db.prepare(route === "comentarios/confirmar" ? "UPDATE avisos_correo SET confirmado = 1, baja = 0 WHERE token = ?" : "UPDATE avisos_correo SET baja = 1 WHERE token = ?").bind(t).run()).meta.changes;
+      return Response.redirect(`${baseUrl}/#debates/${ok ? (route === "comentarios/confirmar" ? "aviso-confirmado" : "aviso-baja") : "aviso-invalido"}`, 302);
+    }
+
+    if (route === "comentarios/respuestas" && method === "GET") {
+      // h = "raiz:desde,raiz:desde" (máx. 40): respuestas aprobadas posteriores a mi comentario en cada conversación.
+      const pares = clean(url.searchParams.get("h"), 800).split(",").map((p) => p.split(":").map(Number)).filter(([r, d]) => r > 0 && d > 0).slice(0, 40);
+      if (!pares.length) return json({ ok: true, respuestas: [] });
+      const where = pares.map(() => "(padre = ? AND id > ?)").join(" OR ");
+      const { results } = await db.prepare(`SELECT id, padre, tema, nombre, strftime('%d/%m/%Y', creado) AS fecha FROM comentarios WHERE estado = 'aprobado' AND (${where}) ORDER BY id DESC LIMIT 50`)
+        .bind(...pares.flat()).all();
+      return json({ ok: true, respuestas: results });
     }
 
     if (route === "leads" && method === "POST") {
@@ -327,7 +411,7 @@ export async function onRequest({ request, env, params }) {
         return json({ ok: true });
       }
       if (route === "admin/pendientes") {
-        const { results } = await db.prepare("SELECT id, tema, nombre, texto, creado FROM comentarios WHERE estado = 'pendiente' ORDER BY creado").all();
+        const { results } = await db.prepare("SELECT id, tema, padre, nombre, texto, creado FROM comentarios WHERE estado = 'pendiente' ORDER BY creado").all();
         const exp = (await db.prepare("SELECT id, modelo AS tema, 'experiencia' AS nombre, texto, creado FROM experiencias WHERE texto_estado = 'pendiente' ORDER BY creado").all()).results;
         return json({ ok: true, pendientes: results, experiencias: exp });
       }
@@ -341,7 +425,10 @@ export async function onRequest({ request, env, params }) {
         const b = await request.json();
         const estado = b.accion === "aprobar" ? "aprobado" : "rechazado";
         if (b.tipo === "experiencia") await db.prepare("UPDATE experiencias SET texto_estado = ? WHERE id = ?").bind(estado, +b.id).run();
-        else await db.prepare("UPDATE comentarios SET estado = ? WHERE id = ?").bind(estado, +b.id).run();
+        else {
+          await db.prepare("UPDATE comentarios SET estado = ? WHERE id = ?").bind(estado, +b.id).run();
+          if (estado === "aprobado") await avisarRespuesta(db, env, baseUrl, +b.id);
+        }
         return json({ ok: true });
       }
     }

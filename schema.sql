@@ -7,9 +7,22 @@ CREATE TABLE IF NOT EXISTS comentarios (
   texto TEXT NOT NULL,
   estado TEXT NOT NULL DEFAULT 'pendiente', -- pendiente | aprobado | rechazado
   ip TEXT,
-  creado TEXT NOT NULL DEFAULT (datetime('now'))
+  creado TEXT NOT NULL DEFAULT (datetime('now')),
+  padre INTEGER,                         -- id del comentario que abre la conversación (NULL = comentario nuevo)
+  email TEXT,                            -- opcional, nunca se publica
+  avisar INTEGER NOT NULL DEFAULT 0,     -- 1 = avisar por correo cuando respondan
+  avisado INTEGER NOT NULL DEFAULT 0     -- 1 = ya se mandaron los avisos de esta respuesta
 );
 CREATE INDEX IF NOT EXISTS idx_com_tema ON comentarios (tema, estado);
+CREATE INDEX IF NOT EXISTS idx_com_padre ON comentarios (padre, estado);
+-- Correos que pidieron avisos de respuesta (doble confirmación y baja con un clic).
+-- En bases creadas antes, la API agrega estas columnas y tabla sola la primera vez que se usa.
+CREATE TABLE IF NOT EXISTS avisos_correo (
+  email TEXT PRIMARY KEY, token TEXT NOT NULL,
+  confirmado INTEGER NOT NULL DEFAULT 0, baja INTEGER NOT NULL DEFAULT 0,
+  enviado TEXT,                          -- último correo de confirmación (máx. uno por día)
+  creado TEXT NOT NULL DEFAULT (datetime('now'))
+);
 
 CREATE TABLE IF NOT EXISTS leads (
   id INTEGER PRIMARY KEY AUTOINCREMENT,

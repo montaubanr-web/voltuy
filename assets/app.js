@@ -509,43 +509,116 @@
     capa.addTo(map);
   }
 
-  // ---------- Debates ----------
+  // ---------- Debates (con respuestas y aviso cuando te responden) ----------
+  // En este navegador se guardan: tus comentarios (mis_coms), las respuestas ya vistas (resp_vistas) y tu nombre/correo (com_perfil).
+  let avisosCorreo = false, respuestas = [], temaAbierto = null;
   async function getComments(tema) {
     const r = await api(`/api/comentarios?tema=${encodeURIComponent(tema)}`);
-    if (r && Array.isArray(r.comentarios)) return r.comentarios;
+    if (r && Array.isArray(r.comentarios)) { avisosCorreo = !!r.avisos; return r.comentarios; }
     return store.get("c_" + tema, []);
   }
   async function renderDebates() {
     $("#debateThread").classList.add("hidden");
     $("#debateList").classList.remove("hidden");
+    const nuevasPorTema = {};
+    respuestas.filter((x) => !vistas().has(x.id)).forEach((x) => { nuevasPorTema[x.tema] = (nuevasPorTema[x.tema] || 0) + 1; });
     const items = await Promise.all(state.debates.map(async (d) => ({ d, n: (await getComments(d.id)).length })));
-    $("#debateList").innerHTML = items.map(({ d, n }) => `<div class="debate" data-tema="${d.id}"><div><span class="cat">${esc(d.etiqueta)}</span><h3>${esc(d.titulo)}</h3><p class="muted small" style="margin:0">${esc(d.descripcion)}</p></div><span class="count">💬 ${n}</span></div>`).join("");
+    $("#debateList").innerHTML = items.map(({ d, n }) => `<div class="debate" data-tema="${d.id}"><div><span class="cat">${esc(d.etiqueta)}</span><h3>${esc(d.titulo)}</h3><p class="muted small" style="margin:0">${esc(d.descripcion)}</p></div><span class="count">${nuevasPorTema[d.id] ? `<span class="nuevo">🔔 ${nuevasPorTema[d.id]}</span> ` : ""}💬 ${n}</span></div>`).join("");
   }
-  async function openThread(id) {
+  const misComs = () => store.get("mis_coms", []);
+  const vistas = () => new Set(store.get("resp_vistas", []));
+  function formComentario(padre, aQuien) {
+    const p = store.get("com_perfil", {});
+    const correo = avisosCorreo ? `<input name="email" type="email" maxlength="120" placeholder="Tu correo (opcional, no se publica)" value="${esc(p.email || "")}">
+      <label class="check-aviso"><input type="checkbox" name="avisar" ${p.avisar !== false ? "checked" : ""}> Avisarme por correo cuando me respondan</label>` : "";
+    return `<form class="cform" data-padre="${padre || ""}">${aQuien ? `<p class="small muted" style="margin:0">Respondiendo a <b>${esc(aQuien)}</b></p>` : ""}
+      <input name="nombre" required maxlength="40" placeholder="Tu nombre o apodo" value="${esc(p.nombre || "")}">
+      <textarea name="texto" required maxlength="1500" placeholder="${padre ? "Escribí tu respuesta…" : "Contá tu experiencia u opinión…"}"></textarea>
+      ${correo}<input name="web" class="hidden" tabindex="-1" autocomplete="off">
+      <div class="cform-acc"><button class="btn btn-primary">${padre ? "Publicar respuesta" : "Publicar comentario"}</button>${padre ? '<button type="button" class="rm" data-cancelar>Cancelar</button>' : ""}</div>
+      <p class="muted small" style="margin:0">Se publica después de revisar que respete las normas de convivencia.${avisosCorreo ? " Tu correo solo se usa para avisarte; te damos de baja con un clic." : " Cuando te respondan vas a ver una 🔔 arriba al volver al sitio."}</p></form>`;
+  }
+  function htmlComentario(c, mios, nuevas, raiz) {
+    const mio = mios.has(c.id);
+    return `<div class="comment${c.padre ? " reply" : ""}${nuevas.has(c.id) ? " nuevo" : ""}" id="c${c.id || ""}"><span class="who">${esc(c.nombre)}</span>${mio ? '<span class="yo">vos</span>' : ""}<span class="when">${esc(c.fecha || "")}</span>
+      <p style="margin:6px 0 0">${esc(c.texto)}</p>${c.id ? `<button class="rm responder" type="button" data-resp="${raiz}" data-nom="${esc(c.nombre)}">↩ Responder</button>` : ""}</div>`;
+  }
+  async function openThread(id, foco) {
     const d = state.debates.find((x) => x.id === id); if (!d) return;
-    const cs = await getComments(id);
+    const cs = await getComments(id); temaAbierto = id;
     $("#debateList").classList.add("hidden");
     const t = $("#debateThread"); t.classList.remove("hidden");
+    const mios = new Set(misComs().map((m) => m.id)), vis = vistas();
+    const nuevas = new Set(respuestas.filter((x) => x.tema === id && !vis.has(x.id)).map((x) => x.id));
+    const raices = cs.filter((c) => !c.padre), hijos = {};
+    cs.filter((c) => c.padre).forEach((c) => (hijos[c.padre] = hijos[c.padre] || []).push(c));
     t.innerHTML = `<button class="rm" id="backDeb">← Volver a los debates</button>
       <h2>${esc(d.titulo)}</h2><p class="muted">${esc(d.descripcion)}</p>
       ${encuesta(d)}${(state.comunidad.debates || {})[d.id] ? `<div class="panel ai"><b>Resumen del debate</b><p>${esc(state.comunidad.debates[d.id].resumen)}</p><p class="muted small">Generado por nuestro agente a partir de los comentarios aprobados.</p></div>` : ""}
-      ${cs.map((c) => `<div class="comment"><span class="who">${esc(c.nombre)}</span><span class="when">${esc(c.fecha || "")}</span><p style="margin:6px 0 0">${esc(c.texto)}</p></div>`).join("") || '<p class="muted">Todavía no hay comentarios. ¡Abrí el debate!</p>'}
-      <form class="cform" id="cForm"><input name="nombre" required maxlength="40" placeholder="Tu nombre o apodo"><textarea name="texto" required maxlength="1500" placeholder="Contá tu experiencia u opinión…"></textarea>
-      <input name="web" class="hidden" tabindex="-1" autocomplete="off"><button class="btn btn-primary">Publicar comentario</button>
-      <p class="muted small">Se publica después de revisar que respete las normas de convivencia.</p></form>`;
-    $("#backDeb").onclick = renderDebates;
-    $("#cForm").onsubmit = async (e) => {
-      e.preventDefault();
-      const fd = Object.fromEntries(new FormData(e.target));
-      if (fd.web) return; // trampa para bots
-      const r = await api("/api/comentarios", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ tema: id, nombre: fd.nombre, texto: fd.texto }) });
-      if (r && r.ok) { toast("¡Gracias! Tu comentario queda pendiente de moderación"); e.target.reset(); }
-      else { // modo vista previa: guarda local
-        const list = store.get("c_" + id, []); list.push({ nombre: fd.nombre, texto: fd.texto, fecha: new Date().toLocaleDateString("es-UY") }); store.set("c_" + id, list);
-        toast("Vista previa: comentario guardado solo en este navegador"); openThread(id);
-      }
-    };
+      ${raices.map((c) => `<div class="conv">${htmlComentario(c, mios, nuevas, c.id)}${(hijos[c.id] || []).map((h) => htmlComentario(h, mios, nuevas, c.id)).join("")}<div class="resp-slot"></div></div>`).join("") || '<p class="muted">Todavía no hay comentarios. ¡Abrí el debate!</p>'}
+      <h3 style="margin:22px 0 0">Sumá tu comentario</h3>${formComentario(null)}`;
+    $("#backDeb").onclick = () => { if (location.hash !== "#debates") history.replaceState(null, "", "#debates"); renderDebates(); };
+    // Al abrir la conversación, las respuestas nuevas de este debate pasan a vistas.
+    if (nuevas.size) { store.set("resp_vistas", [...vis, ...nuevas].slice(-500)); pintarCampana(); }
+    const el = foco && document.getElementById(foco);
+    if (el) { el.classList.add("foco"); setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 60); }
   }
+  async function enviarComentario(f, tema) {
+    const fd = Object.fromEntries(new FormData(f));
+    if (fd.web) return; // trampa para bots
+    const padre = Number(f.dataset.padre) || null, email = (fd.email || "").trim(), avisar = !!fd.avisar && !!email;
+    store.set("com_perfil", { nombre: fd.nombre, email, avisar: email ? !!fd.avisar : store.get("com_perfil", {}).avisar });
+    const btn = f.querySelector(".btn"); btn.disabled = true;
+    const r = await api("/api/comentarios", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ tema, nombre: fd.nombre, texto: fd.texto, padre, email, avisar }) });
+    btn.disabled = false;
+    if (r && r.ok) {
+      if (r.id) { const l = misComs(); l.push({ id: r.id, tema, raiz: r.raiz }); store.set("mis_coms", l.slice(-40)); }
+      toast(r.confirmar ? "¡Gracias! Queda en moderación. Revisá tu correo para confirmar los avisos." : "¡Gracias! Tu comentario queda pendiente de moderación");
+      f.reset(); f.nombre.value = fd.nombre; if (f.email) f.email.value = email;
+      if (padre) f.remove();
+      pintarCampana();
+    } else if (window.__DATA__) { // modo vista previa: guarda local
+      const list = store.get("c_" + tema, []); list.push({ nombre: fd.nombre, texto: fd.texto, padre, fecha: new Date().toLocaleDateString("es-UY") }); store.set("c_" + tema, list);
+      toast("Vista previa: comentario guardado solo en este navegador"); openThread(tema);
+    } else toast("No se pudo publicar ahora; probá de nuevo en un rato.");
+  }
+  // Formularios del hilo: comentario nuevo, botón "Responder" y cancelar.
+  $("#debateThread").addEventListener("submit", (e) => {
+    if (!e.target.matches(".cform")) return;
+    e.preventDefault();
+    if (temaAbierto) enviarComentario(e.target, temaAbierto);
+  });
+  $("#debateThread").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-resp],[data-cancelar]"); if (!b) return;
+    if (b.dataset.cancelar !== undefined) { b.closest("form").remove(); return; }
+    const slot = b.closest(".conv").querySelector(".resp-slot");
+    slot.innerHTML = formComentario(b.dataset.resp, b.dataset.nom);
+    slot.querySelector("textarea").focus();
+  });
+
+  // ---------- Campanita: respuestas a mis comentarios ----------
+  async function revisarRespuestas() {
+    const mios = misComs(); if (!mios.length) return pintarCampana();
+    const h = mios.slice(-40).map((m) => `${m.raiz}:${m.id}`).join(",");
+    const r = await api(`/api/comentarios/respuestas?h=${h}`);
+    if (r && Array.isArray(r.respuestas)) { const ids = new Set(mios.map((m) => m.id)); respuestas = r.respuestas.filter((x) => !ids.has(x.id)); }
+    pintarCampana();
+  }
+  function pintarCampana() {
+    const b = $("#bell"); if (!b) return;
+    const vis = vistas(), nuevas = respuestas.filter((x) => !vis.has(x.id));
+    b.classList.toggle("hidden", !misComs().length);
+    $("#bellN").textContent = nuevas.length; $("#bellN").classList.toggle("hidden", !nuevas.length);
+    b.title = nuevas.length ? `${nuevas.length} respuesta${nuevas.length === 1 ? "" : "s"} nueva${nuevas.length === 1 ? "" : "s"}` : "Respuestas a tus comentarios";
+    const titulo = (tema) => (state.debates.find((d) => d.id === tema) || {}).titulo || "un debate";
+    $("#bellMenu").innerHTML = `<b class="bell-tit">Respuestas a tus comentarios</b>` + (respuestas.length
+      ? respuestas.slice(0, 10).map((x) => `<a href="#debates/${encodeURIComponent(x.tema)}/c${x.id}" class="${vis.has(x.id) ? "" : "nuevo"}"><b>${esc(x.nombre)}</b> respondió en «${esc(titulo(x.tema))}»<span>${esc(x.fecha || "")}</span></a>`).join("")
+      : '<p class="small muted">Todavía nadie te respondió. Cuando pase, lo vas a ver acá.</p>')
+      + `<p class="small muted" style="margin:8px 0 0">${avisosCorreo ? "¿Querés enterarte aunque no entres? Dejá tu correo al comentar." : "Se guarda en este navegador."}</p>`;
+  }
+  $("#bell").onclick = (e) => { e.stopPropagation(); $("#bellMenu").classList.toggle("hidden"); };
+  document.addEventListener("click", (e) => { if (!e.target.closest("#bellMenu,#bell")) $("#bellMenu").classList.add("hidden"); });
+  setInterval(() => { if (!document.hidden) revisarRespuestas(); }, 300000);
 
   // ---------- Comunidad: experiencias estructuradas, consumo real, problemas, debates ----------
   const PROBLEMAS = {
@@ -1013,8 +1086,10 @@
   // ---------- Navegación ----------
   const VIEWS = ["inicio", "modelos", "comparar", "cargadores", "viaje", "tests", "noticias", "normativa", "calculadora", "debates", "miem", "elegir", "usados", "alojamientos", "empresas"];
   function route() {
-    const h = (location.hash || "#inicio").slice(1);
+    const partes = (location.hash || "#inicio").slice(1).split("/");
+    const h = partes[0];
     const v = VIEWS.includes(h) ? h : "inicio";
+    if (v === "debates" && partes[1]) return abrirDesdeEnlace(partes.slice(1));
     $$(".view").forEach((s) => s.classList.toggle("active", s.id === v));
     $$("#nav a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + v));
     $("#nav").classList.remove("open");
@@ -1024,6 +1099,18 @@
     if (v === "tests") renderTests();
     if (v === "viaje" && !vMap) calcularViaje();
     window.scrollTo(0, 0);
+  }
+
+  // Enlaces #debates/TEMA/cID (correos y campanita) y #debates/aviso-… (confirmación o baja de avisos)
+  async function abrirDesdeEnlace([sub, foco]) {
+    $$(".view").forEach((s) => s.classList.toggle("active", s.id === "debates"));
+    $$("#nav a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#debates"));
+    $("#nav").classList.remove("open"); $("#bellMenu").classList.add("hidden");
+    comTab = "debates"; await renderComunidad();
+    const avisos = { "aviso-confirmado": "Listo: te vamos a avisar por correo cuando te respondan", "aviso-baja": "Listo: no te mandamos más avisos de respuestas", "aviso-invalido": "Ese enlace ya no es válido" };
+    if (avisos[sub]) { toast(avisos[sub]); history.replaceState(null, "", "#debates"); window.scrollTo(0, 0); return; }
+    await openThread(decodeURIComponent(sub), foco);
+    if (!foco) window.scrollTo(0, 0);
   }
 
   document.addEventListener("click", (e) => {
@@ -1097,6 +1184,7 @@
     $("#heroSearch").addEventListener("submit", (e) => { e.preventDefault(); $("#fQ").value = $("#heroQ").value; location.hash = "#modelos"; renderModelos(); });
     $("#menuBtn").onclick = () => $("#nav").classList.toggle("open");
     renderHome(); renderModelos(); renderCmp(); renderNews(); renderNormativa(); initCostos(); renderCostos(); initViaje(); initExperiencia(); initMiem(); initAlertas(); initElegir(); initTco(); initUsados(); initAlojamientos(); initEmpresas();
+    revisarRespuestas();
     window.addEventListener("hashchange", route); route();
   }
   init();

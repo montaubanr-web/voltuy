@@ -121,6 +121,10 @@ Fuentes de noticias editables en `agents/fuentes.json`.
 - Encuesta por debate: opciones en `data/debates.json` → `POST /api/votos` (un voto por persona y debate).
 - Agente semanal `agents/analizar_comunidad.py` (en el workflow del jueves, antes del newsletter): lee `/api/admin/export` con `ADMIN_TOKEN`, extrae consumos citados en comentarios, clasifica problemas y escribe `data/comunidad.json` (resúmenes de debates y «lo que dejó la semana»). Prueba local: `python agents/analizar_comunidad.py --archivo export.json`.
 - No se leen otras redes: Facebook eliminó su API de grupos, Reddit exige contrato para uso comercial y YouTube prohíbe métricas derivadas de comentarios.
+- Respuestas en los debates: cada comentario tiene «Responder» (un nivel: las respuestas cuelgan del comentario que abrió la conversación).
+- Aviso de respuestas: al comentar se puede dejar el correo (no se publica) y marcar «Avisarme por correo cuando me respondan». El correo se confirma una vez (tabla `avisos_correo`) y cada aviso trae baja con un clic. Los avisos salen **al aprobar** la respuesta con `POST /api/admin/moderar`: le llegan a quien abrió la conversación y a quienes respondieron antes, nunca al autor. Requiere `BREVO_API_KEY` y `CONTACTO_EMAIL`; sin eso el campo de correo no aparece.
+- Campanita 🔔 en la barra superior: el navegador recuerda tus comentarios y consulta `GET /api/comentarios/respuestas` cada 5 minutos; muestra cuántas respuestas nuevas hay y lleva directo a cada una (`#debates/TEMA/cID`).
+- La base se actualiza sola: la API agrega las columnas nuevas de `comentarios` la primera vez que se usa (no hace falta correr nada en D1).
 - Moderar textos de experiencias: `POST /api/admin/moderar` con `{"id":…, "accion":"aprobar", "tipo":"experiencia"}`.
 
 ## Precios y modelos (agente diario + revisión semanal)

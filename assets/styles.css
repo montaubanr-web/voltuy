@@ -373,3 +373,30 @@ footer .logo{color:#fff}footer .logo b{-webkit-text-fill-color:#FCD34D}
 /* Nombre más largo del sitio: menú en una sola línea y título de la tarjeta con enlace a la ficha */
 @media(min-width:861px){#nav a{white-space:nowrap;padding:8px 9px;font-size:.92rem}.topbar-in{gap:14px}}
 h3 a.ficha{color:inherit;text-decoration:none}h3 a.ficha:hover{text-decoration:underline;text-decoration-color:#16A34A}
+
+/* Respuestas en debates y campanita de avisos */
+.topbar-in{position:relative}
+.bell{position:relative;background:none;border:0;font-size:1.25rem;cursor:pointer;padding:6px 8px;border-radius:999px;line-height:1}
+.bell:hover{background:#E8F5EC}
+.bell-n{position:absolute;top:0;right:0;background:#DC2626;color:#fff;font:700 .7rem/1 Inter,sans-serif;padding:3px 5px;border-radius:999px}
+.bell-menu{position:absolute;top:58px;right:20px;width:min(340px,calc(100vw - 32px));background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:12px;z-index:30}
+.bell-menu .bell-tit{display:block;margin-bottom:6px;font-family:"Space Grotesk",Inter,sans-serif}
+.bell-menu a{display:block;padding:8px;border-radius:10px;color:var(--text);font-size:.9rem}
+.bell-menu a:hover{background:#F1F9F2}
+.bell-menu a.nuevo{background:#FFF7E6}
+.bell-menu a span{display:block;color:var(--muted);font-size:.78rem}
+@media(min-width:861px){.topbar-in:has(.bell:not(.hidden)) #nav a{padding:8px 6px}.topbar-in:has(.bell:not(.hidden)){gap:8px}}
+@media(max-width:860px){.bell{margin-left:auto}.bell:not(.hidden)~.menu-btn{margin-left:4px}.bell-menu{right:16px}}
+.conv{border-top:1px solid var(--line);padding:4px 0 8px}
+.conv>.comment:first-child{border-top:0}
+.comment.reply{margin-left:28px;padding:10px 0 10px 14px;border-top:0;border-left:3px solid #CDEBD4}
+.comment.nuevo{background:#FFF7E6;border-radius:8px}
+.comment.foco{box-shadow:0 0 0 2px var(--volt);border-radius:8px}
+.comment .yo{background:#E8F5EC;color:#166534;font-size:.72rem;font-weight:600;padding:1px 7px;border-radius:999px;margin-left:6px}
+.comment .responder{margin-top:4px;font-size:.82rem}
+.resp-slot .cform{margin:6px 0 4px 28px;padding:12px;background:#F8FBF6;border:1px solid var(--line);border-radius:12px}
+.cform-acc{display:flex;gap:10px;align-items:center}
+.check-aviso{display:flex;gap:8px;align-items:center;font-size:.9rem}
+.check-aviso input{width:auto!important}
+.count .nuevo{color:#B45309}
+@media(max-width:600px){.comment.reply{margin-left:12px}.resp-slot .cform{margin-left:0}}
