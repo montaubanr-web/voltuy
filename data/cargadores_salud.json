@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-24",
+ "fecha": "2026-11-25",
  "estado_fuentes": {
   "UTE": "ok",
   "Mapa interoperable de operadores": "ok",
@@ -7,8 +7,8 @@
   "OpenStreetMap": "ok"
  },
  "por_fuente": {
-  "UTE": 215,
-  "Mapa interoperable de operadores": 109,
+  "UTE": 214,
+  "Mapa interoperable de operadores": 110,
   "Open Charge Map": 8
  },
  "por_operador": {
@@ -75,6 +75,11 @@
    "fecha": "2026-11-24",
    "total": 332,
    "puntos": 867
+  },
+  {
+   "fecha": "2026-11-25",
+   "total": 332,
+   "puntos": 864
   }
  ]
 }

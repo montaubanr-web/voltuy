@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24",
+ "actualizado": "2026-11-25",
  "uruguay": [
   {
    "fecha": "2026-11-20",
@@ -55,6 +55,22 @@
    "medio": "Autoblog",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZTdvbFV0T1dNTzg1M1FveDJPb1BaRjJ2VGEyN0JzOTdpdXBybHJ1TjhXLThZd0NhVVFpUTdrZGZ4MjA3andvRXFXZVY1MGpIR3V3VnBLeWt4ZEE0SjdnYjl3NDZwVDRYek5mendNenl1bXdRQ21nUnJpeHVZeW9oSmZTOA?oc=5",
    "modelo_id": "tesla-model-y-rwd",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-10-15",
+   "titulo": "Prueba doble: Tesla Model 3 Premium Long Range RWD (85 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVRnWk9mMk1DWERXdUJrMXVZc1kyWnJrU3FrUXVFdUQ0b3kwcWZCNXo3Ui0wdlZNblF1U0hfU3FIckRpaDdUanRCSWN4ZVlwd3hQVTh4RTZ0WmJEUEx5YUk3bG5sVEVXeFZ3YlpoTjUySXI3TUEtTmpfbzFrdWdyRWZOR2xoNU0?oc=5",
+   "modelo_id": "tesla-model-3-lr",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-10-13",
+   "titulo": "Probamos al Tesla Model 3 Premium Long Range: la democratización del estatus",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX0x2dEtnQVBYRnJuYUdTei1NZ2loMkpreWVERUVpSk5scGRqSndJSkVBZkxzcTF5QkZnVG1LRkhWY0EtUGpOU2lVWFhjVkZtYXJPYnRtd2RJNTRFOXdKVWtNZjhmVDc5b2hfelVwcDlkdE5QWlk0cGktOWRjSGI4MUFfSUpRZw?oc=5",
+   "modelo_id": "tesla-model-3-lr",
    "tipo": "Prueba"
   },
   {
@@ -194,6 +210,14 @@
    "tipo": "Prueba"
   },
   {
+   "fecha": "2026-02-06",
+   "titulo": "Prueba: Porsche Taycan 4S (105 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84M0hVWHJPV25iZ3hsVkwxUHNmSjFJbWFnd1pmUXVmQWY5WkJTYlRrOFFPX3BRYmpoeDVWU25NNnc4bVJmTGRKaW9WQ1Y1amdibWlxSVpoaHpPYnk1NmlscXk0YWQ3MzBZekV6Tm9mSHBLb25ZLXdiSmRXMEQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
    "fecha": "2026-01-29",
    "titulo": "Probamos al Chevrolet Captiva EV",
    "medio": "Autoblog",
@@ -282,10 +306,42 @@
    "tipo": "Primer contacto"
   },
   {
+   "fecha": "2025-01-25",
+   "titulo": "Prueba: BMW i5 eDrive40 M Sport (81,2 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYXMwUDFhbHFuX3lCeTlnT2N3Q25SZWk4WXVjVTB5dlNxNHhJVHM5QUJNc3E0dDQ2clZnQTFsZ3ZxRmFGd0FEZlctVlBJNUZrZWFIb2ZKMFZQa0Vxcm56ekVvamxhMTQtcmZxem96R0I0QVBvOFJZMzByd0ZGLXktQ1ljVnpndw?oc=5",
+   "modelo_id": "bmw-i5-edrive40-m-sport",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2024-12-06",
+   "titulo": "Prueba: Zeekr X Flagship AWD (69,05 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTzdiOTFBbDdrQ1BYZDg1TTJKTmJHUndQZEhBcFItWTBZbHdTdXF5RkliZ0FBWGFaOXZtNUMzY2ZnYXVaTVBZaE1GTDdZLXNPMkFBam9sTGZucUVFNUl2ZXZ1dDZVQy1xaWhmU0Q1MFBHeTZTX1M5bEVLajZIcnRQT1FsWQ?oc=5",
+   "modelo_id": "zeekr-x-flagship-315-kw",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2024-12-02",
+   "titulo": "Probamos al Hyundai Ioniq 5: revolución eléctrica surcoreana",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObVdfdkZtWFJqcVVsOVhnZ19Ubk1GTnktWkdQQ2txSndKVlFnel9WNFU4VU1EMWhjZHI2ZHNGZnpaWmRUSWFhRFFjdG9BbG90TzdFR25aZzE5djBOWktySWRva3FIQWdYOV95TDNoUDZ1N3Z3RFJuV3JybnZVQXF3VTBrbGFBQQ?oc=5",
+   "modelo_id": "hyundai-ioniq-5-safe-long-range-rwd-72-6-kwh",
+   "tipo": "Prueba"
+  },
+  {
    "fecha": "2024-07-26",
    "titulo": "Prueba: Volvo EX30 Plus Single Engine Extended Range (E60) RWD (69 kWh)",
    "medio": "Autoblog",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOWxWY3hMMXpLdWhaWWdPY2dIbXY2eWlJYzdQUjk4bVhHV2NQdUJCdUZ6VHNNdjhmQXZibjJsbkJ4dFR4MVZiSXVLUDE2ZGVwQVd1blFWcVpRZzBlVjR5V1J2Yzg4dUFReHkySHVkQ2pIbzhWckdiRzdfRGxoZjBTX1VmYw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2024-07-16",
+   "titulo": "Probamos al Hyundai Kona: disyuntiva entre híbrido o eléctrico",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORnpObjVyY3BJamRkNXRCMWpHZHdsa1FwZUo3TWpnNVFHVm5UVDlrdnl5V0E2Z1VWcTlYZjhqRzc0UzdtWjB1blhFblRORXVNU0hnb3VSa3g0R2lrMnhaMGdtdlM5eFJySDNyTTlGWTQ2NU45RnV3dGJPSUdDUG9yRGdR?oc=5",
    "modelo_id": null,
    "tipo": "Prueba"
   },
@@ -298,12 +354,52 @@
    "tipo": "Prueba"
   },
   {
+   "fecha": "2023-10-05",
+   "titulo": "Contacto: Peugeot e-208 GT (50 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZRDltWTFCU19oSkxVMXRwdWttaVV0U1drS1NKUUxTangyVkl6MmVqUHZWYzJNaDM4RXBOQWJRQk5ETTl1TGZ2c0d3Z0xvWlpsWUJNazBhbkRMdy0xQ2ViRDVfakNLeDdWX081M0tEdHozOF8wWHFfWVhTQ0NNdw?oc=5",
+   "modelo_id": null,
+   "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2022-03-09",
+   "titulo": "Probamos al BYD New e2: tiempo de evolucionar",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VLVhiLUhXREF2UFE1Vno0cXVOcnlxcHlVX1F4VWJWSFpPaVJ4b2hTSjJFYjR1S0lDUWtleVk4dEVsR1FtemhqbGJaVkVsaTYtSTAyNU9zbldzM0t3Qm8tV295OE1hdU14bE9jcVZBTDNYa2ZuUzNDWXphbmNEUQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2022-01-14",
+   "titulo": "Prueba: BYD Han EV500 Lux A/T AWD (76,9 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMGo2ZTlxRGJ3Q0lHQU8taUJpbzBHbFgwTTg2V1FaMXhXbUdEV0lDNXBZRWQ5T25oM3BZc19SOVpENThnWUhlUGsyTnU2NHFtM2VyalhqU0NHMHR0aUZkQkV3X0h1bjBFNURYSDQ4VDVGSXN6Nl9zNVBBSFFhNEZwaVBRVGZMNnc?oc=5",
+   "modelo_id": "byd-han-gl-600-awd",
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2021-11-11",
+   "titulo": "Contacto: Peugeot e-2008 GT (50 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PUVJIUEJtZzJNNnozdU9hMkt4bU1UbkpRM1FNTTJ0Zy15X2FtM0VyWUVnVmNpZF9fQngyZ3BFTmdwTko0Y090V0ZRVFpSQVFPLW9iOEJJVWNuZFB4bVVhZ2cxekJaZ0JzbmNyMGlwR2M5b1NzVUFXeGxjSmNNVkE?oc=5",
+   "modelo_id": "peugeot-e-2008",
+   "tipo": "Primer contacto"
+  },
+  {
    "fecha": "2019-07-26",
    "titulo": "Primer contacto: prueba de manejo del Nissan Leaf eléctrico",
    "medio": "Montevideo Portal",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJMQVBSbGQ0aDNUY2UyWkd2eDRlRWROZExKZVFjXzZkYlBSMC0wQnpwWFJ1OGpmMEZ6X1Q4Z3BKQWQ2a3cxS25MU1dUWE85VlRoM2FfbnYyRFkzM29Gc3hSaFd3WmpRd01nOGlWUXRQeTdNU3pwNDJVOWc5WXFQZEE2UTJSOGEweDlSQU0tNUtfZVRFQlR4TUdkd0ZRc0hWM1VPZ09jSdIBywFBVV95cUxPb3FVNmR2cmVlcUtEY0EtbU80bFdiblg0UXRCSXdYdkdzMGxqbHUwajhVSmFncUh4cndDdXdWV3Vsd3c3c1R0SjF4eEpOb0NtR2hHbXJPS2h4ZVEwblRkYmxhRm9kVERhNEZPeVFtc3FHUFY5QXdkbUxiTmFISmFfNWdTUk4zRjJ3RkRUSWtwN2hDM0k4YnFUN3hrOFhoSktzYnhWMkRVczViZVFpWmFiUS1vS1ljU1UxSjdmUmFDdFBWSElSczBaM2M2WQ?oc=5",
    "modelo_id": null,
    "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2018-02-07",
+   "titulo": "Probamos al Hyundai Ioniq: para el futuro de ahora",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JOWJiZ0JOSTlibWNSSktYSUI0QkdTSVVrTWY2Yjd0UExEYUF1Z25vRnVTck14MXhIM2daYm1YSm5ROWZHTmNQTHd0S2tZRXdnWVNjcmR2UHZScUFXdTRrWV9jTmxMUEtBX0twLW5NZEs0MktJTGdNMWNiRExqOVU?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
   }
  ],
  "internacional": [
@@ -353,12 +449,30 @@
    "pais": "España"
   },
   {
+   "fecha": "2026-11-13",
+   "titulo": "PRUEBA en VÍDEO Hyundai Ioniq 6 N: \"¿Quién osa a decir que un eléctrico no puede ser un deportivo?\"",
+   "medio": "Periodismo del Motor",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11aFZFMkNQVUtPRkNfZVdRT1p5ZnFMQ184Tm96MHVtZEhXU0VXNVp3aGVncDdtUW1WR3QyaVFfems3ZmJWaU16S1R5NXBkYVYtcnlteDNpbWd3NnFoRjFITzBWS1pGU2d3OGdaaEVLWGdFcTcxQ1NUR0loelPSAYIBQVVfeXFMTVowcHB2S1RicHpqT25ENmJ6eEVBQWNPOHVzY2FHbk1MM1IzWlEtTWZPUnR3NkxQTklSb1ItNGMzMjFmc0tJU0xKUDBiNXpyeVo5UlR6WVJpVEFwX1VUdTlyaXExRjNndDQweTVITWVySnh4bWFiLUhOdktBSW9TMm1ndw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
    "fecha": "2026-11-11",
    "titulo": "Prueba Hyundai IONIQ 5 N: 650 CV eléctricos para disfrutar como nunca",
    "medio": "Motorpoint",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tOTBwYUdqRXhrTVJaM1dhTXF1aFo0X0VfVHVRZEswWE5QNTQyZVIyNE1FR2dGbnFKemY0cUxsQ2hGQXA4dTh2TnFJeVkza1hIcVNiVnU4TU11U0UtblNoVS1GSG5nbGdqLXc?oc=5",
    "modelo_id": "hyundai-ioniq-5-safe-long-range-rwd-72-6-kwh",
    "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-05",
+   "titulo": "Prueba Mazda 6e 2027: más autonomía, carga más rápida y mejor dinámica de conducción apenas un año después de su lanzamiento para «comerse» al Tesla Model 3",
+   "medio": "Autonocion",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OdWM2YWpFM1ZFc1M1NGROVFlCZklITFVsVVhNYnB1RzUwZDN0dlpQWmcybEFZcUlydndZUUZuLV8ySzRsUGhJNXUxMGpCbUs2T2liMVhfT19xNkJ3?oc=5",
+   "modelo_id": "tesla-model-3-rwd",
+   "tipo": "Autonomía real",
    "pais": "España"
   },
   {
