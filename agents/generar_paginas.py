@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
-SITIO = os.environ.get("SITIO_URL", "https://autoselectricosuy.pages.dev").rstrip("/")
+SITIO = (os.environ.get("SITIO_URL") or "https://autoselectricosuy.pages.dev").rstrip("/")
 NOMBRE = "AutosEléctricosUY"
 HOY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"]

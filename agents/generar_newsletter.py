@@ -21,7 +21,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 D = RAIZ / "data"
 HIST = D / "historial"
 SALIDA = RAIZ / "newsletter"
-SITIO = os.environ.get("SITIO_URL", "https://voltuy.pages.dev")
+SITIO = os.environ.get("SITIO_URL") or "https://autoselectricosuy.pages.dev"
 NOMBRE = os.environ.get("SITIO_NOMBRE", "AutosEléctricosUY")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"]
 

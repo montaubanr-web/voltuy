@@ -49,7 +49,7 @@ def num(s):
 def cargar_export(args):
     if args.archivo:
         return json.loads(Path(args.archivo).read_text(encoding="utf-8"))
-    url, token = os.environ.get("SITIO_URL"), os.environ.get("ADMIN_TOKEN")
+    url, token = os.environ.get("SITIO_URL") or "https://autoselectricosuy.pages.dev", os.environ.get("ADMIN_TOKEN")
     if not (url and token):
         print("Faltan SITIO_URL y ADMIN_TOKEN: no hay base para analizar todavía. No se modifica nada.")
         sys.exit(0)
