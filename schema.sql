@@ -1,4 +1,4 @@
--- Esquema de la base D1 de AutosEléctricos.uy. Ejecutar una vez:
+-- Esquema de la base D1 de AutosEléctricosUY. Ejecutar una vez:
 --   npx wrangler d1 execute voltuy --remote --file=schema.sql
 CREATE TABLE IF NOT EXISTS comentarios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,

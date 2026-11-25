@@ -1,8 +1,8 @@
-# AutosEléctricos.uy · portal de vehículos eléctricos de Uruguay
+# AutosEléctricosUY · portal de vehículos eléctricos de Uruguay
 
 Sitio estático (HTML + CSS + JS, sin compilación) con datos en JSON, una API mínima para
 debates, cotizaciones y newsletter, y agentes que actualizan la información.
-Nombre del sitio: AutosEléctricos.uy (dominio autoselectricos.uy).
+Nombre del sitio: AutosEléctricosUY (dominio autoselectricosuy.pages.dev).
 
 ## Estructura
 
