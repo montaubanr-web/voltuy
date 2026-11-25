@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente semanal de la comunidad AutosEléctricos.uy.
+"""Agente semanal de la comunidad AutosEléctricosUY.
 
 Lee las experiencias y los comentarios aprobados (endpoint /api/admin/export, con ADMIN_TOKEN),
 extrae consumos mencionados en texto libre (kWh/100 km, km/kWh, autonomía), clasifica problemas
@@ -8,7 +8,7 @@ con una taxonomía fija y escribe data/comunidad.json, que alimenta las infograf
 Reglas:
   * Nunca se publican nombres ni textos completos: solo agregados y frases generadas.
   * Un promedio por modelo se publica solo con 3 o más aportes (lo controla también el sitio).
-  * Solo datos propios del sitio (usuarios que aportan en AutosEléctricos.uy). No se leen otras redes.
+  * Solo datos propios del sitio (usuarios que aportan en AutosEléctricosUY). No se leen otras redes.
 
 Uso:
   SITIO_URL=https://voltuy.com.uy ADMIN_TOKEN=... python agents/analizar_comunidad.py
@@ -151,7 +151,7 @@ def main():
 
     salida = {
         "actualizado": date.today().isoformat(),
-        "nota": "Generado por agents/analizar_comunidad.py con datos aportados por usuarios de AutosEléctricos.uy. Promedios con 3 o más aportes.",
+        "nota": "Generado por agents/analizar_comunidad.py con datos aportados por usuarios de AutosEléctricosUY. Promedios con 3 o más aportes.",
         "experiencias_raw": raw,
         "votos": votos,
         "debates": debates,

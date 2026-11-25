@@ -29,7 +29,7 @@ TIPOS = {"4": "BEV", "3": "PHEV"}
 def descargar_csv(tipo):
     cj = http.cookiejar.CookieJar()
     op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-    op.addheaders = [("User-Agent", "Mozilla/5.0 (AutosEléctricos.uy-bot)")]
+    op.addheaders = [("User-Agent", "Mozilla/5.0 (AutosEléctricosUY-bot)")]
     form = lambda html: {
         "vs": re.search(r'name="javax.faces.ViewState"[^>]*value="([^"]+)"', html).group(1),
         "buscar": re.search(r'<button id="(frmProductos:j_idt\d+)"', html).group(1),

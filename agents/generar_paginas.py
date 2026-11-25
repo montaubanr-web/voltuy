@@ -7,7 +7,7 @@ más sitemap.xml y robots.txt. Cada página tiene título, descripción, datos e
 (schema.org) y enlaces a las herramientas interactivas del sitio.
 
 Se ejecuta todos los días después de los agentes de datos: si cambia un precio o aparece un
-cargador, la página se actualiza sola. Usa SITIO_URL (por defecto https://autoselectricos.uy).
+cargador, la página se actualiza sola. Usa SITIO_URL (por defecto https://autoselectricosuy.pages.dev).
 """
 import html
 import json
@@ -20,8 +20,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
-SITIO = os.environ.get("SITIO_URL", "https://autoselectricos.uy").rstrip("/")
-NOMBRE = "AutosEléctricos.uy"
+SITIO = os.environ.get("SITIO_URL", "https://autoselectricosuy.pages.dev").rstrip("/")
+NOMBRE = "AutosEléctricosUY"
 HOY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"]
 CARPETAS = ["modelos", "marcas", "cargadores", "autos-electricos", "suv-electricas", "pick-ups-electricas",
@@ -115,7 +115,7 @@ def pagina(ruta, titulo, descripcion, cuerpo, migas, jsonld=None):
 </head>
 <body>
 <header class="topbar"><div class="wrap topbar-in">
-  <a href="/" class="logo"><span class="bolt">⚡</span>AutosEléctricos<b>.uy</b></a>
+  <a href="/" class="logo"><span class="bolt">⚡</span>AutosEléctricos<b>UY</b></a>
   <nav id="nav" class="nav-estatica">
     <a href="/modelos/">Modelos</a><a href="/precios-autos-electricos/">Precios</a><a href="/#comparar">Comparar</a>
     <a href="/cargadores/">Cargadores</a><a href="/devolucion-miem/">Devolución MIEM</a><a href="/#noticias">Noticias</a><a href="/#calculadora">Costos</a>

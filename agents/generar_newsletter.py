@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente semanal: arma el newsletter de AutosEléctricos.uy con los datos de la semana.
+"""Agente semanal: arma el newsletter de AutosEléctricosUY con los datos de la semana.
 
 Genera newsletter/AAAA-MM-DD.html (HTML apto para correo, estilos en línea) con:
   1. Lo más importante de la semana (noticias de Uruguay)   4. Test destacado
@@ -22,7 +22,7 @@ D = RAIZ / "data"
 HIST = D / "historial"
 SALIDA = RAIZ / "newsletter"
 SITIO = os.environ.get("SITIO_URL", "https://voltuy.pages.dev")
-NOMBRE = os.environ.get("SITIO_NOMBRE", "AutosEléctricos.uy")
+NOMBRE = os.environ.get("SITIO_NOMBRE", "AutosEléctricosUY")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "setiembre", "octubre", "noviembre", "diciembre"]
 
 e = lambda s: html.escape(str(s or ""))
@@ -131,7 +131,7 @@ def main():
     if clave and lista:
         cuerpo = json.dumps({
             "name": f"{NOMBRE} semanal {hoy:%Y-%m-%d}", "subject": f"{NOMBRE} · lo que pasó esta semana con los eléctricos",
-            "sender": {"name": NOMBRE, "email": os.environ.get("NEWSLETTER_REMITENTE", "hola@autoselectricos.uy")},
+            "sender": {"name": NOMBRE, "email": os.environ.get("NEWSLETTER_REMITENTE", os.environ.get("CONTACTO_EMAIL", ""))},
             "replyTo": os.environ.get("CONTACTO_EMAIL", os.environ.get("NEWSLETTER_REMITENTE", "")),
             "recipients": {"listIds": [int(lista)]}, "htmlContent": doc.replace("{{ unsubscribe }}", "{{ unsubscribe }}"),
         }).encode()

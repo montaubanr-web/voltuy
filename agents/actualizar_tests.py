@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente diario de tests (pruebas de manejo) de AutosEléctricos.uy.
+"""Agente diario de tests (pruebas de manejo) de AutosEléctricosUY.
 
 - Uruguay: pruebas publicadas por medios uruguayos (vía Google Noticias).
 - Internacional: InsideEVs (test drives y first drives) y pruebas en español de otros países.

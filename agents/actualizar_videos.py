@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente de videos de AutosEléctricos.uy (lunes y jueves).
+"""Agente de videos de AutosEléctricosUY (lunes y jueves).
 
 Busca en YouTube (API oficial YouTube Data API v3, clave gratuita YT_API_KEY) videos nuevos sobre
 vehículos eléctricos: Uruguay (últimos 14 días) e internacional (últimos 7 días, los más vistos).

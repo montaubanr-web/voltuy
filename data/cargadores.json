@@ -1,7 +1,7 @@
 {
  "actualizado": "2026-11-25",
  "total": 332,
- "puntos": 864,
+ "puntos": 866,
  "por_operador": {
   "UTE": 227,
   "eOne": 34,
@@ -2463,7 +2463,7 @@
   {
    "id": "int-ute-ancap-colonia-del-sacramento-34-4717",
    "nombre": "UTE ANCAP Colonia del Sacramento",
-   "direccion": "",
+   "direccion": "Avenida Buenos Aires",
    "ciudad": "Colonia del Sacramento",
    "departamento": "Colonia",
    "lat": -34.471664,
@@ -3479,12 +3479,12 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 1
     },
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 1
     }
@@ -3619,12 +3619,12 @@
    "costo": "Gratis",
    "conectores": [
     {
-     "tipo": "GB/T DC",
+     "tipo": "CCS2",
      "kw": 60,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "GB/T DC",
      "kw": 60,
      "cantidad": 1
     }
@@ -4409,12 +4409,12 @@
    "costo": "$ 15 a 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 2
     },
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 2
     },
@@ -4692,12 +4692,12 @@
    "costo": "$ 13 a 20 por kWh + $ 130 por sesión",
    "conectores": [
     {
-     "tipo": "GB/T DC",
+     "tipo": "CCS2",
      "kw": 60,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "GB/T DC",
      "kw": 60,
      "cantidad": 1
     }
@@ -4821,7 +4821,7 @@
   {
    "id": "int-carrasco-lawn-tennis-34-8848",
    "nombre": "Carrasco Lawn Tennis",
-   "direccion": "",
+   "direccion": "Costa Rica y Eduardo Couture",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.884837,
@@ -5522,12 +5522,12 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 2
     },
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 2
     }
@@ -6051,12 +6051,12 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 2
     },
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 2
     }
@@ -6246,7 +6246,7 @@
   {
    "id": "int-ute-la-cumparsita-dc-34-9143",
    "nombre": "UTE La Cumparsita DC",
-   "direccion": "",
+   "direccion": "La Cumparsita esq. Ejido",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.914293,
@@ -6338,12 +6338,12 @@
    "costo": "$ 11 a 13 por kWh + $ 149 por sesión",
    "conectores": [
     {
-     "tipo": "GB/T DC",
+     "tipo": "CCS2",
      "kw": 60,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "GB/T DC",
      "kw": 60,
      "cantidad": 1
     }
@@ -6370,12 +6370,12 @@
    "costo": "$ 20 por kWh + $ 122 por sesión",
    "conectores": [
     {
-     "tipo": "CHAdeMO",
+     "tipo": "CCS2",
      "kw": 50,
      "cantidad": 1
     },
     {
-     "tipo": "CCS2",
+     "tipo": "CHAdeMO",
      "kw": 50,
      "cantidad": 1
     }
@@ -6475,7 +6475,7 @@
   {
    "id": "int-eone-axion-perimetral-34-7839",
    "nombre": "eOne Axion Perimetral",
-   "direccion": "",
+   "direccion": "Ruta César Mayo Gutiérrez",
    "ciudad": "Montevideo",
    "departamento": "Montevideo",
    "lat": -34.783902,
@@ -7761,12 +7761,12 @@
     {
      "tipo": "CCS2",
      "kw": 60,
-     "cantidad": 2,
+     "cantidad": 4,
      "cable": true
     }
    ],
    "max_kw": 60,
-   "puntos": 2,
+   "puntos": 4,
    "verificado": "2026-11-25",
    "fuente": "UTE",
    "url": "https://movilidad.ute.com.uy/mapa.html",

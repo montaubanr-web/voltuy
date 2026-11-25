@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agente diario de precios y modelos de AutosEléctricos.uy.
+"""Agente diario de precios y modelos de AutosEléctricosUY.
 
 Fuentes, en orden de prioridad:
   1. Sitios de los importadores oficiales (agents/fuentes/importadores.json).
