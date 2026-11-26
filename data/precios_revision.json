@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-25",
+ "fecha": "2026-11-26",
  "fuentes": {
   "importador": false,
   "mercadolibre": false,
@@ -7,6 +7,46 @@
  },
  "cambios_aplicados": [],
  "alertas": [
+  {
+   "tipo": "diferencia_referencia",
+   "id": "bestune-xiaoma",
+   "modelo": "Bestune Xiaoma",
+   "actual": 11990,
+   "referencia": 11190,
+   "fuente": "https://mielectrico.uy/autos-electricos/bestune-xiaoma"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "baw-mini-truck-pickup",
+   "modelo": "BAW Mini Truck Pickup",
+   "actual": 13990,
+   "referencia": 11467,
+   "fuente": "https://mielectrico.uy/autos-electricos/baw-mini-truck-pickup"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "citroen-ami",
+   "modelo": "Citroën Ami",
+   "actual": 6990,
+   "referencia": 12990,
+   "fuente": "https://mielectrico.uy/autos-electricos/citroen-ami"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "changan-lumin-35-kw",
+   "modelo": "Changan Lumin 35 kW",
+   "actual": 12990,
+   "referencia": 13990,
+   "fuente": "https://mielectrico.uy/autos-electricos/changan-lumin-35kw"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "dongfeng-nammi-330",
+   "modelo": "Dongfeng Nammi 330",
+   "actual": 18990,
+   "referencia": 17990,
+   "fuente": "https://mielectrico.uy/autos-electricos/dongfeng-nammi-330"
+  },
   {
    "tipo": "diferencia_referencia",
    "id": "chevrolet-spark-euv",
@@ -17,11 +57,299 @@
   },
   {
    "tipo": "diferencia_referencia",
+   "id": "dfsk-ec35",
+   "modelo": "DFSK EC35",
+   "actual": 33950,
+   "referencia": 23990,
+   "fuente": "https://mielectrico.uy/autos-electricos/dfsk-ec35-ev"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "keyton-q2-pick-up",
+   "modelo": "Keyton Q2 Pick-up",
+   "actual": 34770,
+   "referencia": 25500,
+   "fuente": "https://mielectrico.uy/autos-electricos/keyton-q2"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "foton-ewonder-box-furgon",
+   "modelo": "Foton eWonder Box (furgón)",
+   "actual": 31950,
+   "referencia": 26188,
+   "fuente": "https://mielectrico.uy/autos-electricos/foton-wonder-pickup-box"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "omoda-e5",
+   "modelo": "Omoda E5 Comfort",
+   "actual": 25990,
+   "referencia": 28990,
+   "fuente": "https://mielectrico.uy/autos-electricos/omoda-e5-comfort"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mg4",
+   "modelo": "MG MG4 Standard",
+   "actual": 24900,
+   "referencia": 29900,
+   "fuente": "https://mielectrico.uy/autos-electricos/mg-4-standard"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "gonow-sy00",
+   "modelo": "Gonow SY00",
+   "actual": 35500,
+   "referencia": 30990,
+   "fuente": "https://mielectrico.uy/autos-electricos/gonow-sy00"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "tesla-model-3-rwd",
+   "modelo": "Tesla Model 3 RWD",
+   "actual": 34890,
+   "referencia": 32990,
+   "fuente": "https://mielectrico.uy/autos-electricos/tesla-model-3"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "chevrolet-captiva-ev",
+   "modelo": "Chevrolet Captiva EV Premier",
+   "actual": 31990,
+   "referencia": 33990,
+   "fuente": "https://mielectrico.uy/autos-electricos/chevrolet-captiva-ev-2026"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "omoda-e5-luxury",
+   "modelo": "Omoda E5 Luxury",
+   "actual": 27990,
+   "referencia": 33990,
+   "fuente": "https://mielectrico.uy/autos-electricos/omoda-e5-luxury"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "bestune-joy-03-premium",
+   "modelo": "Bestune Joy 03 Premium",
+   "actual": 25900,
+   "referencia": 34900,
+   "fuente": "https://mielectrico.uy/autos-electricos/bestune-joy-03-premium"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "tesla-model-y-rwd",
+   "modelo": "Tesla Model Y RWD",
+   "actual": 38740,
+   "referencia": 36490,
+   "fuente": "https://mielectrico.uy/autos-electricos/tesla-model-y-rwd"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "leapmotor-c10-reev-extensor-de-autonomia",
+   "modelo": "Leapmotor C10 REEV (extensor de autonomía)",
+   "actual": 33990,
+   "referencia": 36990,
+   "fuente": "https://mielectrico.uy/autos-electricos/leapmotor-c10-reev"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "tesla-model-3-lr",
+   "modelo": "Tesla Model 3 Long Range",
+   "actual": 44240,
+   "referencia": 37990,
+   "fuente": "https://mielectrico.uy/autos-electricos/tesla-model-3-long-range-rwd"
+  },
+  {
+   "tipo": "diferencia_referencia",
    "id": "mg-zs-ev-deluxe",
    "modelo": "MG ZS EV Deluxe",
    "actual": 37990,
    "referencia": 31990,
    "fuente": "https://mielectrico.uy/autos-electricos/mg-zs-ev-2024"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "leapmotor-c10-ev",
+   "modelo": "Leapmotor C10 EV",
+   "actual": 35990,
+   "referencia": 38990,
+   "fuente": "https://mielectrico.uy/autos-electricos/leapmotor-c10-160kw-at"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "deepal-s05-bev",
+   "modelo": "Deepal S05 BEV",
+   "actual": 34990,
+   "referencia": 39990,
+   "fuente": "https://mielectrico.uy/autos-electricos/deepal-so5-bev"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "lynk-co-02-pro",
+   "modelo": "Lynk & Co 02 Pro",
+   "actual": 33990,
+   "referencia": 39990,
+   "fuente": "https://mielectrico.uy/autos-electricos/lynk-co-02-pro"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "smart-1-pure",
+   "modelo": "Smart #1 Pure",
+   "actual": 34990,
+   "referencia": 39990,
+   "fuente": "https://mielectrico.uy/autos-electricos/smart-1-pure"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "tesla-model-y-lr",
+   "modelo": "Tesla Model Y Long Range RWD",
+   "actual": 48240,
+   "referencia": 41490,
+   "fuente": "https://mielectrico.uy/autos-electricos/tesla-model-y-premium-long-range-rwd"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "jeep-avenger",
+   "modelo": "Jeep Avenger",
+   "actual": 37990,
+   "referencia": 41990,
+   "fuente": "https://mielectrico.uy/autos-electricos/jeep-avenger"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "citroen-e-berlingo",
+   "modelo": "Citroën ë-Berlingo",
+   "actual": 39990,
+   "referencia": 43990,
+   "fuente": "https://mielectrico.uy/autos-electricos/citroen-eberlingo"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "kia-ev3-light",
+   "modelo": "Kia EV3 Light",
+   "actual": 39990,
+   "referencia": 44900,
+   "fuente": "https://mielectrico.uy/autos-electricos/kia-ev3-light"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mini-aceman-e-classic",
+   "modelo": "Mini Aceman E Classic",
+   "actual": 39990,
+   "referencia": 44990,
+   "fuente": "https://mielectrico.uy/autos-electricos/mini-aceman-e-classic"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "zeekr-x",
+   "modelo": "Zeekr X Premium 200 kW",
+   "actual": 42990,
+   "referencia": 46990,
+   "fuente": "https://mielectrico.uy/autos-electricos/zeekr-x-200-kw-premium"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "smart-3-pro",
+   "modelo": "Smart #3 Pro",
+   "actual": 39990,
+   "referencia": 46990,
+   "fuente": "https://mielectrico.uy/autos-electricos/smart-3-pro"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "tesla-model-3-perf",
+   "modelo": "Tesla Model 3 Performance AWD",
+   "actual": 54740,
+   "referencia": 49990,
+   "fuente": "https://mielectrico.uy/autos-electricos/tesla-model-3-performance-awd"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "kia-ev3",
+   "modelo": "Kia EV3 Light+ Long Range",
+   "actual": 45990,
+   "referencia": 49990,
+   "fuente": "https://mielectrico.uy/autos-electricos/kia-ev3-light-plus"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "gac-hyptec-ht",
+   "modelo": "GAC Hyptec HT",
+   "actual": 36990,
+   "referencia": 49990,
+   "fuente": "https://mielectrico.uy/autos-electricos/gac-motor-hyptec"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "smart-1-pro-plus",
+   "modelo": "Smart #1 Pro+",
+   "actual": 41990,
+   "referencia": 52990,
+   "fuente": "https://mielectrico.uy/autos-electricos/smart-1-pro-plus"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "smart-3-pro-plus",
+   "modelo": "Smart #3 Pro+",
+   "actual": 46990,
+   "referencia": 54990,
+   "fuente": "https://mielectrico.uy/autos-electricos/smart-3-pro-plus"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "maxus-edeliver-9-l3h2",
+   "modelo": "Maxus eDeliver 9 L3H2",
+   "actual": 76847,
+   "referencia": 58990,
+   "fuente": "https://mielectrico.uy/autos-electricos/maxus-edeliver-9-l3h2"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mini-aceman-jcw-e",
+   "modelo": "Mini Aceman JCW E",
+   "actual": 54990,
+   "referencia": 59990,
+   "fuente": "https://mielectrico.uy/autos-electricos/mini-jcw-aceman-e"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "volvo-ec40-p6-single-motor-rwd",
+   "modelo": "Volvo EC40 P6 Single Motor RWD",
+   "actual": 64900,
+   "referencia": 69900,
+   "fuente": "https://mielectrico.uy/autos-electricos/volvo-ec40-recharge-0-0-p6-awd"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "volvo-ex40-p8-twin-motor-awd",
+   "modelo": "Volvo EX40 P8 Twin Motor AWD",
+   "actual": 69900,
+   "referencia": 74900,
+   "fuente": "https://mielectrico.uy/autos-electricos/volvo-ex40-recharge-0-0-p8-awd"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mercedes-benz-esprinter-314",
+   "modelo": "Mercedes-Benz eSprinter 314",
+   "actual": 95038,
+   "referencia": 77900,
+   "fuente": "https://mielectrico.uy/autos-electricos/mercedes-benz-esprinter-314"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mercedes-benz-eqe-350-plus",
+   "modelo": "Mercedes-Benz EQE 350+",
+   "actual": 129990,
+   "referencia": 139990,
+   "fuente": "https://mielectrico.uy/autos-electricos/mercedes-benz-eqe-350-plus"
+  },
+  {
+   "tipo": "diferencia_referencia",
+   "id": "mercedes-benz-g-580",
+   "modelo": "Mercedes-Benz G 580",
+   "actual": 295000,
+   "referencia": 380000,
+   "fuente": "https://mielectrico.uy/autos-electricos/mercedes-benz-g580"
   }
  ],
  "modelos_sin_catalogar": [

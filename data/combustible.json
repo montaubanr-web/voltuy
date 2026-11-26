@@ -1,34 +1,34 @@
 {
   "fuente": "ANCAP",
   "detalle": "Precio máximo al público decretado por el Poder Ejecutivo, impuestos incluidos",
-  "verificado": "2026-11-25",
+  "verificado": "2026-11-26",
   "productos": [
     {
       "clave": "super95",
       "producto": "Nafta Súper 95",
       "precio_uyu": 90.45,
-      "verificado": "2026-11-25",
+      "verificado": "2026-11-26",
       "url": "https://www.ancap.com.uy/1636/1/precios-de-venta-al-publico.html"
     },
     {
       "clave": "premium97",
       "producto": "Nafta Premium 97",
       "precio_uyu": 93.01,
-      "verificado": "2026-11-25",
+      "verificado": "2026-11-26",
       "url": "https://www.ancap.com.uy/1637/1/precios-de-venta-al-publico.html"
     },
     {
       "clave": "gasoil10s",
       "producto": "Gasoil 10-S",
       "precio_uyu": 72.05,
-      "verificado": "2026-11-25",
+      "verificado": "2026-11-26",
       "url": "https://www.ancap.com.uy/1641/1/precios-de-venta-al-publico.html"
     },
     {
       "clave": "gasoil50s",
       "producto": "Gasoil 50-S",
       "precio_uyu": 62.79,
-      "verificado": "2026-11-25",
+      "verificado": "2026-11-26",
       "url": "https://www.ancap.com.uy/1642/1/precios-de-venta-al-publico.html"
     }
   ],

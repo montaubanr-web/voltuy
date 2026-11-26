@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25",
+ "actualizado": "2026-11-26",
  "uruguay": [
   {
    "fecha": "2026-11-20",
@@ -394,12 +394,28 @@
    "tipo": "Primer contacto"
   },
   {
+   "fecha": "2021-05-11",
+   "titulo": "Probamos al BYD Song Pro EV: ¿eléctrico o híbrido enchufable?",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLWtDX1pNTlRjSklsS21SVVVXU1dDMV9fLWE2Y0NWU2ZOLThfS1dPSmtGT05Pbkt3ZkhZOElVNTRCZ21keUpCSUg5OHZTUkFlazkzTTVnb2I3Tk9QOWFQT2h0TDE2Q2Q1dUVKdFlBQ1R2Zzk5MndUWXl3Y2w0Y1NpN3VWVUMtbkU?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
    "fecha": "2019-07-26",
    "titulo": "Primer contacto: prueba de manejo del Nissan Leaf eléctrico",
    "medio": "Montevideo Portal",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbXJMQVBSbGQ0aDNUY2UyWkd2eDRlRWROZExKZVFjXzZkYlBSMC0wQnpwWFJ1OGpmMEZ6X1Q4Z3BKQWQ2a3cxS25MU1dUWE85VlRoM2FfbnYyRFkzM29Gc3hSaFd3WmpRd01nOGlWUXRQeTdNU3pwNDJVOWc5WXFQZEE2UTJSOGEweDlSQU0tNUtfZVRFQlR4TUdkd0ZRc0hWM1VPZ09jSdIBywFBVV95cUxPb3FVNmR2cmVlcUtEY0EtbU80bFdiblg0UXRCSXdYdkdzMGxqbHUwajhVSmFncUh4cndDdXdWV3Vsd3c3c1R0SjF4eEpOb0NtR2hHbXJPS2h4ZVEwblRkYmxhRm9kVERhNEZPeVFtc3FHUFY5QXdkbUxiTmFISmFfNWdTUk4zRjJ3RkRUSWtwN2hDM0k4YnFUN3hrOFhoSktzYnhWMkRVczViZVFpWmFiUS1vS1ljU1UxSjdmUmFDdFBWSElSczBaM2M2WQ?oc=5",
    "modelo_id": null,
    "tipo": "Primer contacto"
+  },
+  {
+   "fecha": "2018-02-09",
+   "titulo": "Prueba: Hyundai Ioniq Hybrid 1.6 GDi GLS DCT",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU1NzbVV4bkFBTW1EQlh6ZV8wX0hEUjlSTWhaWXhqN3c0bmFxZDBUQUF6bjBqcVNHMlh4NjQxOXBuOG51SW5PaFJEUko2UnFvbEZORXhvdEZfdWduQ09rRTJ4SF9hcmFNTk1TVmxCSEMzQmQ4WVdsTG1oMHBiamZiMkQzb2M5Zw?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba"
   },
   {
    "fecha": "2018-02-07",
