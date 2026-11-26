@@ -1,7 +1,79 @@
 {
- "actualizado": "2026-11-23",
+ "actualizado": "2026-11-26",
  "nota": "Videos de YouTube (YouTube Data API). Se muestran con atribución y enlace; los datos se renuevan o borran a los 30 días.",
  "uruguay": [
+  {
+   "id": "Jg6rajscWnM",
+   "url": "https://www.youtube.com/watch?v=Jg6rajscWnM",
+   "titulo": "La verdad sobre el ahorro real de los autos eléctricos en Uruguay",
+   "canal": "Volt FM",
+   "fecha": "2026-11-26",
+   "miniatura": "https://i.ytimg.com/vi/Jg6rajscWnM/mqdefault.jpg",
+   "resumen": "Se ahorra de verdad con un auto eléctrico?",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 608
+  },
+  {
+   "id": "kg5GMGCaxuE",
+   "url": "https://www.youtube.com/watch?v=kg5GMGCaxuE",
+   "titulo": "REVIEW: BAIC X55 REHEV",
+   "canal": "ExoticosUY",
+   "fecha": "2026-11-25",
+   "miniatura": "https://i.ytimg.com/vi/kg5GMGCaxuE/mqdefault.jpg",
+   "resumen": "Probamos uno de los nuevos exponentes de BAIC en Uruguay, que llega con su propuesta de eléctrico de rango extendido a un ...",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 191
+  },
+  {
+   "id": "YnSBkgjsZTs",
+   "url": "https://www.youtube.com/watch?v=YnSBkgjsZTs",
+   "titulo": "KPN Energy está presente en la UAM de Uruguay.",
+   "canal": "KPN Energy",
+   "fecha": "2026-11-25",
+   "miniatura": "https://i.ytimg.com/vi/YnSBkgjsZTs/mqdefault.jpg",
+   "resumen": "La energía llega donde la necesitas!",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 0
+  },
+  {
+   "id": "ZBntMWuToQs",
+   "url": "https://www.youtube.com/watch?v=ZBntMWuToQs",
+   "titulo": "¡EL SECRETO DE BYD AL DESCUBIERTO! Lo que Encontraron los Ingenieros Sorprende a Uruguay",
+   "canal": "Tecnología en Perspectiva",
+   "fecha": "2026-11-25",
+   "miniatura": "https://i.ytimg.com/vi/ZBntMWuToQs/mqdefault.jpg",
+   "resumen": "EL SECRETO DE BYD AL DESCUBIERTO!",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 142
+  },
+  {
+   "id": "LwxP0HHP-bM",
+   "url": "https://www.youtube.com/watch?v=LwxP0HHP-bM",
+   "titulo": "Autos eléctricos Uruguay-Brasil 2023",
+   "canal": "Sasho Films",
+   "fecha": "2026-11-24",
+   "miniatura": "https://i.ytimg.com/vi/LwxP0HHP-bM/mqdefault.jpg",
+   "resumen": "",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 3
+  },
+  {
+   "id": "iKuHaTqYZFo",
+   "url": "https://www.youtube.com/watch?v=iKuHaTqYZFo",
+   "titulo": "Autos eléctricos: gobierno uruguayo negocia con shoppings y Cutcsa para ampliar la red de carga",
+   "canal": "la diaria",
+   "fecha": "2026-11-23",
+   "miniatura": "https://i.ytimg.com/vi/iKuHaTqYZFo/mqdefault.jpg",
+   "resumen": "La ministra de Industria, Energía y Minería, Fernanda Cardona, afirmó que existe un consenso entre actores públicos y privados ...",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 8776
+  },
   {
    "id": "1kZcZyTagSY",
    "url": "https://www.youtube.com/watch?v=1kZcZyTagSY",
@@ -11,8 +83,8 @@
    "miniatura": "https://i.ytimg.com/vi/1kZcZyTagSY/mqdefault.jpg",
    "resumen": "Suscríbete",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 23866
+   "obtenido": "2026-11-26",
+   "vistas": 43621
   },
   {
    "id": "K0q1n0NSTkY",
@@ -23,8 +95,8 @@
    "miniatura": "https://i.ytimg.com/vi/K0q1n0NSTkY/mqdefault.jpg",
    "resumen": "",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 6361
+   "obtenido": "2026-11-26",
+   "vistas": 8277
   },
   {
    "id": "I6w1eMPwsKM",
@@ -47,8 +119,8 @@
    "miniatura": "https://i.ytimg.com/vi/lUb7Mj76WGc/mqdefault.jpg",
    "resumen": "Mapa de cargadores, comparador de modelos, biblioteca de fichas, plan de carga, Mi eléctrico ideal y evyshop, en una sola app ...",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 101
+   "obtenido": "2026-11-26",
+   "vistas": 115
   },
   {
    "id": "2Sm7SsIhNlw",
@@ -59,8 +131,8 @@
    "miniatura": "https://i.ytimg.com/vi/2Sm7SsIhNlw/mqdefault.jpg",
    "resumen": "Suscríbete",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 9671
+   "obtenido": "2026-11-26",
+   "vistas": 10743
   },
   {
    "id": "dKjdvCvtnjc",
@@ -71,119 +143,11 @@
    "miniatura": "https://i.ytimg.com/vi/dKjdvCvtnjc/mqdefault.jpg",
    "resumen": "En esta edición de La Tapadita hablamos de algo que nos toca a casi todos: el auto.",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 9708
-  },
-  {
-   "id": "BjiYWIKYOfQ",
-   "url": "https://www.youtube.com/watch?v=BjiYWIKYOfQ",
-   "titulo": "Dudas ¿? | Patente 2027 | Autos Electricos | Uruguay",
-   "canal": "Movilidad Electrica 🇺🇾",
-   "fecha": "2026-11-18",
-   "miniatura": "https://i.ytimg.com/vi/BjiYWIKYOfQ/mqdefault.jpg",
-   "resumen": "PATENTE 2027: ¿QUÉ PASA SI MI LIBRETA DICE AÑO 2027?",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 1476
-  },
-  {
-   "id": "Xc7RFDAm80U",
-   "url": "https://www.youtube.com/watch?v=Xc7RFDAm80U",
-   "titulo": "¿Adiós a la nafta? La verdad sobre los autos eléctricos en Uruguay",
-   "canal": "Volt FM",
-   "fecha": "2026-11-17",
-   "miniatura": "https://i.ytimg.com/vi/Xc7RFDAm80U/mqdefault.jpg",
-   "resumen": "Conviene pasarse al eléctrico en Uruguay?",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 14505
-  },
-  {
-   "id": "cAaujOliJYM",
-   "url": "https://www.youtube.com/watch?v=cAaujOliJYM",
-   "titulo": "¿Qué va a pasar con la NAFTA y los AUTOS ELÉCTRICOS en URUGUAY? El dilema impositivo",
-   "canal": "El Observador",
-   "fecha": "2026-11-16",
-   "miniatura": "https://i.ytimg.com/vi/cAaujOliJYM/mqdefault.jpg",
-   "resumen": "Los incentivos para los autos eléctricos perjudican a quienes usan nafta o son indispensables para la transición energética del ...",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 35886
-  },
-  {
-   "id": "K3bac1IHSl4",
-   "url": "https://www.youtube.com/watch?v=K3bac1IHSl4",
-   "titulo": "¡La PESADILLA de BYD acaba de EMPEORAR MUCHO en Uruguay — Los dueños exigen respuestas!",
-   "canal": "Alerta Motor Uruguay",
-   "fecha": "2026-11-16",
-   "miniatura": "https://i.ytimg.com/vi/K3bac1IHSl4/mqdefault.jpg",
-   "resumen": "Suscríbete",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 50008
-  },
-  {
-   "id": "J-v4JHW1RTQ",
-   "url": "https://www.youtube.com/watch?v=J-v4JHW1RTQ",
-   "titulo": "7 Autos Eléctricos Nuevos Que Ya Están FALLANDO en Uruguay en 2026 — Sus Dueños Exigen un REEMBOLSO",
-   "canal": "Alerta Motor Uruguay",
-   "fecha": "2026-11-14",
-   "miniatura": "https://i.ytimg.com/vi/J-v4JHW1RTQ/mqdefault.jpg",
-   "resumen": "Suscríbete",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 18772
-  },
-  {
-   "id": "yCw5G-Sxlyw",
-   "url": "https://www.youtube.com/watch?v=yCw5G-Sxlyw",
-   "titulo": "Uruguay Acaba de Dejar Entrar a BYD. Ingenieros Desarmaron Uno y Lo Que Hallaron Sorprendió a Todos",
-   "canal": "Alerta Motor Uruguay",
-   "fecha": "2026-11-14",
-   "miniatura": "https://i.ytimg.com/vi/yCw5G-Sxlyw/mqdefault.jpg",
-   "resumen": "Suscríbete",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 178583
+   "obtenido": "2026-11-26",
+   "vistas": 11074
   }
  ],
  "internacional": [
-  {
-   "id": "cyy7qGlyOYs",
-   "url": "https://www.youtube.com/watch?v=cyy7qGlyOYs",
-   "titulo": "Living with the Quickest SUV on The Planet!",
-   "canal": "Auto Focus",
-   "fecha": "2026-11-17",
-   "miniatura": "https://i.ytimg.com/vi/cyy7qGlyOYs/mqdefault.jpg",
-   "resumen": "The Cayenne Turbo EV is so good we had to review it twice.",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 923637
-  },
-  {
-   "id": "DhxhpRKZ_ys",
-   "url": "https://www.youtube.com/watch?v=DhxhpRKZ_ys",
-   "titulo": "Game Changer The 2027 BMW M3 Electric | 4k",
-   "canal": "Joe Achilles",
-   "fecha": "2026-11-16",
-   "miniatura": "https://i.ytimg.com/vi/DhxhpRKZ_ys/mqdefault.jpg",
-   "resumen": "This 7th Generation BMW M3 (EV) actually made me cry!",
-   "modelo_id": null,
-   "obtenido": "2026-11-19",
-   "vistas": 324521
-  },
-  {
-   "id": "i0x_Ok-Byr4",
-   "url": "https://www.youtube.com/watch?v=i0x_Ok-Byr4",
-   "titulo": "Sabse Sasti Compact EV? VinFast Electric Car First Look 🔥 Ask CARGURU",
-   "canal": "Ask CarGuru",
-   "fecha": "2026-11-18",
-   "miniatura": "https://i.ytimg.com/vi/i0x_Ok-Byr4/mqdefault.jpg",
-   "resumen": "Sabse Sasti Compact EV?",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 265960
-  },
   {
    "id": "uV8vFe9jN1I",
    "url": "https://www.youtube.com/watch?v=uV8vFe9jN1I",
@@ -193,8 +157,8 @@
    "miniatura": "https://i.ytimg.com/vi/uV8vFe9jN1I/mqdefault.jpg",
    "resumen": "GET Dragy or RaceBox 25Hz GPS performance box at our store: Measure your cars performance with ...",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 247189
+   "obtenido": "2026-11-26",
+   "vistas": 358802
   },
   {
    "id": "MJkwRraj6cY",
@@ -217,32 +181,68 @@
    "miniatura": "https://i.ytimg.com/vi/QgYy1rzDGYw/mqdefault.jpg",
    "resumen": "Configura tu futuro coche aquÍ!",
    "modelo_id": "byd-seal-awd",
-   "obtenido": "2026-11-23",
-   "vistas": 192558
+   "obtenido": "2026-11-26",
+   "vistas": 214235
   },
   {
-   "id": "pH0TiAThWRw",
-   "url": "https://www.youtube.com/watch?v=pH0TiAThWRw",
-   "titulo": "BMW i3: 500 Mile Monster Is the Best Electric Car I’ve Ever Driven!",
-   "canal": "Everything Electric CARS",
-   "fecha": "2026-11-17",
-   "miniatura": "https://i.ytimg.com/vi/pH0TiAThWRw/mqdefault.jpg",
-   "resumen": "In this episode of Everything Electric CARS, Robert drives the brand new, all-electric BMW 3 Series.",
-   "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 188963
+   "id": "_5v4V1hsegM",
+   "url": "https://www.youtube.com/watch?v=_5v4V1hsegM",
+   "titulo": "BMW i3 vs Mercedes C-Class Electric vs Tesla Model 3 | Shock result!",
+   "canal": "CAR magazine",
+   "fecha": "2026-11-22",
+   "miniatura": "https://i.ytimg.com/vi/_5v4V1hsegM/mqdefault.jpg",
+   "resumen": "The BMW i3 and Mercedes-Benz C-Class Electric are the Tesla Model 3s toughest challenge yet.",
+   "modelo_id": "tesla-model-3-rwd",
+   "obtenido": "2026-11-26",
+   "vistas": 204132
   },
   {
-   "id": "fsR14gSSWRU",
-   "url": "https://www.youtube.com/watch?v=fsR14gSSWRU",
-   "titulo": "My First Ride! SLATE Electric Pickup Truck",
-   "canal": "Out of Spec Reviews",
-   "fecha": "2026-11-16",
-   "miniatura": "https://i.ytimg.com/vi/fsR14gSSWRU/mqdefault.jpg",
-   "resumen": "When Black Friday Deals officially goes live on November 1930, the prices drop even further!",
+   "id": "jT3Unieh3bU",
+   "url": "https://www.youtube.com/watch?v=jT3Unieh3bU",
+   "titulo": "Is THIS the most EXCITING EV ever made? Porsche Boxster Electric Review",
+   "canal": "What Car?",
+   "fecha": "2026-11-24",
+   "miniatura": "https://i.ytimg.com/vi/jT3Unieh3bU/mqdefault.jpg",
+   "resumen": "Weve driven the new Porsche Boxster Electric!",
    "modelo_id": null,
-   "obtenido": "2026-11-23",
-   "vistas": 148474
+   "obtenido": "2026-11-26",
+   "vistas": 203225
+  },
+  {
+   "id": "aIF8K2mcOjQ",
+   "url": "https://www.youtube.com/watch?v=aIF8K2mcOjQ",
+   "titulo": "I Drove Porsche's First Electric Sports Car",
+   "canal": "Edmunds Cars",
+   "fecha": "2026-11-24",
+   "miniatura": "https://i.ytimg.com/vi/aIF8K2mcOjQ/mqdefault.jpg",
+   "resumen": "Were on an exclusive prototype drive for Porsches first all-electric sports car, the Porsche 718 Boxster EV.",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 79295
+  },
+  {
+   "id": "oHe98_Hnrig",
+   "url": "https://www.youtube.com/watch?v=oHe98_Hnrig",
+   "titulo": "4500 KMs Ownership Review🧐 New Tata Punch EV Empowered Plus S 40 KWh | All Positives & Negatives",
+   "canal": "Fuel Injected",
+   "fecha": "2026-11-23",
+   "miniatura": "https://i.ytimg.com/vi/oHe98_Hnrig/mqdefault.jpg",
+   "resumen": "Lets check out 2026 Tata Punch.EV 4500 KM Ownership Review.",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 78949
+  },
+  {
+   "id": "GqUdt-F0lDc",
+   "url": "https://www.youtube.com/watch?v=GqUdt-F0lDc",
+   "titulo": "VW ID. Cross First Drive: Is VW on a winning streak?",
+   "canal": "Electrifying",
+   "fecha": "2026-11-25",
+   "miniatura": "https://i.ytimg.com/vi/GqUdt-F0lDc/mqdefault.jpg",
+   "resumen": "Is the VW ID.",
+   "modelo_id": null,
+   "obtenido": "2026-11-26",
+   "vistas": 69021
   }
  ]
 }
