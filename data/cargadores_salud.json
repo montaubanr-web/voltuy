@@ -1,10 +1,10 @@
 {
- "fecha": "2026-11-26",
+ "fecha": "2026-11-27",
  "estado_fuentes": {
   "UTE": "ok",
   "Mapa interoperable de operadores": "ok",
   "Open Charge Map": "ok",
-  "OpenStreetMap": "ok"
+  "OpenStreetMap": "no devolvió datos"
  },
  "por_fuente": {
   "UTE": 214,
@@ -29,7 +29,9 @@
   "NES Charge": 1
  },
  "sin_ver": [],
- "problemas": [],
+ "problemas": [
+  "La fuente «OpenStreetMap» no devolvió datos (se usaron sus datos del día anterior)."
+ ],
  "historial": [
   {
    "fecha": "2026-11-19",
@@ -88,6 +90,11 @@
   },
   {
    "fecha": "2026-11-26",
+   "total": 332,
+   "puntos": 866
+  },
+  {
+   "fecha": "2026-11-27",
    "total": 332,
    "puntos": 866
   }

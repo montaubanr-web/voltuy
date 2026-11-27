@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26",
+ "actualizado": "2026-11-27",
  "fuente": "URSEA · Registro de Etiquetado Vehicular",
  "url": "https://ursea.gub.uy/URSEA-web/pages/etiquetadoVehicular/productosEtiquetadoVehicular.xhtml",
  "nota": "Rendimiento homologado según norma UNIT 1130 (ciclo de ensayo estandarizado).",
@@ -1774,6 +1774,28 @@
    "consumo_kwh_100km": 12.5,
    "autonomia_km": 700.0,
    "registro": "RV-E00789"
+  },
+  {
+   "marca": "CHERY",
+   "modelo": "NEW QQ EV LUXURY",
+   "tipo": "BEV",
+   "potencia_kw": 90.0,
+   "bateria_kwh": 41.0,
+   "rendimiento_km_kwh": 8.0,
+   "consumo_kwh_100km": 12.5,
+   "autonomia_km": 400.0,
+   "registro": "RV-E01980"
+  },
+  {
+   "marca": "CHERY",
+   "modelo": "NEW QQ EV COMFORT",
+   "tipo": "BEV",
+   "potencia_kw": 90.0,
+   "bateria_kwh": 41.0,
+   "rendimiento_km_kwh": 8.0,
+   "consumo_kwh_100km": 12.5,
+   "autonomia_km": 400.0,
+   "registro": "RV-E01980"
   },
   {
    "marca": "DONGFENG",
@@ -3811,28 +3833,6 @@
    "registro": "RV-E00804"
   },
   {
-   "marca": "NISSAN",
-   "modelo": "FRONTIER PRO PHEV PLATINUM",
-   "tipo": "PHEV",
-   "potencia_kw": 141.0,
-   "bateria_kwh": 20.0,
-   "rendimiento_km_kwh": null,
-   "consumo_kwh_100km": null,
-   "autonomia_km": 65.0,
-   "registro": "RV-E01547"
-  },
-  {
-   "marca": "NISSAN",
-   "modelo": "FRONTIER PRO PHEV LE",
-   "tipo": "PHEV",
-   "potencia_kw": 141.0,
-   "bateria_kwh": 20.0,
-   "rendimiento_km_kwh": null,
-   "consumo_kwh_100km": null,
-   "autonomia_km": 65.0,
-   "registro": "RV-E01547"
-  },
-  {
    "marca": "ICAUR",
    "modelo": "V27 REEV LUXURY 4WD",
    "tipo": "PHEV",
@@ -5052,6 +5052,28 @@
    "consumo_kwh_100km": null,
    "autonomia_km": 101.0,
    "registro": "RV-E00759"
+  },
+  {
+   "marca": "NISSAN",
+   "modelo": "FRONTIER PRO PHEV PLATINUM",
+   "tipo": "PHEV",
+   "potencia_kw": 141.0,
+   "bateria_kwh": 20.0,
+   "rendimiento_km_kwh": null,
+   "consumo_kwh_100km": null,
+   "autonomia_km": 65.0,
+   "registro": "RV-E01547"
+  },
+  {
+   "marca": "NISSAN",
+   "modelo": "FRONTIER PRO PHEV LE",
+   "tipo": "PHEV",
+   "potencia_kw": 141.0,
+   "bateria_kwh": 20.0,
+   "rendimiento_km_kwh": null,
+   "consumo_kwh_100km": null,
+   "autonomia_km": 65.0,
+   "registro": "RV-E01547"
   }
  ]
 }

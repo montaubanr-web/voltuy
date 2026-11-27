@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26",
+ "actualizado": "2026-11-27",
  "uruguay": [
   {
    "fecha": "2026-11-20",
@@ -282,6 +282,14 @@
    "tipo": "Prueba"
   },
   {
+   "fecha": "2025-07-04",
+   "titulo": "Contacto en Miami: Chevrolet Equinox EV 3LT FWD (85 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzRJUXRkN0tzaGN2c0pOeWNnVE5VSDNsd2l0NmZZd1E4aWFRTVZTZU1tay05RWVPZkg5d1FUNXBzTlpJckRXSGo5QlFrbWlEU3MxUzRzeTB6Yzdibm9TQkFxcU1RSWNTSnkyQTZiOTZBQUotNi1sbExiWi14a1FoRTNiZzlEQQ?oc=5",
+   "modelo_id": "chevrolet-equinox-ev",
+   "tipo": "Primer contacto"
+  },
+  {
    "fecha": "2025-07",
    "titulo": "Prueba: Geely EX5 Max (60,22 kWh)",
    "medio": "Autoblog",
@@ -437,6 +445,15 @@
    "pais": "España"
   },
   {
+   "fecha": "2026-11-20",
+   "titulo": "Probamos antes que nadie el nuevo Hongqi EHS4, un SUV eléctrico con mucha calidad y un precio muy competitivo",
+   "medio": "Motor.es",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rd3dCUnE1SkZTMXFrY2ctWGFQVC03WGRMdTFSLXJkalBDdGlNaGhSY2xmVEV5TTFFZml5NC1udmc0aGgwX05mUGNwRFlkY1JRMWRMMjd5VEp3TWFPMGFwRThhSXJvMlpzdTI0OURwYTgtUTdWLXBveV9B?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
    "fecha": "2026-11-17",
    "titulo": "30 coches eléctricos a prueba: Mercedes y BMW ganan, pero XPeng sorprende",
    "medio": "Movilidad Eléctrica",
@@ -491,11 +508,38 @@
    "pais": "España"
   },
   {
+   "fecha": "2026-11-11",
+   "titulo": "Probamos el BYD Seal 6 DM-i Touring: el familiar híbrido enchufable más barato de España es cómodo y espacioso. Y no hace (casi) falta enchufarlo",
+   "medio": "Motorpasión",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM3JXSEt5M3Z0Xzg3NFZYREhaV2hmb2RiOV9FNGlHUjZPNFEzb18wMTNZNDJvV2xGN2xwUmZzSXdaVFZJNGx5QzdJNEdSWENKcGZJcDFQanJVMTYtdG5nbzMtWjZrYnRfMDVWN0VVbWE5UGZKR0tkRTU0cG14RHJUSS1R0gGHAUFVX3lxTFBGQTB4Tjl6ZTVPcjdCSHJfMUFLbGtPV2tLQWxlQnYtNVRqcEVyNXVmMlBkQmZWb20wZTdNT1cwczlNYmttdWtBVTlGNHJjaUVEMl9YdHJKeTFEWXU5MjREcjdkWXQzekowNkF4R1VRVXNsd20xMmU0Qk0wQ09RTUFMbDVGdldaVQ?oc=5",
+   "modelo_id": null,
+   "tipo": "Prueba",
+   "pais": "España"
+  },
+  {
    "fecha": "2026-11-05",
    "titulo": "Prueba Mazda 6e 2027: más autonomía, carga más rápida y mejor dinámica de conducción apenas un año después de su lanzamiento para «comerse» al Tesla Model 3",
    "medio": "Autonocion",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OdWM2YWpFM1ZFc1M1NGROVFlCZklITFVsVVhNYnB1RzUwZDN0dlpQWmcybEFZcUlydndZUUZuLV8ySzRsUGhJNXUxMGpCbUs2T2liMVhfT19xNkJ3?oc=5",
    "modelo_id": "tesla-model-3-rwd",
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-05",
+   "titulo": "Probamos el nuevo Mazda6e: ahora con batería única de 78 kWh, 560 km de autonomía y cambios para mejorar el comportamiento",
+   "medio": "Híbridos y Eléctricos",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYmRmUk1ERE5qbHBZRzVtS1BaeGtDMEN0OVNtRTFiazJkakVzVzlRVUF0ZEt3MTRXWGFlSzQwcjlyQXRsaXd0Tlk3UEhnMDBzVEd3STJVczNVVk5EYzBqMFdaWlFnLTR3c1RGQ0xGY0VfVGhSczJDS0gwWkdUNVJ5TkhVMGNoWWlNeVRzY0QwS3VMT1BuaU5YOGhWbDVrWDJhQVlDcGpIcC1tN2ZMS0FJS3kyZUZkd3JkUEhXazgtQy11VVdqV2NGTzdCS0pBT0NMQk9Uc0lnUzVPeWNBaXVWWnFabWxSeENZdnlBNXNrVXJjUEsyTFVQRXRCelE1cUd4MGpqUg?oc=5",
+   "modelo_id": null,
+   "tipo": "Autonomía real",
+   "pais": "España"
+  },
+  {
+   "fecha": "2026-11-03",
+   "titulo": "Prueba Hyundai Ioniq 3: precio, autonomía e impresiones de conducción",
+   "medio": "Auto10.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTRPdnZ0V2h0RGwzZVFtdzdlX2pPLW5LMXJoal9vMGN0SS1EdU5UZmtELVV6dGlhLWRGQ21ya0Q0bE4ybEtUb2pfc3pvMDE0a25VZzliT3pqN2FmcGZyaDgtOVFDS1c4Rmo3ZWx1MnhqX2Q4UHNaWklvTmY2SWpZRVdvS3ZDQ19HSnVwbFp0OHFTTFJlM2lLYTRGNjZmc3hpVTVpckRQbw?oc=5",
+   "modelo_id": null,
    "tipo": "Autonomía real",
    "pais": "España"
   },
