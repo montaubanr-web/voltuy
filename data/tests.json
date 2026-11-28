@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27",
+ "actualizado": "2026-11-28",
  "uruguay": [
   {
    "fecha": "2026-11-20",
@@ -130,6 +130,14 @@
    "tipo": "Contacto"
   },
   {
+   "fecha": "2026-07-10",
+   "titulo": "Contacto: MINI Aceman SE Favoured (54,2 kWh)",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXpQckZNZzR0NU94b0R5S0s0X20yOWF6clJ5dGZhMDYtZmFkeVNSLS0xcVd1Y2hCUGgzdG9RLVJXeXJMTWtLZnJURnQ1VzhLNk1LbUNYNTlCbml4OWRfMzV4UmdfVzZ1YkQzd01IRXE5Q2lsVkUxei1wZXZzbEdmX0IwcVBrVWZY?oc=5",
+   "modelo_id": "mini-aceman-se-favoured",
+   "tipo": "Primer contacto"
+  },
+  {
    "fecha": "2026-06-24",
    "titulo": "Contacto: Jetour T1 PHEV 1.5TD 1-DHT",
    "medio": "Autoblog",
@@ -158,6 +166,14 @@
    "titulo": "Probamos al Leapmotor C10 REEV",
    "medio": "Autoblog",
    "url": "https://www.autoblog.com.uy/2026/06/probamos-al-leapmotor-c10-reev.html",
+   "modelo_id": null,
+   "tipo": "Prueba"
+  },
+  {
+   "fecha": "2026-04-28",
+   "titulo": "Probamos al Porsche Macan Electric: SUV a la manera de Stuttgart",
+   "medio": "Autoblog",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRUNqR3dvc3ZjU1A5UFZEVHFHREdGSkdsS3YyS0QtN0ZXdHUxY3M4V2p5UE1QUk5TMHFIMjBZRGdfLUp5VVBVcFFJblo4TzFsWG44QU5TSE1MYzlNSkwtMVltSnRuN0NGbVQ3MW81anBHbmVOTU5LV093OTJXLUl6eGR4aHlsdw?oc=5",
    "modelo_id": null,
    "tipo": "Prueba"
   },

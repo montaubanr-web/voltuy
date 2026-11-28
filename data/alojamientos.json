@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27",
+ "actualizado": "2026-11-28",
  "nota": "Lo arma agents/actualizar_alojamientos.py: cargadores públicos en hoteles y termas (UTE, Open Charge Map), alojamientos de OpenStreetMap con cargador propio o a menos de 300 m de uno, y altas enviadas por los propios alojamientos (verificadas).",
  "planes": [
   {
